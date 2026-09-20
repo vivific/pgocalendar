@@ -148,7 +148,7 @@ function render() {
   els.empty.hidden=list.length!==0;
   els.meta.textContent=`${list.length} event${list.length===1?"":"s"}`;
   if (els.footerStatus) {
-    els.footerStatus.textContent=`Updates every hour. Last updated: ${humanUpdated(payload.updated_at)}.`;
+    els.footerStatus.textContent=`Checks for updates every hour. Last updated: ${humanUpdated(payload.updated_at)}.`;
   }
 
   const monthHeader=['<div class="corner"></div>'];
