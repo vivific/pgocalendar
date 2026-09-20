@@ -1,5 +1,687 @@
 {
   "schema_version": 1,
-  "updated_at": null,
-  "events": []
+  "updated_at": "2026-09-20",
+  "bootstrap_cutoff": "2026-09-20",
+  "events": [
+    {
+      "id": "communitydayclassic-piplup-jan-2026",
+      "title": "January 2026 Community Day Classic: Piplup",
+      "start": "2026-01-04",
+      "end": "2026-01-04",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/communitydayclassic-piplup-jan-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communitydayclassic-piplup-jan-2026"
+      ],
+      "source_slug": "communitydayclassic-piplup-jan-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pinch-perfect-2026",
+      "title": "Pinch Perfect",
+      "start": "2026-01-06",
+      "end": "2026-01-11",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/pinch-perfect-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pinch-perfect-2026"
+      ],
+      "source_slug": "pinch-perfect-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-january-2026",
+      "title": "GO Pass: January",
+      "start": "2026-01-06",
+      "end": "2026-02-03",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/ja/news/go-pass-january-2026",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/go-pass-january-2026"
+      ],
+      "source_slug": "go-pass-january-2026",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "kyurem-fusion-raid-day-2026",
+      "title": "Kyurem Fusion Raid Day",
+      "start": "2026-01-10",
+      "end": "2026-01-10",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/kyurem-fusion-raid-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/kyurem-fusion-raid-day-2026"
+      ],
+      "source_slug": "kyurem-fusion-raid-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "indonesia-carfreeday-jakarta-2026",
+      "title": "Pokémon GO Car Free Day – Jakarta",
+      "start": "2026-01-11",
+      "end": "2026-02-15",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Jakarta, Indonesia",
+      "source_url": "https://pokemongo.com/en/news/indonesia-carfreeday-jakarta-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/indonesia-carfreeday-jakarta-2026"
+      ],
+      "source_slug": "indonesia-carfreeday-jakarta-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "ao2026",
+      "title": "Pokémon GO at the Australian Open 2026",
+      "start": "2026-01-12",
+      "end": "2026-02-01",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Melbourne, Australia",
+      "source_url": "https://pokemongo.com/en/news/ao2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ao2026"
+      ],
+      "source_slug": "ao2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "high-zaptitude-2026",
+      "title": "High Zaptitude",
+      "start": "2026-01-13",
+      "end": "2026-01-18",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/high-zaptitude-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/high-zaptitude-2026"
+      ],
+      "source_slug": "high-zaptitude-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communityday-january-2026-grookey",
+      "title": "January 2026 Community Day: Grookey",
+      "start": "2026-01-18",
+      "end": "2026-01-18",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/communityday-january-2026-grookey",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-january-2026-grookey"
+      ],
+      "source_slug": "communityday-january-2026-grookey",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "ko-winter-festival-2026",
+      "title": "Pokémon GO 2026 Winter Festival",
+      "start": "2026-01-19",
+      "end": "2026-01-25",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Pyeongchang, South Korea",
+      "source_url": "https://pokemongo.com/en/news/ko-winter-festival-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-winter-festival-2026"
+      ],
+      "source_slug": "ko-winter-festival-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "precious-pals-2026",
+      "title": "Precious Pals",
+      "start": "2026-01-20",
+      "end": "2026-01-25",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/precious-pals-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/precious-pals-2026"
+      ],
+      "source_slug": "precious-pals-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "precious-pals-tgr-2026",
+      "title": "Precious Pals: Taken Over",
+      "start": "2026-01-23",
+      "end": "2026-01-25",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/precious-pals-tgr-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/precious-pals-tgr-2026"
+      ],
+      "source_slug": "precious-pals-tgr-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "shadow-raikou-raid-day-2026",
+      "title": "Raikou Shadow Raid Day",
+      "start": "2026-01-24",
+      "end": "2026-01-24",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/shadow-raikou-raid-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/shadow-raikou-raid-day-2026"
+      ],
+      "source_slug": "shadow-raikou-raid-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "into-the-depths-2026",
+      "title": "Into the Depths",
+      "start": "2026-01-27",
+      "end": "2026-02-01",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/into-the-depths-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/into-the-depths-2026"
+      ],
+      "source_slug": "into-the-depths-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "ho-oh-max-battle-weekend-2026",
+      "title": "Dynamax Ho-Oh Max Battle Weekend",
+      "start": "2026-01-31",
+      "end": "2026-02-01",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/ho-oh-max-battle-weekend-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ho-oh-max-battle-weekend-2026"
+      ],
+      "source_slug": "ho-oh-max-battle-weekend-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "202601-communityday-february-2026-vulpix",
+      "title": "February 2026 Community Day: Vulpix and Alolan Vulpix",
+      "start": "2026-02-01",
+      "end": "2026-02-01",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/202601_communityday-february-2026-vulpix",
+      "source_urls": [
+        "https://pokemongo.com/en/news/202601_communityday-february-2026-vulpix"
+      ],
+      "source_slug": "202601_communityday-february-2026-vulpix",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "carnival-of-flamigo-2026",
+      "title": "Carnival of Flamigo",
+      "start": "2026-02-03",
+      "end": "2026-02-08",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/carnival-of-flamigo-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/carnival-of-flamigo-2026"
+      ],
+      "source_slug": "carnival-of-flamigo-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "carnaval-2026-in-rio-1",
+      "title": "Carnival of Flamigo – Rio de Janeiro Celebration",
+      "start": "2026-02-03",
+      "end": "2026-02-08",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Rio de Janeiro, Brazil",
+      "source_url": "https://pokemongo.com/en/news/carnaval-2026-in-rio",
+      "source_urls": [
+        "https://pokemongo.com/en/news/carnaval-2026-in-rio"
+      ],
+      "source_slug": "carnaval-2026-in-rio",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-february-2026",
+      "title": "GO Pass: February",
+      "start": "2026-02-03",
+      "end": "2026-03-03",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/go-pass-february-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-pass-february-2026"
+      ],
+      "source_slug": "go-pass-february-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "ppk-launch",
+      "title": "PokéPark KANTO Pokémon GO Experience",
+      "start": "2026-02-05",
+      "end": null,
+      "category": "Event",
+      "scope": "Regional",
+      "location": "PokéPark KANTO, Yomiuriland, Japan",
+      "source_url": "https://pokemongo.com/en/news/ppk_launch",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ppk_launch"
+      ],
+      "source_slug": "ppk_launch",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Ongoing daily PokéPark KANTO–exclusive Pokémon GO content beginning February 5, 2026; the source gives no end date."
+    },
+    {
+      "id": "go-stamp-rally-cologne",
+      "title": "Carnival of Flamigo – Cologne GO Stamp Rally",
+      "start": "2026-02-07",
+      "end": "2026-02-07",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Cologne, Germany",
+      "source_url": "https://pokemongo.com/en/news/go-stamp-rally-cologne",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-stamp-rally-cologne"
+      ],
+      "source_slug": "go-stamp-rally-cologne",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "carnaval-2026-in-rio-2",
+      "title": "Carnival of Flamigo – Rio Community Meetup & GO Stamp Rally",
+      "start": "2026-02-07",
+      "end": "2026-02-07",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Rio de Janeiro, Brazil",
+      "source_url": "https://pokemongo.com/en/news/carnaval-2026-in-rio",
+      "source_urls": [
+        "https://pokemongo.com/en/news/carnaval-2026-in-rio"
+      ],
+      "source_slug": "carnaval-2026-in-rio",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "catch-mastery-oricorio-2026",
+      "title": "Oricorio Catch Mastery",
+      "start": "2026-02-07",
+      "end": "2026-02-07",
+      "category": "Catch Mastery",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/catch-mastery-oricorio-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/catch-mastery-oricorio-2026"
+      ],
+      "source_slug": "catch-mastery-oricorio-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "valentines-day-2026",
+      "title": "Valentine's Day 2026",
+      "start": "2026-02-10",
+      "end": "2026-02-15",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/valentines-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/valentines-day-2026"
+      ],
+      "source_slug": "valentines-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "euic-2026",
+      "title": "2026 Pokémon Europe International Championships",
+      "start": "2026-02-13",
+      "end": "2026-02-15",
+      "category": "Championship",
+      "scope": "Regional / In-person",
+      "location": "London, UK",
+      "source_url": "https://pokemongo.com/en/news/euic-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/euic-2026"
+      ],
+      "source_slug": "euic-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "enamorus-therian-raid-day-2026",
+      "title": "Therian Forme Enamorus Raid Day",
+      "start": "2026-02-14",
+      "end": "2026-02-14",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/enamorus-therian-raid-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/enamorus-therian-raid-day-2026"
+      ],
+      "source_slug": "enamorus-therian-raid-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gigantamax-meowth-max-battle-day-2026",
+      "title": "Gigantamax Meowth Max Battle Day",
+      "start": "2026-02-15",
+      "end": "2026-02-15",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/gigantamax-meowth-max-battle-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gigantamax-meowth-max-battle-day-2026"
+      ],
+      "source_slug": "gigantamax-meowth-max-battle-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "lunar-new-year-event-2026",
+      "title": "Lunar New Year",
+      "start": "2026-02-17",
+      "end": "2026-02-21",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/lunar-new-year-event-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/lunar-new-year-event-2026"
+      ],
+      "source_slug": "lunar-new-year-event-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-tour-kalos-in-person-2026",
+      "title": "Pokémon GO Tour: Kalos – Los Angeles & Tainan",
+      "start": "2026-02-20",
+      "end": "2026-02-22",
+      "category": "GO Tour",
+      "scope": "Regional / In-person",
+      "location": "Los Angeles, USA & Tainan, Taiwan",
+      "source_url": "https://pokemongo.com/en/news/save-the-date-go-tour-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/save-the-date-go-tour-2026"
+      ],
+      "source_slug": "save-the-date-go-tour-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Two official in-person GO Tour events held on the same weekend."
+    },
+    {
+      "id": "road-to-kalos-event",
+      "title": "Road to Kalos",
+      "start": "2026-02-23",
+      "end": "2026-02-27",
+      "category": "GO Tour",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/road-to-kalos-event",
+      "source_urls": [
+        "https://pokemongo.com/en/news/road-to-kalos-event"
+      ],
+      "source_slug": "road-to-kalos-event",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "community-celebration-madrid-2026",
+      "title": "Pokémon GO Tour: Kalos – Global Community Celebration in Madrid",
+      "start": "2026-02-28",
+      "end": "2026-02-28",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Madrid, Spain",
+      "source_url": "https://pokemongo.com/en/news/community-celebration-madrid-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/community-celebration-madrid-2026"
+      ],
+      "source_slug": "community-celebration-madrid-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-tour-global-2026-australia",
+      "title": "Celebrate Pokémon GO Tour: Kalos – Global in Sydney!",
+      "start": "2026-02-28",
+      "end": "2026-03-01",
+      "category": "GO Tour",
+      "scope": "Regional / In-person",
+      "location": "Sydney, Australia",
+      "source_url": "https://pokemongo.com/en/news/go-tour-global-2026-australia",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-tour-global-2026-australia"
+      ],
+      "source_slug": "go-tour-global-2026-australia",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-tour-kalos-global-seoul",
+      "title": "GO Tour: Kalos – Global Celebration in Seoul",
+      "start": "2026-02-28",
+      "end": "2026-03-01",
+      "category": "GO Tour",
+      "scope": "Regional / In-person",
+      "location": "Seoul, South Korea",
+      "source_url": "https://pokemongo.com/en/news/ko-gotour-global-on-site-event",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-gotour-global-on-site-event"
+      ],
+      "source_slug": "ko-gotour-global-on-site-event",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Official Korean on-site celebration for GO Tour: Kalos – Global."
+    },
+    {
+      "id": "go-tour-kalos-global-2026",
+      "title": "Pokémon GO Tour: Kalos – Global",
+      "start": "2026-02-28",
+      "end": "2026-03-01",
+      "category": "GO Tour",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/get-ready-for-gotour-kalos",
+      "source_urls": [
+        "https://pokemongo.com/en/news/get-ready-for-gotour-kalos"
+      ],
+      "source_slug": "get-ready-for-gotour-kalos",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-30th-anniversary-1",
+      "title": "Pokémon 30th Anniversary",
+      "start": "2026-03-03",
+      "end": "2026-03-09",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/pokemon-30th-anniversary",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-30th-anniversary"
+      ],
+      "source_slug": "pokemon-30th-anniversary",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-march-2026",
+      "title": "GO Pass: March",
+      "start": "2026-03-03",
+      "end": "2026-04-07",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/ja/news/go-pass-march-2026",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/go-pass-march-2026"
+      ],
+      "source_slug": "go-pass-march-2026",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-battle-league-memories-in-motion",
+      "title": "GO Battle League: Memories in Motion",
+      "start": "2026-03-03",
+      "end": "2026-06-02",
+      "category": "GO Battle League",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-memories-in-motion",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-battle-league-memories-in-motion"
+      ],
+      "source_slug": "go-battle-league-memories-in-motion",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Season window based on the official GO Battle League schedule."
+    },
+    {
+      "id": "festival-of-colors-2026",
+      "title": "Festival of Colors",
+      "start": "2026-03-04",
+      "end": "2026-03-08",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/festival-of-colors-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/festival-of-colors-2026"
+      ],
+      "source_slug": "festival-of-colors-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-30th-anniversary-2",
+      "title": "Pokémon 30th Anniversary: All Out",
+      "start": "2026-03-07",
+      "end": "2026-03-09",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/pokemon-30th-anniversary",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-30th-anniversary"
+      ],
+      "source_slug": "pokemon-30th-anniversary",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-pokopia-celebration-event-2026",
+      "title": "Pokémon Pokopia Celebration Event",
+      "start": "2026-03-10",
+      "end": "2026-03-16",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/pokemon-pokopia-celebration-event-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-pokopia-celebration-event-2026"
+      ],
+      "source_slug": "pokemon-pokopia-celebration-event-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communityday-march-2026-scorbunny",
+      "title": "March 2026 Community Day: Scorbunny",
+      "start": "2026-03-14",
+      "end": "2026-03-14",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/communityday-march-2026-scorbunny",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-march-2026-scorbunny"
+      ],
+      "source_slug": "communityday-march-2026-scorbunny",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    }
+  ]
 }
