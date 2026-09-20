@@ -747,6 +747,24 @@
       "source_url": "https://pokemongo.com/news/mlb-2026",
       "result": "event-added: 13 separately dated MLB themed game days with ballpark-only gameplay",
       "last_checked": "2026-09-20"
+    },
+    "new-years-2026": {
+      "status": "processed",
+      "source_url": "https://pokemongo.com/news/new-years-2026",
+      "result": "event-added: global New Year’s 2026 event",
+      "bootstrap": true
+    },
+    "pokelidsr_kyushu_okinawa": {
+      "status": "processed",
+      "source_url": "https://pokemongo.com/news/pokelidsr_kyushu_okinawa",
+      "result": "event-added: ongoing no-end Poké Lid Stamp Rally",
+      "bootstrap": true
+    },
+    "stamp-rally-nagasaki": {
+      "status": "processed",
+      "source_url": "https://pokemongo.com/news/stamp-rally-nagasaki",
+      "result": "event-added: ongoing no-end Nagasaki GO Stamp Rally",
+      "bootstrap": true
     }
   }
 }
