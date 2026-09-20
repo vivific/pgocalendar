@@ -88,6 +88,14 @@ Do not mark an event `ticketed` merely because an optional paid ticket exists. D
   "scope": "Global or Regional / In-person etc.",
   "location": "Global or human-readable place",
   "access": ["global"],
+  "bonuses": [
+    {
+      "type": "candy",
+      "multiplier": 2,
+      "action": "catch",
+      "label": "2× Catch Candy"
+    }
+  ],
   "source_url": "https://pokemongo.com/en/news/...",
   "source_urls": ["https://pokemongo.com/en/news/..."],
   "source_slug": "slug",
@@ -100,6 +108,35 @@ Do not mark an event `ticketed` merely because an optional paid ticket exists. D
 Use `end: null` only when the official source explicitly makes an activity ongoing with no end date.
 
 Do not assume an event is irrelevant because its announcement was published in an earlier calendar year. Long-lived regional gameplay such as stamp rallies or partner activations may remain active into later years; if an official source gives no end date, preserve it as an ongoing event when it still represents substantive gameplay.
+
+## Gameplay bonuses
+
+When an official source explicitly announces a quantitative gameplay bonus, add it to an optional `bonuses` array on the canonical event.
+
+Use this shape:
+
+```json
+"bonuses": [
+  {
+    "type": "stardust",
+    "multiplier": 2,
+    "action": "catch",
+    "label": "2× Catch Stardust"
+  }
+]
+```
+
+Common `type` values include `stardust`, `candy`, `candy_xl`, and `xp`. Keep `action` specific enough to avoid misleading users, for example `catch`, `transfer`, `hatch`, `evolve`, or `raid`.
+
+Examples:
+- 2× Candy for catching Pokémon → `type: "candy", multiplier: 2, action: "catch"`
+- 2× Candy for transferring Pokémon → `type: "candy", multiplier: 2, action: "transfer"`
+- 3× Stardust for catching Pokémon → `type: "stardust", multiplier: 3, action: "catch"`
+- 2× XP for evolving Pokémon → `type: "xp", multiplier: 2, action: "evolve"`
+
+Only record an exact multiplier when the official source states one. Do not convert vague wording such as "increased chance", "extra", or "boosted" into a numeric multiplier.
+
+If a bonus applies only to a narrower subwindow than the canonical event, do not imply it lasts for the entire event. Either represent the narrower gameplay phase as its own canonical event when that phase is meaningful, or omit the bonus from the parent event and explain it in `notes`.
 
 ## Status
 
