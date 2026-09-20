@@ -3,7 +3,7 @@
   color: #172033;
   background: #f5f7fb;
   --day: 6px;
-  --row-h: 36px;
+  --row-h: 54px;
   --label-w: 190px;
   --grid: #dfe5ef;
   --muted: #6d778b;
@@ -84,7 +84,7 @@ main { padding: 22px 24px 0 40px; }
 .cell.weekend { background: #fafbfc; }
 .cell.today { background: #fff8cf; }
 .bar {
-  grid-row: 1; z-index: 3; align-self: center; height: 25px; border: 0; border-radius: 7px;
+  grid-row: 1; z-index: 3; align-self: center; height: 42px; border: 0; border-radius: 9px;
   position: relative; display: block; background: var(--accent); color: white; padding: 0; text-align: left;
   font-size: 11px; font-weight: 750; white-space: nowrap; overflow: visible;
   clip-path: inset(0 round 7px); cursor: pointer; box-shadow: 0 1px 2px rgba(18,30,56,.16);
@@ -92,14 +92,18 @@ main { padding: 22px 24px 0 40px; }
 .bar-label {
   position: sticky;
   left: calc(var(--label-w) + 8px);
-  display: block;
+  display: -webkit-box;
   width: max-content;
   max-width: min(520px, calc(100vw - var(--label-w) - 72px));
-  height: 25px;
-  line-height: 25px;
+  max-height: 34px;
+  line-height: 16px;
   padding: 0 8px;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
 }
 .bar.regional { background: var(--regional); }
 .bar.onsite { background: var(--onsite); }
