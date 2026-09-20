@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-20T17:34:05.489Z",
+  "updated_at": "2026-09-20T17:56:45.522Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -6385,6 +6385,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -6465,6 +6466,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -6525,6 +6527,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -6565,6 +6568,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -6685,6 +6689,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -6745,6 +6750,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -6765,6 +6771,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -6825,6 +6832,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -6905,6 +6913,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -6945,6 +6954,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -6985,6 +6995,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -7187,6 +7198,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -7469,6 +7481,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -7851,6 +7864,7 @@
       "status": "confirmed",
       "notes": "Special Pokémon GO activities began July 18; the partnership was later extended through December 31, 2026.",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -7871,6 +7885,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -8011,6 +8026,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -8111,6 +8127,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -8233,6 +8250,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -8294,6 +8312,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -8454,6 +8473,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -8927,6 +8947,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -9380,6 +9401,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -9400,6 +9422,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
