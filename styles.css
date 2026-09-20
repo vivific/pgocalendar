@@ -7,18 +7,18 @@
   --label-w: 190px;
   --grid: #dfe5ef;
   --muted: #6d778b;
-  --accent: #3465ff;
-  --regional: #5d7b8b;
-  --onsite: #8a5bd1;
+  --accent: #315f86;
+  --regional: #47746b;
+  --onsite: #705d86;
   --partner: #bf7a22;
   --code: #31835d;
-  --ticketed: #b44f63;
-  --rt-timed-research: #c7a23b;
-  --rt-local-raid: #c85f6b;
-  --rt-free-code: #559676;
-  --rt-paid-code: #b97a45;
-  --rt-stamp-rally: #4f8fa8;
-  --rt-other: #8d96a5;
+  --ticketed: #875d68;
+  --rt-timed-research: #dfc86f;
+  --rt-local-raid: #e58a6f;
+  --rt-free-code: #9ac98b;
+  --rt-paid-code: #dda25f;
+  --rt-stamp-rally: #74c0bd;
+  --rt-other: #c2cad5;
 }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 0; width: 100%; overflow-x: hidden; }
@@ -62,8 +62,8 @@ main { padding: 22px 24px 0 40px; }
 .swatch { width: 10px; height: 10px; border-radius: 3px; background: var(--accent); }
 .swatch.regional { background: var(--regional); }
 .swatch.onsite { background: var(--onsite); }
-.swatch.partner { background: var(--partner); }
-.swatch.code { background: var(--code); }
+.swatch.partner { background: var(--regional); }
+.swatch.code { background: var(--regional); }
 .swatch.ticketed { background: var(--ticketed); }
 .timeline-shell {
   position: relative; overflow: auto; background: white; border: 1px solid #dfe4ec; border-radius: 14px;
@@ -121,8 +121,8 @@ main { padding: 22px 24px 0 40px; }
 }
 .bar.regional { background: var(--regional); }
 .bar.onsite { background: var(--onsite); }
-.bar.partner { background: var(--partner); }
-.bar.code { background: var(--code); }
+.bar.partner { background: var(--regional); }
+.bar.code { background: var(--regional); }
 .bar.ticketed { background: var(--ticketed); }
 .bar.rt-timed-research { border-color: var(--rt-timed-research); }
 .bar.rt-local-raid { border-color: var(--rt-local-raid); }
