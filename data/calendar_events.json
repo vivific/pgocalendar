@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-20T18:02:20.872Z",
+  "updated_at": "2026-09-20T18:02:50.209Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -7289,7 +7289,8 @@
       "notes": "Research unlocks after code redemption. SoftBank participation tickets were available Jun 19–Aug 16. Code registration closed Aug 31, so as of Sep 20 only Trainers who already redeemed can continue; research completion deadline is Sep 30.",
       "access": [
         "regional"
-      ]
+      ],
+      "regional_type": "timed_research"
     },
     {
       "id": "communityday-june-2026-frigibax",
@@ -7811,7 +7812,8 @@
       "notes": "Research unlocks after code redemption. AEON Mall participation tickets were available Jul 17–Aug 23. Code registration closed Aug 31, so as of Sep 20 only Trainers who already redeemed can continue; research completion deadline is Sep 30.",
       "access": [
         "regional"
-      ]
+      ],
+      "regional_type": "timed_research"
     },
     {
       "id": "raichu-super-mega-raid-day-2026",
@@ -8091,7 +8093,8 @@
       "source_slug": "lego-pokemon-go-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Redeem offer code LEGOxPOKEMONGOxCAP via the Pokémon GO Web Store. In regions where LEGO Pokémon products are not sold, the same code grants alternate Timed Research. Research expires September 30, 2026."
+      "notes": "Redeem offer code LEGOxPOKEMONGOxCAP via the Pokémon GO Web Store. In regions where LEGO Pokémon products are not sold, the same code grants alternate Timed Research. Research expires September 30, 2026.",
+      "regional_type": "free_code"
     },
     {
       "id": "lego-pokemon-go-2026",
@@ -8859,7 +8862,8 @@
       "notes": "Research unlocks after code redemption. FamilyMart ticket acquisition ran Sep 15–Oct 5; code-registration deadline is Nov 30 and research completion deadline is Dec 31.",
       "access": [
         "regional"
-      ]
+      ],
+      "regional_type": "paid_code"
     },
     {
       "id": "pokemon-horizons-celebration-event-2026",
