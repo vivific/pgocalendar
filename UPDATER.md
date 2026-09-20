@@ -59,6 +59,8 @@ A regional or city activation occurring during a global event is a separate even
 
 Represent separately ticketed or separately geofenced host cities as separate canonical events, even when one announcement groups several cities together. Do not collapse distinct live-event cities into a single bar merely because their dates match.
 
+Likewise, when one article lists distinct sports game-day activations at different teams, venues, or dates and each game has its own in-venue gameplay, create one canonical event per game day rather than one season-long umbrella bar.
+
 ## Access classification
 
 Every event must have an `access` array containing one or more of:
