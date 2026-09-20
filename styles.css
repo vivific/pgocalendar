@@ -85,8 +85,21 @@ main { padding: 22px 24px 40px; }
 .cell.today { background: #fff8cf; }
 .bar {
   grid-row: 1; z-index: 3; align-self: center; height: 25px; border: 0; border-radius: 7px;
-  background: var(--accent); color: white; padding: 0 8px; text-align: left; font-size: 11px; font-weight: 750;
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: pointer; box-shadow: 0 1px 2px rgba(18,30,56,.16);
+  position: relative; display: block; background: var(--accent); color: white; padding: 0; text-align: left;
+  font-size: 11px; font-weight: 750; white-space: nowrap; overflow: visible;
+  clip-path: inset(0 round 7px); cursor: pointer; box-shadow: 0 1px 2px rgba(18,30,56,.16);
+}
+.bar-label {
+  position: sticky;
+  left: calc(var(--label-w) + 8px);
+  display: block;
+  width: max-content;
+  max-width: min(520px, calc(100vw - var(--label-w) - 72px));
+  height: 25px;
+  line-height: 25px;
+  padding: 0 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .bar.regional { background: var(--regional); }
 .bar.onsite { background: var(--onsite); }
@@ -112,7 +125,10 @@ dialog .close { position: absolute; top: 13px; right: 15px; font-size: 24px; bor
 dl { display: grid; grid-template-columns: 110px 1fr; gap: 8px 14px; font-size: 14px; }
 dt { color: var(--muted); font-weight: 700; }
 dd { margin: 0; }
-footer { padding: 20px 28px 40px; text-align: center; color: var(--muted); font-size: 12px; }
+footer { padding: 24px 28px 40px; text-align: center; color: var(--muted); font-size: 12px; }
+footer p { margin: 0; }
+.update-status { color: #4d5870; font-weight: 750; margin-bottom: 6px; }
+.disclaimer { opacity: .88; }
 @media (prefers-color-scheme: dark) {
   :root { color: #e8ecf4; background: #11141a; --grid:#303642; --muted:#a1a9b8; }
   .topbar,.timeline-shell,.controls input,.controls select,#today,.repo-link,.days,.row-label { background:#181c23; border-color:#303642; }
@@ -121,4 +137,5 @@ footer { padding: 20px 28px 40px; text-align: center; color: var(--muted); font-
   .day.today,.cell.today { background:#5c5523; color:#fff7bd; }
   .event-row { border-bottom-color:#252a34; }
   dialog { background:#1b2028; color:#e8ecf4; }
+  .update-status { color:#c3cad6; }
 }
