@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-20T18:47:09.175Z",
+  "updated_at": "2026-09-20T18:51:26.151Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -5824,7 +5824,7 @@
         "onsite",
         "ticketed"
       ],
-      "regional_type": "other"
+      "regional_type": "local_raid"
     },
     {
       "id": "go-stamp-rally-cologne",
@@ -7887,7 +7887,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "other"
+      "regional_type": "local_raid"
     },
     {
       "id": "swallows-game",
@@ -8871,7 +8871,7 @@
       "access": [
         "regional"
       ],
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "weekly-branching-tr-korea-2026-2",
@@ -8983,7 +8983,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "other"
+      "regional_type": "local_raid"
     },
     {
       "id": "staraptor-super-mega-raid-day-2026",
@@ -9046,7 +9046,7 @@
       "access": [
         "regional"
       ],
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "choose-your-path-twilight-trails-2026",
@@ -9087,7 +9087,7 @@
       "source_locale": "ko",
       "status": "confirmed",
       "notes": "Nationwide Korea event with orange-hanbok Pikachu raids and free Timed Research. The event ends September 26; its Timed Research can be completed through October 11 at 8:00 p.m. KST.",
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "mlb-red-sox-2026",
@@ -9151,7 +9151,7 @@
         "onsite",
         "ticketed"
       ],
-      "regional_type": "other"
+      "regional_type": "city_safari"
     },
     {
       "id": "city-safari-brisbane-2026",
@@ -9174,7 +9174,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day.",
-      "regional_type": "other"
+      "regional_type": "city_safari"
     },
     {
       "id": "city-safari-lisbon-2026",
@@ -9197,7 +9197,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day.",
-      "regional_type": "other"
+      "regional_type": "city_safari"
     },
     {
       "id": "city-safari-marseille-2026",
@@ -9220,7 +9220,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day.",
-      "regional_type": "other"
+      "regional_type": "city_safari"
     },
     {
       "id": "city-safari-munich-2026",
@@ -9243,7 +9243,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day.",
-      "regional_type": "other"
+      "regional_type": "city_safari"
     },
     {
       "id": "city-safari-rio-2026",
@@ -9266,7 +9266,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day.",
-      "regional_type": "other"
+      "regional_type": "city_safari"
     },
     {
       "id": "patterns-of-the-wild-2026-1",
@@ -9349,7 +9349,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "patterns-of-the-wild-2026-2",
@@ -9431,7 +9431,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "european-space-agency-event-1",
@@ -9535,7 +9535,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "event-taipei-30th-anniversary-2026-2",
@@ -9597,7 +9597,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "max-battle-day-2026-10-24",
@@ -9658,7 +9658,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "go-wild-area-mexico-city-2026",
@@ -9725,7 +9725,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "event-apac-30th-anniversary-2026",
@@ -9746,7 +9746,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "save-the-date-go-wild-area-2026-2",
@@ -9788,7 +9788,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "community-day-november-21-2026",
@@ -9829,7 +9829,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "super-mega-raid-day-2026-11-28",
@@ -9870,7 +9870,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "pokemon-run-30-2027-thailand",
@@ -9891,7 +9891,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "One of the Pokémon RUN 30 regional gameplay events.",
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "pokemon-run-30-2027-hong-kong",
@@ -9912,7 +9912,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "One of the Pokémon RUN 30 regional gameplay events.",
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "pokexciting-manila-2027",
@@ -9933,7 +9933,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon 30th anniversary PokéXciting! city event with location-specific gameplay.",
-      "regional_type": "other"
+      "regional_type": "timed_research"
     },
     {
       "id": "pokexciting-bangkok-2027",
@@ -9954,7 +9954,7 @@
       "source_locale": "en",
       "status": "announced",
       "notes": "Dates are confirmed; event gameplay area/location details are still to be announced.",
-      "regional_type": "other"
+      "regional_type": "timed_research"
     }
   ]
 }
