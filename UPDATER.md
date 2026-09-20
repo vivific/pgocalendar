@@ -99,6 +99,8 @@ Do not mark an event `ticketed` merely because an optional paid ticket exists. D
 
 Use `end: null` only when the official source explicitly makes an activity ongoing with no end date.
 
+Do not assume an event is irrelevant because its announcement was published in an earlier calendar year. Long-lived regional gameplay such as stamp rallies or partner activations may remain active into later years; if an official source gives no end date, preserve it as an ongoing event when it still represents substantive gameplay.
+
 ## Status
 
 Use:
