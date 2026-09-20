@@ -89,6 +89,16 @@ For current and future regional/live events, code acquisition and event mechanic
 
 Display/order these subtypes as: `timed_research`, `local_raid`, `free_code`, `paid_code`, `stamp_rally`, `other`.
 
+Subtype display icons are:
+- `timed_research` → ⏱
+- `local_raid` → 📍
+- `free_code` → 🆓
+- `paid_code` → 💲
+- `stamp_rally` → 💮
+- `other` → no icon
+
+The website prefixes these icons to event titles; subtype should not be encoded as a separate border color.
+
 Assign `regional_type` to currently active and already-announced future regional/on-site events. Broad regional events that merely include Timed Research or raids among several mechanics should normally be `other`; reserve `timed_research` for research-centric entries and `local_raid` for explicitly in-person/non-remote raid content. Reclassify an event when a later official article materially changes what players can do.
 
 This subtype is a live usability aid, not a replacement for `category` or `access`. Do not create or preserve events solely for temporary PokéStops or other promotional map dressing.
