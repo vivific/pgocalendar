@@ -1362,6 +1362,686 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
+    },
+    {
+      "id": "go-fest-2026-tokyo",
+      "title": "Pokémon GO Fest 2026: Tokyo",
+      "start": "2026-05-29",
+      "end": "2026-06-01",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "Tokyo, Japan",
+      "source_url": "https://pokemongo.com/en/news/save-the-date-go-fest-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/save-the-date-go-fest-2026"
+      ],
+      "source_slug": "save-the-date-go-fest-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "global-events-gofest2026-overlays-4",
+      "title": "Spark’s Caretaking Quest",
+      "start": "2026-06-02",
+      "end": "2026-06-08",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/global-events-gofest2026-overlays",
+      "source_urls": [
+        "https://pokemongo.com/en/news/global-events-gofest2026-overlays"
+      ],
+      "source_slug": "global-events-gofest2026-overlays",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-june-2026",
+      "title": "GO Pass: June",
+      "start": "2026-06-02",
+      "end": "2026-07-07",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/ja/news/go-pass-june-2026",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/go-pass-june-2026"
+      ],
+      "source_slug": "go-pass-june-2026",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-battle-league-forever-forward",
+      "title": "GO Battle League: Forever Forward",
+      "start": "2026-06-02",
+      "end": "2026-09-08",
+      "category": "GO Battle League",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-forever-forward",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-battle-league-forever-forward"
+      ],
+      "source_slug": "go-battle-league-forever-forward",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Season window based on the official GO Battle League schedule."
+    },
+    {
+      "id": "go-fest-2026-chicago",
+      "title": "Pokémon GO Fest 2026: Chicago",
+      "start": "2026-06-05",
+      "end": "2026-06-07",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "Chicago, Illinois, USA",
+      "source_url": "https://pokemongo.com/en/news/save-the-date-go-fest-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/save-the-date-go-fest-2026"
+      ],
+      "source_slug": "save-the-date-go-fest-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pjcs2026",
+      "title": "Pokémon Japan Championships 2026 – Pokémon GO",
+      "start": "2026-06-06",
+      "end": "2026-06-07",
+      "category": "Championship",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/pjcs2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pjcs2026"
+      ],
+      "source_slug": "pjcs2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "global-events-gofest2026-overlays-7",
+      "title": "Candela’s Quest for Victory",
+      "start": "2026-06-09",
+      "end": "2026-06-15",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/global-events-gofest2026-overlays",
+      "source_urls": [
+        "https://pokemongo.com/en/news/global-events-gofest2026-overlays"
+      ],
+      "source_slug": "global-events-gofest2026-overlays",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gofest-2026-copenhagen-lego",
+      "title": "LEGO × Pokémon GO at GO Fest 2026: Copenhagen",
+      "start": "2026-06-12",
+      "end": "2026-06-14",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Copenhagen, Denmark",
+      "source_url": "https://pokemongo.com/en/news/gofest-2026-copenhagen-lego",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gofest-2026-copenhagen-lego"
+      ],
+      "source_slug": "gofest-2026-copenhagen-lego",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-fest-2026-copenhagen",
+      "title": "Pokémon GO Fest 2026: Copenhagen",
+      "start": "2026-06-12",
+      "end": "2026-06-14",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "Copenhagen, Denmark",
+      "source_url": "https://pokemongo.com/en/news/save-the-date-go-fest-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/save-the-date-go-fest-2026"
+      ],
+      "source_slug": "save-the-date-go-fest-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gofesttw-2026zhongshan-1",
+      "title": "Taipei Metro GO Fest 2026 Celebration",
+      "start": "2026-06-15",
+      "end": "2026-07-12",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "Taipei, Taiwan",
+      "source_url": "https://pokemongo.com/en/news/gofesttw-2026zhongshan",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gofesttw-2026zhongshan"
+      ],
+      "source_slug": "gofesttw-2026zhongshan",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "choose-your-path-forever-forward-2026-2",
+      "title": "Choose Your Path Timed Challenge – Forever Forward I",
+      "start": "2026-06-17",
+      "end": "2026-06-21",
+      "category": "Timed Research",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026"
+      ],
+      "source_slug": "choose-your-path-forever-forward-2026",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "partner-research-softbank-summer-2026",
+      "title": "Partner Research: SoftBank",
+      "start": "2026-06-19",
+      "end": "2026-09-30",
+      "category": "Timed Research",
+      "scope": "Regional",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/202606partnerresearch-jp",
+      "source_urls": [
+        "https://pokemongo.com/en/news/202606partnerresearch-jp"
+      ],
+      "source_slug": "202606partnerresearch-jp",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": "Research unlocks after code redemption. SoftBank participation tickets were available Jun 19–Aug 16; research completion deadline was Sep 30."
+    },
+    {
+      "id": "communityday-june-2026-frigibax",
+      "title": "June 2026 Community Day: Frigibax",
+      "start": "2026-06-20",
+      "end": "2026-06-20",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/communityday-june-2026-frigibax",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-june-2026-frigibax"
+      ],
+      "source_slug": "communityday-june-2026-frigibax",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "flying-taxi-2026",
+      "title": "Flying Taxi",
+      "start": "2026-06-23",
+      "end": "2026-06-29",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/flying-taxi-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/flying-taxi-2026"
+      ],
+      "source_slug": "flying-taxi-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "festa-junina-2026",
+      "title": "Pokémon GO Festa Junina",
+      "start": "2026-06-23",
+      "end": "2026-06-29",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Brazil",
+      "source_url": "https://pokemongo.com/en/news/festa-junina-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/festa-junina-2026"
+      ],
+      "source_slug": "festa-junina-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "flying-taxi-taken-over-2026",
+      "title": "Flying Taxi: Taken Over",
+      "start": "2026-06-25",
+      "end": "2026-06-29",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/flying-taxi-taken-over-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/flying-taxi-taken-over-2026"
+      ],
+      "source_slug": "flying-taxi-taken-over-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "skarmory-super-mega-raid-day-2026",
+      "title": "Skarmory Super Mega Raid Day",
+      "start": "2026-06-27",
+      "end": "2026-06-27",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/skarmory-super-mega-raid-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/skarmory-super-mega-raid-day-2026"
+      ],
+      "source_slug": "skarmory-super-mega-raid-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gofesttw-2026zhongshan-2",
+      "title": "Taipei GO Fest 2026 Pre-Event Celebration",
+      "start": "2026-06-28",
+      "end": "2026-06-28",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "Taipei, Taiwan",
+      "source_url": "https://pokemongo.com/en/news/gofesttw-2026zhongshan",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gofesttw-2026zhongshan"
+      ],
+      "source_slug": "gofesttw-2026zhongshan",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "choose-your-path-forever-forward-2026-3",
+      "title": "Choose Your Path Timed Challenge – Forever Forward II",
+      "start": "2026-06-30",
+      "end": "2026-07-03",
+      "category": "Timed Research",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026"
+      ],
+      "source_slug": "choose-your-path-forever-forward-2026",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "suit-up-no-10-latin-america-2026",
+      "title": "Suit Up No. 10",
+      "start": "2026-06-30",
+      "end": "2026-07-10",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "Latin America",
+      "source_url": "https://pokemongo.com/es-MX/news/suitup_the_10_la",
+      "source_urls": [
+        "https://pokemongo.com/es-MX/news/suitup_the_10_la"
+      ],
+      "source_slug": "suitup_the_10_la",
+      "source_locale": "es-MX",
+      "status": "confirmed",
+      "notes": "Region-exclusive 10th anniversary football-themed event with Timed Research; the research reward claim deadline was July 20."
+    },
+    {
+      "id": "assistant-pikachu",
+      "title": "Pokémon GO 10th Anniversary at Pokémon Centers Japan",
+      "start": "2026-07-01",
+      "end": "2026-07-17",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Pokémon Center locations, Japan",
+      "source_url": "https://pokemongo.com/en/news/assistant_pikachu",
+      "source_urls": [
+        "https://pokemongo.com/en/news/assistant_pikachu"
+      ],
+      "source_slug": "assistant_pikachu",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communityday-july-2026-sobble",
+      "title": "July 2026 Community Day: Sobble",
+      "start": "2026-07-04",
+      "end": "2026-07-04",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/communityday-july-2026-sobble",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-july-2026-sobble"
+      ],
+      "source_slug": "communityday-july-2026-sobble",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "10th-anniversary-party",
+      "title": "10th Anniversary Party",
+      "start": "2026-07-04",
+      "end": "2026-07-06",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/10th-anniversary-party",
+      "source_urls": [
+        "https://pokemongo.com/en/news/10th-anniversary-party"
+      ],
+      "source_slug": "10th-anniversary-party",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "road-of-legends-2026",
+      "title": "Road of Legends",
+      "start": "2026-07-06",
+      "end": "2026-07-10",
+      "category": "GO Fest",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/road-of-legends-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/road-of-legends-2026"
+      ],
+      "source_slug": "road-of-legends-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-road-of-legends-2026",
+      "title": "GO Pass: Road of Legends",
+      "start": "2026-07-06",
+      "end": "2026-07-12",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/road-of-legends-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/road-of-legends-2026"
+      ],
+      "source_slug": "road-of-legends-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Special GO Pass associated with the Road of Legends lead-up to GO Fest: Global."
+    },
+    {
+      "id": "go-pass-july-2026",
+      "title": "GO Pass: July",
+      "start": "2026-07-07",
+      "end": "2026-08-04",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/ja/news/go-pass-july-2026",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/go-pass-july-2026"
+      ],
+      "source_slug": "go-pass-july-2026",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "community-celebration-barcelona",
+      "title": "GO Fest 2026: Global Community Celebration – Barcelona",
+      "start": "2026-07-11",
+      "end": "2026-07-11",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Barcelona, Spain",
+      "source_url": "https://pokemongo.com/en/news/community-celebration-barcelona",
+      "source_urls": [
+        "https://pokemongo.com/en/news/community-celebration-barcelona"
+      ],
+      "source_slug": "community-celebration-barcelona",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "community-celebration-bordeaux",
+      "title": "GO Fest 2026: Global Community Celebration – Bordeaux",
+      "start": "2026-07-11",
+      "end": "2026-07-11",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Bordeaux, France",
+      "source_url": "https://pokemongo.com/en/news/community-celebration-bordeaux",
+      "source_urls": [
+        "https://pokemongo.com/en/news/community-celebration-bordeaux"
+      ],
+      "source_slug": "community-celebration-bordeaux",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "community-celebration-hamburg",
+      "title": "GO Fest 2026: Global Community Celebration – Hamburg",
+      "start": "2026-07-11",
+      "end": "2026-07-11",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "Hamburg, Germany",
+      "source_url": "https://pokemongo.com/en/news/community-celebration-hamburg",
+      "source_urls": [
+        "https://pokemongo.com/en/news/community-celebration-hamburg"
+      ],
+      "source_slug": "community-celebration-hamburg",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "community-celebration-warszawa",
+      "title": "GO Fest 2026: Global Community Celebration – Warsaw",
+      "start": "2026-07-11",
+      "end": "2026-07-11",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "Warsaw, Poland",
+      "source_url": "https://pokemongo.com/en/news/community-celebration-warszawa",
+      "source_urls": [
+        "https://pokemongo.com/en/news/community-celebration-warszawa"
+      ],
+      "source_slug": "community-celebration-warszawa",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "ko-gofest-global-on-site-event-2026",
+      "title": "GO Fest 2026: Global Celebration – Seoul",
+      "start": "2026-07-11",
+      "end": "2026-07-12",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "Seoul, South Korea",
+      "source_url": "https://pokemongo.com/en/news/ko-gofest-global-on-site-event-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-gofest-global-on-site-event-2026"
+      ],
+      "source_slug": "ko-gofest-global-on-site-event-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "community-celebrations-go-fest-2026",
+      "title": "GO Fest 2026: Global Community Celebrations",
+      "start": "2026-07-11",
+      "end": "2026-07-12",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "Select cities worldwide",
+      "source_url": "https://pokemongo.com/en/news/community-celebrations-go-fest-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/community-celebrations-go-fest-2026"
+      ],
+      "source_slug": "community-celebrations-go-fest-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-fest-2026-global",
+      "title": "Pokémon GO Fest 2026: Global",
+      "start": "2026-07-11",
+      "end": "2026-07-12",
+      "category": "GO Fest",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/go-fest-2026-global-final-details",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-fest-2026-global-final-details"
+      ],
+      "source_slug": "go-fest-2026-global-final-details",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gofesttw-2026zhongshan-3",
+      "title": "Taipei GO Fest 2026: Global On-Site Celebration",
+      "start": "2026-07-11",
+      "end": "2026-07-12",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "Taipei, Taiwan",
+      "source_url": "https://pokemongo.com/en/news/gofesttw-2026zhongshan",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gofesttw-2026zhongshan"
+      ],
+      "source_slug": "gofesttw-2026zhongshan",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "special-anniversary-pikachu-celebration",
+      "title": "Special Anniversary Pikachu Celebration",
+      "start": "2026-07-13",
+      "end": "2026-07-20",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/special-anniversary-pikachu-celebration",
+      "source_urls": [
+        "https://pokemongo.com/en/news/special-anniversary-pikachu-celebration"
+      ],
+      "source_slug": "special-anniversary-pikachu-celebration",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "partner-research-aeonmall-summer-2026",
+      "title": "Partner Research: AEON Mall",
+      "start": "2026-07-17",
+      "end": "2026-09-30",
+      "category": "Timed Research",
+      "scope": "Regional",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/202606partnerresearch-jp",
+      "source_urls": [
+        "https://pokemongo.com/en/news/202606partnerresearch-jp"
+      ],
+      "source_slug": "202606partnerresearch-jp",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": "Research unlocks after code redemption. AEON Mall participation tickets were available Jul 17–Aug 23; research completion deadline was Sep 30."
+    },
+    {
+      "id": "raichu-super-mega-raid-day-2026",
+      "title": "Raichu Super Mega Raid Day",
+      "start": "2026-07-18",
+      "end": "2026-07-18",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/raichu-super-mega-raid-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/raichu-super-mega-raid-day-2026"
+      ],
+      "source_slug": "raichu-super-mega-raid-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "nationaltrust-2026",
+      "title": "National Trust × Pokémon GO",
+      "start": "2026-07-18",
+      "end": "2026-12-31",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "England, Wales & Northern Ireland",
+      "source_url": "https://pokemongo.com/en/news/nationaltrust-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/nationaltrust-2026"
+      ],
+      "source_slug": "nationaltrust-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Special Pokémon GO activities began July 18; the partnership was later extended through December 31, 2026."
+    },
+    {
+      "id": "swallows-game",
+      "title": "Pokémon Baseball Festa 2026: Tokyo Yakult Swallows",
+      "start": "2026-07-20",
+      "end": "2026-07-22",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/swallows_game",
+      "source_urls": [
+        "https://pokemongo.com/en/news/swallows_game"
+      ],
+      "source_slug": "swallows_game",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mcdonalds-japan-field-research-1",
+      "title": "McDonald's Japan Field Research – Phase 1",
+      "start": "2026-07-20",
+      "end": "2026-07-27",
+      "category": "Field Research",
+      "scope": "Regional",
+      "location": "McDonald’s locations, Japan",
+      "source_url": "https://pokemongo.com/en/news/202607backtomcd",
+      "source_urls": [
+        "https://pokemongo.com/en/news/202607backtomcd"
+      ],
+      "source_slug": "202607backtomcd",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
     }
   ]
 }
