@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "monitor_from": "2026-09-20",
-  "last_checked_at": "2026-09-20",
+  "last_checked_at": "2026-09-20T17:34:05.489Z",
   "posts": {
     "10th-anniversary-celebration": {
       "bootstrap": true,
@@ -1079,7 +1079,7 @@
     "fuzzy-buddy-research-day-2025": {
       "bootstrap": true,
       "status": "processed",
-      "result": "historical-2025 semantic review: canonical gameplay event/source retained"
+      "result": "historical-2025 semantic review: canonical event retained; corrected to global access"
     },
     "get-ready-for-gotour-unova": {
       "bootstrap": true,
@@ -1679,7 +1679,7 @@
     "wayfarer-challenge-chile-india-2025": {
       "bootstrap": true,
       "status": "processed",
-      "result": "historical-2025 semantic review: canonical gameplay event/source retained"
+      "result": "historical-2025 semantic review: regional gameplay retained; exact resource bonuses audited"
     },
     "well-armed-2025": {
       "bootstrap": true,
@@ -1855,6 +1855,11 @@
       "bootstrap": true,
       "status": "ignored",
       "result": "historical-2025 semantic review: non-calendar, duplicate, auxiliary, or outside 2025 gameplay scope"
+    },
+    "fr-go-wild-area-2025-meetups": {
+      "bootstrap": true,
+      "status": "ignored",
+      "result": "historical-2025 semantic review: localized/duplicate meetup source; canonical Wild Area gameplay already represented"
     }
   }
 }
