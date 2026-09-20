@@ -37,6 +37,7 @@ function humanDate(s) {
   return parseDate(s).toLocaleDateString(undefined,{year:"numeric",month:"short",day:"numeric"});
 }
 function humanRange(a,b) {
+  if (!b) return `From ${humanDate(a)} (ongoing)`;
   return a === b ? humanDate(a) : `${humanDate(a)} – ${humanDate(b)}`;
 }
 function eachDay(year) {
@@ -51,6 +52,9 @@ function isRegional(e) {
   const s = `${e.scope||""} ${e.location||""} ${e.category||""}`.toLowerCase();
   return !s.includes("global") && (s.includes("regional") || s.includes("in-person") || (e.location && e.location.toLowerCase()!=="global"));
 }
+function effectiveEnd(e, year) {
+  return e.end || `${year}-12-31`;
+}
 
 async function load() {
   const r = await fetch(DATA_URL,{cache:"no-store"});
@@ -62,11 +66,16 @@ async function load() {
 }
 
 function normalizeControls() {
-  const years = new Set(events.flatMap(e => [e.start?.slice(0,4), e.end?.slice(0,4)]).filter(Boolean));
-  years.add(String(new Date().getFullYear()));
-  years.add("2026");
+  const years = new Set(["2026", String(new Date().getFullYear())]);
+  for (const e of events) {
+    if (!e.start) continue;
+    const startYear=Number(e.start.slice(0,4));
+    const endYear=e.end ? Number(e.end.slice(0,4)) : Math.max(startYear,new Date().getFullYear());
+    for (let y=startYear; y<=endYear; y++) years.add(String(y));
+  }
   const sorted=[...years].sort();
-  els.year.innerHTML=sorted.map(y=>`<option ${y==="2026"?"selected":""}>${y}</option>`).join("");
+  const defaultYear=years.has("2026") ? "2026" : sorted[0];
+  els.year.innerHTML=sorted.map(y=>`<option ${y===defaultYear?"selected":""}>${y}</option>`).join("");
 
   const categories=[...new Set(events.map(e=>e.category).filter(Boolean))].sort();
   els.category.innerHTML='<option value="">All categories</option>'+categories.map(c=>`<option>${escapeHtml(c)}</option>`).join("");
@@ -77,18 +86,19 @@ function filtered(year) {
   const q=els.search.value.trim().toLowerCase();
   const cat=els.category.value;
   return events.filter(e => {
-    if (!e.start || !e.end || e.end < min || e.start > max) return false;
+    if (!e.start || effectiveEnd(e,year) < min || e.start > max) return false;
     if (cat && e.category !== cat) return false;
     if (q && !JSON.stringify(e).toLowerCase().includes(q)) return false;
     return true;
-  }).sort((a,b)=>a.start.localeCompare(b.start)||b.end.localeCompare(a.end)||a.title.localeCompare(b.title));
+  }).sort((a,b)=>a.start.localeCompare(b.start)||(a.end||"9999-12-31").localeCompare(b.end||"9999-12-31")||a.title.localeCompare(b.title));
 }
 
 function packRows(list, year) {
   const min=`${year}-01-01`, max=`${year}-12-31`;
   const rows=[];
   for (const e of list) {
-    const s=clampDate(e.start,min,max), end=clampDate(e.end,min,max);
+    const s=clampDate(e.start,min,max);
+    const end=clampDate(effectiveEnd(e,year),min,max);
     let row=rows.find(r=>r.every(x=>x.end < s || x.start > end));
     if (!row) { row=[]; rows.push(row); }
     row.push({...e,_start:s,_end:end});
@@ -129,7 +139,8 @@ function render() {
     const bars=row.map(e=>{
       const col=daysBetween(`${year}-01-01`,e._start)+2;
       const span=daysBetween(e._start,e._end)+1;
-      return `<button class="bar ${isRegional(e)?"regional":""}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(e.title)} — ${humanRange(e.start,e.end)}">${escapeHtml(e.title)}</button>`;
+      const ongoing=!e.end ? " ongoing" : "";
+      return `<button class="bar ${isRegional(e)?"regional":""}${ongoing}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(e.title)} — ${humanRange(e.start,e.end)}">${escapeHtml(e.title)}</button>`;
     }).join("");
     html += `<div class="event-row"><div class="row-label">Track ${ri+1}</div><div class="row-grid">${cells}</div>${bars}</div>`;
   });
