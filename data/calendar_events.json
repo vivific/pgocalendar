@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-20T17:57:08.650Z",
+  "updated_at": "2026-09-20T17:59:23.377Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -4624,8 +4624,7 @@
       "scope": "Regional / In-person",
       "location": "AEON Malls, Japan",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ],
       "source_url": "https://pokemongo.com/en/news/202511-mega-tokkun",
       "source_urls": [
@@ -6385,8 +6384,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -6466,8 +6464,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -6527,8 +6524,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -6568,8 +6564,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -6689,8 +6684,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -6750,8 +6744,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -6771,8 +6764,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -6832,8 +6824,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -6913,8 +6904,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -6954,8 +6944,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -6995,8 +6984,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -7198,8 +7186,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -7481,8 +7468,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -7864,8 +7850,7 @@
       "status": "confirmed",
       "notes": "Special Pokémon GO activities began July 18; the partnership was later extended through December 31, 2026.",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -7885,8 +7870,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -7906,8 +7890,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -8007,8 +7990,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -8028,8 +8010,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -8089,8 +8070,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -8130,8 +8110,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -8253,8 +8232,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -8274,8 +8252,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -8316,8 +8293,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -8437,8 +8413,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -8478,8 +8453,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -8952,8 +8926,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -9406,8 +9379,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
@@ -9427,8 +9399,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite",
-        "partner"
+        "onsite"
       ]
     },
     {
