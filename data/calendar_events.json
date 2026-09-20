@@ -682,6 +682,686 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
+    },
+    {
+      "id": "night-treats-2026",
+      "title": "Night Treats",
+      "start": "2026-03-16",
+      "end": "2026-03-22",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Indonesia, India, Malaysia & Saudi Arabia",
+      "source_url": "https://pokemongo.com/en/news/night-treats-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/night-treats-2026"
+      ],
+      "source_slug": "night-treats-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "bug-out-2026",
+      "title": "Bug Out",
+      "start": "2026-03-17",
+      "end": "2026-03-23",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/bug-out-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/bug-out-2026"
+      ],
+      "source_slug": "bug-out-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "replay-water-research-day-2026",
+      "title": "Make waves with Lotad, Feebas, and Clamperl for Replay: Water Research Day!",
+      "start": "2026-03-21",
+      "end": "2026-03-21",
+      "category": "Research Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/replay-water-research-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/replay-water-research-day-2026"
+      ],
+      "source_slug": "replay-water-research-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gigantamax-pikachu-max-battle-day-2026",
+      "title": "Gigantamax Pikachu Max Battle Day",
+      "start": "2026-03-28",
+      "end": "2026-03-28",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/gigantamax-pikachu-max-battle-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gigantamax-pikachu-max-battle-day-2026"
+      ],
+      "source_slug": "gigantamax-pikachu-max-battle-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "tw-floral-picnic-2026",
+      "title": "Pokémon GO at 2026 Taipei Floral Picnic",
+      "start": "2026-03-28",
+      "end": "2026-04-06",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Taipei, Taiwan",
+      "source_url": "https://pokemongo.com/en/news/tw-floral-picnic-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/tw-floral-picnic-2026"
+      ],
+      "source_slug": "tw-floral-picnic-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "a-shockingly-good-time",
+      "title": "A Shockingly Good Time",
+      "start": "2026-03-31",
+      "end": "2026-04-06",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/a-shockingly-good-time",
+      "source_urls": [
+        "https://pokemongo.com/en/news/a-shockingly-good-time"
+      ],
+      "source_slug": "a-shockingly-good-time",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "an-egg-cellent-adventure-2026",
+      "title": "An Egg-cellent Adventure",
+      "start": "2026-04-02",
+      "end": "2026-04-06",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/an-egg-cellent-adventure-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/an-egg-cellent-adventure-2026"
+      ],
+      "source_slug": "an-egg-cellent-adventure-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "giants-game",
+      "title": "Pokémon Baseball Festa 2026: Yomiuri Giants",
+      "start": "2026-04-03",
+      "end": "2026-04-05",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/giants_game",
+      "source_urls": [
+        "https://pokemongo.com/en/news/giants_game"
+      ],
+      "source_slug": "giants_game",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "fashion-raid-day-2026",
+      "title": "Fashion Raid Day",
+      "start": "2026-04-04",
+      "end": "2026-04-04",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/fashion-raid-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/fashion-raid-day-2026"
+      ],
+      "source_slug": "fashion-raid-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-april-2026",
+      "title": "GO Pass: April",
+      "start": "2026-04-07",
+      "end": "2026-05-05",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/ja/news/go-pass-april-2026",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/go-pass-april-2026"
+      ],
+      "source_slug": "go-pass-april-2026",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "partner-research-familymart-spring-2026",
+      "title": "Partner Research: FamilyMart",
+      "start": "2026-04-07",
+      "end": "2026-06-30",
+      "category": "Timed Research",
+      "scope": "Regional",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/202603partnerresearch-jp",
+      "source_urls": [
+        "https://pokemongo.com/en/news/202603partnerresearch-jp"
+      ],
+      "source_slug": "202603partnerresearch-jp",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": "Research unlocks after redeeming a participation code. FamilyMart ticket acquisition ran Apr 7–May 4; research completion deadline was Jun 30."
+    },
+    {
+      "id": "eagles-game",
+      "title": "Pokémon Baseball Festa 2026: Tohoku Rakuten Golden Eagles",
+      "start": "2026-04-10",
+      "end": "2026-04-12",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/eagles_game",
+      "source_urls": [
+        "https://pokemongo.com/en/news/eagles_game"
+      ],
+      "source_slug": "eagles_game",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communityday-april-2026-tinkatink",
+      "title": "April 2026 Community Day: Tinkatink",
+      "start": "2026-04-11",
+      "end": "2026-04-11",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/communityday-april-2026-tinkatink",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-april-2026-tinkatink"
+      ],
+      "source_slug": "communityday-april-2026-tinkatink",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "sustainability-week-2026",
+      "title": "Sustainability Week",
+      "start": "2026-04-14",
+      "end": "2026-04-20",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/sustainability-week-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/sustainability-week-2026"
+      ],
+      "source_slug": "sustainability-week-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "tigers-game",
+      "title": "Pokémon Baseball Festa 2026: Hanshin Tigers",
+      "start": "2026-04-17",
+      "end": "2026-04-17",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/tigers_game",
+      "source_urls": [
+        "https://pokemongo.com/en/news/tigers_game"
+      ],
+      "source_slug": "tigers_game",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "replay-riolu-hatch-day-2026",
+      "title": "Replay: Riolu Hatch Day",
+      "start": "2026-04-18",
+      "end": "2026-04-18",
+      "category": "Hatch Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/replay-riolu-hatch-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/replay-riolu-hatch-day-2026"
+      ],
+      "source_slug": "replay-riolu-hatch-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "carp-game",
+      "title": "Pokémon Baseball Festa 2026: Hiroshima Toyo Carp",
+      "start": "2026-04-21",
+      "end": "2026-04-23",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/carp_game",
+      "source_urls": [
+        "https://pokemongo.com/en/news/carp_game"
+      ],
+      "source_slug": "carp_game",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "replay-go-bigger-2026",
+      "title": "Replay: GO Bigger",
+      "start": "2026-04-25",
+      "end": "2026-04-25",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/replay-go-bigger-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/replay-go-bigger-2026"
+      ],
+      "source_slug": "replay-go-bigger-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "steeled-resolve-2026",
+      "title": "Steeled Resolve",
+      "start": "2026-04-28",
+      "end": "2026-05-04",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/steeled-resolve-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/steeled-resolve-2026"
+      ],
+      "source_slug": "steeled-resolve-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "growing-beyond-2026",
+      "title": "Growing Beyond",
+      "start": "2026-04-29",
+      "end": "2026-05-05",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/growing_beyond_2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/growing_beyond_2026"
+      ],
+      "source_slug": "growing_beyond_2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-go-at-gamescomlatam2026",
+      "title": "Pokémon GO at gamescom latam 2026",
+      "start": "2026-04-30",
+      "end": "2026-05-03",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Brazil",
+      "source_url": "https://pokemongo.com/en/news/pokemon-go-at-gamescomlatam2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-go-at-gamescomlatam2026"
+      ],
+      "source_slug": "pokemon-go-at-gamescomlatam2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "steeled-resolve-taken-over-2026",
+      "title": "Steeled Resolve: Taken Over",
+      "start": "2026-04-30",
+      "end": "2026-05-04",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/steeled-resolve-taken-over-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/steeled-resolve-taken-over-2026"
+      ],
+      "source_slug": "steeled-resolve-taken-over-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "hawks-game",
+      "title": "Pokémon Baseball Festa 2026: Fukuoka SoftBank Hawks",
+      "start": "2026-05-01",
+      "end": "2026-05-03",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/hawks_game",
+      "source_urls": [
+        "https://pokemongo.com/en/news/hawks_game"
+      ],
+      "source_slug": "hawks_game",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mega-festa-2026-seoul-stamp-rally",
+      "title": "Pokémon Mega Festa 2026: Seoul Stamp Rally",
+      "start": "2026-05-01",
+      "end": "2026-05-31",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Seoul, South Korea",
+      "source_url": "https://pokemongo.com/en/news/mega-festa-2026-seoul-stamp-rally",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mega-festa-2026-seoul-stamp-rally"
+      ],
+      "source_slug": "mega-festa-2026-seoul-stamp-rally",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "shadow-entei-raid-day-2026",
+      "title": "Entei Shadow Raid Day",
+      "start": "2026-05-02",
+      "end": "2026-05-02",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/shadow-entei-raid-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/shadow-entei-raid-day-2026"
+      ],
+      "source_slug": "shadow-entei-raid-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-x-target-2026",
+      "title": "Pokémon GO × Target",
+      "start": "2026-05-02",
+      "end": "2026-07-31",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "United States",
+      "source_url": "https://pokemongo.com/en/news/pokemon-x-target-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-x-target-2026"
+      ],
+      "source_slug": "pokemon-x-target-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "lions-game",
+      "title": "Pokémon Baseball Festa 2026: Saitama Seibu Lions",
+      "start": "2026-05-04",
+      "end": "2026-05-06",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/lions_game",
+      "source_urls": [
+        "https://pokemongo.com/en/news/lions_game"
+      ],
+      "source_slug": "lions_game",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-run-in-seoul-2026",
+      "title": "Pokémon GO Pokémon Run 2026 in Seoul",
+      "start": "2026-05-05",
+      "end": "2026-05-05",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Seoul, South Korea",
+      "source_url": "https://pokemongo.com/en/news/pokemon_run_in_seoul_2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon_run_in_seoul_2026"
+      ],
+      "source_slug": "pokemon_run_in_seoul_2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-may-2026",
+      "title": "GO Pass: May",
+      "start": "2026-05-05",
+      "end": "2026-06-02",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/ja/news/go-pass-may-2026",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/go-pass-may-2026"
+      ],
+      "source_slug": "go-pass-may-2026",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "buffaloes-game",
+      "title": "Pokémon Baseball Festa 2026: Orix Buffaloes",
+      "start": "2026-05-08",
+      "end": "2026-05-10",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/buffaloes_game",
+      "source_urls": [
+        "https://pokemongo.com/en/news/buffaloes_game"
+      ],
+      "source_slug": "buffaloes_game",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communityday-may-2026-lechonk",
+      "title": "May 2026 Community Day: Lechonk",
+      "start": "2026-05-09",
+      "end": "2026-05-09",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/communityday-may-2026-lechonk",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-may-2026-lechonk"
+      ],
+      "source_slug": "communityday-may-2026-lechonk",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "school-festa-korea",
+      "title": "School Festa",
+      "start": "2026-05-11",
+      "end": "2026-05-24",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "South Korea",
+      "source_url": "https://pokemongo.com/en/news/school-festa-korea",
+      "source_urls": [
+        "https://pokemongo.com/en/news/school-festa-korea"
+      ],
+      "source_slug": "school-festa-korea",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "spring-marathon-2026",
+      "title": "Spring Marathon",
+      "start": "2026-05-12",
+      "end": "2026-05-18",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/spring-marathon-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/spring-marathon-2026"
+      ],
+      "source_slug": "spring-marathon-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "marines-game",
+      "title": "Pokémon Baseball Festa 2026: Chiba Lotte Marines",
+      "start": "2026-05-15",
+      "end": "2026-05-17",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/marines_game",
+      "source_urls": [
+        "https://pokemongo.com/en/news/marines_game"
+      ],
+      "source_slug": "marines_game",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communitydayclassic-deino-may-2026",
+      "title": "May 2026 Community Day Classic: Deino",
+      "start": "2026-05-16",
+      "end": "2026-05-16",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/communitydayclassic-deino-may-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communitydayclassic-deino-may-2026"
+      ],
+      "source_slug": "communitydayclassic-deino-may-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pgo-pokemon-fossil-musuem-chicago-2026",
+      "title": "Pokémon Fossil Museum Chicago × Pokémon GO",
+      "start": "2026-05-22",
+      "end": "2027-04-11",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Chicago, Illinois, USA",
+      "source_url": "https://pokemongo.com/en/news/pgo-pokemon-fossil-musuem-chicago-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pgo-pokemon-fossil-musuem-chicago-2026"
+      ],
+      "source_slug": "pgo-pokemon-fossil-musuem-chicago-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "falinks-super-mega-raid-day-2026",
+      "title": "Falinks Super Mega Raid Day",
+      "start": "2026-05-23",
+      "end": "2026-05-23",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/falinks-super-mega-raid-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/falinks-super-mega-raid-day-2026"
+      ],
+      "source_slug": "falinks-super-mega-raid-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "baystars-game",
+      "title": "Pokémon Baseball Festa 2026: Yokohama DeNA BayStars",
+      "start": "2026-05-23",
+      "end": "2026-05-24",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/baystars_game",
+      "source_urls": [
+        "https://pokemongo.com/en/news/baystars_game"
+      ],
+      "source_slug": "baystars_game",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-sports-day-2026",
+      "title": "Pokémon Sports Day 2026",
+      "start": "2026-05-24",
+      "end": "2026-05-25",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Seoul, South Korea",
+      "source_url": "https://pokemongo.com/en/news/pokemon-sports-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-sports-day-2026"
+      ],
+      "source_slug": "pokemon-sports-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "global-events-gofest2026-overlays-2",
+      "title": "Blanche's Quest for Knowledge",
+      "start": "2026-05-26",
+      "end": "2026-06-01",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/global-events-gofest2026-overlays",
+      "source_urls": [
+        "https://pokemongo.com/en/news/global-events-gofest2026-overlays"
+      ],
+      "source_slug": "global-events-gofest2026-overlays",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
     }
   ]
 }
