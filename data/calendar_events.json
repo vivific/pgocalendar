@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-20T17:56:45.522Z",
+  "updated_at": "2026-09-20T17:57:08.650Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -7895,7 +7895,7 @@
       "start": "2026-07-20",
       "end": "2026-07-27",
       "category": "Field Research",
-      "scope": "Regional",
+      "scope": "Regional / In-person",
       "location": "McDonald’s locations, Japan",
       "source_url": "https://pokemongo.com/en/news/202607backtomcd",
       "source_urls": [
@@ -7906,6 +7906,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -7995,7 +7996,7 @@
       "start": "2026-07-27",
       "end": "2026-08-03",
       "category": "Field Research",
-      "scope": "Regional",
+      "scope": "Regional / In-person",
       "location": "McDonald’s locations, Japan",
       "source_url": "https://pokemongo.com/en/news/202607backtomcd",
       "source_urls": [
@@ -8006,6 +8007,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -8076,7 +8078,7 @@
       "start": "2026-08-03",
       "end": "2026-08-10",
       "category": "Field Research",
-      "scope": "Regional",
+      "scope": "Regional / In-person",
       "location": "McDonald’s locations, Japan",
       "source_url": "https://pokemongo.com/en/news/202607backtomcd",
       "source_urls": [
@@ -8087,6 +8089,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -8260,7 +8263,7 @@
       "start": "2026-08-10",
       "end": "2026-08-17",
       "category": "Field Research",
-      "scope": "Regional",
+      "scope": "Regional / In-person",
       "location": "McDonald’s locations, Japan",
       "source_url": "https://pokemongo.com/en/news/202607backtomcd",
       "source_urls": [
@@ -8271,6 +8274,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
@@ -8422,7 +8426,7 @@
       "start": "2026-08-17",
       "end": "2026-09-01",
       "category": "Field Research",
-      "scope": "Regional",
+      "scope": "Regional / In-person",
       "location": "McDonald’s locations, Japan",
       "source_url": "https://pokemongo.com/en/news/202607backtomcd",
       "source_urls": [
@@ -8433,6 +8437,7 @@
       "status": "confirmed",
       "notes": "",
       "access": [
+        "onsite",
         "partner"
       ]
     },
