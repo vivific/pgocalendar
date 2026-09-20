@@ -114,6 +114,14 @@ main { padding: 22px 24px 0 40px; }
 .access-badge.partner { background:#f7ecdc; }
 .access-badge.code { background:#e3f2eb; }
 .access-badge.ticketed { background:#f7e5e9; }
+.bonus-badges { display:flex; flex-wrap:wrap; gap:6px; margin:-8px 0 16px; }
+.bonus-badge {
+  display:inline-flex; align-items:center; border-radius:999px; padding:5px 9px;
+  font-size:11px; font-weight:800; background:#eef2f7; color:#364155; border:1px solid #dce3ec;
+}
+.bonus-badge.stardust { background:#f5ecfa; }
+.bonus-badge.candy, .bonus-badge.candy_xl { background:#fff0e8; }
+.bonus-badge.xp { background:#e9f3ff; }
 .bar:hover { filter: brightness(.96); transform: translateY(-1px); }
 dialog {
   width: min(620px,calc(100vw - 40px)); border: 0; border-radius: 16px; padding: 26px 28px; color: inherit;
