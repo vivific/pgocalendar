@@ -57,6 +57,8 @@ When a later article improves an existing event:
 
 A regional or city activation occurring during a global event is a separate event if it has its own location-specific gameplay, research, meetup, stamp rally, or other meaningful activation.
 
+Represent separately ticketed or separately geofenced host cities as separate canonical events, even when one announcement groups several cities together. Do not collapse distinct live-event cities into a single bar merely because their dates match.
+
 ## Access classification
 
 Every event must have an `access` array containing one or more of:
