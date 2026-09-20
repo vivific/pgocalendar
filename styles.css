@@ -7,18 +7,19 @@
   --label-w: 190px;
   --grid: #dfe5ef;
   --muted: #66748b;
-  --accent: #2f7ed8;
-  --regional: #1f9e9a;
-  --onsite: #7557c7;
+  --accent: #2f7ff5;
+  --regional: #00a6a0;
+  --onsite: #7057d8;
   --partner: #bf7a22;
   --code: #31835d;
-  --ticketed: #c44f8a;
-  --rt-timed-research: #ffd84a;
-  --rt-local-raid: #ff6b62;
-  --rt-free-code: #8ed34f;
-  --rt-paid-code: #ff9f3d;
-  --rt-stamp-rally: #35d4d0;
-  --rt-other: #b9e4f7;
+  --ticketed: #df4f8f;
+  --bar-default: #eaf3ff;
+  --rt-timed-research: #fff0a8;
+  --rt-local-raid: #ffc2b8;
+  --rt-free-code: #d1f0a7;
+  --rt-paid-code: #ffd09e;
+  --rt-stamp-rally: #b6efea;
+  --rt-other: #ddd4ff;
 }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 0; width: 100%; overflow-x: hidden; }
@@ -56,7 +57,7 @@ main { padding: 22px 24px 0 40px; }
 .swatch, .outline-swatch { width: 14px; height: 10px; border-radius: 3px; }
 
 .legend .swatch {
-  background: #667085;
+  background: #ffffff;
   border: 2px solid transparent;
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.22);
 }
@@ -112,8 +113,8 @@ main { padding: 22px 24px 0 40px; }
 .cell.weekend { background: #fafbfc; }
 .cell.today { background: #df2362; }
 .bar {
-  grid-row: 1; z-index: 3; align-self: center; height: 42px; border: 4px solid transparent; border-radius: 9px;
-  position: relative; display: block; background: var(--rt-other); color: #172033; padding: 0; text-align: left;
+  grid-row: 1; z-index: 3; align-self: center; height: 42px; border: 2px solid transparent; border-radius: 9px;
+  position: relative; display: block; background: var(--bar-default); color: #172033; padding: 0; text-align: left;
   font-size: 11px; font-weight: 750; white-space: nowrap; overflow: visible;
   clip-path: inset(0 round 7px); cursor: pointer;
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.20), 0 1px 2px rgba(18,30,56,.16);
@@ -189,6 +190,7 @@ footer p { margin: 0; }
   dialog { background:#1b2028; color:#e8ecf4; }
   .bar { color:#172033; }
   .update-status { color:#c3cad6; }
+  .legend .swatch { background:#202630; }
 }
 
 
