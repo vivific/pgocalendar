@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-20T07:56:00Z",
+  "updated_at": "2026-09-20T16:01:37.108Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -1809,6 +1809,27 @@
       ]
     },
     {
+      "id": "mlb-brewers-2026",
+      "title": "Pokémon GO × Milwaukee Brewers Game Day",
+      "start": "2026-06-17",
+      "end": "2026-06-17",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Milwaukee Brewers ballpark, Milwaukee, Wisconsin, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
+    },
+    {
       "id": "choose-your-path-forever-forward-2026-2",
       "title": "Choose Your Path Timed Challenge – Forever Forward I",
       "start": "2026-06-17",
@@ -2029,6 +2050,27 @@
       ]
     },
     {
+      "id": "mlb-guardians-2026",
+      "title": "Pokémon GO × Cleveland Guardians Game Day",
+      "start": "2026-07-02",
+      "end": "2026-07-02",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Cleveland Guardians ballpark, Cleveland, Ohio, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
+    },
+    {
       "id": "communityday-july-2026-sobble",
       "title": "July 2026 Community Day: Sobble",
       "start": "2026-07-04",
@@ -2127,6 +2169,27 @@
       "access": [
         "global"
       ]
+    },
+    {
+      "id": "mlb-white-sox-2026",
+      "title": "Pokémon GO × Chicago White Sox Game Day",
+      "start": "2026-07-08",
+      "end": "2026-07-08",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Chicago White Sox ballpark, Chicago, Illinois, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
     },
     {
       "id": "community-celebration-barcelona",
@@ -2629,6 +2692,27 @@
       ]
     },
     {
+      "id": "mlb-orioles-2026",
+      "title": "Pokémon GO × Baltimore Orioles Game Day",
+      "start": "2026-08-04",
+      "end": "2026-08-04",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Baltimore Orioles ballpark, Baltimore, Maryland, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
+    },
+    {
       "id": "summer-marathon-2026",
       "title": "Summer Marathon: Arctic Embers",
       "start": "2026-08-04",
@@ -2667,6 +2751,27 @@
       "access": [
         "global"
       ]
+    },
+    {
+      "id": "mlb-marlins-2026",
+      "title": "Pokémon GO × Miami Marlins Game Day",
+      "start": "2026-08-07",
+      "end": "2026-08-07",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Miami Marlins ballpark, Miami, Florida, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
     },
     {
       "id": "fire-and-ice-hatch-day-2026",
@@ -2727,6 +2832,27 @@
       "access": [
         "partner"
       ]
+    },
+    {
+      "id": "mlb-diamondbacks-2026",
+      "title": "Pokémon GO × Arizona Diamondbacks Game Day",
+      "start": "2026-08-11",
+      "end": "2026-08-11",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Arizona Diamondbacks ballpark, Phoenix, Arizona, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
     },
     {
       "id": "fighters-game",
@@ -2909,6 +3035,27 @@
       ]
     },
     {
+      "id": "mlb-rangers-2026",
+      "title": "Pokémon GO × Texas Rangers Game Day",
+      "start": "2026-08-22",
+      "end": "2026-08-22",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Texas Rangers ballpark, Arlington, Texas, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
+    },
+    {
       "id": "starmie-super-mega-raid-day-2026",
       "title": "Starmie Super Mega Raid Day",
       "start": "2026-08-22",
@@ -2927,6 +3074,27 @@
       "access": [
         "global"
       ]
+    },
+    {
+      "id": "mlb-mets-2026",
+      "title": "Pokémon GO × New York Mets Game Day",
+      "start": "2026-08-25",
+      "end": "2026-08-25",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "New York Mets ballpark, Queens, New York, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
     },
     {
       "id": "world-championships-event-2026-1",
@@ -2949,6 +3117,27 @@
       ]
     },
     {
+      "id": "mlb-giants-2026",
+      "title": "Pokémon GO × San Francisco Giants Game Day",
+      "start": "2026-08-27",
+      "end": "2026-08-27",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Oracle Park, San Francisco, California, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
+    },
+    {
       "id": "world-championships-event-2026-2",
       "title": "2026 Pokémon World Championships",
       "start": "2026-08-28",
@@ -2967,6 +3156,27 @@
       "access": [
         "onsite"
       ]
+    },
+    {
+      "id": "mlb-nationals-2026",
+      "title": "Pokémon GO × Washington Nationals Game Day",
+      "start": "2026-08-30",
+      "end": "2026-08-30",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Washington Nationals ballpark, Washington, DC, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
     },
     {
       "id": "go-fest-2026-mega-finale-korea",
@@ -3149,6 +3359,27 @@
       ]
     },
     {
+      "id": "mlb-rays-2026",
+      "title": "Pokémon GO × Tampa Bay Rays Game Day",
+      "start": "2026-09-13",
+      "end": "2026-09-13",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Tampa Bay Rays ballpark, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
+    },
+    {
       "id": "hawlucha-celebrando-septiembre-2026",
       "title": "Celebrating with Hawlucha",
       "start": "2026-09-15",
@@ -3289,6 +3520,27 @@
       ]
     },
     {
+      "id": "mlb-mariners-2026",
+      "title": "Pokémon GO × Seattle Mariners Game Day",
+      "start": "2026-09-22",
+      "end": "2026-09-22",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Seattle Mariners ballpark, Seattle, Washington, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
+    },
+    {
       "id": "dancing-in-the-moonlight-2026",
       "title": "Dancing in the Moonlight",
       "start": "2026-09-23",
@@ -3347,6 +3599,27 @@
       "source_locale": "ko",
       "status": "confirmed",
       "notes": "Nationwide Korea event with orange-hanbok Pikachu raids and free Timed Research. The event ends September 26; its Timed Research can be completed through October 11 at 8:00 p.m. KST."
+    },
+    {
+      "id": "mlb-red-sox-2026",
+      "title": "Pokémon GO × Boston Red Sox Game Day",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Boston Red Sox ballpark, Boston, Massachusetts, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
     },
     {
       "id": "catch-mastery-phantump-2026",
