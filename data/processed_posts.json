@@ -741,6 +741,12 @@
     "world-championships-event-2026": {
       "bootstrap": true,
       "status": "processed"
+    },
+    "mlb-2026": {
+      "status": "processed",
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "result": "event-added: 13 separately dated MLB themed game days with ballpark-only gameplay",
+      "last_checked": "2026-09-20"
     }
   }
 }
