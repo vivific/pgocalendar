@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Pokémon GO Event Calendar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Unofficial • source-backed</p>
+      <h1>Pokémon GO Event Calendar</h1>
+      <p class="lede">Official News events in one timeline, including regional announcements that may not appear on the English News index.</p>
+    </div>
+    <a class="repo-link" href="https://github.com/vivific/pgocalendar" target="_blank" rel="noreferrer">GitHub</a>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Calendar controls">
+      <label>Year
+        <select id="year"></select>
+      </label>
+      <label>Category
+        <select id="category"><option value="">All categories</option></select>
+      </label>
+      <label class="search">Search
+        <input id="search" type="search" placeholder="Event, location, notes…">
+      </label>
+      <label>Day width
+        <input id="zoom" type="range" min="3" max="16" value="6">
+      </label>
+      <button id="today" type="button">Today</button>
+    </section>
+
+    <section class="legend">
+      <span><i class="swatch global"></i>Global</span>
+      <span><i class="swatch regional"></i>Regional / in-person</span>
+      <span class="meta" id="meta"></span>
+    </section>
+
+    <section class="timeline-shell">
+      <div id="empty" class="empty" hidden>
+        No canonical events have been published for this view yet.
+      </div>
+      <div id="timeline" class="timeline" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <dialog id="details">
+    <button class="close" type="button" aria-label="Close">×</button>
+    <p class="eyebrow" id="detail-category"></p>
+    <h2 id="detail-title"></h2>
+    <dl id="detail-fields"></dl>
+    <p id="detail-notes"></p>
+    <p><a id="detail-source" target="_blank" rel="noreferrer">Official Pokémon GO News source ↗</a></p>
+  </dialog>
+
+  <footer>
+    This site is unofficial. Event information is derived from official Pokémon GO News posts and links back to those sources.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
