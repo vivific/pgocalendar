@@ -92,18 +92,15 @@ main { padding: 22px 24px 0 40px; }
 .bar-label {
   position: sticky;
   left: calc(var(--label-w) + 8px);
-  display: -webkit-box;
-  width: max-content;
-  max-width: min(520px, calc(100vw - var(--label-w) - 72px));
-  max-height: 34px;
+  display: block;
+  width: min(520px, calc(100% - 8px), calc(100vw - var(--label-w) - 24px));
+  height: 32px;
   line-height: 16px;
-  padding: 0 8px;
+  margin: 4px 0;
+  padding: 0 6px;
   overflow: hidden;
-  text-overflow: ellipsis;
   white-space: normal;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
+  overflow-wrap: break-word;
 }
 .bar.regional { background: var(--regional); }
 .bar.onsite { background: var(--onsite); }
