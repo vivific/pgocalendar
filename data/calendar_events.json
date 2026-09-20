@@ -2722,6 +2722,584 @@
       "source_locale": "ja",
       "status": "confirmed",
       "notes": "Research unlocks after code redemption. FamilyMart ticket acquisition ran Sep 15–Oct 5; code-registration deadline is Nov 30 and research completion deadline is Dec 31."
+    },
+    {
+      "id": "pokemon-horizons-celebration-event-2026",
+      "title": "Pokémon Horizons: The Series Celebration Event",
+      "start": "2026-09-16",
+      "end": "2026-09-22",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/pokemon-horizons-celebration-event-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-horizons-celebration-event-2026"
+      ],
+      "source_slug": "pokemon-horizons-celebration-event-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pikachu-autumn-picnic-korea-2026",
+      "title": "2026 Pikachu's Autumn Picnic",
+      "start": "2026-09-18",
+      "end": "2026-10-11",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "South Korea",
+      "source_url": "https://pokemongo.com/en/news/pikachu-autumn-picnic-korea-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pikachu-autumn-picnic-korea-2026"
+      ],
+      "source_slug": "pikachu-autumn-picnic-korea-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "2026-ana-green",
+      "title": "ANA Green Pokémon Jet × Pokémon GO",
+      "start": "2026-09-18",
+      "end": "2027-08-31",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/2026_ana_green",
+      "source_urls": [
+        "https://pokemongo.com/en/news/2026_ana_green"
+      ],
+      "source_slug": "2026_ana_green",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "staraptor-super-mega-raid-day-2026",
+      "title": "Staraptor Super Mega Raid Day",
+      "start": "2026-09-19",
+      "end": "2026-09-19",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/staraptor-super-mega-raid-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/staraptor-super-mega-raid-day-2026"
+      ],
+      "source_slug": "staraptor-super-mega-raid-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "dancing-in-the-moonlight-2026",
+      "title": "Dancing in the Moonlight",
+      "start": "2026-09-23",
+      "end": "2026-09-27",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Select Asia-Pacific regions",
+      "source_url": "https://pokemongo.com/en/news/dancing-in-the-moonlight-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/dancing-in-the-moonlight-2026"
+      ],
+      "source_slug": "dancing-in-the-moonlight-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "choose-your-path-twilight-trails-2026",
+      "title": "Choose Your Path: Twilight Trails",
+      "start": "2026-09-23",
+      "end": "2026-09-28",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/ja/news/choose-your-path-twilight-trails-2026",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/choose-your-path-twilight-trails-2026"
+      ],
+      "source_slug": "choose-your-path-twilight-trails-2026",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "catch-mastery-phantump-2026",
+      "title": "Phantump Catch Mastery",
+      "start": "2026-09-26",
+      "end": "2026-09-26",
+      "category": "Catch Mastery",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/catch-mastery-phantump-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/catch-mastery-phantump-2026"
+      ],
+      "source_slug": "catch-mastery-phantump-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "boston-city-safari-know-before-you-go",
+      "title": "Pokémon GO City Safari: Boston",
+      "start": "2026-09-26",
+      "end": "2026-09-27",
+      "category": "City Safari",
+      "scope": "Regional / In-person",
+      "location": "Boston, Massachusetts, USA",
+      "source_url": "https://pokemongo.com/en/news/boston-city-safari-know-before-you-go",
+      "source_urls": [
+        "https://pokemongo.com/en/news/boston-city-safari-know-before-you-go"
+      ],
+      "source_slug": "boston-city-safari-know-before-you-go",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "city-safaris-europe-2026",
+      "title": "Pokémon GO City Safari: Lisbon, Marseille & Munich",
+      "start": "2026-09-26",
+      "end": "2026-09-27",
+      "category": "City Safari",
+      "scope": "Regional / In-person",
+      "location": "Lisbon, Marseille & Munich",
+      "source_url": "https://pokemongo.com/en/news/city-safaris-europe-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/city-safaris-europe-2026"
+      ],
+      "source_slug": "city-safaris-europe-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "patterns-of-the-wild-2026-1",
+      "title": "Patterns of the Wild Timed Research",
+      "start": "2026-09-28",
+      "end": "2026-10-10",
+      "category": "Timed Research",
+      "scope": "Regional / In-person",
+      "location": "Indonesia",
+      "source_url": "https://pokemongo.com/en/news/patterns-of-the-wild-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/patterns-of-the-wild-2026"
+      ],
+      "source_slug": "patterns-of-the-wild-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "harvest-festival-2026",
+      "title": "Harvest Festival: Applin Picking",
+      "start": "2026-09-29",
+      "end": "2026-10-05",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/harvest-festival-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/harvest-festival-2026"
+      ],
+      "source_slug": "harvest-festival-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "weekly-branching-tr-korea-2026-3",
+      "title": "Weekly Relay Timed Research – Part III",
+      "start": "2026-09-29",
+      "end": "2026-10-05",
+      "category": "Timed Research",
+      "scope": "Regional / In-person",
+      "location": "South Korea",
+      "source_url": "https://pokemongo.com/en/news/weekly-branching-tr-korea-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/weekly-branching-tr-korea-2026"
+      ],
+      "source_slug": "weekly-branching-tr-korea-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "comic-con-malaga-2026",
+      "title": "Pokémon GO at San Diego Comic-Con Málaga 2026",
+      "start": "2026-10-01",
+      "end": "2026-10-04",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Málaga, Spain",
+      "source_url": "https://pokemongo.com/en/news/comic-con-malaga-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/comic-con-malaga-2026"
+      ],
+      "source_slug": "comic-con-malaga-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "2026oct-skmtw",
+      "title": "Shin Kong Mitsukoshi × Pokémon GO Postcards",
+      "start": "2026-10-01",
+      "end": "2026-12-31",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Taiwan",
+      "source_url": "https://pokemongo.com/en/news/2026oct-skmtw",
+      "source_urls": [
+        "https://pokemongo.com/en/news/2026oct-skmtw"
+      ],
+      "source_slug": "2026oct-skmtw",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "patterns-of-the-wild-2026-2",
+      "title": "Patterns of the Wild – Indonesia",
+      "start": "2026-10-02",
+      "end": "2026-10-02",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Indonesia",
+      "source_url": "https://pokemongo.com/en/news/patterns-of-the-wild-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/patterns-of-the-wild-2026"
+      ],
+      "source_slug": "patterns-of-the-wild-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "harvest-festival-tgr-2026",
+      "title": "Harvest Festival: Taken Over",
+      "start": "2026-10-02",
+      "end": "2026-10-05",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/harvest-festival-tgr-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/harvest-festival-tgr-2026"
+      ],
+      "source_slug": "harvest-festival-tgr-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gigantamax-cinderace-max-battle-day-2026",
+      "title": "Gigantamax Cinderace Max Battle Day",
+      "start": "2026-10-03",
+      "end": "2026-10-03",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/gigantamax-cinderace-max-battle-day-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gigantamax-cinderace-max-battle-day-2026"
+      ],
+      "source_slug": "gigantamax-cinderace-max-battle-day-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-run-30-2026-1",
+      "title": "Pokémon RUN 30 × Pokémon GO – Philippines",
+      "start": "2026-10-03",
+      "end": "2026-10-04",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Philippines",
+      "source_url": "https://pokemongo.com/en/news/pokemon-run-30-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-run-30-2026"
+      ],
+      "source_slug": "pokemon-run-30-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "european-space-agency-event-1",
+      "title": "European Space Agency × Pokémon GO – Research & Raids",
+      "start": "2026-10-04",
+      "end": "2026-10-10",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Participating European science & space museums",
+      "source_url": "https://pokemongo.com/en/news/european-space-agency-event",
+      "source_urls": [
+        "https://pokemongo.com/en/news/european-space-agency-event"
+      ],
+      "source_slug": "european-space-agency-event",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "european-space-agency-event-2",
+      "title": "European Space Agency × Pokémon GO",
+      "start": "2026-10-04",
+      "end": "2027-04-30",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Participating European science & space museums",
+      "source_url": "https://pokemongo.com/en/news/european-space-agency-event",
+      "source_urls": [
+        "https://pokemongo.com/en/news/european-space-agency-event"
+      ],
+      "source_slug": "european-space-agency-event",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "weekly-branching-tr-korea-2026-4",
+      "title": "Weekly Relay Timed Research – Part IV",
+      "start": "2026-10-06",
+      "end": "2026-10-12",
+      "category": "Timed Research",
+      "scope": "Regional / In-person",
+      "location": "South Korea",
+      "source_url": "https://pokemongo.com/en/news/weekly-branching-tr-korea-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/weekly-branching-tr-korea-2026"
+      ],
+      "source_slug": "weekly-branching-tr-korea-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communityday-october-2026-zorua",
+      "title": "October 2026 Community Day: Zorua",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/communityday-october-2026-zorua",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-october-2026-zorua"
+      ],
+      "source_slug": "communityday-october-2026-zorua",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "event-taipei-30th-anniversary-2026-1",
+      "title": "PokéXciting! Taipei",
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Taipei, Taiwan",
+      "source_url": "https://pokemongo.com/en/news/event-taipei-30th-anniversary-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/event-taipei-30th-anniversary-2026"
+      ],
+      "source_slug": "event-taipei-30th-anniversary-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "event-taipei-30th-anniversary-2026-2",
+      "title": "PokéXciting! Taipei GO Stamp Rally",
+      "start": "2026-10-10",
+      "end": "2026-11-11",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Taipei, Taiwan",
+      "source_url": "https://pokemongo.com/en/news/event-taipei-30th-anniversary-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/event-taipei-30th-anniversary-2026"
+      ],
+      "source_slug": "event-taipei-30th-anniversary-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-run-30-2026-taiwan-taichung",
+      "title": "Pokémon RUN 30 × Pokémon GO – Taichung",
+      "start": "2026-10-17",
+      "end": "2026-10-18",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Taichung Central Park, Taiwan",
+      "source_url": "https://pokemongo.com/en/news/pokemon-run-30-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-run-30-2026"
+      ],
+      "source_slug": "pokemon-run-30-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "One of the 2026 Pokémon RUN 30 regional events."
+    },
+    {
+      "id": "pokemon-run-30-2026-taiwan-kaohsiung",
+      "title": "Pokémon RUN 30 × Pokémon GO – Kaohsiung",
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Dream Mall, Kaohsiung, Taiwan",
+      "source_url": "https://pokemongo.com/en/news/pokemon-run-30-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-run-30-2026"
+      ],
+      "source_slug": "pokemon-run-30-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "One of the 2026 Pokémon RUN 30 regional events."
+    },
+    {
+      "id": "save-the-date-go-wild-area-2026-1",
+      "title": "Pokémon GO Wild Area 2026 – Sendai & Mexico City",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "category": "Wild Area",
+      "scope": "Regional / In-person",
+      "location": "Sendai, Japan & Mexico City, Mexico",
+      "source_url": "https://pokemongo.com/en/news/save-the-date-go-wild-area-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/save-the-date-go-wild-area-2026"
+      ],
+      "source_slug": "save-the-date-go-wild-area-2026",
+      "source_locale": "en",
+      "status": "announced",
+      "notes": ""
+    },
+    {
+      "id": "event-apac-30th-anniversary-2026",
+      "title": "PokéXciting! Singapore",
+      "start": "2026-11-07",
+      "end": "2026-11-08",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Singapore",
+      "source_url": "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026"
+      ],
+      "source_slug": "event-apac-30th-anniversary-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-run-30-2026-2",
+      "title": "Pokémon RUN 30 × Pokémon GO – Singapore",
+      "start": "2026-11-07",
+      "end": "2026-11-08",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Singapore",
+      "source_url": "https://pokemongo.com/en/news/pokemon-run-30-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-run-30-2026"
+      ],
+      "source_slug": "pokemon-run-30-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "save-the-date-go-wild-area-2026-2",
+      "title": "Pokémon GO Wild Area 2026 – Global",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "category": "Wild Area",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/save-the-date-go-wild-area-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/save-the-date-go-wild-area-2026"
+      ],
+      "source_slug": "save-the-date-go-wild-area-2026",
+      "source_locale": "en",
+      "status": "announced",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-run-30-2026-taiwan-new-taipei",
+      "title": "Pokémon RUN 30 × Pokémon GO – New Taipei",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "New Taipei Metropolitan Park, Taiwan",
+      "source_url": "https://pokemongo.com/en/news/pokemon-run-30-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-run-30-2026"
+      ],
+      "source_slug": "pokemon-run-30-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "One of the 2026 Pokémon RUN 30 regional events."
+    },
+    {
+      "id": "community-day-november-21-2026",
+      "title": "November 2026 Community Day",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/save-the-date-s24",
+      "source_urls": [
+        "https://pokemongo.com/en/news/save-the-date-s24"
+      ],
+      "source_slug": "save-the-date-s24",
+      "source_locale": "en",
+      "status": "announced",
+      "notes": "Date announced in the Season save-the-date post; featured Pokémon had not yet been specified in the bootstrap data."
+    },
+    {
+      "id": "pokemon-run-30-2026-3",
+      "title": "Pokémon RUN 30 × Pokémon GO – Malaysia",
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Malaysia",
+      "source_url": "https://pokemongo.com/en/news/pokemon-run-30-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-run-30-2026"
+      ],
+      "source_slug": "pokemon-run-30-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-run-30-2026-4",
+      "title": "Pokémon RUN 30 × Pokémon GO – Indonesia",
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Indonesia",
+      "source_url": "https://pokemongo.com/en/news/pokemon-run-30-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-run-30-2026"
+      ],
+      "source_slug": "pokemon-run-30-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
     }
   ]
 }
