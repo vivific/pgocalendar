@@ -73,7 +73,7 @@ main { padding: 22px 24px 0 40px; }
   border-left: 1px solid rgba(223,229,239,.42);
 }
 .day.weekend { background: #f5f7fb; }
-.day.today { background: #fff1a9; color: #5f5200; font-weight: 900; }
+.day.today { background: #ffa9c9; color: #5f5200; font-weight: 900; }
 .event-row { height: var(--row-h); border-bottom: 1px solid #edf0f5; position: relative; }
 .row-label {
   grid-column: 1; position: sticky; left: 0; z-index: 5; padding: 0 10px; display: flex; align-items: center;
@@ -82,7 +82,7 @@ main { padding: 22px 24px 0 40px; }
 .row-grid { grid-column: 2 / -1; grid-row: 1; display: grid; grid-template-columns: repeat(var(--days), var(--day)); }
 .cell { border-left: 1px solid rgba(223,229,239,.32); }
 .cell.weekend { background: #fafbfc; }
-.cell.today { background: #fff8cf; }
+.cell.today { background: #df2362; }
 .bar {
   grid-row: 1; z-index: 3; align-self: center; height: 42px; border: 0; border-radius: 9px;
   position: relative; display: block; background: var(--accent); color: white; padding: 0; text-align: left;
