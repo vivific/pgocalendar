@@ -63,18 +63,19 @@ Likewise, when one article lists distinct sports game-day activations at differe
 
 ## Access classification
 
-Every event must have an `access` array containing one or more of:
+Every new or actively maintained event must have an `access` array containing one or more of:
 
 - `global` — broadly available without a regional restriction.
-- `regional` — restricted to a country/region, but the source does not clearly require a particular venue/geofence/partner location.
-- `onsite` — gameplay or activation requires physical presence in a specified city, venue, meetup zone, event area, or geofenced location.
-- `partner` — participation depends on visiting a named partner's location/PokéStop/store/museum/etc.
+- `regional` — restricted to a country/region, but the source does not clearly require a particular venue/geofence.
+- `onsite` — gameplay or activation requires physical presence in a specified city, venue, store, museum, partner location, meetup zone, event area, or geofenced location.
 - `code` — a redemption/participation code is required to unlock the research or event content.
 - `ticketed` — paid ticket or registration is required for the gameplay window.
 
+`partner` is deprecated as an access tag. Older historical records may still contain it for backward compatibility, but do not assign it to new events. A partnership describes the source/context of an event, not the player's access method; use `onsite`, `code`, `ticketed`, or `regional` as appropriate.
+
 Multiple access tags may apply. For example, a paid in-person GO Fest is `["onsite","ticketed"]`.
 
-Do not mark an event `ticketed` merely because an optional paid ticket exists. Do not mark an event `onsite` unless physical presence is actually part of access.
+Do not mark an event `ticketed` merely because an optional paid ticket exists. Do not mark an event `onsite` unless physical presence is actually part of access. Do not add a separate access tag merely to indicate that a brand, retailer, museum, sports team, or other partner is involved.
 
 ## Canonical event schema
 
