@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-20T18:51:26.151Z",
+  "updated_at": "2026-09-20T18:52:26.928Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -9066,7 +9066,8 @@
       "notes": "",
       "access": [
         "global"
-      ]
+      ],
+      "regional_type": "timed_research"
     },
     {
       "id": "pikachu-korea-outing-2026",
