@@ -196,6 +196,17 @@ function showEvent(id) {
     els.detailTitle.insertAdjacentElement("afterend",badgeRow);
   }
   badgeRow.innerHTML=badges;
+
+  const bonuses=bonusList(e);
+  let bonusRow=els.dialog.querySelector(".bonus-badges");
+  if (!bonusRow) {
+    bonusRow=document.createElement("div");
+    bonusRow.className="bonus-badges";
+    badgeRow.insertAdjacentElement("afterend",bonusRow);
+  }
+  bonusRow.innerHTML=bonuses.map(b=>`<span class="bonus-badge ${escapeHtml(b.type||"")}">${escapeHtml(bonusLabel(b))}</span>`).join("");
+  bonusRow.hidden=!bonuses.length;
+
   const fields=[
     ["When",humanRange(e.start,e.end)],
     ["Location",e.location||""],
