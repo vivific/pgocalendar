@@ -2408,24 +2408,24 @@
       ]
     },
     {
-      "id": "mcdonalds-japan-2026",
-      "title": "McDonald's Japan × Pokémon GO",
+      "id": "mcdonalds-japan-timed-challenge-2026",
+      "title": "McDonald's Japan Timed Challenge",
       "start": "2026-07-20",
       "end": "2026-09-01",
-      "category": "Regional / Collaboration",
+      "category": "Timed Research",
       "scope": "Regional",
-      "location": "McDonald’s locations, Japan",
-      "source_url": "https://pokemongo.com/en/news/202607backtomcd",
+      "location": "Japan",
+      "access": [
+        "code"
+      ],
+      "source_url": "https://pokemongo.com/ja/news/202607backtomcd",
       "source_urls": [
-        "https://pokemongo.com/en/news/202607backtomcd"
+        "https://pokemongo.com/ja/news/202607backtomcd"
       ],
       "source_slug": "202607backtomcd",
-      "source_locale": "en",
+      "source_locale": "ja",
       "status": "confirmed",
-      "notes": "Participating McDonald’s locations became PokéStops and offered rotating Field Research.",
-      "access": [
-        "partner"
-      ]
+      "notes": "Unlocked by redeeming a promotion code obtained through My McDonald's Rewards. Code acquisition ended August 31; code registration ended September 1 at 19:59 JST; Timed Challenge completion deadline was September 1 at 23:59 JST."
     },
     {
       "id": "happy-birthday-professor-willow-2026",
@@ -3068,26 +3068,6 @@
       ]
     },
     {
-      "id": "legend-research-jp",
-      "title": "Legend Research in Nihonbashi & Yaesu",
-      "start": "2026-09-09",
-      "end": "2026-11-29",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Nihonbashi & Yaesu, Tokyo, Japan",
-      "source_url": "https://pokemongo.com/en/news/legend_research_jp",
-      "source_urls": [
-        "https://pokemongo.com/en/news/legend_research_jp"
-      ],
-      "source_slug": "legend_research_jp",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
-      ]
-    },
-    {
       "id": "communitydayclassic-gible-september-2026",
       "title": "September 2026 Community Day Classic: Gible",
       "start": "2026-09-12",
@@ -3470,26 +3450,6 @@
       ]
     },
     {
-      "id": "2026oct-skmtw",
-      "title": "Shin Kong Mitsukoshi × Pokémon GO Postcards",
-      "start": "2026-10-01",
-      "end": "2026-12-31",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Taiwan",
-      "source_url": "https://pokemongo.com/en/news/2026oct-skmtw",
-      "source_urls": [
-        "https://pokemongo.com/en/news/2026oct-skmtw"
-      ],
-      "source_slug": "2026oct-skmtw",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "partner"
-      ]
-    },
-    {
       "id": "patterns-of-the-wild-2026-2",
       "title": "Patterns of the Wild – Indonesia",
       "start": "2026-10-02",
@@ -3751,26 +3711,6 @@
       ]
     },
     {
-      "id": "event-apac-30th-anniversary-2026",
-      "title": "PokéXciting! Singapore",
-      "start": "2026-11-07",
-      "end": "2026-11-08",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Singapore",
-      "source_url": "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026"
-      ],
-      "source_slug": "event-apac-30th-anniversary-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
-      ]
-    },
-    {
       "id": "pokemon-run-30-2026-2",
       "title": "Pokémon RUN 30 × Pokémon GO – Singapore",
       "start": "2026-11-07",
@@ -3783,6 +3723,26 @@
         "https://pokemongo.com/en/news/pokemon-run-30-2026"
       ],
       "source_slug": "pokemon-run-30-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
+    },
+    {
+      "id": "event-apac-30th-anniversary-2026",
+      "title": "PokéXciting! Singapore",
+      "start": "2026-11-07",
+      "end": "2026-11-08",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Singapore",
+      "source_url": "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026"
+      ],
+      "source_slug": "event-apac-30th-anniversary-2026",
       "source_locale": "en",
       "status": "confirmed",
       "notes": "",
