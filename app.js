@@ -76,6 +76,13 @@ const REGIONAL_TYPE_LABELS = {
   stamp_rally: "Stamp Rally",
   other: "Other"
 };
+const REGIONAL_TYPE_ICONS = {
+  timed_research: "⏱",
+  local_raid: "📍",
+  free_code: "🆓",
+  paid_code: "💲",
+  stamp_rally: "💮"
+};
 const REGIONAL_TYPE_ORDER = {
   timed_research: 0,
   local_raid: 1,
@@ -109,15 +116,16 @@ function bonusPrefix(e) {
     .join(" · ");
 }
 function displayTitle(e) {
-  const prefix=bonusPrefix(e);
-  return prefix ? `${prefix} · ${e.title}` : e.title;
+  const parts=[];
+  const regionalIcon=REGIONAL_TYPE_ICONS[e.regional_type];
+  const bonus=bonusPrefix(e);
+  if (regionalIcon) parts.push(regionalIcon);
+  if (bonus) parts.push(bonus);
+  return parts.length ? `${parts.join(" ")} ${e.title}` : e.title;
 }
 function primaryAccess(e) {
   const a=accessList(e);
   return ["code","ticketed","partner","onsite","regional","global"].find(x=>a.includes(x)) || "regional";
-}
-function regionalTypeClass(e) {
-  return REGIONAL_TYPE_LABELS[e.regional_type] ? ` rt-${e.regional_type.replace(/_/g,"-")}` : "";
 }
 function regionalTypeRank(e) {
   return Object.prototype.hasOwnProperty.call(REGIONAL_TYPE_ORDER,e.regional_type)
@@ -232,7 +240,7 @@ function render() {
       const col=daysBetween(`${year}-01-01`,e._start)+2;
       const span=daysBetween(e._start,e._end)+1;
       const ongoing=!e.end ? " ongoing" : "";
-      return `<button class="bar ${primaryAccess(e)}${regionalTypeClass(e)}${ongoing}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(displayTitle(e))} — ${humanRange(e.start,e.end)}"><span class="bar-label">${escapeHtml(displayTitle(e))}</span></button>`;
+      return `<button class="bar ${primaryAccess(e)}${ongoing}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(displayTitle(e))} — ${humanRange(e.start,e.end)}"><span class="bar-label">${escapeHtml(displayTitle(e))}</span></button>`;
     }).join("");
     html += `<div class="event-row"><div class="row-label">Track ${ri+1}</div><div class="row-grid">${cells}</div>${bars}</div>`;
   });
