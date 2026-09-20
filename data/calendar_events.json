@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-20T16:44:38.896Z",
+  "updated_at": "2026-09-20T17:20:53.791Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -4026,6 +4026,406 @@
       "notes": ""
     },
     {
+      "id": "communityday-october-2025-solosis",
+      "title": "October 2025 Community Day: Solosis",
+      "start": "2025-10-12",
+      "end": "2025-10-12",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/communityday-october-2025-solosis",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-october-2025-solosis"
+      ],
+      "source_slug": "communityday-october-2025-solosis",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "trade-day-2025-10-12",
+      "title": "Trade Day",
+      "start": "2025-10-12",
+      "end": "2025-10-12",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/trade-days-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/trade-days-2025"
+      ],
+      "source_slug": "trade-days-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
+    },
+    {
+      "id": "pokemon-legends-z-a-celebration",
+      "title": "Pokémon Legends: Z-A Celebration Event",
+      "start": "2025-10-16",
+      "end": "2025-10-20",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-legends-z-a-celebration",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-legends-z-a-celebration"
+      ],
+      "source_slug": "pokemon-legends-z-a-celebration",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mega-rayquaza-raid-day-2025",
+      "title": "Mega Rayquaza Raid Day",
+      "start": "2025-10-18",
+      "end": "2025-10-18",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mega-rayquaza-raid-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mega-rayquaza-raid-day-2025"
+      ],
+      "source_slug": "mega-rayquaza-raid-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "festival-of-lights-2025",
+      "title": "Festival of Lights",
+      "start": "2025-10-18",
+      "end": "2025-10-23",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "India",
+      "access": [
+        "regional"
+      ],
+      "source_url": "https://pokemongo.com/en/news/festival-of-lights-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/festival-of-lights-2025"
+      ],
+      "source_slug": "festival-of-lights-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "trade-day-2025-10-19",
+      "title": "Trade Day",
+      "start": "2025-10-19",
+      "end": "2025-10-19",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/trade-days-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/trade-days-2025"
+      ],
+      "source_slug": "trade-days-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
+    },
+    {
+      "id": "halloween-part-1-2025",
+      "title": "Halloween 2025 Part I",
+      "start": "2025-10-21",
+      "end": "2025-10-27",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/halloween-part-1-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/halloween-part-1-2025"
+      ],
+      "source_slug": "halloween-part-1-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-halloween-2025",
+      "title": "GO Pass: Halloween 2025",
+      "start": "2025-10-21",
+      "end": "2025-11-02",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/ja/news/go-pass-halloween-2025",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/go-pass-halloween-2025"
+      ],
+      "source_slug": "go-pass-halloween-2025",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "tw-stamprally2025",
+      "title": "Taiwan GO Stamp Rally",
+      "start": "2025-10-21",
+      "end": "2025-11-16",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Taiwan",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/tw-stamprally2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/tw-stamprally2025"
+      ],
+      "source_slug": "tw-stamprally2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gbl-weekend-tales-of-transformation-2025",
+      "title": "GO Battle Weekend: Tales of Transformation",
+      "start": "2025-10-25",
+      "end": "2025-10-26",
+      "category": "GO Battle League",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-tales-of-transformation",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-battle-league-tales-of-transformation"
+      ],
+      "source_slug": "go-battle-league-tales-of-transformation",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "trade-day-2025-10-26",
+      "title": "Trade Day",
+      "start": "2025-10-26",
+      "end": "2025-10-26",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/trade-days-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/trade-days-2025"
+      ],
+      "source_slug": "trade-days-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
+    },
+    {
+      "id": "dia-de-muertos-2025",
+      "title": "Día de Muertos 2025",
+      "start": "2025-10-27",
+      "end": "2025-11-02",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/dia-de-muertos-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/dia-de-muertos-2025"
+      ],
+      "source_slug": "dia-de-muertos-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "halloween-part-2-2025",
+      "title": "Halloween 2025 Part II",
+      "start": "2025-10-27",
+      "end": "2025-11-02",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/halloween-part-2-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/halloween-part-2-2025"
+      ],
+      "source_slug": "halloween-part-2-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gigantamax-garbodor-max-battle-day",
+      "title": "Gigantamax Garbodor Max Battle Day",
+      "start": "2025-11-01",
+      "end": "2025-11-01",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/gigantamax-garbodor-max-battle-day",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gigantamax-garbodor-max-battle-day"
+      ],
+      "source_slug": "gigantamax-garbodor-max-battle-day",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "observatory-sagamihara",
+      "title": "Pokémon Observatory Sagamihara × Pokémon GO",
+      "start": "2025-11-01",
+      "end": "2026-01-12",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Sagamihara, Japan",
+      "access": [
+        "partner"
+      ],
+      "source_url": "https://pokemongo.com/en/news/observatory_sagamihara",
+      "source_urls": [
+        "https://pokemongo.com/en/news/observatory_sagamihara"
+      ],
+      "source_slug": "observatory_sagamihara",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "202511-mega-tokkun",
+      "title": "Pokémon GO Mega Training at AEON Mall",
+      "start": "2025-11-01",
+      "end": "2026-01-25",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "access": [
+        "partner"
+      ],
+      "source_url": "https://pokemongo.com/en/news/202511-mega-tokkun",
+      "source_urls": [
+        "https://pokemongo.com/en/news/202511-mega-tokkun"
+      ],
+      "source_slug": "202511-mega-tokkun",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "trade-day-2025-11-02",
+      "title": "Trade Day",
+      "start": "2025-11-02",
+      "end": "2025-11-02",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/trade-days-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/trade-days-2025"
+      ],
+      "source_slug": "trade-days-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
+    },
+    {
+      "id": "enchanted-hollow-2025",
+      "title": "Enchanted Hollow",
+      "start": "2025-11-04",
+      "end": "2025-11-09",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/enchanted-hollow-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/enchanted-hollow-2025"
+      ],
+      "source_slug": "enchanted-hollow-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-november-2025",
+      "title": "GO Pass: November",
+      "start": "2025-11-04",
+      "end": "2025-12-02",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/ja/news/go-pass-november-2025",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/go-pass-november-2025"
+      ],
+      "source_slug": "go-pass-november-2025",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "tcg-mega-lucario-ex",
+      "title": "Pokémon TCG: Mega Lucario ex Release Celebration",
+      "start": "2025-11-07",
+      "end": "2025-11-30",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Participating retail locations",
+      "access": [
+        "partner"
+      ],
+      "source_url": "https://pokemongo.com/en/news/tcg-mega-lucario-ex",
+      "source_urls": [
+        "https://pokemongo.com/en/news/tcg-mega-lucario-ex"
+      ],
+      "source_slug": "tcg-mega-lucario-ex",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
       "id": "poke-lid-stamp-rally-kyushu-okinawa",
       "title": "Poké Lid Stamp Rally – Kyushu & Okinawa",
       "start": "2025-11-07",
@@ -4046,6 +4446,46 @@
       "notes": "Ongoing GO Stamp Rally at Poké Lid PokéStops. The official article states there is no set end date. Collecting stamps can award encounters with Pikachu featuring prefecture Location Backgrounds."
     },
     {
+      "id": "trade-day-2025-11-09",
+      "title": "Trade Day",
+      "start": "2025-11-09",
+      "end": "2025-11-09",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/trade-days-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/trade-days-2025"
+      ],
+      "source_slug": "trade-days-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
+    },
+    {
+      "id": "into-the-wild-2025",
+      "title": "Into the Wild",
+      "start": "2025-11-10",
+      "end": "2025-11-14",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/into-the-wild-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/into-the-wild-2025"
+      ],
+      "source_slug": "into-the-wild-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
       "id": "nagasaki-go-stamp-rally",
       "title": "Pokémon GO Stamp Rally in Nagasaki",
       "start": "2025-11-10",
@@ -4064,6 +4504,547 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Ongoing eight-stop city stamp rally. Completing all eight stamps awards an encounter with Ampharos featuring a Nagasaki Location Background. The official article gives no end date."
+    },
+    {
+      "id": "community-celebrations-go-wild-area-2025",
+      "title": "GO Wild Area 2025 Community Celebrations",
+      "start": "2025-11-15",
+      "end": "2025-11-15",
+      "category": "Wild Area",
+      "scope": "Regional / In-person",
+      "location": "Select Community Ambassador locations",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/community-celebrations-go-wild-area-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/community-celebrations-go-wild-area-2025"
+      ],
+      "source_slug": "community-celebrations-go-wild-area-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gowildtw-2025dreammall",
+      "title": "GO Wild Area 2025: Global – Dream Mall Activation",
+      "start": "2025-11-15",
+      "end": "2025-11-15",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Dream Mall, Kaohsiung, Taiwan",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/gowildtw-2025dreammall",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gowildtw-2025dreammall"
+      ],
+      "source_slug": "gowildtw-2025dreammall",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-wild-area-global-2025",
+      "title": "Pokémon GO Wild Area: Global 2025",
+      "start": "2025-11-15",
+      "end": "2025-11-16",
+      "category": "Wild Area",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/get-ready-for-gowildarea-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/get-ready-for-gowildarea-2025"
+      ],
+      "source_slug": "get-ready-for-gowildarea-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "trade-day-2025-11-16",
+      "title": "Trade Day",
+      "start": "2025-11-16",
+      "end": "2025-11-16",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/trade-days-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/trade-days-2025"
+      ],
+      "source_slug": "trade-days-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
+    },
+    {
+      "id": "high-voltage-2025",
+      "title": "High Voltage",
+      "start": "2025-11-18",
+      "end": "2025-11-22",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/high-voltage-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/high-voltage-2025"
+      ],
+      "source_slug": "high-voltage-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "eevee-max-battle-weekend-2025",
+      "title": "Dynamax Eevee Max Battle Weekend",
+      "start": "2025-11-21",
+      "end": "2025-11-24",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/eevee-max-battle-weekend-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/eevee-max-battle-weekend-2025"
+      ],
+      "source_slug": "eevee-max-battle-weekend-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "trade-day-2025-11-23",
+      "title": "Trade Day",
+      "start": "2025-11-23",
+      "end": "2025-11-23",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/trade-days-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/trade-days-2025"
+      ],
+      "source_slug": "trade-days-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
+    },
+    {
+      "id": "final-justice-2025",
+      "title": "Final Justice",
+      "start": "2025-11-25",
+      "end": "2025-11-30",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/final-justice-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/final-justice-2025"
+      ],
+      "source_slug": "final-justice-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "lugia-max-battle-weekend-2025",
+      "title": "Dynamax Lugia Max Battle Weekend",
+      "start": "2025-11-29",
+      "end": "2025-11-30",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/lugia-max-battle-weekend-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/lugia-max-battle-weekend-2025"
+      ],
+      "source_slug": "lugia-max-battle-weekend-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communityday-november-2025-pikipek",
+      "title": "November Community Day: Pikipek",
+      "start": "2025-11-30",
+      "end": "2025-11-30",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/communityday-november-2025-pikipek",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-november-2025-pikipek"
+      ],
+      "source_slug": "communityday-november-2025-pikipek",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "trade-day-2025-11-30",
+      "title": "Trade Day",
+      "start": "2025-11-30",
+      "end": "2025-11-30",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/trade-days-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/trade-days-2025"
+      ],
+      "source_slug": "trade-days-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
+    },
+    {
+      "id": "journey-to-paldea-2025",
+      "title": "Journey to Paldea",
+      "start": "2025-12-02",
+      "end": "2025-12-09",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/journey-to-paldea-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/journey-to-paldea-2025"
+      ],
+      "source_slug": "journey-to-paldea-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-december-2025",
+      "title": "GO Pass: December",
+      "start": "2025-12-02",
+      "end": "2026-01-06",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/go-pass-december-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-pass-december-2025"
+      ],
+      "source_slug": "go-pass-december-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gbl-precious-paths-2025",
+      "title": "GO Battle League: Precious Paths",
+      "start": "2025-12-02",
+      "end": "2026-03-03",
+      "category": "GO Battle League",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-precious-paths",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-battle-league-precious-paths"
+      ],
+      "source_slug": "go-battle-league-precious-paths",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gbl-week-precious-paths-2025",
+      "title": "GO Battle Week: Precious Paths",
+      "start": "2025-12-04",
+      "end": "2025-12-08",
+      "category": "GO Battle League",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-precious-paths",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-battle-league-precious-paths"
+      ],
+      "source_slug": "go-battle-league-precious-paths",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "community-day-december-2025",
+      "title": "December Community Day 2025",
+      "start": "2025-12-06",
+      "end": "2025-12-07",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/community-day-december-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/community-day-december-2025"
+      ],
+      "source_slug": "community-day-december-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "well-armed-2025",
+      "title": "Well Armed",
+      "start": "2025-12-11",
+      "end": "2025-12-16",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/well-armed-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/well-armed-2025"
+      ],
+      "source_slug": "well-armed-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "ko-seoul-lantern-festival",
+      "title": "Seoul Lantern Festival × Pokémon GO",
+      "start": "2025-12-12",
+      "end": "2025-12-17",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Seoul, South Korea",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/ko-seoul-lantern-festival",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-seoul-lantern-festival"
+      ],
+      "source_slug": "ko-seoul-lantern-festival",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "city-safari-miami-know-before-you-go",
+      "title": "Tips for discovering Miami with your new Eevee as a Buddy Pokémon!",
+      "start": "2025-12-13",
+      "end": "2025-12-14",
+      "category": "City Safari",
+      "scope": "Regional / In-person",
+      "location": "Miami, Florida, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/city-safari-miami-know-before-you-go",
+      "source_urls": [
+        "https://pokemongo.com/en/news/city-safari-miami-know-before-you-go"
+      ],
+      "source_slug": "city-safari-miami-know-before-you-go",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gigantamax-snorlax-max-battle-day-2025",
+      "title": "Gigantamax Snorlax Max Battle Day",
+      "start": "2025-12-14",
+      "end": "2025-12-14",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/gigantamax-snorlax-max-battle-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gigantamax-snorlax-max-battle-day-2025"
+      ],
+      "source_slug": "gigantamax-snorlax-max-battle-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "winter-holiday-part1-2025",
+      "title": "Winter Holiday Part 1",
+      "start": "2025-12-18",
+      "end": "2025-12-24",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/winter-holiday-part1-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/winter-holiday-part1-2025"
+      ],
+      "source_slug": "winter-holiday-part1-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-winter-holiday-2025",
+      "title": "GO Pass: Winter Holiday 2025",
+      "start": "2025-12-18",
+      "end": "2025-12-29",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/winter-holiday-part1-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/winter-holiday-part1-2025"
+      ],
+      "source_slug": "winter-holiday-part1-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "partner-research-softbank-winter-2025",
+      "title": "Partner Research: SoftBank",
+      "start": "2025-12-19",
+      "end": "2026-02-28",
+      "category": "Timed Research",
+      "scope": "Regional",
+      "location": "Japan",
+      "access": [
+        "code"
+      ],
+      "source_url": "https://pokemongo.com/en/news/202512partnerresearch-jp",
+      "source_urls": [
+        "https://pokemongo.com/en/news/202512partnerresearch-jp"
+      ],
+      "source_slug": "202512partnerresearch-jp",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "celestial-research-day-2025",
+      "title": "Celestial Research Day",
+      "start": "2025-12-20",
+      "end": "2025-12-20",
+      "category": "Research Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/celestial-research-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/celestial-research-day-2025"
+      ],
+      "source_slug": "celestial-research-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemongoattechfest2025",
+      "title": "Pokémon GO is coming to IIT-Bombay for Techfest 2025!",
+      "start": "2025-12-22",
+      "end": "2025-12-24",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Mumbai, India",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemongoattechfest2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemongoattechfest2025"
+      ],
+      "source_slug": "pokemongoattechfest2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "winter-holiday-part2-2025",
+      "title": "Winter Holiday Part 2",
+      "start": "2025-12-24",
+      "end": "2025-12-29",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/winter-holiday-part2-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/winter-holiday-part2-2025"
+      ],
+      "source_slug": "winter-holiday-part2-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "winter-weekend-2025",
+      "title": "Winter Weekend",
+      "start": "2025-12-27",
+      "end": "2025-12-28",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/winter-holiday-part2-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/winter-holiday-part2-2025"
+      ],
+      "source_slug": "winter-holiday-part2-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
     },
     {
       "id": "new-years-2026",
