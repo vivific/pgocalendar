@@ -13,12 +13,12 @@
   --partner: #bf7a22;
   --code: #31835d;
   --ticketed: #b44f63;
-  --rt-timed-research: #ffd54f;
-  --rt-local-raid: #ff5f5f;
-  --rt-free-code: #4ade80;
-  --rt-paid-code: #ff9f43;
-  --rt-stamp-rally: #38cbe6;
-  --rt-other: #f8fafc;
+  --rt-timed-research: #c7a23b;
+  --rt-local-raid: #c85f6b;
+  --rt-free-code: #559676;
+  --rt-paid-code: #b97a45;
+  --rt-stamp-rally: #4f8fa8;
+  --rt-other: #8d96a5;
 }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 0; width: 100%; overflow-x: hidden; }
@@ -52,7 +52,7 @@ main { padding: 22px 24px 0 40px; }
 .subtype-legend { margin-bottom: 6px; }
 .subtype-legend[hidden] { display: none; }
 .subtype-legend .legend-title { font-weight: 800; color: #4d5870; }
-.outline-swatch { width: 14px; height: 10px; border-radius: 3px; background: #667085; border: 3px solid transparent; }
+.outline-swatch { width: 14px; height: 10px; border-radius: 3px; background: #667085; border: 2px solid transparent; box-shadow: inset 0 0 0 1px rgba(255,255,255,.22); }
 .outline-swatch.rt-timed-research { border-color: var(--rt-timed-research); }
 .outline-swatch.rt-local-raid { border-color: var(--rt-local-raid); }
 .outline-swatch.rt-free-code { border-color: var(--rt-free-code); }
@@ -100,10 +100,11 @@ main { padding: 22px 24px 0 40px; }
 .cell.weekend { background: #fafbfc; }
 .cell.today { background: #df2362; }
 .bar {
-  grid-row: 1; z-index: 3; align-self: center; height: 42px; border: 3px solid transparent; border-radius: 9px;
+  grid-row: 1; z-index: 3; align-self: center; height: 42px; border: 2px solid transparent; border-radius: 9px;
   position: relative; display: block; background: var(--accent); color: white; padding: 0; text-align: left;
   font-size: 11px; font-weight: 750; white-space: nowrap; overflow: visible;
-  clip-path: inset(0 round 7px); cursor: pointer; box-shadow: 0 1px 2px rgba(18,30,56,.16);
+  clip-path: inset(0 round 7px); cursor: pointer;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.20), 0 1px 2px rgba(18,30,56,.16);
 }
 .bar-label {
   position: sticky;
