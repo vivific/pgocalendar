@@ -13,12 +13,6 @@ background: #f5f7fb;
 --partner: #bf7a22;
 --code: #31835d;
 --ticketed: #c44f8a;
---rt-timed-research: #ffd84a;
---rt-local-raid: #ff6b62;
---rt-free-code: #8ed34f;
---rt-paid-code: #ff9f3d;
---rt-stamp-rally: #35d4d0;
---rt-other: #b9e4f7;
 }
 
 { box-sizing: border-box; }
@@ -53,13 +47,6 @@ min-height: 38px; border: 1px solid #d6dce6; border-radius: 9px; background: whi
 .subtype-legend { margin-bottom: 6px; }
 .subtype-legend[hidden] { display: none; }
 .subtype-legend .legend-title { font-weight: 800; color: #4d5870; }
-.outline-swatch { width: 14px; height: 10px; border-radius: 3px; background: #667085; border: 2px solid transparent; box-shadow: inset 0 0 0 1px rgba(255,255,255,.22); }
-.outline-swatch.rt-timed-research { border-color: var(--rt-timed-research); }
-.outline-swatch.rt-local-raid { border-color: var(--rt-local-raid); }
-.outline-swatch.rt-free-code { border-color: var(--rt-free-code); }
-.outline-swatch.rt-paid-code { border-color: var(--rt-paid-code); }
-.outline-swatch.rt-stamp-rally { border-color: var(--rt-stamp-rally); }
-.outline-swatch.rt-other { border-color: var(--rt-other); }
 .swatch { width: 10px; height: 10px; border-radius: 3px; background: var(--accent); }
 .swatch.regional { background: var(--regional); }
 .swatch.onsite { background: var(--onsite); }
@@ -101,7 +88,7 @@ background: white; border-right: 1px solid var(--grid); font-size: 11px; color: 
 .cell.weekend { background: #fafbfc; }
 .cell.today { background: #df2362; }
 .bar {
-grid-row: 1; z-index: 3; align-self: center; height: 42px; border: 2px solid transparent; border-radius: 9px;
+grid-row: 1; z-index: 3; align-self: center; height: 42px; border: 0; border-radius: 9px;
 position: relative; display: block; background: var(--accent); color: white; padding: 0; text-align: left;
 font-size: 11px; font-weight: 750; white-space: nowrap; overflow: visible;
 clip-path: inset(0 round 7px); cursor: pointer;
@@ -125,12 +112,6 @@ overflow-wrap: break-word;
 .bar.partner { background: var(--regional); }
 .bar.code { background: var(--regional); }
 .bar.ticketed { background: var(--ticketed); }
-.bar.rt-timed-research { border-color: var(--rt-timed-research); }
-.bar.rt-local-raid { border-color: var(--rt-local-raid); }
-.bar.rt-free-code { border-color: var(--rt-free-code); }
-.bar.rt-paid-code { border-color: var(--rt-paid-code); }
-.bar.rt-stamp-rally { border-color: var(--rt-stamp-rally); }
-.bar.rt-other { border-color: var(--rt-other); }
 .access-badges { display; flex-wrap; gap:6px; margin:0 0 16px; }
 .access-badge { display; align-items; border-radius:999px; padding:4px 8px; font-size:11px; font-weight:800; background:#edf1f7; color:#364155; }
 .access-badge.global { background:#e8eeff; }
