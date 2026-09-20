@@ -68,14 +68,26 @@ Every new or actively maintained event must have an `access` array containing on
 - `global` — broadly available without a regional restriction.
 - `regional` — restricted to a country/region, but the source does not clearly require a particular venue/geofence.
 - `onsite` — gameplay or activation requires physical presence in a specified city, venue, store, museum, partner location, meetup zone, event area, or geofenced location.
-- `code` — a redemption/participation code is required to unlock the research or event content.
 - `ticketed` — paid ticket or registration is required for the gameplay window.
 
-`partner` is deprecated as an access tag. Older historical records may still contain it for backward compatibility, but do not assign it to new events. A partnership describes the source/context of an event, not the player's access method; use `onsite`, `code`, `ticketed`, or `regional` as appropriate.
+`partner` and `code` are deprecated as access tags. Older historical records may still contain them for backward compatibility, but do not assign them to new events. A partnership describes event context, while code redemption describes an unlock mechanic; neither is itself geographic/physical access. Use `global`, `regional`, `onsite`, and/or `ticketed` as appropriate.
 
 Multiple access tags may apply. For example, a paid in-person GO Fest is `["onsite","ticketed"]`.
 
-Do not mark an event `ticketed` merely because an optional paid ticket exists. Do not mark an event `onsite` unless physical presence is actually part of access. Do not add a separate access tag merely to indicate that a brand, retailer, museum, sports team, or other partner is involved.
+Do not mark an event `ticketed` merely because an optional paid ticket exists. Do not mark an event `onsite` unless physical presence is actually part of access. Do not add a separate access tag merely to indicate that a brand, retailer, museum, sports team, or other partner is involved. Do not use access tags to encode whether a code is free or paid; that belongs in the regional/live subtype classification.
+
+## Regional/live subtype classification
+
+For current and future regional/live events, code acquisition and event mechanics should be represented separately from `access`. Use a `regional_type` field when applicable. Supported values are:
+
+- `timed_research` — regional Timed Research that is already unlocked/active or otherwise best understood as research.
+- `local_raid` — raids that require physical presence and cannot meaningfully be accessed remotely.
+- `free_code` — gameplay/research unlocked by a freely distributed code.
+- `paid_code` — gameplay/research unlocked by a code obtained through a purchase, paid participation, qualifying transaction, or equivalent paid acquisition.
+- `stamp_rally` — GO Stamp Rally gameplay.
+- `other` — substantive regional gameplay that does not fit the above.
+
+This subtype is a live usability aid, not a replacement for `category` or `access`. Do not create or preserve events solely for temporary PokéStops or other promotional map dressing.
 
 ## Canonical event schema
 
