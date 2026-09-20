@@ -52,19 +52,31 @@ main { padding: 22px 24px 0 40px; }
 .subtype-legend { margin-bottom: 6px; }
 .subtype-legend[hidden] { display: none; }
 .subtype-legend .legend-title { font-weight: 800; color: #4d5870; }
-.outline-swatch { width: 14px; height: 10px; border-radius: 3px; background: #667085; border: 2px solid transparent; box-shadow: inset 0 0 0 1px rgba(255,255,255,.22); }
-.outline-swatch.rt-timed-research { border-color: var(--rt-timed-research); }
-.outline-swatch.rt-local-raid { border-color: var(--rt-local-raid); }
-.outline-swatch.rt-free-code { border-color: var(--rt-free-code); }
-.outline-swatch.rt-paid-code { border-color: var(--rt-paid-code); }
-.outline-swatch.rt-stamp-rally { border-color: var(--rt-stamp-rally); }
-.outline-swatch.rt-other { border-color: var(--rt-other); }
-.swatch { width: 10px; height: 10px; border-radius: 3px; background: var(--accent); }
-.swatch.regional { background: var(--regional); }
-.swatch.onsite { background: var(--onsite); }
-.swatch.partner { background: var(--regional); }
-.swatch.code { background: var(--regional); }
-.swatch.ticketed { background: var(--ticketed); }
+/* Access legend = border color. Regional type legend = fill color. */
+.swatch, .outline-swatch { width: 14px; height: 10px; border-radius: 3px; }
+
+.legend .swatch {
+  background: #667085;
+  border: 2px solid transparent;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.22);
+}
+.legend .swatch.global { border-color: var(--accent); }
+.legend .swatch.regional { border-color: var(--regional); }
+.legend .swatch.onsite { border-color: var(--onsite); }
+.legend .swatch.ticketed { border-color: var(--ticketed); }
+.legend .swatch.partner { border-color: var(--regional); }
+.legend .swatch.code { border-color: var(--regional); }
+
+.subtype-legend .outline-swatch {
+  border: 0;
+  box-shadow: inset 0 0 0 1px rgba(23,32,51,.12);
+}
+.subtype-legend .outline-swatch.rt-timed-research { background: var(--rt-timed-research); }
+.subtype-legend .outline-swatch.rt-local-raid { background: var(--rt-local-raid); }
+.subtype-legend .outline-swatch.rt-free-code { background: var(--rt-free-code); }
+.subtype-legend .outline-swatch.rt-paid-code { background: var(--rt-paid-code); }
+.subtype-legend .outline-swatch.rt-stamp-rally { background: var(--rt-stamp-rally); }
+.subtype-legend .outline-swatch.rt-other { background: var(--rt-other); }
 .timeline-shell {
   position: relative; overflow: auto; background: white; border: 1px solid #dfe4ec; border-radius: 14px;
   min-height: 360px; max-height: calc(100vh - 260px);
@@ -101,7 +113,7 @@ main { padding: 22px 24px 0 40px; }
 .cell.today { background: #df2362; }
 .bar {
   grid-row: 1; z-index: 3; align-self: center; height: 42px; border: 2px solid transparent; border-radius: 9px;
-  position: relative; display: block; background: var(--accent); color: white; padding: 0; text-align: left;
+  position: relative; display: block; background: var(--rt-other); color: #172033; padding: 0; text-align: left;
   font-size: 11px; font-weight: 750; white-space: nowrap; overflow: visible;
   clip-path: inset(0 round 7px); cursor: pointer;
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.20), 0 1px 2px rgba(18,30,56,.16);
@@ -119,17 +131,23 @@ main { padding: 22px 24px 0 40px; }
   white-space: normal;
   overflow-wrap: break-word;
 }
-.bar.regional { background: var(--regional); }
-.bar.onsite { background: var(--onsite); }
-.bar.partner { background: var(--regional); }
-.bar.code { background: var(--regional); }
-.bar.ticketed { background: var(--ticketed); }
-.bar.rt-timed-research { border-color: var(--rt-timed-research); }
-.bar.rt-local-raid { border-color: var(--rt-local-raid); }
-.bar.rt-free-code { border-color: var(--rt-free-code); }
-.bar.rt-paid-code { border-color: var(--rt-paid-code); }
-.bar.rt-stamp-rally { border-color: var(--rt-stamp-rally); }
-.bar.rt-other { border-color: var(--rt-other); }
+/* Access = border color. */
+.bar.global { border-color: var(--accent); }
+.bar.regional { border-color: var(--regional); }
+.bar.onsite { border-color: var(--onsite); }
+.bar.ticketed { border-color: var(--ticketed); }
+
+/* Legacy historical access values remain readable. */
+.bar.partner { border-color: var(--regional); }
+.bar.code { border-color: var(--regional); }
+
+/* Regional type = fill color. */
+.bar.rt-timed-research { background: var(--rt-timed-research); }
+.bar.rt-local-raid { background: var(--rt-local-raid); }
+.bar.rt-free-code { background: var(--rt-free-code); }
+.bar.rt-paid-code { background: var(--rt-paid-code); }
+.bar.rt-stamp-rally { background: var(--rt-stamp-rally); }
+.bar.rt-other { background: var(--rt-other); }
 .access-badges { display:flex; flex-wrap:wrap; gap:6px; margin:0 0 16px; }
 .access-badge { display:inline-flex; align-items:center; border-radius:999px; padding:4px 8px; font-size:11px; font-weight:800; background:#edf1f7; color:#364155; }
 .access-badge.global { background:#e8eeff; }
@@ -169,6 +187,7 @@ footer p { margin: 0; }
   .day.today,.cell.today { background:#5c5523; color:#fff7bd; }
   .event-row { border-bottom-color:#252a34; }
   dialog { background:#1b2028; color:#e8ecf4; }
+  .bar { color:#172033; }
   .update-status { color:#c3cad6; }
 }
 
