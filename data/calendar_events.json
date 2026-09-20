@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-20T18:02:50.209Z",
+  "updated_at": "2026-09-20T18:07:12.852Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -4734,7 +4734,8 @@
       "source_slug": "pokelidsr_kyushu_okinawa",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Ongoing GO Stamp Rally at Poké Lid PokéStops. The official article states there is no set end date. Collecting stamps can award encounters with Pikachu featuring prefecture Location Backgrounds."
+      "notes": "Ongoing GO Stamp Rally at Poké Lid PokéStops. The official article states there is no set end date. Collecting stamps can award encounters with Pikachu featuring prefecture Location Backgrounds.",
+      "regional_type": "stamp_rally"
     },
     {
       "id": "trade-day-2025-11-09",
@@ -4794,7 +4795,8 @@
       "source_slug": "stamp-rally-nagasaki",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Ongoing eight-stop city stamp rally. Completing all eight stamps awards an encounter with Ampharos featuring a Nagasaki Location Background. The official article gives no end date."
+      "notes": "Ongoing eight-stop city stamp rally. Completing all eight stamps awards an encounter with Ampharos featuring a Nagasaki Location Background. The official article gives no end date.",
+      "regional_type": "stamp_rally"
     },
     {
       "id": "community-celebrations-go-wild-area-2025",
@@ -5804,7 +5806,8 @@
       "access": [
         "onsite",
         "ticketed"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "go-stamp-rally-cologne",
@@ -6945,7 +6948,8 @@
       "notes": "",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "local_raid"
     },
     {
       "id": "falinks-super-mega-raid-day-2026",
@@ -7853,7 +7857,8 @@
       "notes": "Special Pokémon GO activities began July 18; the partnership was later extended through December 31, 2026.",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "swallows-game",
@@ -8114,7 +8119,8 @@
       "notes": "",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "stamp_rally"
     },
     {
       "id": "mlb-orioles-2026",
@@ -8781,7 +8787,8 @@
       "notes": "Cross-region stamp series. Kuala Lumpur, Taipei, Singapore, and Manila stamp locations are scheduled through September 11, 2029; Bangkok details are to be announced.",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "stamp_rally"
     },
     {
       "id": "mlb-rays-2026",
@@ -8822,7 +8829,8 @@
       "notes": "",
       "access": [
         "regional"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "weekly-branching-tr-korea-2026-2",
@@ -8842,7 +8850,8 @@
       "notes": "",
       "access": [
         "regional"
-      ]
+      ],
+      "regional_type": "timed_research"
     },
     {
       "id": "partner-research-familymart-autumn-2026",
@@ -8911,7 +8920,8 @@
       "notes": "",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "local_raid"
     },
     {
       "id": "2026-ana-green",
@@ -8931,7 +8941,8 @@
       "notes": "",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "staraptor-super-mega-raid-day-2026",
@@ -8972,7 +8983,8 @@
       "source_slug": "mlb-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
+      "regional_type": "other"
     },
     {
       "id": "dancing-in-the-moonlight-2026",
@@ -8992,7 +9004,8 @@
       "notes": "",
       "access": [
         "regional"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "choose-your-path-twilight-trails-2026",
@@ -9032,7 +9045,8 @@
       "source_slug": "pikachu-autumn-picnic-korea-2026",
       "source_locale": "ko",
       "status": "confirmed",
-      "notes": "Nationwide Korea event with orange-hanbok Pikachu raids and free Timed Research. The event ends September 26; its Timed Research can be completed through October 11 at 8:00 p.m. KST."
+      "notes": "Nationwide Korea event with orange-hanbok Pikachu raids and free Timed Research. The event ends September 26; its Timed Research can be completed through October 11 at 8:00 p.m. KST.",
+      "regional_type": "other"
     },
     {
       "id": "mlb-red-sox-2026",
@@ -9053,7 +9067,8 @@
       "source_slug": "mlb-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay."
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
+      "regional_type": "other"
     },
     {
       "id": "catch-mastery-phantump-2026",
@@ -9094,7 +9109,8 @@
       "access": [
         "onsite",
         "ticketed"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "city-safari-brisbane-2026",
@@ -9116,7 +9132,8 @@
       "source_slug": "city-safari-brisbane-know-before-you-go",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day."
+      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day.",
+      "regional_type": "other"
     },
     {
       "id": "city-safari-lisbon-2026",
@@ -9138,7 +9155,8 @@
       "source_slug": "city-safari-lisbon-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day."
+      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day.",
+      "regional_type": "other"
     },
     {
       "id": "city-safari-marseille-2026",
@@ -9160,7 +9178,8 @@
       "source_slug": "city-safari-marseille-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day."
+      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day.",
+      "regional_type": "other"
     },
     {
       "id": "city-safari-munich-2026",
@@ -9182,7 +9201,8 @@
       "source_slug": "city-safari-munich-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day."
+      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day.",
+      "regional_type": "other"
     },
     {
       "id": "city-safari-rio-2026",
@@ -9204,7 +9224,8 @@
       "source_slug": "city-safari-rio-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day."
+      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day.",
+      "regional_type": "other"
     },
     {
       "id": "patterns-of-the-wild-2026-1",
@@ -9224,7 +9245,8 @@
       "notes": "",
       "access": [
         "regional"
-      ]
+      ],
+      "regional_type": "timed_research"
     },
     {
       "id": "harvest-festival-2026",
@@ -9264,7 +9286,8 @@
       "notes": "",
       "access": [
         "regional"
-      ]
+      ],
+      "regional_type": "timed_research"
     },
     {
       "id": "comic-con-malaga-2026",
@@ -9284,7 +9307,8 @@
       "notes": "",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "patterns-of-the-wild-2026-2",
@@ -9304,7 +9328,8 @@
       "notes": "",
       "access": [
         "regional"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "harvest-festival-tgr-2026",
@@ -9364,7 +9389,8 @@
       "notes": "",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "european-space-agency-event-1",
@@ -9384,7 +9410,8 @@
       "notes": "",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "local_raid"
     },
     {
       "id": "european-space-agency-event-2",
@@ -9404,7 +9431,8 @@
       "notes": "",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "local_raid"
     },
     {
       "id": "weekly-branching-tr-korea-2026-4",
@@ -9424,7 +9452,8 @@
       "notes": "",
       "access": [
         "regional"
-      ]
+      ],
+      "regional_type": "timed_research"
     },
     {
       "id": "communityday-october-2026-zorua",
@@ -9464,7 +9493,8 @@
       "notes": "",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "event-taipei-30th-anniversary-2026-2",
@@ -9484,7 +9514,8 @@
       "notes": "",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "stamp_rally"
     },
     {
       "id": "hatch-day-2026-10-17",
@@ -9524,7 +9555,8 @@
       "notes": "One of the 2026 Pokémon RUN 30 regional events.",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "max-battle-day-2026-10-24",
@@ -9584,7 +9616,8 @@
       "notes": "One of the 2026 Pokémon RUN 30 regional events.",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "go-wild-area-mexico-city-2026",
@@ -9606,7 +9639,8 @@
       "source_slug": "save-the-date-go-wild-area-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Ticketed live event. Event gameplay is available only at the date, time, and location on the ticket."
+      "notes": "Ticketed live event. Event gameplay is available only at the date, time, and location on the ticket.",
+      "regional_type": "other"
     },
     {
       "id": "go-wild-area-sendai-tohoku-2026",
@@ -9628,7 +9662,8 @@
       "source_slug": "save-the-date-go-wild-area-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Ticketed live event. A ticket covers one day of gameplay; extra-day add-ons are available."
+      "notes": "Ticketed live event. A ticket covers one day of gameplay; extra-day add-ons are available.",
+      "regional_type": "other"
     },
     {
       "id": "pokemon-run-30-2026-2",
@@ -9648,7 +9683,8 @@
       "notes": "",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "event-apac-30th-anniversary-2026",
@@ -9668,7 +9704,8 @@
       "notes": "",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "save-the-date-go-wild-area-2026-2",
@@ -9708,7 +9745,8 @@
       "notes": "One of the 2026 Pokémon RUN 30 regional events.",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "community-day-november-21-2026",
@@ -9748,7 +9786,8 @@
       "notes": "",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "super-mega-raid-day-2026-11-28",
@@ -9788,7 +9827,8 @@
       "notes": "",
       "access": [
         "onsite"
-      ]
+      ],
+      "regional_type": "other"
     },
     {
       "id": "pokemon-run-30-2027-thailand",
@@ -9808,7 +9848,8 @@
       "source_slug": "pokemon-run-30-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "One of the Pokémon RUN 30 regional gameplay events."
+      "notes": "One of the Pokémon RUN 30 regional gameplay events.",
+      "regional_type": "other"
     },
     {
       "id": "pokemon-run-30-2027-hong-kong",
@@ -9828,7 +9869,8 @@
       "source_slug": "pokemon-run-30-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "One of the Pokémon RUN 30 regional gameplay events."
+      "notes": "One of the Pokémon RUN 30 regional gameplay events.",
+      "regional_type": "other"
     },
     {
       "id": "pokexciting-manila-2027",
@@ -9848,7 +9890,8 @@
       "source_slug": "event-apac-30th-anniversary-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Pokémon 30th anniversary PokéXciting! city event with location-specific gameplay."
+      "notes": "Pokémon 30th anniversary PokéXciting! city event with location-specific gameplay.",
+      "regional_type": "other"
     },
     {
       "id": "pokexciting-bangkok-2027",
@@ -9868,7 +9911,8 @@
       "source_slug": "event-apac-30th-anniversary-2026",
       "source_locale": "en",
       "status": "announced",
-      "notes": "Dates are confirmed; event gameplay area/location details are still to be announced."
+      "notes": "Dates are confirmed; event gameplay area/location details are still to be announced.",
+      "regional_type": "other"
     }
   ]
 }
