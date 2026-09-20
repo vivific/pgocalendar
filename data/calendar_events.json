@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "updated_at": "2026-09-20",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
@@ -18,7 +18,10 @@
       "source_slug": "communitydayclassic-piplup-jan-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "pinch-perfect-2026",
@@ -35,7 +38,10 @@
       "source_slug": "pinch-perfect-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "go-pass-january-2026",
@@ -52,7 +58,10 @@
       "source_slug": "go-pass-january-2026",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "kyurem-fusion-raid-day-2026",
@@ -69,7 +78,10 @@
       "source_slug": "kyurem-fusion-raid-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "indonesia-carfreeday-jakarta-2026",
@@ -86,7 +98,10 @@
       "source_slug": "indonesia-carfreeday-jakarta-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "ao2026",
@@ -103,7 +118,10 @@
       "source_slug": "ao2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "high-zaptitude-2026",
@@ -120,7 +138,10 @@
       "source_slug": "high-zaptitude-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "communityday-january-2026-grookey",
@@ -137,7 +158,10 @@
       "source_slug": "communityday-january-2026-grookey",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "ko-winter-festival-2026",
@@ -154,7 +178,10 @@
       "source_slug": "ko-winter-festival-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "precious-pals-2026",
@@ -171,7 +198,10 @@
       "source_slug": "precious-pals-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "precious-pals-tgr-2026",
@@ -188,7 +218,10 @@
       "source_slug": "precious-pals-tgr-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "shadow-raikou-raid-day-2026",
@@ -205,7 +238,10 @@
       "source_slug": "shadow-raikou-raid-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "into-the-depths-2026",
@@ -222,7 +258,10 @@
       "source_slug": "into-the-depths-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "ho-oh-max-battle-weekend-2026",
@@ -239,7 +278,10 @@
       "source_slug": "ho-oh-max-battle-weekend-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "202601-communityday-february-2026-vulpix",
@@ -256,7 +298,10 @@
       "source_slug": "202601_communityday-february-2026-vulpix",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "carnival-of-flamigo-2026",
@@ -273,7 +318,10 @@
       "source_slug": "carnival-of-flamigo-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "carnaval-2026-in-rio-1",
@@ -290,7 +338,10 @@
       "source_slug": "carnaval-2026-in-rio",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "go-pass-february-2026",
@@ -307,7 +358,10 @@
       "source_slug": "go-pass-february-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "ppk-launch",
@@ -324,7 +378,10 @@
       "source_slug": "ppk_launch",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Ongoing daily PokéPark KANTO–exclusive Pokémon GO content beginning February 5, 2026; the source gives no end date."
+      "notes": "Ongoing daily PokéPark KANTO–exclusive Pokémon GO content beginning February 5, 2026; the source gives no end date.",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "go-stamp-rally-cologne",
@@ -341,7 +398,10 @@
       "source_slug": "go-stamp-rally-cologne",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "carnaval-2026-in-rio-2",
@@ -358,7 +418,10 @@
       "source_slug": "carnaval-2026-in-rio",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "catch-mastery-oricorio-2026",
@@ -375,7 +438,10 @@
       "source_slug": "catch-mastery-oricorio-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "valentines-day-2026",
@@ -392,7 +458,10 @@
       "source_slug": "valentines-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "euic-2026",
@@ -409,7 +478,10 @@
       "source_slug": "euic-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "enamorus-therian-raid-day-2026",
@@ -426,7 +498,10 @@
       "source_slug": "enamorus-therian-raid-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "gigantamax-meowth-max-battle-day-2026",
@@ -443,7 +518,10 @@
       "source_slug": "gigantamax-meowth-max-battle-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "lunar-new-year-event-2026",
@@ -460,7 +538,10 @@
       "source_slug": "lunar-new-year-event-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "go-tour-kalos-in-person-2026",
@@ -477,7 +558,11 @@
       "source_slug": "save-the-date-go-tour-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Two official in-person GO Tour events held on the same weekend."
+      "notes": "Two official in-person GO Tour events held on the same weekend.",
+      "access": [
+        "onsite",
+        "ticketed"
+      ]
     },
     {
       "id": "road-to-kalos-event",
@@ -494,7 +579,10 @@
       "source_slug": "road-to-kalos-event",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "community-celebration-madrid-2026",
@@ -511,7 +599,10 @@
       "source_slug": "community-celebration-madrid-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "go-tour-global-2026-australia",
@@ -528,7 +619,10 @@
       "source_slug": "go-tour-global-2026-australia",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "go-tour-kalos-global-seoul",
@@ -545,7 +639,10 @@
       "source_slug": "ko-gotour-global-on-site-event",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Official Korean on-site celebration for GO Tour: Kalos – Global."
+      "notes": "Official Korean on-site celebration for GO Tour: Kalos – Global.",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "go-tour-kalos-global-2026",
@@ -562,7 +659,10 @@
       "source_slug": "get-ready-for-gotour-kalos",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "pokemon-30th-anniversary-1",
@@ -579,7 +679,10 @@
       "source_slug": "pokemon-30th-anniversary",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "go-pass-march-2026",
@@ -596,7 +699,10 @@
       "source_slug": "go-pass-march-2026",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "go-battle-league-memories-in-motion",
@@ -613,7 +719,10 @@
       "source_slug": "go-battle-league-memories-in-motion",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Season window based on the official GO Battle League schedule."
+      "notes": "Season window based on the official GO Battle League schedule.",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "festival-of-colors-2026",
@@ -630,7 +739,10 @@
       "source_slug": "festival-of-colors-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "pokemon-30th-anniversary-2",
@@ -647,7 +759,10 @@
       "source_slug": "pokemon-30th-anniversary",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "pokemon-pokopia-celebration-event-2026",
@@ -664,7 +779,10 @@
       "source_slug": "pokemon-pokopia-celebration-event-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "communityday-march-2026-scorbunny",
@@ -681,7 +799,10 @@
       "source_slug": "communityday-march-2026-scorbunny",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "night-treats-2026",
@@ -698,7 +819,10 @@
       "source_slug": "night-treats-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "regional"
+      ]
     },
     {
       "id": "bug-out-2026",
@@ -715,7 +839,10 @@
       "source_slug": "bug-out-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "replay-water-research-day-2026",
@@ -732,7 +859,10 @@
       "source_slug": "replay-water-research-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "gigantamax-pikachu-max-battle-day-2026",
@@ -749,7 +879,10 @@
       "source_slug": "gigantamax-pikachu-max-battle-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "tw-floral-picnic-2026",
@@ -766,7 +899,10 @@
       "source_slug": "tw-floral-picnic-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "a-shockingly-good-time",
@@ -783,7 +919,10 @@
       "source_slug": "a-shockingly-good-time",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "an-egg-cellent-adventure-2026",
@@ -800,7 +939,10 @@
       "source_slug": "an-egg-cellent-adventure-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "giants-game",
@@ -817,7 +959,10 @@
       "source_slug": "giants_game",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "fashion-raid-day-2026",
@@ -834,7 +979,10 @@
       "source_slug": "fashion-raid-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "go-pass-april-2026",
@@ -851,7 +999,10 @@
       "source_slug": "go-pass-april-2026",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "partner-research-familymart-spring-2026",
@@ -868,7 +1019,10 @@
       "source_slug": "202603partnerresearch-jp",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": "Research unlocks after redeeming a participation code. FamilyMart ticket acquisition ran Apr 7–May 4; research completion deadline was Jun 30."
+      "notes": "Research unlocks after redeeming a participation code. FamilyMart ticket acquisition ran Apr 7–May 4; research completion deadline was Jun 30.",
+      "access": [
+        "code"
+      ]
     },
     {
       "id": "eagles-game",
@@ -885,7 +1039,10 @@
       "source_slug": "eagles_game",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "communityday-april-2026-tinkatink",
@@ -902,7 +1059,10 @@
       "source_slug": "communityday-april-2026-tinkatink",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "sustainability-week-2026",
@@ -919,7 +1079,10 @@
       "source_slug": "sustainability-week-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "tigers-game",
@@ -936,7 +1099,10 @@
       "source_slug": "tigers_game",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "replay-riolu-hatch-day-2026",
@@ -953,7 +1119,10 @@
       "source_slug": "replay-riolu-hatch-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "carp-game",
@@ -970,7 +1139,10 @@
       "source_slug": "carp_game",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "replay-go-bigger-2026",
@@ -987,7 +1159,10 @@
       "source_slug": "replay-go-bigger-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "steeled-resolve-2026",
@@ -1004,7 +1179,10 @@
       "source_slug": "steeled-resolve-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "growing-beyond-2026",
@@ -1021,7 +1199,10 @@
       "source_slug": "growing_beyond_2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "pokemon-go-at-gamescomlatam2026",
@@ -1038,7 +1219,10 @@
       "source_slug": "pokemon-go-at-gamescomlatam2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "steeled-resolve-taken-over-2026",
@@ -1055,7 +1239,10 @@
       "source_slug": "steeled-resolve-taken-over-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "hawks-game",
@@ -1072,7 +1259,10 @@
       "source_slug": "hawks_game",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "mega-festa-2026-seoul-stamp-rally",
@@ -1089,7 +1279,10 @@
       "source_slug": "mega-festa-2026-seoul-stamp-rally",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "shadow-entei-raid-day-2026",
@@ -1106,7 +1299,10 @@
       "source_slug": "shadow-entei-raid-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "pokemon-x-target-2026",
@@ -1123,7 +1319,10 @@
       "source_slug": "pokemon-x-target-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "lions-game",
@@ -1140,7 +1339,10 @@
       "source_slug": "lions_game",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "pokemon-run-in-seoul-2026",
@@ -1157,7 +1359,10 @@
       "source_slug": "pokemon_run_in_seoul_2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "go-pass-may-2026",
@@ -1174,7 +1379,10 @@
       "source_slug": "go-pass-may-2026",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "buffaloes-game",
@@ -1191,7 +1399,10 @@
       "source_slug": "buffaloes_game",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "communityday-may-2026-lechonk",
@@ -1208,7 +1419,10 @@
       "source_slug": "communityday-may-2026-lechonk",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "school-festa-korea",
@@ -1225,7 +1439,10 @@
       "source_slug": "school-festa-korea",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "regional"
+      ]
     },
     {
       "id": "spring-marathon-2026",
@@ -1242,7 +1459,10 @@
       "source_slug": "spring-marathon-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "marines-game",
@@ -1259,7 +1479,10 @@
       "source_slug": "marines_game",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "communitydayclassic-deino-may-2026",
@@ -1276,7 +1499,10 @@
       "source_slug": "communitydayclassic-deino-may-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "pgo-pokemon-fossil-musuem-chicago-2026",
@@ -1293,7 +1519,10 @@
       "source_slug": "pgo-pokemon-fossil-musuem-chicago-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "falinks-super-mega-raid-day-2026",
@@ -1310,7 +1539,10 @@
       "source_slug": "falinks-super-mega-raid-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "baystars-game",
@@ -1327,7 +1559,10 @@
       "source_slug": "baystars_game",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "pokemon-sports-day-2026",
@@ -1344,7 +1579,10 @@
       "source_slug": "pokemon-sports-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "global-events-gofest2026-overlays-2",
@@ -1361,7 +1599,10 @@
       "source_slug": "global-events-gofest2026-overlays",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "go-fest-2026-tokyo",
@@ -1378,7 +1619,11 @@
       "source_slug": "save-the-date-go-fest-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite",
+        "ticketed"
+      ]
     },
     {
       "id": "global-events-gofest2026-overlays-4",
@@ -1395,7 +1640,10 @@
       "source_slug": "global-events-gofest2026-overlays",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "go-pass-june-2026",
@@ -1412,7 +1660,10 @@
       "source_slug": "go-pass-june-2026",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "go-battle-league-forever-forward",
@@ -1429,7 +1680,10 @@
       "source_slug": "go-battle-league-forever-forward",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Season window based on the official GO Battle League schedule."
+      "notes": "Season window based on the official GO Battle League schedule.",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "go-fest-2026-chicago",
@@ -1446,7 +1700,11 @@
       "source_slug": "save-the-date-go-fest-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite",
+        "ticketed"
+      ]
     },
     {
       "id": "pjcs2026",
@@ -1463,7 +1721,10 @@
       "source_slug": "pjcs2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "global-events-gofest2026-overlays-7",
@@ -1480,7 +1741,10 @@
       "source_slug": "global-events-gofest2026-overlays",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "gofest-2026-copenhagen-lego",
@@ -1497,7 +1761,10 @@
       "source_slug": "gofest-2026-copenhagen-lego",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "go-fest-2026-copenhagen",
@@ -1514,7 +1781,11 @@
       "source_slug": "save-the-date-go-fest-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite",
+        "ticketed"
+      ]
     },
     {
       "id": "gofesttw-2026zhongshan-1",
@@ -1531,7 +1802,10 @@
       "source_slug": "gofesttw-2026zhongshan",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "choose-your-path-forever-forward-2026-2",
@@ -1548,7 +1822,10 @@
       "source_slug": "choose-your-path-forever-forward-2026",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "partner-research-softbank-summer-2026",
@@ -1565,7 +1842,10 @@
       "source_slug": "202606partnerresearch-jp",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": "Research unlocks after code redemption. SoftBank participation tickets were available Jun 19–Aug 16; research completion deadline was Sep 30."
+      "notes": "Research unlocks after code redemption. SoftBank participation tickets were available Jun 19–Aug 16; research completion deadline was Sep 30.",
+      "access": [
+        "code"
+      ]
     },
     {
       "id": "communityday-june-2026-frigibax",
@@ -1582,7 +1862,10 @@
       "source_slug": "communityday-june-2026-frigibax",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "flying-taxi-2026",
@@ -1599,7 +1882,10 @@
       "source_slug": "flying-taxi-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "festa-junina-2026",
@@ -1616,7 +1902,10 @@
       "source_slug": "festa-junina-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "regional"
+      ]
     },
     {
       "id": "flying-taxi-taken-over-2026",
@@ -1633,7 +1922,10 @@
       "source_slug": "flying-taxi-taken-over-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "skarmory-super-mega-raid-day-2026",
@@ -1650,7 +1942,10 @@
       "source_slug": "skarmory-super-mega-raid-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "gofesttw-2026zhongshan-2",
@@ -1667,7 +1962,10 @@
       "source_slug": "gofesttw-2026zhongshan",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "choose-your-path-forever-forward-2026-3",
@@ -1684,7 +1982,10 @@
       "source_slug": "choose-your-path-forever-forward-2026",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "suit-up-no-10-latin-america-2026",
@@ -1701,7 +2002,10 @@
       "source_slug": "suitup_the_10_la",
       "source_locale": "es-MX",
       "status": "confirmed",
-      "notes": "Region-exclusive 10th anniversary football-themed event with Timed Research; the research reward claim deadline was July 20."
+      "notes": "Region-exclusive 10th anniversary football-themed event with Timed Research; the research reward claim deadline was July 20.",
+      "access": [
+        "regional"
+      ]
     },
     {
       "id": "assistant-pikachu",
@@ -1718,7 +2022,10 @@
       "source_slug": "assistant_pikachu",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "communityday-july-2026-sobble",
@@ -1735,7 +2042,10 @@
       "source_slug": "communityday-july-2026-sobble",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "10th-anniversary-party",
@@ -1752,7 +2062,10 @@
       "source_slug": "10th-anniversary-party",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "road-of-legends-2026",
@@ -1769,7 +2082,10 @@
       "source_slug": "road-of-legends-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "go-pass-road-of-legends-2026",
@@ -1786,7 +2102,10 @@
       "source_slug": "road-of-legends-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Special GO Pass associated with the Road of Legends lead-up to GO Fest: Global."
+      "notes": "Special GO Pass associated with the Road of Legends lead-up to GO Fest: Global.",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "go-pass-july-2026",
@@ -1803,7 +2122,10 @@
       "source_slug": "go-pass-july-2026",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "community-celebration-barcelona",
@@ -1820,7 +2142,10 @@
       "source_slug": "community-celebration-barcelona",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "community-celebration-bordeaux",
@@ -1837,7 +2162,10 @@
       "source_slug": "community-celebration-bordeaux",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "community-celebration-hamburg",
@@ -1854,7 +2182,10 @@
       "source_slug": "community-celebration-hamburg",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "community-celebration-warszawa",
@@ -1871,7 +2202,10 @@
       "source_slug": "community-celebration-warszawa",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "ko-gofest-global-on-site-event-2026",
@@ -1888,7 +2222,10 @@
       "source_slug": "ko-gofest-global-on-site-event-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "community-celebrations-go-fest-2026",
@@ -1905,7 +2242,10 @@
       "source_slug": "community-celebrations-go-fest-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "go-fest-2026-global",
@@ -1922,7 +2262,10 @@
       "source_slug": "go-fest-2026-global-final-details",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "gofesttw-2026zhongshan-3",
@@ -1939,7 +2282,10 @@
       "source_slug": "gofesttw-2026zhongshan",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "special-anniversary-pikachu-celebration",
@@ -1956,7 +2302,10 @@
       "source_slug": "special-anniversary-pikachu-celebration",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "partner-research-aeonmall-summer-2026",
@@ -1973,7 +2322,10 @@
       "source_slug": "202606partnerresearch-jp",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": "Research unlocks after code redemption. AEON Mall participation tickets were available Jul 17–Aug 23; research completion deadline was Sep 30."
+      "notes": "Research unlocks after code redemption. AEON Mall participation tickets were available Jul 17–Aug 23; research completion deadline was Sep 30.",
+      "access": [
+        "code"
+      ]
     },
     {
       "id": "raichu-super-mega-raid-day-2026",
@@ -1990,7 +2342,10 @@
       "source_slug": "raichu-super-mega-raid-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "nationaltrust-2026",
@@ -2007,7 +2362,10 @@
       "source_slug": "nationaltrust-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Special Pokémon GO activities began July 18; the partnership was later extended through December 31, 2026."
+      "notes": "Special Pokémon GO activities began July 18; the partnership was later extended through December 31, 2026.",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "swallows-game",
@@ -2024,7 +2382,10 @@
       "source_slug": "swallows_game",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "mcdonalds-japan-field-research-1",
@@ -2041,7 +2402,10 @@
       "source_slug": "202607backtomcd",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "mcdonalds-japan-2026",
@@ -2058,7 +2422,10 @@
       "source_slug": "202607backtomcd",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Participating McDonald’s locations became PokéStops and offered rotating Field Research."
+      "notes": "Participating McDonald’s locations became PokéStops and offered rotating Field Research.",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "happy-birthday-professor-willow-2026",
@@ -2075,7 +2442,10 @@
       "source_slug": "happy-birthday-professor-willow-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "ultraunlock-10th-anniversary-edition",
@@ -2092,7 +2462,10 @@
       "source_slug": "ultraunlock-10th-anniversary-edition",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "ozone-ascent-2026",
@@ -2109,7 +2482,10 @@
       "source_slug": "ozone-ascent-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "mcdonalds-japan-field-research-2",
@@ -2126,7 +2502,10 @@
       "source_slug": "202607backtomcd",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "pokemon-baseball-festa-2026-all-star",
@@ -2143,7 +2522,10 @@
       "source_slug": "allstar",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "choose-your-path-forever-forward-2026-4",
@@ -2160,7 +2542,10 @@
       "source_slug": "choose-your-path-forever-forward-2026",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "gigantamax-rillaboom-max-battle-day-2026",
@@ -2177,7 +2562,10 @@
       "source_slug": "gigantamax-rillaboom-max-battle-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "mcdonalds-japan-field-research-3",
@@ -2194,7 +2582,10 @@
       "source_slug": "202607backtomcd",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "lego-pokemon-go-2026",
@@ -2211,7 +2602,10 @@
       "source_slug": "lego-pokemon-go-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "summer-marathon-2026",
@@ -2228,7 +2622,10 @@
       "source_slug": "summer-marathon-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "go-pass-august-2026",
@@ -2245,7 +2642,10 @@
       "source_slug": "go-pass-august-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "fire-and-ice-hatch-day-2026",
@@ -2262,7 +2662,10 @@
       "source_slug": "fire-and-ice-hatch-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "jleague-details",
@@ -2279,7 +2682,10 @@
       "source_slug": "jleague_details",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "mcdonalds-japan-field-research-4",
@@ -2296,7 +2702,10 @@
       "source_slug": "202607backtomcd",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "fighters-game",
@@ -2313,7 +2722,10 @@
       "source_slug": "fighters_game",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "choose-your-path-forever-forward-2026-5",
@@ -2330,7 +2742,10 @@
       "source_slug": "choose-your-path-forever-forward-2026",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "10th-anniversary-celebration",
@@ -2347,7 +2762,10 @@
       "source_slug": "10th-anniversary-celebration",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "2026daanpark",
@@ -2364,7 +2782,10 @@
       "source_slug": "2026daanpark",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "communityday-august-2026-nickit",
@@ -2381,7 +2802,10 @@
       "source_slug": "communityday-august-2026-nickit",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "jamsil-magikarp-2026",
@@ -2398,7 +2822,10 @@
       "source_slug": "jamsil-magikarp-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "mcdonalds-japan-field-research-5",
@@ -2415,7 +2842,10 @@
       "source_slug": "202607backtomcd",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "water-festival-2026",
@@ -2432,7 +2862,10 @@
       "source_slug": "water-festival-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "dragonss-game",
@@ -2449,7 +2882,10 @@
       "source_slug": "dragonss_game",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "starmie-super-mega-raid-day-2026",
@@ -2466,7 +2902,10 @@
       "source_slug": "starmie-super-mega-raid-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "world-championships-event-2026-1",
@@ -2483,7 +2922,10 @@
       "source_slug": "world-championships-event-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "world-championships-event-2026-2",
@@ -2500,7 +2942,10 @@
       "source_slug": "world-championships-event-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "go-fest-2026-mega-finale-korea",
@@ -2517,7 +2962,10 @@
       "source_slug": "mega-finale-korea-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "go-fest-2026-mega-finale",
@@ -2534,7 +2982,10 @@
       "source_slug": "megafinale-2026-armored-mewtwo",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "mega-squads-2026",
@@ -2551,7 +3002,10 @@
       "source_slug": "mega-squads-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "weekly-branching-tr-korea-2026-1",
@@ -2568,7 +3022,10 @@
       "source_slug": "weekly-branching-tr-korea-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "regional"
+      ]
     },
     {
       "id": "go-pass-september-2026",
@@ -2585,7 +3042,10 @@
       "source_slug": "go-pass-september-2026",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "go-battle-league-twilight-trails",
@@ -2602,7 +3062,10 @@
       "source_slug": "go-battle-league-twilight-trails",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Season window based on the official GO Battle League schedule."
+      "notes": "Season window based on the official GO Battle League schedule.",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "legend-research-jp",
@@ -2619,7 +3082,10 @@
       "source_slug": "legend_research_jp",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "communitydayclassic-gible-september-2026",
@@ -2636,7 +3102,10 @@
       "source_slug": "communitydayclassic-gible-september-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "event-kuala-lumpur-30th-anniversary-2026",
@@ -2653,7 +3122,10 @@
       "source_slug": "event-kuala-lumpur-30th-anniversary-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "pokexciting-cross-region-go-stamp-rally-2026",
@@ -2670,7 +3142,10 @@
       "source_slug": "event-apac-stamp-rally-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Cross-region stamp series. Kuala Lumpur, Taipei, Singapore, and Manila stamp locations are scheduled through September 11, 2029; Bangkok details are to be announced."
+      "notes": "Cross-region stamp series. Kuala Lumpur, Taipei, Singapore, and Manila stamp locations are scheduled through September 11, 2029; Bangkok details are to be announced.",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "hawlucha-celebrando-septiembre-2026",
@@ -2687,7 +3162,10 @@
       "source_slug": "hawlucha-celebrando-septiembre-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "regional"
+      ]
     },
     {
       "id": "weekly-branching-tr-korea-2026-2",
@@ -2704,7 +3182,10 @@
       "source_slug": "weekly-branching-tr-korea-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "regional"
+      ]
     },
     {
       "id": "partner-research-familymart-autumn-2026",
@@ -2721,7 +3202,10 @@
       "source_slug": "202609partnerresearch-jp",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": "Research unlocks after code redemption. FamilyMart ticket acquisition ran Sep 15–Oct 5; code-registration deadline is Nov 30 and research completion deadline is Dec 31."
+      "notes": "Research unlocks after code redemption. FamilyMart ticket acquisition ran Sep 15–Oct 5; code-registration deadline is Nov 30 and research completion deadline is Dec 31.",
+      "access": [
+        "code"
+      ]
     },
     {
       "id": "pokemon-horizons-celebration-event-2026",
@@ -2738,7 +3222,10 @@
       "source_slug": "pokemon-horizons-celebration-event-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "pikachu-autumn-picnic-korea-2026",
@@ -2755,7 +3242,10 @@
       "source_slug": "pikachu-autumn-picnic-korea-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "2026-ana-green",
@@ -2772,7 +3262,10 @@
       "source_slug": "2026_ana_green",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "staraptor-super-mega-raid-day-2026",
@@ -2789,7 +3282,10 @@
       "source_slug": "staraptor-super-mega-raid-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "dancing-in-the-moonlight-2026",
@@ -2806,7 +3302,10 @@
       "source_slug": "dancing-in-the-moonlight-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "regional"
+      ]
     },
     {
       "id": "choose-your-path-twilight-trails-2026",
@@ -2823,7 +3322,10 @@
       "source_slug": "choose-your-path-twilight-trails-2026",
       "source_locale": "ja",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "catch-mastery-phantump-2026",
@@ -2840,7 +3342,10 @@
       "source_slug": "catch-mastery-phantump-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "boston-city-safari-know-before-you-go",
@@ -2857,7 +3362,11 @@
       "source_slug": "boston-city-safari-know-before-you-go",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite",
+        "ticketed"
+      ]
     },
     {
       "id": "city-safaris-europe-2026",
@@ -2874,7 +3383,11 @@
       "source_slug": "city-safaris-europe-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite",
+        "ticketed"
+      ]
     },
     {
       "id": "patterns-of-the-wild-2026-1",
@@ -2891,7 +3404,10 @@
       "source_slug": "patterns-of-the-wild-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "regional"
+      ]
     },
     {
       "id": "harvest-festival-2026",
@@ -2908,7 +3424,10 @@
       "source_slug": "harvest-festival-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "weekly-branching-tr-korea-2026-3",
@@ -2925,7 +3444,10 @@
       "source_slug": "weekly-branching-tr-korea-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "regional"
+      ]
     },
     {
       "id": "comic-con-malaga-2026",
@@ -2942,7 +3464,10 @@
       "source_slug": "comic-con-malaga-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "2026oct-skmtw",
@@ -2959,7 +3484,10 @@
       "source_slug": "2026oct-skmtw",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "patterns-of-the-wild-2026-2",
@@ -2976,7 +3504,10 @@
       "source_slug": "patterns-of-the-wild-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "regional"
+      ]
     },
     {
       "id": "harvest-festival-tgr-2026",
@@ -2993,7 +3524,10 @@
       "source_slug": "harvest-festival-tgr-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "gigantamax-cinderace-max-battle-day-2026",
@@ -3010,7 +3544,10 @@
       "source_slug": "gigantamax-cinderace-max-battle-day-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "pokemon-run-30-2026-1",
@@ -3027,7 +3564,10 @@
       "source_slug": "pokemon-run-30-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "european-space-agency-event-1",
@@ -3044,7 +3584,10 @@
       "source_slug": "european-space-agency-event",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "european-space-agency-event-2",
@@ -3061,7 +3604,10 @@
       "source_slug": "european-space-agency-event",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "partner"
+      ]
     },
     {
       "id": "weekly-branching-tr-korea-2026-4",
@@ -3078,7 +3624,10 @@
       "source_slug": "weekly-branching-tr-korea-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "regional"
+      ]
     },
     {
       "id": "communityday-october-2026-zorua",
@@ -3095,7 +3644,10 @@
       "source_slug": "communityday-october-2026-zorua",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "event-taipei-30th-anniversary-2026-1",
@@ -3112,7 +3664,10 @@
       "source_slug": "event-taipei-30th-anniversary-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "event-taipei-30th-anniversary-2026-2",
@@ -3129,7 +3684,10 @@
       "source_slug": "event-taipei-30th-anniversary-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "pokemon-run-30-2026-taiwan-taichung",
@@ -3146,7 +3704,10 @@
       "source_slug": "pokemon-run-30-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "One of the 2026 Pokémon RUN 30 regional events."
+      "notes": "One of the 2026 Pokémon RUN 30 regional events.",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "pokemon-run-30-2026-taiwan-kaohsiung",
@@ -3163,7 +3724,10 @@
       "source_slug": "pokemon-run-30-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "One of the 2026 Pokémon RUN 30 regional events."
+      "notes": "One of the 2026 Pokémon RUN 30 regional events.",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "save-the-date-go-wild-area-2026-1",
@@ -3180,7 +3744,11 @@
       "source_slug": "save-the-date-go-wild-area-2026",
       "source_locale": "en",
       "status": "announced",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite",
+        "ticketed"
+      ]
     },
     {
       "id": "event-apac-30th-anniversary-2026",
@@ -3197,7 +3765,10 @@
       "source_slug": "event-apac-30th-anniversary-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "pokemon-run-30-2026-2",
@@ -3214,7 +3785,10 @@
       "source_slug": "pokemon-run-30-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "save-the-date-go-wild-area-2026-2",
@@ -3231,7 +3805,10 @@
       "source_slug": "save-the-date-go-wild-area-2026",
       "source_locale": "en",
       "status": "announced",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "pokemon-run-30-2026-taiwan-new-taipei",
@@ -3248,7 +3825,10 @@
       "source_slug": "pokemon-run-30-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "One of the 2026 Pokémon RUN 30 regional events."
+      "notes": "One of the 2026 Pokémon RUN 30 regional events.",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "community-day-november-21-2026",
@@ -3265,7 +3845,10 @@
       "source_slug": "save-the-date-s24",
       "source_locale": "en",
       "status": "announced",
-      "notes": "Date announced in the Season save-the-date post; featured Pokémon had not yet been specified in the bootstrap data."
+      "notes": "Date announced in the Season save-the-date post; featured Pokémon had not yet been specified in the bootstrap data.",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "pokemon-run-30-2026-3",
@@ -3282,7 +3865,10 @@
       "source_slug": "pokemon-run-30-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "pokemon-run-30-2026-4",
@@ -3299,7 +3885,10 @@
       "source_slug": "pokemon-run-30-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     }
   ]
 }
