@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-20T18:46:26.680Z",
+  "updated_at": "2026-09-20T18:47:09.175Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -2514,7 +2514,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "eggs-pedition-access-july-2025",
@@ -2676,7 +2676,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "partner-research-aeonmall-summer-2025",
@@ -2818,7 +2818,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "ultra-unlock-steel-and-scales",
@@ -2860,7 +2860,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "pokemon-go-road-trip-paris-2025",
@@ -3096,7 +3096,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "go-pass-august-2025",
@@ -3198,7 +3198,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "ultra-unlock-origin-forme-raid-day-2025",
@@ -3240,7 +3240,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "delightful-days-tgr-2025",
@@ -3282,7 +3282,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "mlb-cleveland-guardians-2025",
@@ -3304,7 +3304,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "world-championships-event-2025",
@@ -3500,7 +3500,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "sunkissed-shores-2025",
@@ -3578,7 +3578,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "mlb-san-francisco-giants-2025",
@@ -3600,7 +3600,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "communityday-august-2025-rookidee",
@@ -3676,7 +3676,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "pokemongo-kanto-celebration-2025",
@@ -3798,7 +3798,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "trade-day-2025-09-07",
@@ -6406,7 +6406,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "fashion-raid-day-2026",
@@ -6487,7 +6487,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "communityday-april-2026-tinkatink",
@@ -6548,7 +6548,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "replay-riolu-hatch-day-2026",
@@ -6589,7 +6589,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "replay-go-bigger-2026",
@@ -6710,7 +6710,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "mega-festa-2026-seoul-stamp-rally",
@@ -6791,7 +6791,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "pokemon-run-in-seoul-2026",
@@ -6852,7 +6852,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "communityday-may-2026-lechonk",
@@ -6933,7 +6933,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "communitydayclassic-deino-may-2026",
@@ -7015,7 +7015,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "pokemon-sports-day-2026",
@@ -7280,7 +7280,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "choose-your-path-forever-forward-2026-2",
@@ -7523,7 +7523,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "communityday-july-2026-sobble",
@@ -7645,7 +7645,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "community-celebration-barcelona",
@@ -7908,7 +7908,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "mcdonalds-japan-field-research-1",
@@ -8049,7 +8049,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "choose-your-path-forever-forward-2026-4",
@@ -8173,7 +8173,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "summer-marathon-2026",
@@ -8235,7 +8235,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "fire-and-ice-hatch-day-2026",
@@ -8317,7 +8317,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "fighters-game",
@@ -8338,7 +8338,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "choose-your-path-forever-forward-2026-5",
@@ -8499,7 +8499,7 @@
       "access": [
         "onsite"
       ],
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "mlb-rangers-2026",
@@ -8521,7 +8521,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "starmie-super-mega-raid-day-2026",
@@ -8563,7 +8563,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "world-championships-event-2026-1",
@@ -8605,7 +8605,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "world-championships-event-2026-2",
@@ -8647,7 +8647,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "go-fest-2026-mega-finale-korea",
@@ -8850,7 +8850,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "hawlucha-celebrando-septiembre-2026",
@@ -9025,7 +9025,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "dancing-in-the-moonlight-2026",
@@ -9109,7 +9109,7 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
-      "regional_type": "sports_game_day"
+      "regional_type": "local_raid"
     },
     {
       "id": "catch-mastery-phantump-2026",
