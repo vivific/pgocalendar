@@ -81,18 +81,20 @@ Do not mark an event `ticketed` merely because an optional paid ticket exists. D
 For current and future regional/live events, code acquisition and event mechanics should be represented separately from `access`. Use a `regional_type` field when applicable. Supported values are:
 
 - `timed_research` — regional Timed Research that is already unlocked/active or otherwise best understood as research.
-- `local_raid` — raids explicitly described as in-person/local-only, where the official source explicitly says Remote Raid Passes cannot be used, or sports game-day activations whose distinguishing gameplay is in-venue/local raids. Do not use this merely because raids spawn in an otherwise broad regional event.
+- `local_raid` — location-bound raid activations where the raid is a distinguishing reason to visit the venue/area, including explicit non-remote raids, sports game-day ballpark raids, museum/site/airport raids, and similar local raid programs. Do not use this merely because ordinary raids happen to be part of a broad regional event.
+- `city_safari` — official Pokémon GO City Safari live events.
 - `wild_area` — Pokémon GO Wild Area events, including regional live events and the Global edition.
 - `free_code` — gameplay/research unlocked by a freely distributed code.
 - `paid_code` — gameplay/research unlocked by a code obtained through a purchase, paid participation, qualifying transaction, or equivalent paid acquisition.
 - `stamp_rally` — GO Stamp Rally gameplay.
 - `other` — substantive regional gameplay that does not fit the above.
 
-Display/order these subtypes as: `timed_research`, `local_raid`, `wild_area`, `free_code`, `paid_code`, `stamp_rally`, `other`.
+Display/order these subtypes as: `timed_research`, `local_raid`, `city_safari`, `wild_area`, `free_code`, `paid_code`, `stamp_rally`, `other`.
 
 Subtype display icons are:
 - `timed_research` → ⏱
 - `local_raid` → 📍
+- `city_safari` → 🏙️
 - `wild_area` → 🥾
 - `free_code` → 🆓
 - `paid_code` → 💲
@@ -101,7 +103,7 @@ Subtype display icons are:
 
 The website prefixes these icons to event titles; subtype should not be encoded as a separate border color.
 
-Assign `regional_type` to currently active and already-announced future regional/on-site events. Broad regional events that merely include Timed Research or raids among several mechanics should normally be `other`; reserve `timed_research` for research-centric entries and `local_raid` for explicitly in-person/non-remote raid content. Reclassify an event when a later official article materially changes what players can do.
+Assign `regional_type` to currently active and already-announced future regional/on-site events. Use the subtype that best communicates the event's distinctive player-facing mechanic. Research-centric regional activations (including event-area Timed Research programs such as Pokémon RUN or PokéXciting!) can use `timed_research`. Use `local_raid` for location-bound raid programs where raids are a principal reason to visit. When a canonical event already has a separate dedicated Timed Research bar, do not redundantly label its broader parent event as `timed_research` unless that is still the clearest description. Reclassify an event when a later official article materially changes what players can do.
 
 This subtype is a live usability aid, not a replacement for `category` or `access`. Do not create or preserve events solely for temporary PokéStops or other promotional map dressing.
 
