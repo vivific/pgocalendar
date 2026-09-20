@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-20T17:59:23.377Z",
+  "updated_at": "2026-09-20T18:02:20.872Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -5314,7 +5314,7 @@
       "scope": "Regional",
       "location": "Japan",
       "access": [
-        "code"
+        "regional"
       ],
       "source_url": "https://pokemongo.com/en/news/202512partnerresearch-jp",
       "source_urls": [
@@ -6444,7 +6444,7 @@
       "status": "confirmed",
       "notes": "Research unlocks after redeeming a participation code. FamilyMart ticket acquisition ran Apr 7–May 4; research completion deadline was Jun 30.",
       "access": [
-        "code"
+        "regional"
       ]
     },
     {
@@ -7288,7 +7288,7 @@
       "status": "confirmed",
       "notes": "Research unlocks after code redemption. SoftBank participation tickets were available Jun 19–Aug 16. Code registration closed Aug 31, so as of Sep 20 only Trainers who already redeemed can continue; research completion deadline is Sep 30.",
       "access": [
-        "code"
+        "regional"
       ]
     },
     {
@@ -7810,7 +7810,7 @@
       "status": "confirmed",
       "notes": "Research unlocks after code redemption. AEON Mall participation tickets were available Jul 17–Aug 23. Code registration closed Aug 31, so as of Sep 20 only Trainers who already redeemed can continue; research completion deadline is Sep 30.",
       "access": [
-        "code"
+        "regional"
       ]
     },
     {
@@ -7902,7 +7902,7 @@
       "scope": "Regional",
       "location": "Japan",
       "access": [
-        "code"
+        "regional"
       ],
       "source_url": "https://pokemongo.com/ja/news/202607backtomcd",
       "source_urls": [
@@ -8082,7 +8082,7 @@
       "scope": "Global",
       "location": "Global",
       "access": [
-        "code"
+        "global"
       ],
       "source_url": "https://pokemongo.com/news/lego-pokemon-go-2026",
       "source_urls": [
@@ -8858,7 +8858,7 @@
       "status": "confirmed",
       "notes": "Research unlocks after code redemption. FamilyMart ticket acquisition ran Sep 15–Oct 5; code-registration deadline is Nov 30 and research completion deadline is Dec 31.",
       "access": [
-        "code"
+        "regional"
       ]
     },
     {
