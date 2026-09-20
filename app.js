@@ -9,6 +9,7 @@ const els = {
   timeline: document.querySelector("#timeline"),
   empty: document.querySelector("#empty"),
   meta: document.querySelector("#meta"),
+  footerStatus: document.querySelector("#footer-status"),
   dialog: document.querySelector("#details"),
   detailCategory: document.querySelector("#detail-category"),
   detailTitle: document.querySelector("#detail-title"),
@@ -39,6 +40,16 @@ function humanDate(s) {
 function humanRange(a,b) {
   if (!b) return `From ${humanDate(a)} (ongoing)`;
   return a === b ? humanDate(a) : `${humanDate(a)} – ${humanDate(b)}`;
+}
+function humanUpdated(value) {
+  if (!value) return "not yet";
+  if (/^\d{4}-\d{2}-\d{2}$/.test(value)) return humanDate(value);
+  const d=new Date(value);
+  if (Number.isNaN(d.getTime())) return value;
+  return d.toLocaleString(undefined,{
+    year:"numeric", month:"short", day:"numeric",
+    hour:"numeric", minute:"2-digit", timeZoneName:"short"
+  });
 }
 function eachDay(year) {
   const out=[], d=new Date(year,0,1,12);
@@ -126,7 +137,10 @@ function render() {
   const list=filtered(year);
   const rows=packRows(list,year);
   els.empty.hidden=list.length!==0;
-  els.meta.textContent=`${list.length} event${list.length===1?"":"s"} • ${payload.updated_at ? "Updated "+payload.updated_at.slice(0,10) : "bootstrap pending"}`;
+  els.meta.textContent=`${list.length} event${list.length===1?"":"s"}`;
+  if (els.footerStatus) {
+    els.footerStatus.textContent=`Updates every hour. Last updated: ${humanUpdated(payload.updated_at)}.`;
+  }
 
   const monthHeader=['<div class="corner"></div>'];
   days.forEach((d,i)=>{
@@ -151,7 +165,7 @@ function render() {
       const col=daysBetween(`${year}-01-01`,e._start)+2;
       const span=daysBetween(e._start,e._end)+1;
       const ongoing=!e.end ? " ongoing" : "";
-      return `<button class="bar ${primaryAccess(e)}${ongoing}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(e.title)} — ${humanRange(e.start,e.end)}">${escapeHtml(e.title)}</button>`;
+      return `<button class="bar ${primaryAccess(e)}${ongoing}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(e.title)} — ${humanRange(e.start,e.end)}"><span class="bar-label">${escapeHtml(e.title)}</span></button>`;
     }).join("");
     html += `<div class="event-row"><div class="row-label">Track ${ri+1}</div><div class="row-grid">${cells}</div>${bars}</div>`;
   });
