@@ -1,8 +1,68 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-20T16:01:37.108Z",
+  "updated_at": "2026-09-20T16:05:13.600Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
+    {
+      "id": "poke-lid-stamp-rally-kyushu-okinawa",
+      "title": "Poké Lid Stamp Rally – Kyushu & Okinawa",
+      "start": "2025-11-07",
+      "end": null,
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Kyushu & Okinawa, Japan",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/news/pokelidsr_kyushu_okinawa",
+      "source_urls": [
+        "https://pokemongo.com/news/pokelidsr_kyushu_okinawa"
+      ],
+      "source_slug": "pokelidsr_kyushu_okinawa",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Ongoing GO Stamp Rally at Poké Lid PokéStops. The official article states there is no set end date. Collecting stamps can award encounters with Pikachu featuring prefecture Location Backgrounds."
+    },
+    {
+      "id": "nagasaki-go-stamp-rally",
+      "title": "Pokémon GO Stamp Rally in Nagasaki",
+      "start": "2025-11-10",
+      "end": null,
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Nagasaki, Japan",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/news/stamp-rally-nagasaki",
+      "source_urls": [
+        "https://pokemongo.com/news/stamp-rally-nagasaki"
+      ],
+      "source_slug": "stamp-rally-nagasaki",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Ongoing eight-stop city stamp rally. Completing all eight stamps awards an encounter with Ampharos featuring a Nagasaki Location Background. The official article gives no end date."
+    },
+    {
+      "id": "new-years-2026",
+      "title": "New Year’s 2026",
+      "start": "2025-12-31",
+      "end": "2026-01-04",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/news/new-years-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/new-years-2026"
+      ],
+      "source_slug": "new-years-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Global New Year event with event-themed wild encounters, raids, Field Research, Daily Field Research, raid bonuses, and optional paid Timed Research."
+    },
     {
       "id": "communitydayclassic-piplup-jan-2026",
       "title": "January 2026 Community Day Classic: Piplup",
