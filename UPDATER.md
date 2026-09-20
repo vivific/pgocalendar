@@ -35,7 +35,10 @@ Do **not** create a separate calendar bar solely for:
 - article publication/update timestamps;
 - social-media contests;
 - livestream/broadcast schedules;
-- app/system update dates.
+- app/system update dates;
+- temporary PokéStops, Gyms, Routes, Photo Discs, postcards, themed images, stickers, or other promotional map dressing when the article provides no substantive gameplay beyond those objects.
+
+A collaboration or promotion belongs on the main calendar only when it creates a real player-facing gameplay window such as research, raids, altered wild encounters, event bonuses, stamp-rally rewards/encounters, Collection Challenges, or another meaningful in-game activity. If an article mixes promotion and gameplay, calendarize the gameplay window(s), not the surrounding advertising or infrastructure period.
 
 Those facts can be kept in `notes` when useful.
 
