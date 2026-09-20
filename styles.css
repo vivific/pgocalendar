@@ -6,19 +6,19 @@
   --row-h: 54px;
   --label-w: 190px;
   --grid: #dfe5ef;
-  --muted: #6d778b;
-  --accent: #315f86;
-  --regional: #47746b;
-  --onsite: #705d86;
+  --muted: #66748b;
+  --accent: #2f7ed8;
+  --regional: #1f9e9a;
+  --onsite: #7557c7;
   --partner: #bf7a22;
   --code: #31835d;
-  --ticketed: #875d68;
-  --rt-timed-research: #dfc86f;
-  --rt-local-raid: #e58a6f;
-  --rt-free-code: #9ac98b;
-  --rt-paid-code: #dda25f;
-  --rt-stamp-rally: #74c0bd;
-  --rt-other: #c2cad5;
+  --ticketed: #c44f8a;
+  --rt-timed-research: #ffd84a;
+  --rt-local-raid: #ff6b62;
+  --rt-free-code: #8ed34f;
+  --rt-paid-code: #ff9f3d;
+  --rt-stamp-rally: #35d4d0;
+  --rt-other: #b9e4f7;
 }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 0; width: 100%; overflow-x: hidden; }
