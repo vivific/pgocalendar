@@ -8,7 +8,11 @@
   --grid: #dfe5ef;
   --muted: #6d778b;
   --accent: #3465ff;
-  --regional: #9a5cff;
+  --regional: #5d7b8b;
+  --onsite: #8a5bd1;
+  --partner: #bf7a22;
+  --code: #31835d;
+  --ticketed: #b44f63;
 }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 720px; }
@@ -41,6 +45,10 @@ main { padding: 22px 24px 40px; }
 .legend .meta { margin-left: auto; }
 .swatch { width: 10px; height: 10px; border-radius: 3px; background: var(--accent); }
 .swatch.regional { background: var(--regional); }
+.swatch.onsite { background: var(--onsite); }
+.swatch.partner { background: var(--partner); }
+.swatch.code { background: var(--code); }
+.swatch.ticketed { background: var(--ticketed); }
 .timeline-shell {
   position: relative; overflow: auto; background: white; border: 1px solid #dfe4ec; border-radius: 14px;
   min-height: 360px; max-height: calc(100vh - 260px);
@@ -81,6 +89,18 @@ main { padding: 22px 24px 40px; }
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: pointer; box-shadow: 0 1px 2px rgba(18,30,56,.16);
 }
 .bar.regional { background: var(--regional); }
+.bar.onsite { background: var(--onsite); }
+.bar.partner { background: var(--partner); }
+.bar.code { background: var(--code); }
+.bar.ticketed { background: var(--ticketed); }
+.access-badges { display:flex; flex-wrap:wrap; gap:6px; margin:0 0 16px; }
+.access-badge { display:inline-flex; align-items:center; border-radius:999px; padding:4px 8px; font-size:11px; font-weight:800; background:#edf1f7; color:#364155; }
+.access-badge.global { background:#e8eeff; }
+.access-badge.regional { background:#e7edf0; }
+.access-badge.onsite { background:#efe8fb; }
+.access-badge.partner { background:#f7ecdc; }
+.access-badge.code { background:#e3f2eb; }
+.access-badge.ticketed { background:#f7e5e9; }
 .bar:hover { filter: brightness(.96); transform: translateY(-1px); }
 dialog {
   width: min(620px,calc(100vw - 40px)); border: 0; border-radius: 16px; padding: 26px 28px; color: inherit;
