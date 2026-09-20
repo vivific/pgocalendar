@@ -112,7 +112,7 @@ main { padding: 22px 24px 0 40px; }
 .cell.weekend { background: #fafbfc; }
 .cell.today { background: #df2362; }
 .bar {
-  grid-row: 1; z-index: 3; align-self: center; height: 42px; border: 2px solid transparent; border-radius: 9px;
+  grid-row: 1; z-index: 3; align-self: center; height: 42px; border: 4px solid transparent; border-radius: 9px;
   position: relative; display: block; background: var(--rt-other); color: #172033; padding: 0; text-align: left;
   font-size: 11px; font-weight: 750; white-space: nowrap; overflow: visible;
   clip-path: inset(0 round 7px); cursor: pointer;
