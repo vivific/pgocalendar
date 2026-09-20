@@ -3008,6 +3008,1024 @@
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
     },
     {
+      "id": "delightful-days-tgr-2025",
+      "title": "Delightful Days: Taken Over",
+      "start": "2025-08-11",
+      "end": "2025-08-17",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/delightful-days-tgr-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/delightful-days-tgr-2025"
+      ],
+      "source_slug": "delightful-days-tgr-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mlb-baltimore-orioles-2025",
+      "title": "Pokémon GO × Baltimore Orioles Game Day",
+      "start": "2025-08-13",
+      "end": "2025-08-13",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Baltimore, Maryland, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
+    },
+    {
+      "id": "mlb-cleveland-guardians-2025",
+      "title": "Pokémon GO × Cleveland Guardians Game Day",
+      "start": "2025-08-14",
+      "end": "2025-08-14",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Cleveland, Ohio, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
+    },
+    {
+      "id": "world-championships-event-2025",
+      "title": "2025 Pokémon World Championships In-Game Event",
+      "start": "2025-08-15",
+      "end": "2025-08-17",
+      "category": "Championship",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/world-championships-event-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/world-championships-event-2025"
+      ],
+      "source_slug": "world-championships-event-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gbl-weekend-delightful-days-2025",
+      "title": "GO Battle Weekend: Delightful Days",
+      "start": "2025-08-15",
+      "end": "2025-08-17",
+      "category": "GO Battle League",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-delightful-days",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-battle-league-delightful-days"
+      ],
+      "source_slug": "go-battle-league-delightful-days",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-go-road-trip-den-haag-2025",
+      "title": "Pokémon GO Road Trip 2025: Den Haag",
+      "start": "2025-08-16",
+      "end": "2025-08-16",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Den Haag, Netherlands",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay"
+      ],
+      "source_slug": "pokemon-go-road-trip-2025-gameplay",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Road Trip stop with GO Truck and location-specific/citywide Pokémon GO gameplay."
+    },
+    {
+      "id": "dark-skies-2025",
+      "title": "Pokémon GO: Dark Skies",
+      "start": "2025-08-18",
+      "end": "2025-08-23",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/gofestmaxfinale",
+      "source_urls": [
+        "https://pokemongo.com/gofestmaxfinale"
+      ],
+      "source_slug": "max-finale-savethedate",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-max-finale-2025",
+      "title": "GO Pass: Max Finale",
+      "start": "2025-08-18",
+      "end": "2025-08-24",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/gofestmaxfinale",
+      "source_urls": [
+        "https://pokemongo.com/gofestmaxfinale"
+      ],
+      "source_slug": "max-finale-savethedate",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-go-road-trip-cologne-2025",
+      "title": "Pokémon GO Road Trip 2025: Cologne",
+      "start": "2025-08-20",
+      "end": "2025-08-24",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Cologne, Germany",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay"
+      ],
+      "source_slug": "pokemon-go-road-trip-2025-gameplay",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Road Trip stop with GO Truck and location-specific/citywide Pokémon GO gameplay."
+    },
+    {
+      "id": "community-celebrations-max-finale-2025",
+      "title": "Max Finale Community Celebrations",
+      "start": "2025-08-23",
+      "end": "2025-08-23",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Select Community Ambassador locations",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/community-celebrations-max-finale-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/community-celebrations-max-finale-2025"
+      ],
+      "source_slug": "community-celebrations-max-finale-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-fest-max-finale-2025",
+      "title": "Pokémon GO Fest 2025: Max Finale",
+      "start": "2025-08-23",
+      "end": "2025-08-24",
+      "category": "GO Fest",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/gofestmaxfinale",
+      "source_urls": [
+        "https://pokemongo.com/gofestmaxfinale"
+      ],
+      "source_slug": "max-finale-savethedate",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
+      ]
+    },
+    {
+      "id": "mlb-new-york-mets-2025",
+      "title": "Pokémon GO × New York Mets Game Day",
+      "start": "2025-08-25",
+      "end": "2025-08-25",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Queens, New York, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
+    },
+    {
+      "id": "sunkissed-shores-2025",
+      "title": "Sunkissed Shores",
+      "start": "2025-08-25",
+      "end": "2025-08-31",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/sunkissed-shores-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/sunkissed-shores-2025"
+      ],
+      "source_slug": "sunkissed-shores-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 2,
+          "action": "raid",
+          "label": "2× Raid XP"
+        }
+      ]
+    },
+    {
+      "id": "xp-celebration-2025",
+      "title": "XP Celebration",
+      "start": "2025-08-25",
+      "end": "2025-10-14",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pgo-leveling-update-announce-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pgo-leveling-update-announce-2025"
+      ],
+      "source_slug": "pgo-leveling-update-announce-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Also awarded +3,000 XP for winning raids and +3,000 XP for winning Max Battles.",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 2,
+          "action": "catch_good_throw",
+          "label": "2× Catch XP from Nice/Great/Excellent Throws"
+        }
+      ]
+    },
+    {
+      "id": "mlb-boston-red-sox-2025",
+      "title": "Pokémon GO × Boston Red Sox Game Day",
+      "start": "2025-08-29",
+      "end": "2025-08-29",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Boston, Massachusetts, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
+    },
+    {
+      "id": "mlb-san-francisco-giants-2025",
+      "title": "Pokémon GO × San Francisco Giants Game Day",
+      "start": "2025-08-29",
+      "end": "2025-08-29",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "San Francisco, California, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
+    },
+    {
+      "id": "communityday-august-2025-rookidee",
+      "title": "August 2025 Community Day: Rookidee",
+      "start": "2025-08-30",
+      "end": "2025-08-30",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/communityday-august-2025-rookidee",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-august-2025-rookidee"
+      ],
+      "source_slug": "communityday-august-2025-rookidee",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mega-gyarados-raid-day-2025",
+      "title": "Mega Gyarados Raid Day",
+      "start": "2025-08-31",
+      "end": "2025-08-31",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mega-gyarados-raid-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mega-gyarados-raid-day-2025"
+      ],
+      "source_slug": "mega-gyarados-raid-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mlb-minnesota-twins-2025",
+      "title": "Pokémon GO × Minnesota Twins Game Day",
+      "start": "2025-08-31",
+      "end": "2025-08-31",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Minnesota, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
+    },
+    {
+      "id": "pokemongo-kanto-celebration-2025",
+      "title": "Kanto Celebration",
+      "start": "2025-09-02",
+      "end": "2025-09-07",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemongo-kanto-celebration-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemongo-kanto-celebration-2025"
+      ],
+      "source_slug": "pokemongo-kanto-celebration-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "partner-research-familymart-autumn-2025",
+      "title": "Partner Research: FamilyMart",
+      "start": "2025-09-02",
+      "end": "2025-11-30",
+      "category": "Timed Research",
+      "scope": "Regional",
+      "location": "Japan",
+      "access": [
+        "code"
+      ],
+      "source_url": "https://pokemongo.com/en/news/202509partnerresearch-jp",
+      "source_urls": [
+        "https://pokemongo.com/en/news/202509partnerresearch-jp"
+      ],
+      "source_slug": "202509partnerresearch-jp",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gbl-tales-of-transformation-2025",
+      "title": "GO Battle League: Tales of Transformation",
+      "start": "2025-09-02",
+      "end": "2025-12-02",
+      "category": "GO Battle League",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-tales-of-transformation",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-battle-league-tales-of-transformation"
+      ],
+      "source_slug": "go-battle-league-tales-of-transformation",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "ko-sweet-spooky-world",
+      "title": "Sweet & Spooky Adventure – Korea",
+      "start": "2025-09-06",
+      "end": "2025-09-21",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "South Korea",
+      "access": [
+        "regional"
+      ],
+      "source_url": "https://pokemongo.com/en/news/ko-sweet-spooky-world",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-sweet-spooky-world"
+      ],
+      "source_slug": "ko-sweet-spooky-world",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mega-sharpedo-raid-day-2025",
+      "title": "Mega Sharpedo Raid Day",
+      "start": "2025-09-07",
+      "end": "2025-09-07",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mega-sharpedo-raid-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mega-sharpedo-raid-day-2025"
+      ],
+      "source_slug": "mega-sharpedo-raid-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mlb-texas-rangers-2025",
+      "title": "Pokémon GO × Texas Rangers Game Day",
+      "start": "2025-09-07",
+      "end": "2025-09-07",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Arlington, Texas, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
+    },
+    {
+      "id": "trade-day-2025-09-07",
+      "title": "Trade Day",
+      "start": "2025-09-07",
+      "end": "2025-09-07",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/trade-days-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/trade-days-2025"
+      ],
+      "source_slug": "trade-days-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
+    },
+    {
+      "id": "pokemon-concierge-2025",
+      "title": "Pokémon Concierge Celebration Event",
+      "start": "2025-09-09",
+      "end": "2025-09-14",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-concierge-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-concierge-2025"
+      ],
+      "source_slug": "pokemon-concierge-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-go-at-geek-pride-day-2025",
+      "title": "Área de Pokémon GO no Orgulho Nerd SP 2025",
+      "start": "2025-09-13",
+      "end": "2025-09-14",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "São Paulo, Brazil",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-go-at-geek-pride-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-go-at-geek-pride-day-2025"
+      ],
+      "source_slug": "pokemon-go-at-geek-pride-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "megaweek-2025",
+      "title": "Mega Evolution Week arrives!",
+      "start": "2025-09-13",
+      "end": "2025-09-14",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "South Korea",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/megaweek-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/megaweek-2025"
+      ],
+      "source_slug": "megaweek-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "stamprallyfrance",
+      "title": "Pokémon GO Stamp Rally – France",
+      "start": "2025-09-13",
+      "end": "2025-09-14",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "France",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/stamprallyfrance",
+      "source_urls": [
+        "https://pokemongo.com/en/news/stamprallyfrance"
+      ],
+      "source_slug": "stamprallyfrance",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communityday-september-2025-flabebe",
+      "title": "September 2025 Community Day: Flabébé",
+      "start": "2025-09-14",
+      "end": "2025-09-14",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/communityday-september-2025-flabebe",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-september-2025-flabebe"
+      ],
+      "source_slug": "communityday-september-2025-flabebe",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "trade-day-2025-09-14",
+      "title": "Trade Day",
+      "start": "2025-09-14",
+      "end": "2025-09-14",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/trade-days-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/trade-days-2025"
+      ],
+      "source_slug": "trade-days-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
+    },
+    {
+      "id": "psychic-spectacular-tgr-2025",
+      "title": "Psychic Spectacular: Taken Over",
+      "start": "2025-09-16",
+      "end": "2025-09-21",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/psychic-spectacular-tgr-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/psychic-spectacular-tgr-2025"
+      ],
+      "source_slug": "psychic-spectacular-tgr-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "shadow-groudon-raid-weekend-2025",
+      "title": "Groudon Shadow Raid Weekend",
+      "start": "2025-09-20",
+      "end": "2025-09-21",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/shadow-groudon-raid-weekend-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/shadow-groudon-raid-weekend-2025"
+      ],
+      "source_slug": "shadow-groudon-raid-weekend-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "hawlucha-celebration-mexico-2025",
+      "title": "Celebrating with Hawlucha",
+      "start": "2025-09-20",
+      "end": "2025-09-26",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "Mexico",
+      "access": [
+        "regional"
+      ],
+      "source_url": "https://pokemongo.com/en/news/hawlucha-celebrando-septiembre-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/hawlucha-celebrando-septiembre-2025"
+      ],
+      "source_slug": "hawlucha-celebrando-septiembre-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "trade-day-2025-09-21",
+      "title": "Trade Day",
+      "start": "2025-09-21",
+      "end": "2025-09-21",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/trade-days-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/trade-days-2025"
+      ],
+      "source_slug": "trade-days-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
+    },
+    {
+      "id": "completely-normal-2025",
+      "title": "Completely Normal",
+      "start": "2025-09-23",
+      "end": "2025-09-27",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/completely-normal-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/completely-normal-2025"
+      ],
+      "source_slug": "completely-normal-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "machamp-vs-hawlucha-arena-mexico-2025",
+      "title": "Machamp vs. Hawlucha at Arena México",
+      "start": "2025-09-25",
+      "end": "2025-09-25",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Arena México, Mexico City, Mexico",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/hawlucha-celebrando-septiembre-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/hawlucha-celebrando-septiembre-2025"
+      ],
+      "source_slug": "hawlucha-celebrando-septiembre-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "city-safari-vancouver-know-before-you-go",
+      "title": "Tips for discovering Vancouver with your new Eevee as a Buddy Pokémon!",
+      "start": "2025-09-27",
+      "end": "2025-09-28",
+      "category": "City Safari",
+      "scope": "Regional / In-person",
+      "location": "Vancouver, British Columbia, Canada",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/city-safari-vancouver-know-before-you-go",
+      "source_urls": [
+        "https://pokemongo.com/en/news/city-safari-vancouver-know-before-you-go"
+      ],
+      "source_slug": "city-safari-vancouver-know-before-you-go",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mega-camerupt-raid-day-2025",
+      "title": "Mega Camerupt Raid Day",
+      "start": "2025-09-28",
+      "end": "2025-09-28",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mega-camerupt-raid-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mega-camerupt-raid-day-2025"
+      ],
+      "source_slug": "mega-camerupt-raid-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "trade-day-2025-09-28",
+      "title": "Trade Day",
+      "start": "2025-09-28",
+      "end": "2025-09-28",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/trade-days-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/trade-days-2025"
+      ],
+      "source_slug": "trade-days-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
+    },
+    {
+      "id": "steel-skyline-2025",
+      "title": "Steel Skyline",
+      "start": "2025-09-30",
+      "end": "2025-10-07",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/steel-skyline-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/steel-skyline-2025"
+      ],
+      "source_slug": "steel-skyline-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "ko-jeju-stamp-rally-event",
+      "title": "Jeju GO Stamp Rally",
+      "start": "2025-10-02",
+      "end": "2025-10-26",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Jeju, South Korea",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/ko-jeju-stamp-rally-event",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-jeju-stamp-rally-event"
+      ],
+      "source_slug": "ko-jeju-stamp-rally-event",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mega-metagross-raid-day-2025",
+      "title": "Mega Metagross Raid Day",
+      "start": "2025-10-04",
+      "end": "2025-10-04",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mega-metagross-raid-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mega-metagross-raid-day-2025"
+      ],
+      "source_slug": "mega-metagross-raid-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "dancing-in-the-moonlight",
+      "title": "Dancing in the Moonlight",
+      "start": "2025-10-04",
+      "end": "2025-10-08",
+      "category": "Regional / Collaboration",
+      "scope": "Regional",
+      "location": "Japan, Taiwan, Hong Kong, South Korea, Indonesia & Singapore",
+      "access": [
+        "regional"
+      ],
+      "source_url": "https://pokemongo.com/en/news/dancing-in-the-moonlight",
+      "source_urls": [
+        "https://pokemongo.com/en/news/dancing-in-the-moonlight"
+      ],
+      "source_slug": "dancing-in-the-moonlight",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "trade-day-2025-10-05",
+      "title": "Trade Day",
+      "start": "2025-10-05",
+      "end": "2025-10-05",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/trade-days-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/trade-days-2025"
+      ],
+      "source_slug": "trade-days-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
+    },
+    {
+      "id": "golden-goal-time-with-pikachu-2025",
+      "title": "Golden Goal Time with Pikachu – Indonesia",
+      "start": "2025-10-06",
+      "end": "2025-10-12",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "Indonesia",
+      "access": [
+        "regional"
+      ],
+      "source_url": "https://pokemongo.com/en/news/golden-goal-time-with-pikachu-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/golden-goal-time-with-pikachu-2025"
+      ],
+      "source_slug": "golden-goal-time-with-pikachu-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "samsung-brazil-game-show-2025",
+      "title": "Samsung × Pokémon GO at Brasil Game Show 2025",
+      "start": "2025-10-09",
+      "end": "2025-10-12",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "São Paulo, Brazil",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/samsung-latam-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/samsung-latam-2025"
+      ],
+      "source_slug": "samsung-latam-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "harvest-festival-2025",
+      "title": "Harvest Festival",
+      "start": "2025-10-10",
+      "end": "2025-10-16",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/harvest-festival-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/harvest-festival-2025"
+      ],
+      "source_slug": "harvest-festival-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
       "id": "poke-lid-stamp-rally-kyushu-okinawa",
       "title": "Poké Lid Stamp Rally – Kyushu & Okinawa",
       "start": "2025-11-07",
