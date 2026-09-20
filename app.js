@@ -84,7 +84,16 @@ async function load() {
   payload = await r.json();
   events = Array.isArray(payload) ? payload : (payload.events || []);
   normalizeControls();
+
+  // Start at the widest day view and center the current date.
+  els.zoom.value = els.zoom.max;
+  const currentYear = String(new Date().getFullYear());
+  if ([...els.year.options].some(o => o.value === currentYear)) {
+    els.year.value = currentYear;
+  }
+
   render();
+  requestAnimationFrame(() => requestAnimationFrame(centerTimelineOnToday));
 }
 
 function normalizeControls() {
@@ -206,13 +215,20 @@ els.dialog.addEventListener("click",e=>{ if(e.target===els.dialog) els.dialog.cl
 for (const el of [els.year,els.category,els.search,els.zoom]) {
   el.addEventListener(el===els.search?"input":"change",render);
 }
+function centerTimelineOnToday() {
+  const y=String(new Date().getFullYear());
+  const shell=document.querySelector(".timeline-shell");
+  if (!shell || els.year.value !== y) return;
+
+  const x=daysBetween(`${y}-01-01`,iso(new Date()))*Number(els.zoom.value);
+  shell.scrollLeft=Math.max(0,x-shell.clientWidth/2);
+}
+
 els.today.addEventListener("click",()=>{
   const y=String(new Date().getFullYear());
   if ([...els.year.options].some(o=>o.value===y)) els.year.value=y;
   render();
-  const shell=document.querySelector(".timeline-shell");
-  const x=daysBetween(`${y}-01-01`,iso(new Date()))*Number(els.zoom.value);
-  shell.scrollLeft=Math.max(0,x-shell.clientWidth/2);
+  requestAnimationFrame(centerTimelineOnToday);
 });
 
 load().catch(err=>{
