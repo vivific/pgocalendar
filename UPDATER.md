@@ -82,16 +82,20 @@ For current and future regional/live events, code acquisition and event mechanic
 
 - `timed_research` — regional Timed Research that is already unlocked/active or otherwise best understood as research.
 - `local_raid` — raids explicitly described as in-person/local-only, or where the official source explicitly says Remote Raid Passes cannot be used. Do not use this merely because raids spawn in a regional event.
+- `sports_game_day` — a Pokémon GO activation tied to a specific professional sports game day or baseball-festa game window.
+- `wild_area` — Pokémon GO Wild Area events, including regional live events and the Global edition.
 - `free_code` — gameplay/research unlocked by a freely distributed code.
 - `paid_code` — gameplay/research unlocked by a code obtained through a purchase, paid participation, qualifying transaction, or equivalent paid acquisition.
 - `stamp_rally` — GO Stamp Rally gameplay.
 - `other` — substantive regional gameplay that does not fit the above.
 
-Display/order these subtypes as: `timed_research`, `local_raid`, `free_code`, `paid_code`, `stamp_rally`, `other`.
+Display/order these subtypes as: `timed_research`, `local_raid`, `sports_game_day`, `wild_area`, `free_code`, `paid_code`, `stamp_rally`, `other`.
 
 Subtype display icons are:
 - `timed_research` → ⏱
 - `local_raid` → 📍
+- `sports_game_day` → 🏟️
+- `wild_area` → 🥾
 - `free_code` → 🆓
 - `paid_code` → 💲
 - `stamp_rally` → 💮
