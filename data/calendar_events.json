@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-20T16:31:28.013Z",
+  "updated_at": "2026-09-20T16:44:38.896Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -3514,9 +3514,17 @@
       "source_slug": "pokemon-horizons-celebration-event-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "",
+      "notes": "Free GO Pass Rank 1 unlocks 2× Candy for catching Pokémon; GO Pass Deluxe upgrades that bonus to 3×.",
       "access": [
         "global"
+      ],
+      "bonuses": [
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        }
       ]
     },
     {
