@@ -4,6 +4,1002 @@
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
+      "id": "new-years-2025",
+      "title": "New Year’s 2025",
+      "start": "2024-12-30",
+      "end": "2025-01-01",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/news/new-years-2025",
+      "source_urls": [
+        "https://pokemongo.com/news/new-years-2025"
+      ],
+      "source_slug": "new-years-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Event bonus: 2,025 XP for catching Pokémon with Excellent Throws."
+    },
+    {
+      "id": "eggs-pedition-access-january-2025",
+      "title": "Eggs-pedition Access: January",
+      "start": "2025-01-01",
+      "end": "2025-01-31",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/eggs-pedition-access-january-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/eggs-pedition-access-january-2025"
+      ],
+      "source_slug": "eggs-pedition-access-january-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "ko-movie-2025",
+      "title": "Pokémon Movie Lucario Celebration – Korea",
+      "start": "2025-01-01",
+      "end": "2025-01-31",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "South Korea",
+      "access": [
+        "regional"
+      ],
+      "source_url": "https://pokemongo.com/en/news/ko-movie-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-movie-2025"
+      ],
+      "source_slug": "ko-movie-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "fidough-fetch-2025",
+      "title": "Fidough Fetch",
+      "start": "2025-01-03",
+      "end": "2025-01-07",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/fidough-fetch-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/fidough-fetch-2025"
+      ],
+      "source_slug": "fidough-fetch-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communityday-january-2025-sprigatito",
+      "title": "January 2025 Community Day: Sprigatito",
+      "start": "2025-01-05",
+      "end": "2025-01-05",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/communityday-january-2025-sprigatito",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-january-2025-sprigatito"
+      ],
+      "source_slug": "communityday-january-2025-sprigatito",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "fashion-week-2025",
+      "title": "Fashion Week",
+      "start": "2025-01-10",
+      "end": "2025-01-19",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/fashion-week-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/fashion-week-2025"
+      ],
+      "source_slug": "fashion-week-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mega-gallade-raid-day-2025",
+      "title": "Mega Gallade Raid Day",
+      "start": "2025-01-11",
+      "end": "2025-01-11",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mega-gallade-raid-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mega-gallade-raid-day-2025"
+      ],
+      "source_slug": "mega-gallade-raid-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "fashion-week-taken-over-by-tgr",
+      "title": "Fashion Week: Taken Over",
+      "start": "2025-01-15",
+      "end": "2025-01-19",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/fashion-week-taken-over-by-TGR",
+      "source_urls": [
+        "https://pokemongo.com/en/news/fashion-week-taken-over-by-TGR"
+      ],
+      "source_slug": "fashion-week-taken-over-by-TGR",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "shadow-hooh-raid-day-2025",
+      "title": "Ho-Oh Shadow Raid Day",
+      "start": "2025-01-19",
+      "end": "2025-01-19",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/shadow-hooh-raid-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/shadow-hooh-raid-day-2025"
+      ],
+      "source_slug": "shadow-hooh-raid-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mcdonalds-us-2025-01-20",
+      "title": "McDonald’s × Pokémon GO – US Week",
+      "start": "2025-01-20",
+      "end": "2025-01-26",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Participating McDonald’s locations, USA",
+      "access": [
+        "partner"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mcdonalds-us",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mcdonalds-us"
+      ],
+      "source_slug": "mcdonalds-us",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "legendary-flight-articuno-2025",
+      "title": "Legendary Flight: Dynamax Articuno",
+      "start": "2025-01-20",
+      "end": "2025-01-27",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/ja/news/legendary-flight-2025",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/legendary-flight-2025"
+      ],
+      "source_slug": "legendary-flight-2025",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gbl-week-dual-destiny-2025",
+      "title": "GO Battle Week: Dual Destiny",
+      "start": "2025-01-21",
+      "end": "2025-01-26",
+      "category": "GO Battle League",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-dual-destiny",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-battle-league-dual-destiny"
+      ],
+      "source_slug": "go-battle-league-dual-destiny",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "steeled-resolve-2025",
+      "title": "Steeled Resolve",
+      "start": "2025-01-21",
+      "end": "2025-01-26",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/steeled-resolve-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/steeled-resolve-2025"
+      ],
+      "source_slug": "steeled-resolve-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communitydayclassic-january-2025-ralts",
+      "title": "January 2025 Community Day Classic: Ralts",
+      "start": "2025-01-25",
+      "end": "2025-01-25",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/communitydayclassic-january-2025-ralts",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communitydayclassic-january-2025-ralts"
+      ],
+      "source_slug": "communitydayclassic-january-2025-ralts",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "legendary-flight-zapdos-2025",
+      "title": "Legendary Flight: Dynamax Zapdos",
+      "start": "2025-01-27",
+      "end": "2025-02-03",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/ja/news/legendary-flight-2025",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/legendary-flight-2025"
+      ],
+      "source_slug": "legendary-flight-2025",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "lunar-new-year-event-2025",
+      "title": "Lunar New Year",
+      "start": "2025-01-29",
+      "end": "2025-02-02",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/lunar-new-year-event-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/lunar-new-year-event-2025"
+      ],
+      "source_slug": "lunar-new-year-event-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gigantamax-kingler-max-battle-day",
+      "title": "Gigantamax Kingler Max Battle Day",
+      "start": "2025-02-01",
+      "end": "2025-02-01",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/gigantamax-kingler-max-battle-day",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gigantamax-kingler-max-battle-day"
+      ],
+      "source_slug": "gigantamax-kingler-max-battle-day",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "tcg-prismatic-evolutions",
+      "title": "Pokémon TCG: Prismatic Evolutions × Pokémon GO",
+      "start": "2025-02-01",
+      "end": "2025-02-27",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Participating retail locations",
+      "access": [
+        "partner"
+      ],
+      "source_url": "https://pokemongo.com/en/news/tcg-prismatic-evolutions",
+      "source_urls": [
+        "https://pokemongo.com/en/news/tcg-prismatic-evolutions"
+      ],
+      "source_slug": "tcg-prismatic-evolutions",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "eggs-pedition-access-february-2025",
+      "title": "Eggs-pedition Access: February",
+      "start": "2025-02-01",
+      "end": "2025-02-28",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/eggs-pedition-access-february-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/eggs-pedition-access-february-2025"
+      ],
+      "source_slug": "eggs-pedition-access-february-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "legendary-flight-moltres-2025",
+      "title": "Legendary Flight: Dynamax Moltres",
+      "start": "2025-02-03",
+      "end": "2025-02-09",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/ja/news/legendary-flight-2025",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/legendary-flight-2025"
+      ],
+      "source_slug": "legendary-flight-2025",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "small-yet-strong-2025",
+      "title": "Small Yet Strong",
+      "start": "2025-02-05",
+      "end": "2025-02-08",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/small-yet-strong-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/small-yet-strong-2025"
+      ],
+      "source_slug": "small-yet-strong-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch XP"
+        }
+      ]
+    },
+    {
+      "id": "communityday-february-2025-karrablast-shelmet",
+      "title": "February 2025 Community Day: Karrablast and Shelmet",
+      "start": "2025-02-09",
+      "end": "2025-02-09",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/communityday-february-2025-karrablast-shelmet",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-february-2025-karrablast-shelmet"
+      ],
+      "source_slug": "communityday-february-2025-karrablast-shelmet",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mcdonalds-us-2025-02-10",
+      "title": "McDonald’s × Pokémon GO – US Week",
+      "start": "2025-02-10",
+      "end": "2025-02-16",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Participating McDonald’s locations, USA",
+      "access": [
+        "partner"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mcdonalds-us",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mcdonalds-us"
+      ],
+      "source_slug": "mcdonalds-us",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "beloved-buddies-2025",
+      "title": "Beloved Buddies",
+      "start": "2025-02-11",
+      "end": "2025-02-15",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/beloved-buddies-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/beloved-buddies-2025"
+      ],
+      "source_slug": "beloved-buddies-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "hoopa-raid-day-2025",
+      "title": "Hoopa Unbound Raid Day",
+      "start": "2025-02-15",
+      "end": "2025-02-15",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/hoopa-raid-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/hoopa-raid-day-2025"
+      ],
+      "source_slug": "hoopa-raid-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "scattered-to-the-winds-2025",
+      "title": "Scattered to the Winds",
+      "start": "2025-02-18",
+      "end": "2025-02-20",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/scattered-to-the-winds-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/scattered-to-the-winds-2025"
+      ],
+      "source_slug": "scattered-to-the-winds-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Also 5× XP for the first spin of a PokéStop.",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 2,
+          "action": "spin",
+          "label": "2× PokéStop Spin XP"
+        }
+      ]
+    },
+    {
+      "id": "road-to-unova-event",
+      "title": "Road to Unova",
+      "start": "2025-02-24",
+      "end": "2025-03-01",
+      "category": "GO Tour",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/road-to-unova-event",
+      "source_urls": [
+        "https://pokemongo.com/en/news/road-to-unova-event"
+      ],
+      "source_slug": "road-to-unova-event",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "tour-pass-2025",
+      "title": "GO Tour Pass: Unova",
+      "start": "2025-02-24",
+      "end": "2025-03-02",
+      "category": "GO Tour",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/tour-pass-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/tour-pass-2025"
+      ],
+      "source_slug": "tour-pass-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "brazil-pokemon-day-2025",
+      "title": "Pokémon Day 2025 at Shopping Eldorado",
+      "start": "2025-02-27",
+      "end": "2025-03-15",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "São Paulo, Brazil",
+      "access": [
+        "partner"
+      ],
+      "source_url": "https://pokemongo.com/en/news/Brazil-Pokemon-Day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/Brazil-Pokemon-Day-2025"
+      ],
+      "source_slug": "Brazil-Pokemon-Day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-tour-unova-global-2025",
+      "title": "Pokémon GO Tour: Unova – Global",
+      "start": "2025-03-01",
+      "end": "2025-03-02",
+      "category": "GO Tour",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/get-ready-for-gotour-unova",
+      "source_urls": [
+        "https://pokemongo.com/en/news/get-ready-for-gotour-unova"
+      ],
+      "source_slug": "get-ready-for-gotour-unova",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "carnival-of-friends-2025",
+      "title": "Carnival of Friendship",
+      "start": "2025-03-03",
+      "end": "2025-03-07",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "Latin America",
+      "access": [
+        "regional"
+      ],
+      "source_url": "https://pokemongo.com/en/news/carnival-of-friends-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/carnival-of-friends-2025"
+      ],
+      "source_slug": "carnival-of-friends-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "power-up-ticket-march-2025",
+      "title": "Power Up Ticket: March",
+      "start": "2025-03-04",
+      "end": "2025-04-04",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/power-up-ticket-march-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/power-up-ticket-march-2025"
+      ],
+      "source_slug": "power-up-ticket-march-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gbl-might-and-mastery-2025",
+      "title": "GO Battle League: Might and Mastery",
+      "start": "2025-03-04",
+      "end": "2025-06-03",
+      "category": "GO Battle League",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-might-and-mastery",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-battle-league-might-and-mastery"
+      ],
+      "source_slug": "go-battle-league-might-and-mastery",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "powerful-potential",
+      "title": "Powerful Potential",
+      "start": "2025-03-05",
+      "end": "2025-03-10",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/powerful-potential",
+      "source_urls": [
+        "https://pokemongo.com/en/news/powerful-potential"
+      ],
+      "source_slug": "powerful-potential",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communityday-march-2025-fuecoco",
+      "title": "March 2025 Community Day: Fuecoco",
+      "start": "2025-03-08",
+      "end": "2025-03-08",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/communityday-march-2025-fuecoco",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-march-2025-fuecoco"
+      ],
+      "source_slug": "communityday-march-2025-fuecoco",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "fossil-fukui",
+      "title": "Pokémon Fossil Museum × Pokémon GO – Fukui",
+      "start": "2025-03-08",
+      "end": "2025-05-25",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "access": [
+        "partner"
+      ],
+      "source_url": "https://pokemongo.com/en/news/fossil_fukui",
+      "source_urls": [
+        "https://pokemongo.com/en/news/fossil_fukui"
+      ],
+      "source_slug": "fossil_fukui",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "wayfarer-challenge-chile-india-2025",
+      "title": "Wayfarer PokéStop Challenge – Chile & India",
+      "start": "2025-03-09",
+      "end": "2025-03-12",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "Chile & India",
+      "access": [
+        "regional"
+      ],
+      "source_url": "https://pokemongo.com/es-MX/news/wayfarer-challenge-chile-india-2025",
+      "source_urls": [
+        "https://pokemongo.com/es-MX/news/wayfarer-challenge-chile-india-2025"
+      ],
+      "source_slug": "wayfarer-challenge-chile-india-2025",
+      "source_locale": "es-MX",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mcdonalds-us-2025-03-10",
+      "title": "McDonald’s × Pokémon GO – US Week",
+      "start": "2025-03-10",
+      "end": "2025-03-16",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Participating McDonald’s locations, USA",
+      "access": [
+        "partner"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mcdonalds-us",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mcdonalds-us"
+      ],
+      "source_slug": "mcdonalds-us",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "ko-move-forward",
+      "title": "Move Forward Timed Research",
+      "start": "2025-03-10",
+      "end": "2025-05-31",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "South Korea",
+      "access": [
+        "regional"
+      ],
+      "source_url": "https://pokemongo.com/en/news/ko-move-forward",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-move-forward"
+      ],
+      "source_slug": "ko-move-forward",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "festival-of-colors-2025",
+      "title": "Festival of Colors",
+      "start": "2025-03-13",
+      "end": "2025-03-17",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/festival-of-colors-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/festival-of-colors-2025"
+      ],
+      "source_slug": "festival-of-colors-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "dynamax-raikou-max-battle-weekend",
+      "title": "Dynamax Raikou Max Battle Weekend",
+      "start": "2025-03-15",
+      "end": "2025-03-16",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/dynamax-raikou-max-battle-weekend",
+      "source_urls": [
+        "https://pokemongo.com/en/news/dynamax-raikou-max-battle-weekend"
+      ],
+      "source_slug": "dynamax-raikou-max-battle-weekend",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "catch-mastery-archen-2025",
+      "title": "Catch Mastery",
+      "start": "2025-03-16",
+      "end": "2025-03-16",
+      "category": "Catch Mastery",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/catch-mastery-archen-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/catch-mastery-archen-2025"
+      ],
+      "source_slug": "catch-mastery-archen-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "partner-research-familymart-spring-2025",
+      "title": "Partner Research: FamilyMart",
+      "start": "2025-03-18",
+      "end": "2025-05-31",
+      "category": "Timed Research",
+      "scope": "Regional",
+      "location": "Japan",
+      "access": [
+        "code"
+      ],
+      "source_url": "https://pokemongo.com/en/news/202503partnerresearch-jp",
+      "source_urls": [
+        "https://pokemongo.com/en/news/202503partnerresearch-jp"
+      ],
+      "source_slug": "202503partnerresearch-jp",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "deep-depths-2025",
+      "title": "Deep Depths",
+      "start": "2025-03-19",
+      "end": "2025-03-24",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/deep-depths-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/deep-depths-2025"
+      ],
+      "source_slug": "deep-depths-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communitydayclassic-march-2025-totodile",
+      "title": "March 2025 Community Day Classic: Totodile",
+      "start": "2025-03-22",
+      "end": "2025-03-22",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/communitydayclassic-march-2025-totodile",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communitydayclassic-march-2025-totodile"
+      ],
+      "source_slug": "communitydayclassic-march-2025-totodile",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mega-absol-raid-day-2025",
+      "title": "Mega Absol Raid Day",
+      "start": "2025-03-23",
+      "end": "2025-03-23",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mega-absol-raid-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mega-absol-raid-day-2025"
+      ],
+      "source_slug": "mega-absol-raid-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "partner-research-itoen-spring-2025",
+      "title": "Partner Research: ITO EN",
+      "start": "2025-03-24",
+      "end": "2025-05-31",
+      "category": "Timed Research",
+      "scope": "Regional",
+      "location": "Japan",
+      "access": [
+        "code"
+      ],
+      "source_url": "https://pokemongo.com/en/news/202503partnerresearch-jp",
+      "source_urls": [
+        "https://pokemongo.com/en/news/202503partnerresearch-jp"
+      ],
+      "source_slug": "202503partnerresearch-jp",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "bug-out-2025",
+      "title": "Bug Out",
+      "start": "2025-03-26",
+      "end": "2025-03-30",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/bug-out-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/bug-out-2025"
+      ],
+      "source_slug": "bug-out-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-fiesta-mumbai-2025",
+      "title": "Pokémon Fiesta Mumbai",
+      "start": "2025-03-28",
+      "end": "2025-03-30",
+      "category": "City Safari",
+      "scope": "Regional / In-person",
+      "location": "Phoenix Palladium, Mumbai, India",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-fiesta-mumbai-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-fiesta-mumbai-2025"
+      ],
+      "source_slug": "pokemon-fiesta-mumbai-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
       "id": "poke-lid-stamp-rally-kyushu-okinawa",
       "title": "Poké Lid Stamp Rally – Kyushu & Okinawa",
       "start": "2025-11-07",
