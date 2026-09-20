@@ -4082,6 +4082,86 @@
       "access": [
         "onsite"
       ]
+    },
+    {
+      "id": "pokemon-run-30-2027-thailand",
+      "title": "Pokémon RUN 30 × Pokémon GO – Thailand",
+      "start": "2027-01-09",
+      "end": "2027-01-10",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "CentralWorld outdoor plaza, Bangkok, Thailand",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/news/pokemon-run-30-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/pokemon-run-30-2026"
+      ],
+      "source_slug": "pokemon-run-30-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "One of the Pokémon RUN 30 regional gameplay events."
+    },
+    {
+      "id": "pokemon-run-30-2027-hong-kong",
+      "title": "Pokémon RUN 30 × Pokémon GO – Hong Kong",
+      "start": "2027-01-23",
+      "end": "2027-01-24",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Hong Kong Science Park, Hong Kong",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/news/pokemon-run-30-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/pokemon-run-30-2026"
+      ],
+      "source_slug": "pokemon-run-30-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "One of the Pokémon RUN 30 regional gameplay events."
+    },
+    {
+      "id": "pokexciting-manila-2027",
+      "title": "PokéXciting! Manila",
+      "start": "2027-01-23",
+      "end": "2027-01-24",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "SM Mall of Asia surroundings, Manila, Philippines",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/news/event-apac-30th-anniversary-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/event-apac-30th-anniversary-2026"
+      ],
+      "source_slug": "event-apac-30th-anniversary-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon 30th anniversary PokéXciting! city event with location-specific gameplay."
+    },
+    {
+      "id": "pokexciting-bangkok-2027",
+      "title": "PokéXciting! Bangkok",
+      "start": "2027-02-13",
+      "end": "2027-02-14",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Bangkok, Thailand",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/news/event-apac-30th-anniversary-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/event-apac-30th-anniversary-2026"
+      ],
+      "source_slug": "event-apac-30th-anniversary-2026",
+      "source_locale": "en",
+      "status": "announced",
+      "notes": "Dates are confirmed; event gameplay area/location details are still to be announced."
     }
   ]
 }
