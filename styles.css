@@ -15,7 +15,7 @@
   --ticketed: #b44f63;
 }
 * { box-sizing: border-box; }
-body { margin: 0; min-width: 720px; }
+body { margin: 0; min-width: 0; width: 100%; overflow-x: hidden; }
 .topbar {
   display: flex; justify-content: space-between; gap: 24px; align-items: flex-start;
   padding: 32px 36px 24px; background: white; border-bottom: 1px solid #e5e9f0;
@@ -138,4 +138,120 @@ footer p { margin: 0; }
   .event-row { border-bottom-color:#252a34; }
   dialog { background:#1b2028; color:#e8ecf4; }
   .update-status { color:#c3cad6; }
+}
+
+
+@media (max-width: 640px) {
+  :root {
+    --label-w: 0px;
+  }
+
+  .topbar {
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px 16px 16px;
+  }
+
+  h1 {
+    font-size: clamp(28px, 9vw, 36px);
+  }
+
+  .lede {
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  .repo-link {
+    align-self: flex-start;
+  }
+
+  main {
+    padding: 14px 0 0;
+  }
+
+  .controls {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 10px;
+    padding: 0 12px;
+    margin-bottom: 10px;
+  }
+
+  .controls label {
+    min-width: 0;
+  }
+
+  .controls .search {
+    grid-column: 1 / -1;
+  }
+
+  .controls input,
+  .controls select,
+  #today {
+    width: 100%;
+    min-width: 0;
+    min-height: 44px;
+    font-size: 16px;
+  }
+
+  #zoom {
+    width: 100%;
+  }
+
+  .legend {
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    padding: 0 12px 10px;
+    line-height: 1.25;
+  }
+
+  .legend .meta {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .timeline-shell {
+    width: 100%;
+    min-height: 330px;
+    max-height: calc(100vh - 300px);
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+  }
+
+  .row-label {
+    display: none;
+  }
+
+  .corner {
+    width: 0;
+    min-width: 0;
+    padding: 0;
+    border-right: 0;
+  }
+
+  .bar-label {
+    left: 8px;
+    max-width: calc(100vw - 24px);
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  dialog {
+    width: calc(100vw - 20px);
+    padding: 22px 18px;
+  }
+
+  dialog h2 {
+    margin-right: 32px;
+  }
+
+  dl {
+    grid-template-columns: 86px minmax(0, 1fr);
+    gap: 8px 10px;
+  }
+
+  footer {
+    padding: 22px 16px 32px;
+  }
 }
