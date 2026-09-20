@@ -126,6 +126,10 @@ Niantic may edit News posts after publication. Re-read recently discovered/updat
 
 Do not guess. If an article has material ambiguity that prevents a reliable calendar decision, leave the canonical event data unchanged and mark the post `review` in `processed_posts.json` with a concise reason.
 
+## Update timestamp
+
+Whenever `data/calendar_events.json` changes, set the top-level `updated_at` field to the current ISO 8601 UTC timestamp (for example `2026-09-20T07:56:00Z`). The website displays this as the human-readable "Last updated" time.
+
 ## Commit behavior
 
 Commit only when repository data actually changes. Keep edits focused on:
