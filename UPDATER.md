@@ -81,11 +81,15 @@ Do not mark an event `ticketed` merely because an optional paid ticket exists. D
 For current and future regional/live events, code acquisition and event mechanics should be represented separately from `access`. Use a `regional_type` field when applicable. Supported values are:
 
 - `timed_research` — regional Timed Research that is already unlocked/active or otherwise best understood as research.
-- `local_raid` — raids that require physical presence and cannot meaningfully be accessed remotely.
+- `local_raid` — raids explicitly described as in-person/local-only, or where the official source explicitly says Remote Raid Passes cannot be used. Do not use this merely because raids spawn in a regional event.
 - `free_code` — gameplay/research unlocked by a freely distributed code.
 - `paid_code` — gameplay/research unlocked by a code obtained through a purchase, paid participation, qualifying transaction, or equivalent paid acquisition.
 - `stamp_rally` — GO Stamp Rally gameplay.
 - `other` — substantive regional gameplay that does not fit the above.
+
+Display/order these subtypes as: `timed_research`, `local_raid`, `free_code`, `paid_code`, `stamp_rally`, `other`.
+
+Assign `regional_type` to currently active and already-announced future regional/on-site events. Broad regional events that merely include Timed Research or raids among several mechanics should normally be `other`; reserve `timed_research` for research-centric entries and `local_raid` for explicitly in-person/non-remote raid content. Reclassify an event when a later official article materially changes what players can do.
 
 This subtype is a live usability aid, not a replacement for `category` or `access`. Do not create or preserve events solely for temporary PokéStops or other promotional map dressing.
 
