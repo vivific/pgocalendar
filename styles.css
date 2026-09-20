@@ -7,12 +7,12 @@
   --label-w: 190px;
   --grid: #dfe5ef;
   --muted: #66748b;
-  --accent: #2f7ed8;
-  --regional: #1f9e9a;
-  --onsite: #7557c7;
+  --accent: #2f80ed;
+  --regional: #2fbf71;
+  --onsite: #f2c94c;
   --partner: #bf7a22;
   --code: #31835d;
-  --ticketed: #c44f8a;
+  --ticketed: #eb5757;
 }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 0; width: 100%; overflow-x: hidden; }
@@ -107,7 +107,7 @@ main { padding: 22px 24px 0 40px; }
   overflow-wrap: break-word;
 }
 .bar.regional { background: var(--regional); }
-.bar.onsite { background: var(--onsite); }
+.bar.onsite { background: var(--onsite); color: #172033; }
 .bar.partner { background: var(--regional); }
 .bar.code { background: var(--regional); }
 .bar.ticketed { background: var(--ticketed); }
