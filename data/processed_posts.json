@@ -1,6 +1,743 @@
 {
   "schema_version": 1,
   "monitor_from": "2026-09-20",
-  "last_checked_at": null,
-  "posts": {}
+  "last_checked_at": "2026-09-20",
+  "posts": {
+    "10th-anniversary-celebration": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "10th-anniversary-party": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "2026-pokemon-go-world-championship-in-ptbr": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "202601_communityday-february-2026-vulpix": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "202603partnerresearch-jp": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "202604aedfoundation": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "202606partnerresearch-jp": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "202607backtomcd": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "202609partnerresearch-jp": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "2026_ana_green": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "2026daanpark": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "2026oct-skmtw": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "a-shockingly-good-time": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "allstar": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "an-egg-cellent-adventure-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "ao2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "assistant_pikachu": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "baystars_game": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "boston-city-safari-know-before-you-go": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "buffaloes_game": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "bug-out-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "carnaval-2026-in-rio": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "carnival-of-flamigo-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "carp_game": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "catch-mastery-oricorio-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "catch-mastery-phantump-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "choose-your-path-forever-forward-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "choose-your-path-twilight-trails-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "city-safaris-europe-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "comic-con-malaga-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "community-celebration-barcelona": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "community-celebration-bordeaux": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "community-celebration-hamburg": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "community-celebration-madrid-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "community-celebration-warszawa": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "community-celebrations-go-fest-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "community-celebrations-go-fest-2026-details-asia-pacific": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "community-celebrations-go-fest-2026-details-en": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "community-celebrations-go-fest-2026-details-ptbr": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "communityday-april-2026-tinkatink": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "communityday-august-2026-nickit": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "communityday-january-2026-grookey": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "communityday-july-2026-sobble": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "communityday-june-2026-frigibax": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "communityday-march-2026-scorbunny": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "communityday-may-2026-lechonk": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "communityday-october-2026-zorua": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "communitydayclassic-deino-may-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "communitydayclassic-gible-september-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "communitydayclassic-piplup-jan-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "dancing-in-the-moonlight-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "dragonss_game": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "eagles_game": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "enamorus-therian-raid-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "euic-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "european-space-agency-event": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "event-apac-30th-anniversary-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "event-apac-stamp-rally-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "event-kuala-lumpur-30th-anniversary-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "event-taipei-30th-anniversary-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "falinks-super-mega-raid-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "fashion-raid-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "festa-junina-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "festival-of-colors-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "fighters_game": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "fire-and-ice-hatch-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "flying-taxi-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "flying-taxi-taken-over-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "get-ready-for-gotour-kalos": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "giants_game": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "gigantamax-cinderace-max-battle-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "gigantamax-meowth-max-battle-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "gigantamax-pikachu-max-battle-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "gigantamax-rillaboom-max-battle-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "global-events-gofest2026-overlays": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-battle-league-forever-forward": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-battle-league-memories-in-motion": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-battle-league-twilight-trails": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-fest-2026-global-final-details": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-pass-april-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-pass-august-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-pass-february-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-pass-january-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-pass-july-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-pass-june-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-pass-march-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-pass-may-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-pass-september-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-stamp-rally-cologne": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-tour-global-2026-australia": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "go-tour-kalos-community-meetups": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "gofest-2026-copenhagen-lego": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "gofest2026-finale-save-the-date": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "gofest2026-global-update": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "gofesttw-2026zhongshan": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "gomemories_brazil": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "gowildarea-sendai-ticket-update": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "growing_beyond_2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "happy-birthday-professor-willow-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "harvest-festival-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "harvest-festival-tgr-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "hawks_game": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "hawlucha-celebrando-septiembre-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "high-zaptitude-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "ho-oh-max-battle-weekend-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "indonesia-carfreeday-jakarta-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "into-the-depths-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "jamsil-magikarp-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "jleague_details": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "know-before-you-go-gofest-2026-in-person-events": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "ko-gofest-global-on-site-event-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "ko-gotour-global-on-site-event": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "ko-winter-festival-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "kumamoto2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "kyurem-fusion-raid-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "legend_research_jp": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "lego-pokemon-go-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "lions_game": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "lunar-new-year-event-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "marines_game": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "mega-evolution-2026-update": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "mega-festa-2026-seoul-stamp-rally": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "mega-finale-korea-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "mega-squads-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "megafinale-2026-armored-mewtwo": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "my-favorite-pokemon-challenge-kr": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "nationaltrust-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "night-treats-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "ozone-ascent-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "patterns-of-the-wild-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pgo-pokemon-fossil-musuem-chicago-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pgo-weekly-challenges-2025": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pikachu-autumn-picnic-korea-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pinch-perfect-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pjcs2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pokemon-30th-anniversary": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pokemon-go-at-gamescomlatam2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pokemon-horizons-celebration-event-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pokemon-pokopia-celebration-event-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pokemon-run-30-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pokemon-sports-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pokemon-x-target-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pokemon_run_in_seoul_2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pokemongogiftcard_gofest2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "ppk_launch": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "precious-pals-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "precious-pals-tgr-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "pvp-updates-competitors-cup-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "raichu-super-mega-raid-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "replay-go-bigger-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "replay-riolu-hatch-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "replay-water-research-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "road-of-legends-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "road-to-kalos-event": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "save-the-date-apac-30th-anniversary-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "save-the-date-go-fest-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "save-the-date-go-tour-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "save-the-date-go-wild-area-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "save-the-date-s21": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "save-the-date-s22": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "save-the-date-s23": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "save-the-date-s24": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "school-festa-korea": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "shadow-entei-raid-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "shadow-raikou-raid-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "skarmory-super-mega-raid-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "special-anniversary-pikachu-celebration": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "spring-marathon-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "staraptor-super-mega-raid-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "starmie-super-mega-raid-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "steeled-resolve-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "steeled-resolve-taken-over-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "suitup_the_10_la": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "summer-marathon-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "summer-quest": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "sustainability-week-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "swallows_game": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "tigers_game": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "tw-floral-picnic-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "ultraunlock-10th-anniversary-edition": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "valentines-day-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "water-festival-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "weekly-branching-tr-korea-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    },
+    "world-championships-event-2026": {
+      "bootstrap": true,
+      "status": "processed"
+    }
+  }
 }
