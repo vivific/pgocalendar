@@ -71,6 +71,8 @@ const ACCESS_LABELS = {
 const REGIONAL_TYPE_LABELS = {
   timed_research: "Timed Research",
   local_raid: "Local Raid",
+  sports_game_day: "Sports Game Day",
+  wild_area: "GO Wild Area",
   free_code: "Free Code Redemption",
   paid_code: "Paid Code Redemption",
   stamp_rally: "Stamp Rally",
@@ -79,6 +81,8 @@ const REGIONAL_TYPE_LABELS = {
 const REGIONAL_TYPE_ICONS = {
   timed_research: "⏱",
   local_raid: "📍",
+  sports_game_day: "🏟️",
+  wild_area: "🥾",
   free_code: "🆓",
   paid_code: "💲",
   stamp_rally: "💮"
@@ -86,10 +90,12 @@ const REGIONAL_TYPE_ICONS = {
 const REGIONAL_TYPE_ORDER = {
   timed_research: 0,
   local_raid: 1,
-  free_code: 2,
-  paid_code: 3,
-  stamp_rally: 4,
-  other: 5
+  sports_game_day: 2,
+  wild_area: 3,
+  free_code: 4,
+  paid_code: 5,
+  stamp_rally: 6,
+  other: 7
 };
 function accessList(e) {
   return Array.isArray(e.access) && e.access.length ? e.access : ((e.scope||"").toLowerCase()==="global" ? ["global"] : ["regional"]);
