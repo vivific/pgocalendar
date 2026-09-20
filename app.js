@@ -81,6 +81,20 @@ function bonusLabel(b) {
   const resource=String(b.type || "bonus").replace(/_/g," ");
   return `${amount}${action}${resource}`.replace(/\b\w/g,c=>c.toUpperCase());
 }
+function bonusPrefix(e) {
+  const icons={stardust:"✨",candy:"🍬",candy_xl:"🍬",xp:"🆙"};
+  return bonusList(e)
+    .filter(b=>icons[b.type] && Number.isFinite(Number(b.multiplier)))
+    .map(b=>{
+      const action=b.action ? ` ${String(b.action).replace(/_/g," ")}` : "";
+      return `${icons[b.type]}${Number(b.multiplier)}×${action}`;
+    })
+    .join(" · ");
+}
+function displayTitle(e) {
+  const prefix=bonusPrefix(e);
+  return prefix ? `${prefix} · ${e.title}` : e.title;
+}
 function primaryAccess(e) {
   const a=accessList(e);
   return ["code","ticketed","partner","onsite","regional","global"].find(x=>a.includes(x)) || "regional";
@@ -185,7 +199,7 @@ function render() {
       const col=daysBetween(`${year}-01-01`,e._start)+2;
       const span=daysBetween(e._start,e._end)+1;
       const ongoing=!e.end ? " ongoing" : "";
-      return `<button class="bar ${primaryAccess(e)}${ongoing}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(e.title)} — ${humanRange(e.start,e.end)}"><span class="bar-label">${escapeHtml(e.title)}</span></button>`;
+      return `<button class="bar ${primaryAccess(e)}${ongoing}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(displayTitle(e))} — ${humanRange(e.start,e.end)}"><span class="bar-label">${escapeHtml(displayTitle(e))}</span></button>`;
     }).join("");
     html += `<div class="event-row"><div class="row-label">Track ${ri+1}</div><div class="row-grid">${cells}</div>${bars}</div>`;
   });
@@ -198,7 +212,7 @@ function showEvent(id) {
   const e=events.find(x=>(x.id||"")===id);
   if (!e) return;
   els.detailCategory.textContent=[e.category,e.scope].filter(Boolean).join(" • ");
-  els.detailTitle.textContent=e.title;
+  els.detailTitle.textContent=displayTitle(e);
   const badges=accessList(e).map(a=>`<span class="access-badge ${escapeHtml(a)}">${escapeHtml(ACCESS_LABELS[a]||a)}</span>`).join("");
   let badgeRow=els.dialog.querySelector(".access-badges");
   if (!badgeRow) {
