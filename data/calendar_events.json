@@ -1999,6 +1999,1015 @@
       "notes": ""
     },
     {
+      "id": "gigantamax-inteleon-max-battle-weekend-2025",
+      "title": "Gigantamax Inteleon Max Battle Weekend",
+      "start": "2025-06-14",
+      "end": "2025-06-15",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/global-events-gofest2025-overlays",
+      "source_urls": [
+        "https://pokemongo.com/en/news/global-events-gofest2025-overlays"
+      ],
+      "source_slug": "global-events-gofest2025-overlays",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "phantom-ruins-2025",
+      "title": "Phantom Ruins",
+      "start": "2025-06-14",
+      "end": "2025-06-18",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/global-events-gofest2025-overlays",
+      "source_urls": [
+        "https://pokemongo.com/en/news/global-events-gofest2025-overlays"
+      ],
+      "source_slug": "global-events-gofest2025-overlays",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch XP"
+        }
+      ]
+    },
+    {
+      "id": "ko-baseball-2025",
+      "title": "Lotte Giants × Pokémon GO – Busan",
+      "start": "2025-06-19",
+      "end": "2025-06-21",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "South Korea",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/ko-baseball-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-baseball-2025"
+      ],
+      "source_slug": "ko-baseball-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "yampers-paw-prints-2025",
+      "title": "Yamper’s Paw Prints",
+      "start": "2025-06-20",
+      "end": "2025-06-22",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/yampers-paw-prints-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/yampers-paw-prints-2025"
+      ],
+      "source_slug": "yampers-paw-prints-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communityday-june-2025-jangmo-o",
+      "title": "June 2025 Community Day: Jangmo-o",
+      "start": "2025-06-21",
+      "end": "2025-06-21",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/communityday-june-2025-jangmo-o",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-june-2025-jangmo-o"
+      ],
+      "source_slug": "communityday-june-2025-jangmo-o",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pjcs2025",
+      "title": "Pokémon Japan Championships 2025 – Pokémon GO",
+      "start": "2025-06-22",
+      "end": "2025-06-22",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/PJCS2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/PJCS2025"
+      ],
+      "source_slug": "PJCS2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "2025-ancients-recovered",
+      "title": "Ancients Recovered",
+      "start": "2025-06-23",
+      "end": "2025-06-27",
+      "category": "GO Fest",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/2025-ancients-recovered",
+      "source_urls": [
+        "https://pokemongo.com/en/news/2025-ancients-recovered"
+      ],
+      "source_slug": "2025-ancients-recovered",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-fest-global-early-eggs-2025",
+      "title": "GO Fest 2025: Global – Early Egg Access",
+      "start": "2025-06-23",
+      "end": "2025-06-29",
+      "category": "GO Fest",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/gofest-2025-global-eggs-early-access",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gofest-2025-global-eggs-early-access"
+      ],
+      "source_slug": "gofest-2025-global-eggs-early-access",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-ancients-recovered-2025",
+      "title": "GO Pass: Ancients Recovered",
+      "start": "2025-06-23",
+      "end": "2025-06-29",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/ja/news/go-pass-ancients-recovered-2025",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/go-pass-ancients-recovered-2025"
+      ],
+      "source_slug": "go-pass-ancients-recovered-2025",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "indonesia-journey-2025-bekasi",
+      "title": "Pikachu’s Indonesia Journey: Bekasi",
+      "start": "2025-06-27",
+      "end": "2025-06-29",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "Indonesia",
+      "access": [
+        "regional"
+      ],
+      "source_url": "https://pokemongo.com/en/news/indonesia-journey-2025-bekasi",
+      "source_urls": [
+        "https://pokemongo.com/en/news/indonesia-journey-2025-bekasi"
+      ],
+      "source_slug": "indonesia-journey-2025-bekasi",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gofesttw-2025twqsquare",
+      "title": "GO Fest 2025: Global – Q Square Taipei Activation",
+      "start": "2025-06-28",
+      "end": "2025-06-28",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "Q Square, Taipei, Taiwan",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/gofesttw-2025twqsquare",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gofesttw-2025twqsquare"
+      ],
+      "source_slug": "gofesttw-2025twqsquare",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-fest-global-2025",
+      "title": "Pokémon GO Fest 2025: Global",
+      "start": "2025-06-28",
+      "end": "2025-06-29",
+      "category": "GO Fest",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/go-fest-2025-events-announcement",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-fest-2025-events-announcement"
+      ],
+      "source_slug": "go-fest-2025-events-announcement",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemongo-9th-anniversary",
+      "title": "Pokémon GO’s 9th Anniversary Party",
+      "start": "2025-07-01",
+      "end": "2025-07-06",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemongo-9th-anniversary",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemongo-9th-anniversary"
+      ],
+      "source_slug": "pokemongo-9th-anniversary",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-july-2025",
+      "title": "GO Pass: July",
+      "start": "2025-07-01",
+      "end": "2025-08-05",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/ja/news/go-pass-july-2025",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/go-pass-july-2025"
+      ],
+      "source_slug": "go-pass-july-2025",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mlb-seattle-mariners-2025",
+      "title": "Pokémon GO × Seattle Mariners Game Day",
+      "start": "2025-07-02",
+      "end": "2025-07-02",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Seattle, Washington, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
+    },
+    {
+      "id": "eggs-pedition-access-july-2025",
+      "title": "Eggs-pedition Access: July",
+      "start": "2025-07-03",
+      "end": "2025-08-03",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/eggs-pedition-access-july-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/eggs-pedition-access-july-2025"
+      ],
+      "source_slug": "eggs-pedition-access-july-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communitydayclassic-july-2025-eevee",
+      "title": "July Community Day Classic: Eevee",
+      "start": "2025-07-05",
+      "end": "2025-07-06",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/communitydayclassic-july-2025-eevee",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communitydayclassic-july-2025-eevee"
+      ],
+      "source_slug": "communitydayclassic-july-2025-eevee",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "ultra-unlock-hisui",
+      "title": "Ultra Unlock: Hisui Celebration",
+      "start": "2025-07-08",
+      "end": "2025-07-13",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/ultra-unlock-hisui",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ultra-unlock-hisui"
+      ],
+      "source_slug": "ultra-unlock-hisui",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "hisuian-lilligant-raid-day-2025",
+      "title": "Hisuian Lilligant Raid Day",
+      "start": "2025-07-12",
+      "end": "2025-07-12",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/hisuian-lilligant-raid-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/hisuian-lilligant-raid-day-2025"
+      ],
+      "source_slug": "hisuian-lilligant-raid-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "battle-korea-2025",
+      "title": "Pokémon GO Battle Korea 2025",
+      "start": "2025-07-12",
+      "end": "2025-07-13",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "South Korea",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/battle-korea-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/battle-korea-2025"
+      ],
+      "source_slug": "battle-korea-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "water-festival-2025",
+      "title": "Water Festival",
+      "start": "2025-07-15",
+      "end": "2025-07-20",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/water-festival-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/water-festival-2025"
+      ],
+      "source_slug": "water-festival-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-go-road-trip-manchester-2025",
+      "title": "Pokémon GO Road Trip 2025: Manchester",
+      "start": "2025-07-16",
+      "end": "2025-07-16",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Manchester, England",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay"
+      ],
+      "source_slug": "pokemon-go-road-trip-2025-gameplay",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Road Trip stop with GO Truck and location-specific/citywide Pokémon GO gameplay."
+    },
+    {
+      "id": "mlb-miami-marlins-2025",
+      "title": "Pokémon GO × Miami Marlins Game Day",
+      "start": "2025-07-18",
+      "end": "2025-07-18",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Miami, Florida, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
+    },
+    {
+      "id": "partner-research-aeonmall-summer-2025",
+      "title": "Partner Research: AEON Mall",
+      "start": "2025-07-18",
+      "end": "2025-08-31",
+      "category": "Timed Research",
+      "scope": "Regional",
+      "location": "Japan",
+      "access": [
+        "code"
+      ],
+      "source_url": "https://pokemongo.com/en/news/202506partnerresearch-jp",
+      "source_urls": [
+        "https://pokemongo.com/en/news/202506partnerresearch-jp"
+      ],
+      "source_slug": "202506partnerresearch-jp",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gigantamax-lapras-max-battle-day-2025",
+      "title": "Gigantamax Lapras graces the Water Festival with a Max Battle Day!",
+      "start": "2025-07-19",
+      "end": "2025-07-19",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/gigantamax-lapras-max-battle-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gigantamax-lapras-max-battle-day-2025"
+      ],
+      "source_slug": "gigantamax-lapras-max-battle-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-go-road-trip-london-2025",
+      "title": "Pokémon GO Road Trip 2025: London",
+      "start": "2025-07-19",
+      "end": "2025-07-19",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "London, England",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay"
+      ],
+      "source_slug": "pokemon-go-road-trip-2025-gameplay",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Road Trip stop with GO Truck and location-specific/citywide Pokémon GO gameplay."
+    },
+    {
+      "id": "pokemongo-summer-concert-2025",
+      "title": "Summer Concert",
+      "start": "2025-07-19",
+      "end": "2025-07-22",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemongo-summer-concert-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemongo-summer-concert-2025"
+      ],
+      "source_slug": "pokemongo-summer-concert-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "communityday-july-2025-quaxly",
+      "title": "July 2025 Community Day: Quaxly",
+      "start": "2025-07-20",
+      "end": "2025-07-20",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/communityday-july-2025-quaxly",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-july-2025-quaxly"
+      ],
+      "source_slug": "communityday-july-2025-quaxly",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mlb-tampa-bay-rays-2025",
+      "title": "Pokémon GO × Tampa Bay Rays Game Day",
+      "start": "2025-07-20",
+      "end": "2025-07-20",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
+    },
+    {
+      "id": "ultra-unlock-steel-and-scales",
+      "title": "Ultra Unlock: Steel and Scales",
+      "start": "2025-07-22",
+      "end": "2025-07-27",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/ultra-unlock-steel-and-scales",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ultra-unlock-steel-and-scales"
+      ],
+      "source_slug": "ultra-unlock-steel-and-scales",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mlb-milwaukee-brewers-2025",
+      "title": "Pokémon GO × Milwaukee Brewers Game Day",
+      "start": "2025-07-25",
+      "end": "2025-07-25",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Milwaukee, Wisconsin, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
+    },
+    {
+      "id": "pokemon-go-road-trip-paris-2025",
+      "title": "Pokémon GO Road Trip 2025: Paris",
+      "start": "2025-07-26",
+      "end": "2025-07-26",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Paris, France",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay"
+      ],
+      "source_slug": "pokemon-go-road-trip-2025-gameplay",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Road Trip stop with GO Truck and location-specific/citywide Pokémon GO gameplay."
+    },
+    {
+      "id": "latias-latios-max-battle-weekend",
+      "title": "Dynamax Latias & Latios Max Battle Weekend",
+      "start": "2025-07-26",
+      "end": "2025-07-27",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/latias-latios-max-battle-weekend",
+      "source_urls": [
+        "https://pokemongo.com/en/news/latias-latios-max-battle-weekend"
+      ],
+      "source_slug": "latias-latios-max-battle-weekend",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "ko-summer-water-festival-2025",
+      "title": "2025 Summer Water Festival – Korea",
+      "start": "2025-07-28",
+      "end": "2025-08-03",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "South Korea",
+      "access": [
+        "regional"
+      ],
+      "source_url": "https://pokemongo.com/en/news/ko-summer-water-festival-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-summer-water-festival-2025"
+      ],
+      "source_slug": "ko-summer-water-festival-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "adventure-week-2025",
+      "title": "Adventure Week",
+      "start": "2025-07-29",
+      "end": "2025-08-03",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/adventure-week-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/adventure-week-2025"
+      ],
+      "source_slug": "adventure-week-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "fossil-research-day-2025",
+      "title": "Fossil Research Day!",
+      "start": "2025-08-02",
+      "end": "2025-08-02",
+      "category": "Research Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/fossil-research-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/fossil-research-day-2025"
+      ],
+      "source_slug": "fossil-research-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-go-road-trip-valencia-2025",
+      "title": "Pokémon GO Road Trip 2025: Valencia",
+      "start": "2025-08-02",
+      "end": "2025-08-02",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Valencia, Spain",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay"
+      ],
+      "source_slug": "pokemon-go-road-trip-2025-gameplay",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Road Trip stop with GO Truck and location-specific/citywide Pokémon GO gameplay."
+    },
+    {
+      "id": "gigantamax-butterfree-max-battle-day",
+      "title": "Gigantamax Butterfree Max Battle Day",
+      "start": "2025-08-03",
+      "end": "2025-08-03",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/gigantamax-butterfree-max-battle-day",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gigantamax-butterfree-max-battle-day"
+      ],
+      "source_slug": "gigantamax-butterfree-max-battle-day",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "sweet-swarm-2025",
+      "title": "Sweet Swarm",
+      "start": "2025-08-03",
+      "end": "2025-08-06",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/sweet-swarm-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/sweet-swarm-2025"
+      ],
+      "source_slug": "sweet-swarm-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "eggs-pedition-access-august-2025",
+      "title": "Eggs-pedition Access: August",
+      "start": "2025-08-03",
+      "end": "2025-09-03",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/monthly-rewards-august-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/monthly-rewards-august-2025"
+      ],
+      "source_slug": "monthly-rewards-august-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 3,
+          "action": "first_catch",
+          "label": "3× First Catch XP"
+        },
+        {
+          "type": "xp",
+          "multiplier": 3,
+          "action": "first_spin",
+          "label": "3× First PokéStop/Gym Spin XP"
+        }
+      ]
+    },
+    {
+      "id": "goaltimewithpikachu2025",
+      "title": "Goal Time with Pikachu – Indonesia",
+      "start": "2025-08-04",
+      "end": "2025-08-09",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "Indonesia",
+      "access": [
+        "regional"
+      ],
+      "source_url": "https://pokemongo.com/en/news/goaltimewithpikachu2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/goaltimewithpikachu2025"
+      ],
+      "source_slug": "goaltimewithpikachu2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mlb-washington-nationals-2025",
+      "title": "Pokémon GO × Washington Nationals Game Day",
+      "start": "2025-08-05",
+      "end": "2025-08-05",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Washington, DC, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
+    },
+    {
+      "id": "go-pass-august-2025",
+      "title": "GO Pass: August",
+      "start": "2025-08-05",
+      "end": "2025-09-02",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/monthly-rewards-august-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/monthly-rewards-august-2025"
+      ],
+      "source_slug": "monthly-rewards-august-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "cozy-companions-2025",
+      "title": "Cozy Companions",
+      "start": "2025-08-06",
+      "end": "2025-08-12",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/cozy-companions-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/cozy-companions-2025"
+      ],
+      "source_slug": "cozy-companions-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "munchlax-hatch-day-2025",
+      "title": "Munchlax Hatch Day",
+      "start": "2025-08-09",
+      "end": "2025-08-09",
+      "category": "Hatch Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/munchlax-hatch-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/munchlax-hatch-day-2025"
+      ],
+      "source_slug": "munchlax-hatch-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-go-road-trip-berlin-2025",
+      "title": "Pokémon GO Road Trip 2025: Berlin",
+      "start": "2025-08-09",
+      "end": "2025-08-09",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Berlin, Germany",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay"
+      ],
+      "source_slug": "pokemon-go-road-trip-2025-gameplay",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Road Trip stop with GO Truck and location-specific/citywide Pokémon GO gameplay."
+    },
+    {
+      "id": "mlb-arizona-diamondbacks-2025",
+      "title": "Pokémon GO × Arizona Diamondbacks Game Day",
+      "start": "2025-08-10",
+      "end": "2025-08-10",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Phoenix, Arizona, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
+    },
+    {
+      "id": "ultra-unlock-origin-forme-raid-day-2025",
+      "title": "Ultra Unlock: Origin Raid Day",
+      "start": "2025-08-10",
+      "end": "2025-08-10",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/ultra-unlock-origin-forme-raid-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ultra-unlock-origin-forme-raid-day-2025"
+      ],
+      "source_slug": "ultra-unlock-origin-forme-raid-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mlb-chicago-white-sox-2025",
+      "title": "Pokémon GO × Chicago White Sox Game Day",
+      "start": "2025-08-11",
+      "end": "2025-08-11",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Chicago, Illinois, USA",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters."
+    },
+    {
       "id": "poke-lid-stamp-rally-kyushu-okinawa",
       "title": "Poké Lid Stamp Rally – Kyushu & Okinawa",
       "start": "2025-11-07",
