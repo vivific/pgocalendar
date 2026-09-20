@@ -378,9 +378,10 @@
       "source_slug": "ppk_launch",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Ongoing daily PokéPark KANTO–exclusive Pokémon GO content beginning February 5, 2026; the source gives no end date.",
+      "notes": "Ongoing daily PokéPark KANTO–exclusive Pokémon GO content beginning February 5, 2026; the source gives no end date. Admission to PokéPark KANTO requires a ticket.",
       "access": [
-        "onsite"
+        "onsite",
+        "ticketed"
       ]
     },
     {
@@ -2588,6 +2589,26 @@
       ]
     },
     {
+      "id": "lego-pokemon-go-code-research-2026",
+      "title": "LEGO × Pokémon GO Offer-Code Timed Research",
+      "start": "2026-08-03",
+      "end": "2026-09-30",
+      "category": "Timed Research",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "code"
+      ],
+      "source_url": "https://pokemongo.com/news/lego-pokemon-go-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/lego-pokemon-go-2026"
+      ],
+      "source_slug": "lego-pokemon-go-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Redeem offer code LEGOxPOKEMONGOxCAP via the Pokémon GO Web Store. In regions where LEGO Pokémon products are not sold, the same code grants alternate Timed Research. Research expires September 30, 2026."
+    },
+    {
       "id": "lego-pokemon-go-2026",
       "title": "LEGO Stores × Pokémon GO",
       "start": "2026-08-03",
@@ -3308,6 +3329,26 @@
       ]
     },
     {
+      "id": "pikachu-korea-outing-2026",
+      "title": "2026 Pikachu's Korea Outing",
+      "start": "2026-09-24",
+      "end": "2026-09-26",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "South Korea",
+      "access": [
+        "regional"
+      ],
+      "source_url": "https://pokemongo.com/ko/news/pikachu-autumn-picnic-korea-2026",
+      "source_urls": [
+        "https://pokemongo.com/ko/news/pikachu-autumn-picnic-korea-2026"
+      ],
+      "source_slug": "pikachu-autumn-picnic-korea-2026",
+      "source_locale": "ko",
+      "status": "confirmed",
+      "notes": "Nationwide Korea event with orange-hanbok Pikachu raids and free Timed Research. The event ends September 26; its Timed Research can be completed through October 11 at 8:00 p.m. KST."
+    },
+    {
       "id": "catch-mastery-phantump-2026",
       "title": "Phantump Catch Mastery",
       "start": "2026-09-26",
@@ -3349,25 +3390,114 @@
       ]
     },
     {
-      "id": "city-safaris-europe-2026",
-      "title": "Pokémon GO City Safari: Lisbon, Marseille & Munich",
+      "id": "city-safari-brisbane-2026",
+      "title": "Pokémon GO City Safari: Brisbane",
       "start": "2026-09-26",
       "end": "2026-09-27",
       "category": "City Safari",
       "scope": "Regional / In-person",
-      "location": "Lisbon, Marseille & Munich",
-      "source_url": "https://pokemongo.com/en/news/city-safaris-europe-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/city-safaris-europe-2026"
-      ],
-      "source_slug": "city-safaris-europe-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
+      "location": "Brisbane, Australia",
       "access": [
         "onsite",
         "ticketed"
-      ]
+      ],
+      "source_url": "https://pokemongo.com/en/news/city-safari-brisbane-know-before-you-go",
+      "source_urls": [
+        "https://pokemongo.com/en/news/city-safari-brisbane-know-before-you-go",
+        "https://pokemongo.com/featured-in-person-events/citysafari"
+      ],
+      "source_slug": "city-safari-brisbane-know-before-you-go",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day."
+    },
+    {
+      "id": "city-safari-lisbon-2026",
+      "title": "Pokémon GO City Safari: Lisbon",
+      "start": "2026-09-26",
+      "end": "2026-09-27",
+      "category": "City Safari",
+      "scope": "Regional / In-person",
+      "location": "Lisbon, Portugal",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/featured-in-person-events/citysafari/lisbon",
+      "source_urls": [
+        "https://pokemongo.com/featured-in-person-events/citysafari/lisbon",
+        "https://pokemongo.com/featured-in-person-events/citysafari"
+      ],
+      "source_slug": "city-safari-lisbon-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day."
+    },
+    {
+      "id": "city-safari-marseille-2026",
+      "title": "Pokémon GO City Safari: Marseille",
+      "start": "2026-09-26",
+      "end": "2026-09-27",
+      "category": "City Safari",
+      "scope": "Regional / In-person",
+      "location": "Marseille, France",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/featured-in-person-events/citysafari/marseille",
+      "source_urls": [
+        "https://pokemongo.com/featured-in-person-events/citysafari/marseille",
+        "https://pokemongo.com/featured-in-person-events/citysafari"
+      ],
+      "source_slug": "city-safari-marseille-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day."
+    },
+    {
+      "id": "city-safari-munich-2026",
+      "title": "Pokémon GO City Safari: Munich",
+      "start": "2026-09-26",
+      "end": "2026-09-27",
+      "category": "City Safari",
+      "scope": "Regional / In-person",
+      "location": "Munich, Germany",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/featured-in-person-events/citysafari/munich",
+      "source_urls": [
+        "https://pokemongo.com/featured-in-person-events/citysafari/munich",
+        "https://pokemongo.com/featured-in-person-events/citysafari"
+      ],
+      "source_slug": "city-safari-munich-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day."
+    },
+    {
+      "id": "city-safari-rio-2026",
+      "title": "Pokémon GO City Safari: Rio de Janeiro",
+      "start": "2026-09-26",
+      "end": "2026-09-27",
+      "category": "City Safari",
+      "scope": "Regional / In-person",
+      "location": "Rio de Janeiro, Brazil",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/featured-in-person-events/citysafari/rio-de-janeiro",
+      "source_urls": [
+        "https://pokemongo.com/featured-in-person-events/citysafari/rio-de-janeiro",
+        "https://pokemongo.com/featured-in-person-events/citysafari"
+      ],
+      "source_slug": "city-safari-rio-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day."
     },
     {
       "id": "patterns-of-the-wild-2026-1",
@@ -3650,6 +3780,26 @@
       ]
     },
     {
+      "id": "hatch-day-2026-10-17",
+      "title": "October 17, 2026 Hatch Day",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "category": "Hatch Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/news/save-the-date-s24",
+      "source_urls": [
+        "https://pokemongo.com/news/save-the-date-s24"
+      ],
+      "source_slug": "save-the-date-s24",
+      "source_locale": "en",
+      "status": "announced",
+      "notes": "Date and event type are officially announced; featured Pokémon/details have not yet been published."
+    },
+    {
       "id": "pokemon-run-30-2026-taiwan-taichung",
       "title": "Pokémon RUN 30 × Pokémon GO – Taichung",
       "start": "2026-10-17",
@@ -3668,6 +3818,46 @@
       "access": [
         "onsite"
       ]
+    },
+    {
+      "id": "max-battle-day-2026-10-24",
+      "title": "October 24, 2026 Max Battle Day",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/news/save-the-date-s24",
+      "source_urls": [
+        "https://pokemongo.com/news/save-the-date-s24"
+      ],
+      "source_slug": "save-the-date-s24",
+      "source_locale": "en",
+      "status": "announced",
+      "notes": "Date and event type are officially announced; featured Pokémon/details have not yet been published."
+    },
+    {
+      "id": "super-mega-raid-day-2026-10-31",
+      "title": "October 31, 2026 Super Mega Raid Day",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/news/save-the-date-s24",
+      "source_urls": [
+        "https://pokemongo.com/news/save-the-date-s24"
+      ],
+      "source_slug": "save-the-date-s24",
+      "source_locale": "en",
+      "status": "announced",
+      "notes": "Date and event type are officially announced; featured Pokémon/details have not yet been published."
     },
     {
       "id": "pokemon-run-30-2026-taiwan-kaohsiung",
@@ -3690,25 +3880,48 @@
       ]
     },
     {
-      "id": "save-the-date-go-wild-area-2026-1",
-      "title": "Pokémon GO Wild Area 2026 – Sendai & Mexico City",
+      "id": "go-wild-area-mexico-city-2026",
+      "title": "Pokémon GO Wild Area: Mexico City",
       "start": "2026-11-06",
       "end": "2026-11-08",
       "category": "Wild Area",
       "scope": "Regional / In-person",
-      "location": "Sendai, Japan & Mexico City, Mexico",
-      "source_url": "https://pokemongo.com/en/news/save-the-date-go-wild-area-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/save-the-date-go-wild-area-2026"
-      ],
-      "source_slug": "save-the-date-go-wild-area-2026",
-      "source_locale": "en",
-      "status": "announced",
-      "notes": "",
+      "location": "Mexico City, Mexico",
       "access": [
         "onsite",
         "ticketed"
-      ]
+      ],
+      "source_url": "https://pokemongo.com/en/gowildarea/mexico-city",
+      "source_urls": [
+        "https://pokemongo.com/en/gowildarea/mexico-city",
+        "https://pokemongo.com/news/save-the-date-go-wild-area-2026"
+      ],
+      "source_slug": "save-the-date-go-wild-area-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Ticketed live event. Event gameplay is available only at the date, time, and location on the ticket."
+    },
+    {
+      "id": "go-wild-area-sendai-tohoku-2026",
+      "title": "Pokémon GO Wild Area: Sendai • Tohoku",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "category": "Wild Area",
+      "scope": "Regional / In-person",
+      "location": "Sendai / Miyagi Prefecture, Japan",
+      "access": [
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/gowildarea/sendai",
+      "source_urls": [
+        "https://pokemongo.com/en/gowildarea/sendai",
+        "https://pokemongo.com/news/save-the-date-go-wild-area-2026"
+      ],
+      "source_slug": "save-the-date-go-wild-area-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Ticketed live event. A ticket covers one day of gameplay; extra-day add-ons are available."
     },
     {
       "id": "pokemon-run-30-2026-2",
@@ -3829,6 +4042,26 @@
       "access": [
         "onsite"
       ]
+    },
+    {
+      "id": "super-mega-raid-day-2026-11-28",
+      "title": "November 28, 2026 Super Mega Raid Day",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/news/save-the-date-s24",
+      "source_urls": [
+        "https://pokemongo.com/news/save-the-date-s24"
+      ],
+      "source_slug": "save-the-date-s24",
+      "source_locale": "en",
+      "status": "announced",
+      "notes": "Date and event type are officially announced; featured Pokémon/details have not yet been published."
     },
     {
       "id": "pokemon-run-30-2026-4",
