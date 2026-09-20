@@ -48,9 +48,20 @@ function eachDay(year) {
 function escapeHtml(v="") {
   return String(v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
 }
-function isRegional(e) {
-  const s = `${e.scope||""} ${e.location||""} ${e.category||""}`.toLowerCase();
-  return !s.includes("global") && (s.includes("regional") || s.includes("in-person") || (e.location && e.location.toLowerCase()!=="global"));
+const ACCESS_LABELS = {
+  global: "Global",
+  regional: "Regional",
+  onsite: "On-site / geofenced",
+  partner: "Partner location",
+  code: "Code redemption",
+  ticketed: "Ticketed"
+};
+function accessList(e) {
+  return Array.isArray(e.access) && e.access.length ? e.access : ((e.scope||"").toLowerCase()==="global" ? ["global"] : ["regional"]);
+}
+function primaryAccess(e) {
+  const a=accessList(e);
+  return ["code","ticketed","partner","onsite","regional","global"].find(x=>a.includes(x)) || "regional";
 }
 function effectiveEnd(e, year) {
   return e.end || `${year}-12-31`;
@@ -140,7 +151,7 @@ function render() {
       const col=daysBetween(`${year}-01-01`,e._start)+2;
       const span=daysBetween(e._start,e._end)+1;
       const ongoing=!e.end ? " ongoing" : "";
-      return `<button class="bar ${isRegional(e)?"regional":""}${ongoing}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(e.title)} — ${humanRange(e.start,e.end)}">${escapeHtml(e.title)}</button>`;
+      return `<button class="bar ${primaryAccess(e)}${ongoing}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(e.title)} — ${humanRange(e.start,e.end)}">${escapeHtml(e.title)}</button>`;
     }).join("");
     html += `<div class="event-row"><div class="row-label">Track ${ri+1}</div><div class="row-grid">${cells}</div>${bars}</div>`;
   });
@@ -154,6 +165,14 @@ function showEvent(id) {
   if (!e) return;
   els.detailCategory.textContent=[e.category,e.scope].filter(Boolean).join(" • ");
   els.detailTitle.textContent=e.title;
+  const badges=accessList(e).map(a=>`<span class="access-badge ${escapeHtml(a)}">${escapeHtml(ACCESS_LABELS[a]||a)}</span>`).join("");
+  let badgeRow=els.dialog.querySelector(".access-badges");
+  if (!badgeRow) {
+    badgeRow=document.createElement("div");
+    badgeRow.className="access-badges";
+    els.detailTitle.insertAdjacentElement("afterend",badgeRow);
+  }
+  badgeRow.innerHTML=badges;
   const fields=[
     ["When",humanRange(e.start,e.end)],
     ["Location",e.location||""],
