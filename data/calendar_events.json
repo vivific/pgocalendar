@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-20T17:20:53.791Z",
+  "updated_at": "2026-09-20T17:34:05.489Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -101,7 +101,27 @@
       "source_slug": "communityday-january-2025-sprigatito",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "stardust",
+          "multiplier": 3,
+          "action": "catch",
+          "label": "3× Catch Stardust"
+        },
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
+      ]
     },
     {
       "id": "fashion-week-2025",
@@ -121,7 +141,21 @@
       "source_slug": "fashion-week-2025",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "stardust",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Stardust"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
+      ]
     },
     {
       "id": "mega-gallade-raid-day-2025",
@@ -192,6 +226,7 @@
       "scope": "Regional / In-person",
       "location": "Participating McDonald’s locations, USA",
       "access": [
+        "onsite",
         "partner"
       ],
       "source_url": "https://pokemongo.com/en/news/mcdonalds-us",
@@ -352,6 +387,7 @@
       "scope": "Regional / In-person",
       "location": "Participating retail locations",
       "access": [
+        "onsite",
         "partner"
       ],
       "source_url": "https://pokemongo.com/en/news/tcg-prismatic-evolutions",
@@ -449,7 +485,27 @@
       "source_slug": "communityday-february-2025-karrablast-shelmet",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 3,
+          "action": "catch",
+          "label": "3× Catch XP"
+        },
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
+      ]
     },
     {
       "id": "mcdonalds-us-2025-02-10",
@@ -460,6 +516,7 @@
       "scope": "Regional / In-person",
       "location": "Participating McDonald’s locations, USA",
       "access": [
+        "onsite",
         "partner"
       ],
       "source_url": "https://pokemongo.com/en/news/mcdonalds-us",
@@ -489,7 +546,15 @@
       "source_slug": "beloved-buddies-2025",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch XP"
+        }
+      ]
     },
     {
       "id": "hoopa-raid-day-2025",
@@ -717,7 +782,27 @@
       "source_slug": "communityday-march-2025-fuecoco",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "stardust",
+          "multiplier": 3,
+          "action": "catch",
+          "label": "3× Catch Stardust"
+        },
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
+      ]
     },
     {
       "id": "fossil-fukui",
@@ -726,9 +811,9 @@
       "end": "2025-05-25",
       "category": "Regional / Collaboration",
       "scope": "Regional / In-person",
-      "location": "Japan",
+      "location": "Fukui Prefectural Dinosaur Museum, Katsuyama, Fukui, Japan",
       "access": [
-        "partner"
+        "onsite"
       ],
       "source_url": "https://pokemongo.com/en/news/fossil_fukui",
       "source_urls": [
@@ -757,7 +842,21 @@
       "source_slug": "wayfarer-challenge-chile-india-2025",
       "source_locale": "es-MX",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 3,
+          "action": "first_spin",
+          "label": "3× First PokéStop Spin XP"
+        },
+        {
+          "type": "stardust",
+          "multiplier": 3,
+          "action": "open_gift",
+          "label": "3× Gift-Opening Stardust"
+        }
+      ]
     },
     {
       "id": "mcdonalds-us-2025-03-10",
@@ -768,6 +867,7 @@
       "scope": "Regional / In-person",
       "location": "Participating McDonald’s locations, USA",
       "access": [
+        "onsite",
         "partner"
       ],
       "source_url": "https://pokemongo.com/en/news/mcdonalds-us",
@@ -977,7 +1077,15 @@
       "source_slug": "bug-out-2025",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 2,
+          "action": "catch_nice_or_better",
+          "label": "2× Catch XP for Nice Throws or Better"
+        }
+      ]
     },
     {
       "id": "pokemon-fiesta-mumbai-2025",
@@ -1005,10 +1113,10 @@
       "start": "2025-03-29",
       "end": "2025-03-29",
       "category": "Research Day",
-      "scope": "Regional",
-      "location": "Japan",
+      "scope": "Global",
+      "location": "Global",
       "access": [
-        "regional"
+        "global"
       ],
       "source_url": "https://pokemongo.com/ja/news/fuzzy-buddy-research-day-2025",
       "source_urls": [
@@ -1057,7 +1165,15 @@
       "source_slug": "stunning-styles-2025",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch XP"
+        }
+      ]
     },
     {
       "id": "power-up-ticket-april-2025",
@@ -1157,7 +1273,15 @@
       "source_slug": "spring-into-spring-2025",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "hatch",
+          "label": "2× Hatch Candy"
+        }
+      ]
     },
     {
       "id": "sparring-partners-raid-day-2025",
@@ -1277,7 +1401,15 @@
       "source_slug": "sweet-discoveries-2025",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        }
+      ]
     },
     {
       "id": "ditto-time-seoul-2025",
@@ -1357,7 +1489,27 @@
       "source_slug": "communityday-april-2025-vanillite",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 3,
+          "action": "catch",
+          "label": "3× Catch XP"
+        },
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
+      ]
     },
     {
       "id": "team-go-rocket-gamescomlatam2025",
@@ -1397,7 +1549,21 @@
       "source_slug": "growing-up-2025",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 2,
+          "action": "evolve",
+          "label": "2× Evolve XP"
+        },
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "hatch",
+          "label": "2× Hatch Candy"
+        }
+      ]
     },
     {
       "id": "mega-kangaskhan-raid-day-2025",
@@ -1577,7 +1743,21 @@
       "source_slug": "communityday-may-2025-pawmi",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
+      ]
     },
     {
       "id": "crown-clash-tgr-2025",
@@ -1705,7 +1885,15 @@
       "source_slug": "communitydayclassic-may-2025-machop",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "stardust",
+          "multiplier": 3,
+          "action": "catch",
+          "label": "3× Catch Stardust"
+        }
+      ]
     },
     {
       "id": "japanday-2025",
@@ -2104,7 +2292,27 @@
       "source_slug": "communityday-june-2025-jangmo-o",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 3,
+          "action": "catch",
+          "label": "3× Catch XP"
+        },
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
+      ]
     },
     {
       "id": "pjcs2025",
@@ -2566,7 +2774,27 @@
       "source_slug": "communityday-july-2025-quaxly",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "stardust",
+          "multiplier": 3,
+          "action": "catch",
+          "label": "3× Catch Stardust"
+        },
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
+      ]
     },
     {
       "id": "mlb-tampa-bay-rays-2025",
@@ -3380,7 +3608,21 @@
       "source_slug": "communityday-august-2025-rookidee",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
+      ]
     },
     {
       "id": "mega-gyarados-raid-day-2025",
@@ -3582,7 +3824,15 @@
       "source_slug": "pokemon-concierge-2025",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        }
+      ]
     },
     {
       "id": "pokemon-go-at-geek-pride-day-2025",
@@ -3662,7 +3912,21 @@
       "source_slug": "communityday-september-2025-flabebe",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
+      ]
     },
     {
       "id": "trade-day-2025-09-14",
@@ -4043,7 +4307,33 @@
       "source_slug": "communityday-october-2025-solosis",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch XP"
+        },
+        {
+          "type": "stardust",
+          "multiplier": 3,
+          "action": "catch",
+          "label": "3× Catch Stardust"
+        },
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
+      ]
     },
     {
       "id": "trade-day-2025-10-12",
@@ -4312,9 +4602,9 @@
       "end": "2026-01-12",
       "category": "Event",
       "scope": "Regional / In-person",
-      "location": "Sagamihara, Japan",
+      "location": "Sagamihara City Museum, Sagamihara, Kanagawa, Japan",
       "access": [
-        "partner"
+        "onsite"
       ],
       "source_url": "https://pokemongo.com/en/news/observatory_sagamihara",
       "source_urls": [
@@ -4332,8 +4622,9 @@
       "end": "2026-01-25",
       "category": "Event",
       "scope": "Regional / In-person",
-      "location": "Japan",
+      "location": "AEON Malls, Japan",
       "access": [
+        "onsite",
         "partner"
       ],
       "source_url": "https://pokemongo.com/en/news/202511-mega-tokkun",
@@ -4414,6 +4705,7 @@
       "scope": "Regional / In-person",
       "location": "Participating retail locations",
       "access": [
+        "onsite",
         "partner"
       ],
       "source_url": "https://pokemongo.com/en/news/tcg-mega-lucario-ex",
@@ -4603,7 +4895,21 @@
       "source_slug": "high-voltage-2025",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 2,
+          "action": "catch_nice_or_better",
+          "label": "2× Catch XP for Nice Throws or Better"
+        },
+        {
+          "type": "stardust",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Stardust"
+        }
+      ]
     },
     {
       "id": "eevee-max-battle-weekend-2025",
@@ -4703,7 +5009,27 @@
       "source_slug": "communityday-november-2025-pikipek",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 3,
+          "action": "catch",
+          "label": "3× Catch XP"
+        },
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
+      ]
     },
     {
       "id": "trade-day-2025-11-30",
@@ -4823,7 +5149,33 @@
       "source_slug": "community-day-december-2025",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch XP"
+        },
+        {
+          "type": "stardust",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Stardust"
+        },
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
+      ]
     },
     {
       "id": "well-armed-2025",
@@ -4843,7 +5195,15 @@
       "source_slug": "well-armed-2025",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": ""
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        }
+      ]
     },
     {
       "id": "ko-seoul-lantern-festival",
