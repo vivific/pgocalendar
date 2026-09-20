@@ -9,6 +9,7 @@ const els = {
   timeline: document.querySelector("#timeline"),
   empty: document.querySelector("#empty"),
   meta: document.querySelector("#meta"),
+  subtypeLegend: document.querySelector("#subtype-legend"),
   footerStatus: document.querySelector("#footer-status"),
   dialog: document.querySelector("#details"),
   detailCategory: document.querySelector("#detail-category"),
@@ -67,6 +68,22 @@ const ACCESS_LABELS = {
   code: "Code redemption",
   ticketed: "Ticketed"
 };
+const REGIONAL_TYPE_LABELS = {
+  timed_research: "Timed Research",
+  local_raid: "Local Raid",
+  free_code: "Free Code Redemption",
+  paid_code: "Paid Code Redemption",
+  stamp_rally: "Stamp Rally",
+  other: "Other"
+};
+const REGIONAL_TYPE_ORDER = {
+  timed_research: 0,
+  local_raid: 1,
+  free_code: 2,
+  paid_code: 3,
+  stamp_rally: 4,
+  other: 5
+};
 function accessList(e) {
   return Array.isArray(e.access) && e.access.length ? e.access : ((e.scope||"").toLowerCase()==="global" ? ["global"] : ["regional"]);
 }
@@ -98,6 +115,14 @@ function displayTitle(e) {
 function primaryAccess(e) {
   const a=accessList(e);
   return ["code","ticketed","partner","onsite","regional","global"].find(x=>a.includes(x)) || "regional";
+}
+function regionalTypeClass(e) {
+  return REGIONAL_TYPE_LABELS[e.regional_type] ? ` rt-${e.regional_type.replace(/_/g,"-")}` : "";
+}
+function regionalTypeRank(e) {
+  return Object.prototype.hasOwnProperty.call(REGIONAL_TYPE_ORDER,e.regional_type)
+    ? REGIONAL_TYPE_ORDER[e.regional_type]
+    : 99;
 }
 function effectiveEnd(e, year) {
   return e.end || `${year}-12-31`;
@@ -146,7 +171,12 @@ function filtered(year) {
     if (cat && e.category !== cat) return false;
     if (q && !JSON.stringify(e).toLowerCase().includes(q)) return false;
     return true;
-  }).sort((a,b)=>a.start.localeCompare(b.start)||(a.end||"9999-12-31").localeCompare(b.end||"9999-12-31")||a.title.localeCompare(b.title));
+  }).sort((a,b)=>
+    a.start.localeCompare(b.start) ||
+    regionalTypeRank(a)-regionalTypeRank(b) ||
+    (a.end||"9999-12-31").localeCompare(b.end||"9999-12-31") ||
+    a.title.localeCompare(b.title)
+  );
 }
 
 function packRows(list, year) {
@@ -172,6 +202,9 @@ function render() {
   const rows=packRows(list,year);
   els.empty.hidden=list.length!==0;
   els.meta.textContent=`${list.length} event${list.length===1?"":"s"}`;
+  if (els.subtypeLegend) {
+    els.subtypeLegend.hidden=!list.some(e=>REGIONAL_TYPE_LABELS[e.regional_type]);
+  }
   if (els.footerStatus) {
     els.footerStatus.textContent=`Checks for updates every hour. Last updated: ${humanUpdated(payload.updated_at)}.`;
   }
@@ -199,7 +232,7 @@ function render() {
       const col=daysBetween(`${year}-01-01`,e._start)+2;
       const span=daysBetween(e._start,e._end)+1;
       const ongoing=!e.end ? " ongoing" : "";
-      return `<button class="bar ${primaryAccess(e)}${ongoing}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(displayTitle(e))} — ${humanRange(e.start,e.end)}"><span class="bar-label">${escapeHtml(displayTitle(e))}</span></button>`;
+      return `<button class="bar ${primaryAccess(e)}${regionalTypeClass(e)}${ongoing}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(displayTitle(e))} — ${humanRange(e.start,e.end)}"><span class="bar-label">${escapeHtml(displayTitle(e))}</span></button>`;
     }).join("");
     html += `<div class="event-row"><div class="row-label">Track ${ri+1}</div><div class="row-grid">${cells}</div>${bars}</div>`;
   });
@@ -235,6 +268,7 @@ function showEvent(id) {
   const fields=[
     ["When",humanRange(e.start,e.end)],
     ["Location",e.location||""],
+    ["Regional type",REGIONAL_TYPE_LABELS[e.regional_type]||""],
     ["Source locale",e.source_locale||""],
     ["Status",e.status||""]
   ].filter(([,v])=>v);
