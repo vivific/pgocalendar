@@ -70,6 +70,17 @@ const ACCESS_LABELS = {
 function accessList(e) {
   return Array.isArray(e.access) && e.access.length ? e.access : ((e.scope||"").toLowerCase()==="global" ? ["global"] : ["regional"]);
 }
+function bonusList(e) {
+  return Array.isArray(e.bonuses) ? e.bonuses.filter(b => b && (b.label || b.type)) : [];
+}
+function bonusLabel(b) {
+  if (b.label) return b.label;
+  const n=Number(b.multiplier);
+  const amount=Number.isFinite(n) ? `${n}× ` : "";
+  const action=b.action ? `${String(b.action).replace(/_/g," ")} ` : "";
+  const resource=String(b.type || "bonus").replace(/_/g," ");
+  return `${amount}${action}${resource}`.replace(/\b\w/g,c=>c.toUpperCase());
+}
 function primaryAccess(e) {
   const a=accessList(e);
   return ["code","ticketed","partner","onsite","regional","global"].find(x=>a.includes(x)) || "regional";
