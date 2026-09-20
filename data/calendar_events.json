@@ -1,6 +1,6 @@
 {
-  "schema_version": 2,
-  "updated_at": "2026-09-20T16:05:13.600Z",
+  "schema_version": 3,
+  "updated_at": "2026-09-20T16:31:28.013Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
