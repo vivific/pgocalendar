@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-20T19:00:46.064Z",
+  "updated_at": "2026-09-21T21:41:42.401Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -1666,6 +1666,28 @@
       "notes": ""
     },
     {
+      "id": "suita-city-stamp-rally",
+      "title": "Suita City GO Stamp Rally",
+      "start": "2025-05-09",
+      "end": null,
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Suita, Osaka, Japan",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "stamp_rally",
+      "bonuses": [],
+      "source_url": "https://pokemongo.com/news/suita_rally?hl=ja",
+      "source_urls": [
+        "https://pokemongo.com/news/suita_rally?hl=ja"
+      ],
+      "source_slug": "suita_rally",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": "Official Pokémon GO source states that the Suita City Stamp Rally has no end-period restriction."
+    },
+    {
       "id": "ditto-time-korea-2025",
       "title": "Ditto Time – Korea",
       "start": "2025-05-09",
@@ -3307,26 +3329,6 @@
       "regional_type": "local_raid"
     },
     {
-      "id": "world-championships-event-2025",
-      "title": "2025 Pokémon World Championships In-Game Event",
-      "start": "2025-08-15",
-      "end": "2025-08-17",
-      "category": "Championship",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/world-championships-event-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/world-championships-event-2025"
-      ],
-      "source_slug": "world-championships-event-2025",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "gbl-weekend-delightful-days-2025",
       "title": "GO Battle Weekend: Delightful Days",
       "start": "2025-08-15",
@@ -3342,6 +3344,26 @@
         "https://pokemongo.com/en/news/go-battle-league-delightful-days"
       ],
       "source_slug": "go-battle-league-delightful-days",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "world-championships-event-2025",
+      "title": "2025 Pokémon World Championships In-Game Event",
+      "start": "2025-08-15",
+      "end": "2025-08-17",
+      "category": "Championship",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/world-championships-event-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/world-championships-event-2025"
+      ],
+      "source_slug": "world-championships-event-2025",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -3849,26 +3871,6 @@
       ]
     },
     {
-      "id": "pokemon-go-at-geek-pride-day-2025",
-      "title": "Área de Pokémon GO no Orgulho Nerd SP 2025",
-      "start": "2025-09-13",
-      "end": "2025-09-14",
-      "category": "Event",
-      "scope": "Regional / In-person",
-      "location": "São Paulo, Brazil",
-      "access": [
-        "onsite"
-      ],
-      "source_url": "https://pokemongo.com/en/news/pokemon-go-at-geek-pride-day-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/pokemon-go-at-geek-pride-day-2025"
-      ],
-      "source_slug": "pokemon-go-at-geek-pride-day-2025",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "megaweek-2025",
       "title": "Mega Evolution Week arrives!",
       "start": "2025-09-13",
@@ -3884,6 +3886,26 @@
         "https://pokemongo.com/en/news/megaweek-2025"
       ],
       "source_slug": "megaweek-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-go-at-geek-pride-day-2025",
+      "title": "Área de Pokémon GO no Orgulho Nerd SP 2025",
+      "start": "2025-09-13",
+      "end": "2025-09-14",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "São Paulo, Brazil",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-go-at-geek-pride-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-go-at-geek-pride-day-2025"
+      ],
+      "source_slug": "pokemon-go-at-geek-pride-day-2025",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -4710,27 +4732,6 @@
       "notes": ""
     },
     {
-      "id": "tcg-mega-lucario-ex",
-      "title": "Pokémon TCG: Mega Lucario ex Release Celebration",
-      "start": "2025-11-07",
-      "end": "2025-11-30",
-      "category": "Event",
-      "scope": "Regional / In-person",
-      "location": "Participating retail locations",
-      "access": [
-        "onsite",
-        "partner"
-      ],
-      "source_url": "https://pokemongo.com/en/news/tcg-mega-lucario-ex",
-      "source_urls": [
-        "https://pokemongo.com/en/news/tcg-mega-lucario-ex"
-      ],
-      "source_slug": "tcg-mega-lucario-ex",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "poke-lid-stamp-rally-kyushu-okinawa",
       "title": "Poké Lid Stamp Rally – Japan",
       "start": "2025-11-07",
@@ -4753,6 +4754,27 @@
       "regional_type": "stamp_rally"
     },
     {
+      "id": "tcg-mega-lucario-ex",
+      "title": "Pokémon TCG: Mega Lucario ex Release Celebration",
+      "start": "2025-11-07",
+      "end": "2025-11-30",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Participating retail locations",
+      "access": [
+        "onsite",
+        "partner"
+      ],
+      "source_url": "https://pokemongo.com/en/news/tcg-mega-lucario-ex",
+      "source_urls": [
+        "https://pokemongo.com/en/news/tcg-mega-lucario-ex"
+      ],
+      "source_slug": "tcg-mega-lucario-ex",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
       "id": "trade-day-2025-11-09",
       "title": "Trade Day",
       "start": "2025-11-09",
@@ -4771,26 +4793,6 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
-    },
-    {
-      "id": "into-the-wild-2025",
-      "title": "Into the Wild",
-      "start": "2025-11-10",
-      "end": "2025-11-14",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/into-the-wild-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/into-the-wild-2025"
-      ],
-      "source_slug": "into-the-wild-2025",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
     },
     {
       "id": "nagasaki-go-stamp-rally",
@@ -4812,6 +4814,26 @@
       "status": "confirmed",
       "notes": "Ongoing eight-stop city stamp rally. Completing all eight stamps awards an encounter with Ampharos featuring a Nagasaki Location Background. The official article gives no end date.",
       "regional_type": "stamp_rally"
+    },
+    {
+      "id": "into-the-wild-2025",
+      "title": "Into the Wild",
+      "start": "2025-11-10",
+      "end": "2025-11-14",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/into-the-wild-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/into-the-wild-2025"
+      ],
+      "source_slug": "into-the-wild-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
     },
     {
       "id": "community-celebrations-go-wild-area-2025",
@@ -5746,26 +5768,6 @@
       ]
     },
     {
-      "id": "carnival-of-flamigo-2026",
-      "title": "Carnival of Flamigo",
-      "start": "2026-02-03",
-      "end": "2026-02-08",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/carnival-of-flamigo-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/carnival-of-flamigo-2026"
-      ],
-      "source_slug": "carnival-of-flamigo-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "global"
-      ]
-    },
-    {
       "id": "carnaval-2026-in-rio-1",
       "title": "Carnival of Flamigo – Rio de Janeiro Celebration",
       "start": "2026-02-03",
@@ -5783,6 +5785,26 @@
       "notes": "",
       "access": [
         "onsite"
+      ]
+    },
+    {
+      "id": "carnival-of-flamigo-2026",
+      "title": "Carnival of Flamigo",
+      "start": "2026-02-03",
+      "end": "2026-02-08",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/carnival-of-flamigo-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/carnival-of-flamigo-2026"
+      ],
+      "source_slug": "carnival-of-flamigo-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "global"
       ]
     },
     {
@@ -5828,26 +5850,6 @@
       "regional_type": "local_raid"
     },
     {
-      "id": "go-stamp-rally-cologne",
-      "title": "Carnival of Flamigo – Cologne GO Stamp Rally",
-      "start": "2026-02-07",
-      "end": "2026-02-07",
-      "category": "Event",
-      "scope": "Regional / In-person",
-      "location": "Cologne, Germany",
-      "source_url": "https://pokemongo.com/en/news/go-stamp-rally-cologne",
-      "source_urls": [
-        "https://pokemongo.com/en/news/go-stamp-rally-cologne"
-      ],
-      "source_slug": "go-stamp-rally-cologne",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
-      ]
-    },
-    {
       "id": "carnaval-2026-in-rio-2",
       "title": "Carnival of Flamigo – Rio Community Meetup & GO Stamp Rally",
       "start": "2026-02-07",
@@ -5885,6 +5887,26 @@
       "notes": "",
       "access": [
         "global"
+      ]
+    },
+    {
+      "id": "go-stamp-rally-cologne",
+      "title": "Carnival of Flamigo – Cologne GO Stamp Rally",
+      "start": "2026-02-07",
+      "end": "2026-02-07",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Cologne, Germany",
+      "source_url": "https://pokemongo.com/en/news/go-stamp-rally-cologne",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-stamp-rally-cologne"
+      ],
+      "source_slug": "go-stamp-rally-cologne",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
       ]
     },
     {
@@ -6069,26 +6091,6 @@
       ]
     },
     {
-      "id": "go-tour-kalos-global-seoul",
-      "title": "GO Tour: Kalos – Global Celebration in Seoul",
-      "start": "2026-02-28",
-      "end": "2026-03-01",
-      "category": "GO Tour",
-      "scope": "Regional / In-person",
-      "location": "Seoul, South Korea",
-      "source_url": "https://pokemongo.com/en/news/ko-gotour-global-on-site-event",
-      "source_urls": [
-        "https://pokemongo.com/en/news/ko-gotour-global-on-site-event"
-      ],
-      "source_slug": "ko-gotour-global-on-site-event",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "Official Korean on-site celebration for GO Tour: Kalos – Global.",
-      "access": [
-        "onsite"
-      ]
-    },
-    {
       "id": "go-tour-kalos-global-2026",
       "title": "Pokémon GO Tour: Kalos – Global",
       "start": "2026-02-28",
@@ -6106,6 +6108,26 @@
       "notes": "",
       "access": [
         "global"
+      ]
+    },
+    {
+      "id": "go-tour-kalos-global-seoul",
+      "title": "GO Tour: Kalos – Global Celebration in Seoul",
+      "start": "2026-02-28",
+      "end": "2026-03-01",
+      "category": "GO Tour",
+      "scope": "Regional / In-person",
+      "location": "Seoul, South Korea",
+      "source_url": "https://pokemongo.com/en/news/ko-gotour-global-on-site-event",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-gotour-global-on-site-event"
+      ],
+      "source_slug": "ko-gotour-global-on-site-event",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Official Korean on-site celebration for GO Tour: Kalos – Global.",
+      "access": [
+        "onsite"
       ]
     },
     {
@@ -7039,6 +7061,72 @@
       ]
     },
     {
+      "id": "tokyo-koto-stamp-rally-2026",
+      "title": "Tokyo: Koto City Stamp Rally",
+      "start": "2026-05-25",
+      "end": null,
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Koto City, Tokyo, Japan",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "stamp_rally",
+      "bonuses": [],
+      "source_url": "https://www.city.koto.lg.jp/103000/pokemongo/fest2026-event.html",
+      "source_urls": [
+        "https://www.city.koto.lg.jp/103000/pokemongo/fest2026-event.html"
+      ],
+      "source_slug": "gofest-2026-tokyo-city-stamp-rallies",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": "Persistent GO Fest 2026: Tokyo city stamp rally; no end field in current in-game data. Required stamps: 4. In-game rally id: STAMP_RALLY_TOKYO_KOTO_2026."
+    },
+    {
+      "id": "tokyo-minato-stamp-rally-2026",
+      "title": "Tokyo: Minato City Stamp Rally",
+      "start": "2026-05-25",
+      "end": null,
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Minato City, Tokyo, Japan",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "stamp_rally",
+      "bonuses": [],
+      "source_url": "https://www.city.minato.tokyo.jp/kankouseisaku/event/pokemongo.html",
+      "source_urls": [
+        "https://www.city.minato.tokyo.jp/kankouseisaku/event/pokemongo.html"
+      ],
+      "source_slug": "gofest-2026-tokyo-city-stamp-rallies",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": "Persistent GO Fest 2026: Tokyo city stamp rally; no end field in current in-game data. Required stamps: 5. In-game rally id: STAMP_RALLY_TOKYO_MINATO_2026."
+    },
+    {
+      "id": "tokyo-shinagawa-stamp-rally-2026",
+      "title": "Tokyo: Shinagawa City Stamp Rally",
+      "start": "2026-05-25",
+      "end": null,
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Shinagawa City, Tokyo, Japan",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "stamp_rally",
+      "bonuses": [],
+      "source_url": "https://shinagawa-kanko.or.jp/event/pokemongo2026/",
+      "source_urls": [
+        "https://shinagawa-kanko.or.jp/event/pokemongo2026/"
+      ],
+      "source_slug": "gofest-2026-tokyo-city-stamp-rallies",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": "Persistent GO Fest 2026: Tokyo city stamp rally; no end field in current in-game data. Required stamps: 4. In-game rally id: STAMP_RALLY_TOKYO_SHINAGAWA_2026."
+    },
+    {
       "id": "global-events-gofest2026-overlays-2",
       "title": "Blanche's Quest for Knowledge",
       "start": "2026-05-26",
@@ -7201,26 +7289,6 @@
       ]
     },
     {
-      "id": "gofest-2026-copenhagen-lego",
-      "title": "LEGO × Pokémon GO at GO Fest 2026: Copenhagen",
-      "start": "2026-06-12",
-      "end": "2026-06-14",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Copenhagen, Denmark",
-      "source_url": "https://pokemongo.com/en/news/gofest-2026-copenhagen-lego",
-      "source_urls": [
-        "https://pokemongo.com/en/news/gofest-2026-copenhagen-lego"
-      ],
-      "source_slug": "gofest-2026-copenhagen-lego",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
-      ]
-    },
-    {
       "id": "go-fest-2026-copenhagen",
       "title": "Pokémon GO Fest 2026: Copenhagen",
       "start": "2026-06-12",
@@ -7239,6 +7307,26 @@
       "access": [
         "onsite",
         "ticketed"
+      ]
+    },
+    {
+      "id": "gofest-2026-copenhagen-lego",
+      "title": "LEGO × Pokémon GO at GO Fest 2026: Copenhagen",
+      "start": "2026-06-12",
+      "end": "2026-06-14",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Copenhagen, Denmark",
+      "source_url": "https://pokemongo.com/en/news/gofest-2026-copenhagen-lego",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gofest-2026-copenhagen-lego"
+      ],
+      "source_slug": "gofest-2026-copenhagen-lego",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
       ]
     },
     {
@@ -7345,26 +7433,6 @@
       ]
     },
     {
-      "id": "flying-taxi-2026",
-      "title": "Flying Taxi",
-      "start": "2026-06-23",
-      "end": "2026-06-29",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/flying-taxi-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/flying-taxi-2026"
-      ],
-      "source_slug": "flying-taxi-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "global"
-      ]
-    },
-    {
       "id": "festa-junina-2026",
       "title": "Pokémon GO Festa Junina",
       "start": "2026-06-23",
@@ -7382,6 +7450,26 @@
       "notes": "",
       "access": [
         "regional"
+      ]
+    },
+    {
+      "id": "flying-taxi-2026",
+      "title": "Flying Taxi",
+      "start": "2026-06-23",
+      "end": "2026-06-29",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/flying-taxi-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/flying-taxi-2026"
+      ],
+      "source_slug": "flying-taxi-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "global"
       ]
     },
     {
@@ -7503,6 +7591,29 @@
       "access": [
         "onsite"
       ]
+    },
+    {
+      "id": "pokemon-center-stamp-rally-2026",
+      "title": "Pokémon Center Stamp Rally 2026",
+      "start": "2026-07-01",
+      "end": "2027-08-31",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Pokémon Center locations across Japan",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "stamp_rally",
+      "bonuses": [],
+      "source_url": "https://pokemongo.com/news/assistant_pikachu",
+      "source_urls": [
+        "https://pokemongo.com/news/assistant_pikachu",
+        "https://shop.pokemon.co.jp/ja/shop/common/events/202606/000336.html"
+      ],
+      "source_slug": "assistant_pikachu",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": "18-location Pokémon Center / Pokémon GO Lab. stamp rally. In-game rally id: STAMP_RALLY_JAPAN_POKRMONCENTER_2026."
     },
     {
       "id": "mlb-guardians-2026",
@@ -7729,26 +7840,6 @@
       ]
     },
     {
-      "id": "ko-gofest-global-on-site-event-2026",
-      "title": "GO Fest 2026: Global Celebration – Seoul",
-      "start": "2026-07-11",
-      "end": "2026-07-12",
-      "category": "GO Fest",
-      "scope": "Regional / In-person",
-      "location": "Seoul, South Korea",
-      "source_url": "https://pokemongo.com/en/news/ko-gofest-global-on-site-event-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/ko-gofest-global-on-site-event-2026"
-      ],
-      "source_slug": "ko-gofest-global-on-site-event-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
-      ]
-    },
-    {
       "id": "community-celebrations-go-fest-2026",
       "title": "GO Fest 2026: Global Community Celebrations",
       "start": "2026-07-11",
@@ -7801,6 +7892,26 @@
         "https://pokemongo.com/en/news/gofesttw-2026zhongshan"
       ],
       "source_slug": "gofesttw-2026zhongshan",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
+    },
+    {
+      "id": "ko-gofest-global-on-site-event-2026",
+      "title": "GO Fest 2026: Global Celebration – Seoul",
+      "start": "2026-07-11",
+      "end": "2026-07-12",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "Seoul, South Korea",
+      "source_url": "https://pokemongo.com/en/news/ko-gofest-global-on-site-event-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-gofest-global-on-site-event-2026"
+      ],
+      "source_slug": "ko-gofest-global-on-site-event-2026",
       "source_locale": "en",
       "status": "confirmed",
       "notes": "",
@@ -8113,6 +8224,27 @@
       ]
     },
     {
+      "id": "lego-pokemon-go-2026",
+      "title": "LEGO Stores × Pokémon GO",
+      "start": "2026-08-03",
+      "end": "2026-09-30",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "US, UK, Poland, France, Germany & Australia",
+      "source_url": "https://pokemongo.com/en/news/lego-pokemon-go-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/lego-pokemon-go-2026"
+      ],
+      "source_slug": "lego-pokemon-go-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Participating LEGO Stores featured local Pikachu raids, event Timed Research, and access to the LEGO GO Stamp Rally. The broader store collaboration ran through September 30, 2026; the separately tracked stamp rally remains completable longer.",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "local_raid"
+    },
+    {
       "id": "lego-pokemon-go-code-research-2026",
       "title": "LEGO × Pokémon GO Offer-Code Timed Research",
       "start": "2026-08-03",
@@ -8134,25 +8266,26 @@
       "regional_type": "free_code"
     },
     {
-      "id": "lego-pokemon-go-2026",
-      "title": "LEGO Stores × Pokémon GO",
+      "id": "lego-pokemon-go-stamp-rally-2026",
+      "title": "Pokémon GO × LEGO Stamp Rally",
       "start": "2026-08-03",
-      "end": "2026-09-30",
+      "end": "2027-02-03",
       "category": "Regional / Collaboration",
       "scope": "Regional / In-person",
-      "location": "US, UK, Poland, France, Germany & Australia",
-      "source_url": "https://pokemongo.com/en/news/lego-pokemon-go-2026",
+      "location": "Participating LEGO Stores in Australia, France, Germany, Poland, the UK & US",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "stamp_rally",
+      "bonuses": [],
+      "source_url": "https://pokemongo.com/news/lego-pokemon-go-2026",
       "source_urls": [
-        "https://pokemongo.com/en/news/lego-pokemon-go-2026"
+        "https://pokemongo.com/news/lego-pokemon-go-2026"
       ],
       "source_slug": "lego-pokemon-go-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Participating LEGO Stores featured local Pikachu raids, event Timed Research, and access to the LEGO GO Stamp Rally. The broader store collaboration ran through September 30, 2026; the separately tracked stamp rally remains completable longer.",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "local_raid"
+      "notes": "The official article allowed Trainers to start the LEGO stamp rally at participating stores through September 30, 2026. In-game rally data keeps the rally active for existing participants through 2027-02-03T13:59:59Z. In-game rally id: STAMP_RALLY_LEGO_GLOBAL_2026."
     },
     {
       "id": "mlb-orioles-2026",
@@ -8651,26 +8784,6 @@
       "regional_type": "local_raid"
     },
     {
-      "id": "go-fest-2026-mega-finale-korea",
-      "title": "GO Fest 2026: Mega Finale – Korea On-Site Celebration",
-      "start": "2026-09-05",
-      "end": "2026-09-06",
-      "category": "GO Fest",
-      "scope": "Regional / In-person",
-      "location": "South Korea",
-      "source_url": "https://pokemongo.com/en/news/mega-finale-korea-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/mega-finale-korea-2026"
-      ],
-      "source_slug": "mega-finale-korea-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
-      ]
-    },
-    {
       "id": "go-fest-2026-mega-finale",
       "title": "Pokémon GO Fest 2026: Mega Finale",
       "start": "2026-09-05",
@@ -8688,6 +8801,26 @@
       "notes": "",
       "access": [
         "global"
+      ]
+    },
+    {
+      "id": "go-fest-2026-mega-finale-korea",
+      "title": "GO Fest 2026: Mega Finale – Korea On-Site Celebration",
+      "start": "2026-09-05",
+      "end": "2026-09-06",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "South Korea",
+      "source_url": "https://pokemongo.com/en/news/mega-finale-korea-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mega-finale-korea-2026"
+      ],
+      "source_slug": "mega-finale-korea-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
       ]
     },
     {
@@ -8809,6 +8942,28 @@
       "access": [
         "onsite"
       ]
+    },
+    {
+      "id": "pokexciting-kuala-lumpur-stamp-rally-2026",
+      "title": "PokéXciting! Kuala Lumpur GO Stamp Rally",
+      "start": "2026-09-12",
+      "end": "2026-10-13",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "KLCC Park, Kuala Lumpur, Malaysia",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "stamp_rally",
+      "bonuses": [],
+      "source_url": "https://pokemongo.com/news/event-kuala-lumpur-30th-anniversary-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/event-kuala-lumpur-30th-anniversary-2026"
+      ],
+      "source_slug": "event-kuala-lumpur-30th-anniversary-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Five-stamp regional rally at KLCC Park, separate from the long-term cross-region PokéXciting! rally. In-game rally id: STAMP_RALLY_APAC_30_REGIONAL_MY. In-game end: 2026-10-13T15:59:59Z."
     },
     {
       "id": "pokexciting-cross-region-go-stamp-rally-2026",
@@ -9259,16 +9414,38 @@
         "onsite",
         "ticketed"
       ],
-      "source_url": "https://pokemongo.com/featured-in-person-events/citysafari/rio-de-janeiro",
+      "source_url": "https://pokemongo.com/pt-BR/news/rio-city-safari-know-before-you-go",
       "source_urls": [
         "https://pokemongo.com/featured-in-person-events/citysafari/rio-de-janeiro",
-        "https://pokemongo.com/featured-in-person-events/citysafari"
+        "https://pokemongo.com/featured-in-person-events/citysafari",
+        "https://pokemongo.com/pt-BR/news/rio-city-safari-know-before-you-go"
       ],
       "source_slug": "city-safari-rio-2026",
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Ticketed citywide event; event gameplay requires physical presence in the host city on the ticketed day.",
       "regional_type": "city_safari"
+    },
+    {
+      "id": "pokemongo-iitdelhi-2026",
+      "title": "Pokémon GO at Rendezvous 2026 – IIT Delhi",
+      "start": "2026-09-28",
+      "end": "2026-10-01",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "IIT-Delhi campus, New Delhi, India",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "other",
+      "source_url": "https://pokemongo.com/news/pokemongo-iitdelhi-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/pokemongo-iitdelhi-2026"
+      ],
+      "source_slug": "pokemongo-iitdelhi-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Campus event with event wild encounters, daily raids, Collection Challenges, and Timed Research."
     },
     {
       "id": "patterns-of-the-wild-2026-1",
@@ -9455,6 +9632,26 @@
         "onsite"
       ],
       "regional_type": "local_raid"
+    },
+    {
+      "id": "world-space-week-2026",
+      "title": "World Space Week 2026",
+      "start": "2026-10-04",
+      "end": "2026-10-10",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/news/world-space-week-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/world-space-week-2026"
+      ],
+      "source_slug": "world-space-week-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Global event with wild encounters and free Timed Research. The Timed Research can be completed through October 12, 2026 at 11:59 p.m. local time."
     },
     {
       "id": "european-space-agency-event-2",
@@ -9709,6 +9906,27 @@
       "regional_type": "wild_area"
     },
     {
+      "id": "event-apac-30th-anniversary-2026",
+      "title": "PokéXciting! Singapore",
+      "start": "2026-11-07",
+      "end": "2026-11-08",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Singapore",
+      "source_url": "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026"
+      ],
+      "source_slug": "event-apac-30th-anniversary-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "timed_research"
+    },
+    {
       "id": "pokemon-run-30-2026-2",
       "title": "Pokémon RUN 30 × Pokémon GO – Singapore",
       "start": "2026-11-07",
@@ -9730,21 +9948,21 @@
       "regional_type": "timed_research"
     },
     {
-      "id": "event-apac-30th-anniversary-2026",
-      "title": "PokéXciting! Singapore",
-      "start": "2026-11-07",
-      "end": "2026-11-08",
+      "id": "pokemon-run-30-2026-taiwan-new-taipei",
+      "title": "Pokémon RUN 30 × Pokémon GO – New Taipei",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
       "category": "Regional / Collaboration",
       "scope": "Regional / In-person",
-      "location": "Singapore",
-      "source_url": "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
+      "location": "New Taipei Metropolitan Park, Taiwan",
+      "source_url": "https://pokemongo.com/en/news/pokemon-run-30-2026",
       "source_urls": [
-        "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026"
+        "https://pokemongo.com/en/news/pokemon-run-30-2026"
       ],
-      "source_slug": "event-apac-30th-anniversary-2026",
+      "source_slug": "pokemon-run-30-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "",
+      "notes": "One of the 2026 Pokémon RUN 30 regional events.",
       "access": [
         "onsite"
       ],
@@ -9770,27 +9988,6 @@
         "global"
       ],
       "regional_type": "wild_area"
-    },
-    {
-      "id": "pokemon-run-30-2026-taiwan-new-taipei",
-      "title": "Pokémon RUN 30 × Pokémon GO – New Taipei",
-      "start": "2026-11-14",
-      "end": "2026-11-15",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "New Taipei Metropolitan Park, Taiwan",
-      "source_url": "https://pokemongo.com/en/news/pokemon-run-30-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/pokemon-run-30-2026"
-      ],
-      "source_slug": "pokemon-run-30-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "One of the 2026 Pokémon RUN 30 regional events.",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "timed_research"
     },
     {
       "id": "community-day-november-21-2026",
@@ -9957,161 +10154,6 @@
       "status": "announced",
       "notes": "Dates are confirmed; event gameplay area/location details are still to be announced.",
       "regional_type": "timed_research"
-    },
-    {
-      "id": "pokexciting-kuala-lumpur-stamp-rally-2026",
-      "title": "PokéXciting! Kuala Lumpur GO Stamp Rally",
-      "start": "2026-09-12",
-      "end": "2026-10-13",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "KLCC Park, Kuala Lumpur, Malaysia",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "stamp_rally",
-      "bonuses": [],
-      "source_url": "https://pokemongo.com/news/event-kuala-lumpur-30th-anniversary-2026",
-      "source_urls": [
-        "https://pokemongo.com/news/event-kuala-lumpur-30th-anniversary-2026"
-      ],
-      "source_slug": "event-kuala-lumpur-30th-anniversary-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "Five-stamp regional rally at KLCC Park, separate from the long-term cross-region PokéXciting! rally. In-game rally id: STAMP_RALLY_APAC_30_REGIONAL_MY. In-game end: 2026-10-13T15:59:59Z."
-    },
-    {
-      "id": "pokemon-center-stamp-rally-2026",
-      "title": "Pokémon Center Stamp Rally 2026",
-      "start": "2026-07-01",
-      "end": "2027-08-31",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Pokémon Center locations across Japan",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "stamp_rally",
-      "bonuses": [],
-      "source_url": "https://pokemongo.com/news/assistant_pikachu",
-      "source_urls": [
-        "https://pokemongo.com/news/assistant_pikachu",
-        "https://shop.pokemon.co.jp/ja/shop/common/events/202606/000336.html"
-      ],
-      "source_slug": "assistant_pikachu",
-      "source_locale": "ja",
-      "status": "confirmed",
-      "notes": "18-location Pokémon Center / Pokémon GO Lab. stamp rally. In-game rally id: STAMP_RALLY_JAPAN_POKRMONCENTER_2026."
-    },
-    {
-      "id": "lego-pokemon-go-stamp-rally-2026",
-      "title": "Pokémon GO × LEGO Stamp Rally",
-      "start": "2026-08-03",
-      "end": "2027-02-03",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Participating LEGO Stores in Australia, France, Germany, Poland, the UK & US",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "stamp_rally",
-      "bonuses": [],
-      "source_url": "https://pokemongo.com/news/lego-pokemon-go-2026",
-      "source_urls": [
-        "https://pokemongo.com/news/lego-pokemon-go-2026"
-      ],
-      "source_slug": "lego-pokemon-go-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "The official article allowed Trainers to start the LEGO stamp rally at participating stores through September 30, 2026. In-game rally data keeps the rally active for existing participants through 2027-02-03T13:59:59Z. In-game rally id: STAMP_RALLY_LEGO_GLOBAL_2026."
-    },
-    {
-      "id": "tokyo-koto-stamp-rally-2026",
-      "title": "Tokyo: Koto City Stamp Rally",
-      "start": "2026-05-25",
-      "end": null,
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Koto City, Tokyo, Japan",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "stamp_rally",
-      "bonuses": [],
-      "source_url": "https://www.city.koto.lg.jp/103000/pokemongo/fest2026-event.html",
-      "source_urls": [
-        "https://www.city.koto.lg.jp/103000/pokemongo/fest2026-event.html"
-      ],
-      "source_slug": "gofest-2026-tokyo-city-stamp-rallies",
-      "source_locale": "ja",
-      "status": "confirmed",
-      "notes": "Persistent GO Fest 2026: Tokyo city stamp rally; no end field in current in-game data. Required stamps: 4. In-game rally id: STAMP_RALLY_TOKYO_KOTO_2026."
-    },
-    {
-      "id": "tokyo-minato-stamp-rally-2026",
-      "title": "Tokyo: Minato City Stamp Rally",
-      "start": "2026-05-25",
-      "end": null,
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Minato City, Tokyo, Japan",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "stamp_rally",
-      "bonuses": [],
-      "source_url": "https://www.city.minato.tokyo.jp/kankouseisaku/event/pokemongo.html",
-      "source_urls": [
-        "https://www.city.minato.tokyo.jp/kankouseisaku/event/pokemongo.html"
-      ],
-      "source_slug": "gofest-2026-tokyo-city-stamp-rallies",
-      "source_locale": "ja",
-      "status": "confirmed",
-      "notes": "Persistent GO Fest 2026: Tokyo city stamp rally; no end field in current in-game data. Required stamps: 5. In-game rally id: STAMP_RALLY_TOKYO_MINATO_2026."
-    },
-    {
-      "id": "tokyo-shinagawa-stamp-rally-2026",
-      "title": "Tokyo: Shinagawa City Stamp Rally",
-      "start": "2026-05-25",
-      "end": null,
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Shinagawa City, Tokyo, Japan",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "stamp_rally",
-      "bonuses": [],
-      "source_url": "https://shinagawa-kanko.or.jp/event/pokemongo2026/",
-      "source_urls": [
-        "https://shinagawa-kanko.or.jp/event/pokemongo2026/"
-      ],
-      "source_slug": "gofest-2026-tokyo-city-stamp-rallies",
-      "source_locale": "ja",
-      "status": "confirmed",
-      "notes": "Persistent GO Fest 2026: Tokyo city stamp rally; no end field in current in-game data. Required stamps: 4. In-game rally id: STAMP_RALLY_TOKYO_SHINAGAWA_2026."
-    },
-    {
-      "id": "suita-city-stamp-rally",
-      "title": "Suita City GO Stamp Rally",
-      "start": "2025-05-09",
-      "end": null,
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Suita, Osaka, Japan",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "stamp_rally",
-      "bonuses": [],
-      "source_url": "https://pokemongo.com/news/suita_rally?hl=ja",
-      "source_urls": [
-        "https://pokemongo.com/news/suita_rally?hl=ja"
-      ],
-      "source_slug": "suita_rally",
-      "source_locale": "ja",
-      "status": "confirmed",
-      "notes": "Official Pokémon GO source states that the Suita City Stamp Rally has no end-period restriction."
     }
   ]
 }
