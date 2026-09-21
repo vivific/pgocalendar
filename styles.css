@@ -116,6 +116,13 @@ main { padding: 22px 24px 0 40px; }
 .bar.partner { background: var(--regional); }
 .bar.code { background: var(--regional); }
 .bar.ticketed { background: var(--ticketed); }
+.bar.expired {
+  background: #9aa3b1;
+  color: #fff;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.14), 0 1px 2px rgba(18,30,56,.10);
+  opacity: .72;
+}
+.bar.expired:hover { filter: brightness(.94); opacity: .86; }
 .access-badges { display:flex; flex-wrap:wrap; gap:6px; margin:0 0 16px; }
 .access-badge { display:inline-flex; align-items:center; border-radius:999px; padding:4px 8px; font-size:11px; font-weight:800; background:#edf1f7; color:#364155; }
 .access-badge.global { background:#e8eeff; }
@@ -172,6 +179,7 @@ footer p { margin: 0; }
   .day.weekend,.cell.weekend { background:#151922; }
   .day.today,.cell.today { background:#5c5523; color:#fff7bd; }
   .event-row { border-bottom-color:#252a34; }
+  .bar.expired { background:#59616e; color:#e8ecf4; opacity:.72; }
   dialog { background:#1b2028; color:#e8ecf4; }
   .secondary-action, .restore-hidden-event { background:#181c23; border-color:#303642; color:#e8ecf4; }
   .hidden-event-row { border-bottom-color:#303642; }

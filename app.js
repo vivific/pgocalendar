@@ -327,7 +327,8 @@ function render() {
       const col=daysBetween(`${year}-01-01`,e._start)+2;
       const span=daysBetween(e._start,e._end)+1;
       const ongoing=!e.end ? " ongoing" : "";
-      return `<button class="bar ${primaryAccess(e)}${ongoing}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(displayTitle(e))} — ${humanRange(e.start,e.end)}"><span class="bar-label">${escapeHtml(displayTitle(e))}</span></button>`;
+      const expired=e.end && e.end < today ? " expired" : "";
+      return `<button class="bar ${primaryAccess(e)}${ongoing}${expired}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(displayTitle(e))} — ${humanRange(e.start,e.end)}"><span class="bar-label">${escapeHtml(displayTitle(e))}</span></button>`;
     }).join("");
     html += `<div class="event-row"><div class="row-label">Track ${ri+1}</div><div class="row-grid">${cells}</div>${bars}</div>`;
   });

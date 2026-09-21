@@ -179,6 +179,8 @@ Only record an exact multiplier when the official source states one. Do not conv
 
 If a bonus applies only to a narrower subwindow than the canonical event, do not imply it lasts for the entire event. Either represent the narrower gameplay phase as its own canonical event when that phase is meaningful, or omit the bonus from the parent event and explain it in `notes`.
 
+When distinct player-facing mechanics from the same announcement have materially different availability windows, represent them as separate canonical bars so one mechanic is never implied to last as long as another. For example, if local raids run for two days but Timed Research can be newly obtained for a longer period, create separate raid and research windows. Likewise, a short wild-encounter/Field Research phase may be separate from a longer raid/research program. Do not split merely because already-claimed content has a later completion deadline; the split must reflect distinct windows in which a new player can actually access the mechanic.
+
 ## Status
 
 Use:

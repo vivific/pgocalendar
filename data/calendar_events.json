@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-21T23:38:24.118Z",
+  "updated_at": "2026-09-21T23:57:14.621Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -9591,11 +9591,33 @@
       "source_slug": "european-space-agency-event",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Local-only one-star raids for Astronaut Pikachu at participating European science and space museums from October 4, 2026 through April 30, 2027. Astronaut Pikachu can be shiny, and in-person raid catches can have the visited museum's Location Background. Timed Research is also unlockable by new museum visitors throughout this window; extra wild encounters and Field Research run only October 4–10.",
+      "notes": "Local-only one-star raids for Astronaut Pikachu at participating European science and space museums from October 4, 2026 through April 30, 2027. Astronaut Pikachu can be shiny, and in-person raid catches can have the visited museum's Location Background. Timed Research is also unlockable by new museum visitors throughout this window. The separate October 4–10 wild-encounter and Field Research phase is tracked as its own bar.",
       "access": [
         "onsite"
       ],
       "regional_type": "local_raid"
+    },
+    {
+      "id": "european-space-agency-event-1",
+      "title": "European Space Agency × Pokémon GO – Wild Encounters & Field Research",
+      "start": "2026-10-04",
+      "end": "2026-10-10",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Participating European science & space museums",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "other",
+      "bonuses": [],
+      "source_url": "https://pokemongo.com/en/news/european-space-agency-event",
+      "source_urls": [
+        "https://pokemongo.com/en/news/european-space-agency-event"
+      ],
+      "source_slug": "european-space-agency-event",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Short ESA event phase with additional wild encounters and Field Research at participating museums from October 4–10, 2026. Astronaut Pikachu raids and museum-unlocked Timed Research are tracked separately and continue through April 30, 2027."
     },
     {
       "id": "world-space-week-2026",
