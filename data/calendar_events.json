@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-21T23:08:11.680Z",
+  "updated_at": "2026-09-21T23:17:24.061Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -8904,6 +8904,28 @@
       "access": [
         "onsite"
       ]
+    },
+    {
+      "id": "pokexciting-kuala-lumpur-stamp-rally-2026",
+      "title": "PokéXciting! Kuala Lumpur GO Stamp Rally",
+      "start": "2026-09-12",
+      "end": "2026-10-13",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "KLCC Park, Kuala Lumpur, Malaysia",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "stamp_rally",
+      "bonuses": [],
+      "source_url": "https://pokemongo.com/news/event-kuala-lumpur-30th-anniversary-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/event-kuala-lumpur-30th-anniversary-2026"
+      ],
+      "source_slug": "event-kuala-lumpur-30th-anniversary-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Regional five-stamp rally at KLCC Park. Official Pokémon GO News says it remains available for one month after the September 12–13 PokéXciting! event; current in-game data lists an end of 2026-10-13T15:59:59Z. In-game rally id: STAMP_RALLY_APAC_30_REGIONAL_MY."
     },
     {
       "id": "communitydayclassic-gible-september-2026",

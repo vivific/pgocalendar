@@ -244,8 +244,8 @@
     "event-kuala-lumpur-30th-anniversary-2026": {
       "bootstrap": true,
       "status": "processed",
-      "last_checked": "2026-09-21T22:57:31.157Z",
-      "result": "start-window-closed-not-currently-claimable"
+      "last_checked": "2026-09-21T23:17:24.062Z",
+      "result": "event-restored-official-post-event-rally-window"
     },
     "event-taipei-30th-anniversary-2026": {
       "bootstrap": true,
