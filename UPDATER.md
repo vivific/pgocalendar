@@ -113,6 +113,8 @@ For GO Stamp Rallies, track whether a new player can still begin the rally. If s
 
 Do not assume a rally's start window ends when its parent event weekend ends. If the official News source explicitly says the GO Stamp Rally itself remains available after the event (for example, for one month afterward), use that stated rally-availability window. Distinguish this from a completion-only grace period for players who already started.
 
+When a broader parent-event page is marked ended but a sub-feature (such as a GO Stamp Rally) explicitly continues beyond that event, do not use the parent's ended status as the sub-feature's end. Prefer a source that directly describes the sub-feature's lifecycle or a post-event continuation notice as the canonical `source_url`; keep the parent/event page only as a secondary `source_urls` reference when useful.
+
 This subtype is a live usability aid, not a replacement for `category` or `access`. Do not create or preserve events solely for temporary PokéStops or other promotional map dressing.
 
 ## Canonical event schema
