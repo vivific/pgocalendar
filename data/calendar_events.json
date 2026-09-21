@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-21T23:25:25.823Z",
+  "updated_at": "2026-09-21T23:33:48.861Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -6993,7 +6993,7 @@
       "source_slug": "pgo-pokemon-fossil-musuem-chicago-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "",
+      "notes": "Pokémon GO gameplay at the Field Museum follows the Pokémon Fossil Museum exhibition window from May 22, 2026 through April 11, 2027, including Timed Research, Field Research, local raids, wild encounters, and the Collection Challenge.",
       "access": [
         "onsite"
       ],
@@ -8203,7 +8203,7 @@
       "source_slug": "lego-pokemon-go-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Participating LEGO Stores featured local Pikachu raids, event Timed Research, and access to the LEGO GO Stamp Rally. The broader store collaboration ran through September 30, 2026; the separately tracked stamp rally remains completable longer.",
+      "notes": "Participating LEGO Stores feature local Pikachu raids, event Timed Research, and access to the LEGO GO Stamp Rally through September 30, 2026. The separately tracked Stamp Rally uses the same September 30 final start date for new participants.",
       "access": [
         "onsite"
       ],
@@ -9099,7 +9099,7 @@
       "source_slug": "2026_ana_green",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Local-only raids for special background Bulbasaur.",
+      "notes": "Phase 2 airport gameplay runs September 18, 2026 through August 31, 2027. A new visitor to any participating Phase 2 airport can claim the Timed Research once during this window; that research expires three days after receipt. Local Bulbasaur raids with the Green Pokémon Jet Location Background also remain available through the event window.",
       "access": [
         "onsite"
       ],
@@ -9591,7 +9591,7 @@
       "source_slug": "european-space-agency-event",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Local only-raids for astronaut Pikachu.",
+      "notes": "Participating science and space museums offer Astronaut Pikachu raids and Timed Research that a new visitor can unlock anytime from October 4, 2026 through April 30, 2027. The additional wild encounters and Field Research are limited to October 4–10.",
       "access": [
         "onsite"
       ],

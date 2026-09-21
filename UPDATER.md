@@ -219,3 +219,11 @@ Commit only when repository data actually changes. Keep edits focused on:
 - `data/processed_posts.json`
 
 Do not rewrite the frontend during routine monitoring.
+
+
+## Stable canonical IDs
+
+Canonical event IDs are persistent identity keys. Once an event has been published, do not change its `id` merely because its title, dates, category, access, regional_type, location, notes, or source links are corrected. Update the existing record in place. Change/replace an ID only when resolving a true duplicate/merge or when two records were incorrectly representing the same canonical gameplay window. Stable IDs are required for downstream/client preferences such as individually hidden events.
+
+
+For unusually long active/future windows (roughly 45+ days, cross-year windows, or `end: null`), periodically verify that the source actually allows a **new player/visitor** to obtain or start the gameplay throughout that window. Do not retain a long bar solely because already-claimed Timed Research, an enrolled rally, or another previously unlocked feature remains completable. Record the qualifying lifecycle detail in `notes` when it prevents ambiguity.
