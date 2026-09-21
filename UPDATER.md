@@ -105,7 +105,11 @@ The website prefixes these icons to event titles; subtype should not be encoded 
 
 Assign `regional_type` to currently active and already-announced future regional/on-site events. Use the subtype that best communicates the event's distinctive player-facing mechanic. Research-centric regional activations (including event-area Timed Research programs such as Pokémon RUN or PokéXciting!) can use `timed_research`. Use `local_raid` for location-bound raid programs where raids are a principal reason to visit. When a canonical event already has a separate dedicated Timed Research bar, do not redundantly label its broader parent event as `timed_research` unless that is still the clearest description. Reclassify an event when a later official article materially changes what players can do.
 
-Stamp-rally windows should be tracked independently when they outlive or differ from a broader collaboration/event window. For example, if a store collaboration ends but an already-started GO Stamp Rally remains completable afterward, keep a separate `stamp_rally` bar for the rally's actual completion window. Likewise, persistent local/city rallies with no official end should use `end: null`.
+For active/future maintenance, interpret availability from the perspective of a player who has **not already claimed, unlocked, enrolled in, or started** the content. A completion grace period for previously enrolled players does not by itself keep an event active on the calendar.
+
+For code/research promotions, the relevant live window is when a new eligible player can still obtain/redeem the code or otherwise unlock the research. Once new players can no longer unlock it, remove it from the active/future calendar even if previously unlocked research remains completable later.
+
+For GO Stamp Rallies, track whether a new player can still begin the rally. If starting/enrollment was limited to an event period, do not extend the calendar bar through a later completion-only deadline. Once the start window has closed, remove the completion-only rally from active/future maintenance. Use `end: null` only when new players can still start the rally indefinitely with no known end.
 
 This subtype is a live usability aid, not a replacement for `category` or `access`. Do not create or preserve events solely for temporary PokéStops or other promotional map dressing.
 

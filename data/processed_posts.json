@@ -38,7 +38,9 @@
     },
     "202609partnerresearch-jp": {
       "bootstrap": true,
-      "status": "processed"
+      "status": "processed",
+      "last_checked": "2026-09-21T22:57:31.157Z",
+      "result": "start-window-closed-not-currently-claimable"
     },
     "2026_ana_green": {
       "bootstrap": true,
@@ -239,7 +241,9 @@
     },
     "event-kuala-lumpur-30th-anniversary-2026": {
       "bootstrap": true,
-      "status": "processed"
+      "status": "processed",
+      "last_checked": "2026-09-21T22:57:31.157Z",
+      "result": "start-window-closed-not-currently-claimable"
     },
     "event-taipei-30th-anniversary-2026": {
       "bootstrap": true,
@@ -1892,6 +1896,12 @@
       "locale_discovered": "ja",
       "source_url": "https://pokemongo.com/ja/news/legend-research-nihonbashi-yaesu-2026",
       "result": "non-calendar-post: temporary PokéStops/Gyms only; no substantive player-facing gameplay window"
+    },
+    "gofest-2026-tokyo-koto-stamp-rally": {
+      "status": "processed",
+      "last_checked": "2026-09-21T22:57:31.157Z",
+      "result": "start-window-closed-not-currently-claimable",
+      "note": "Koto City rally may remain completable for previously started accounts, but is excluded from active/future calendar because new players can no longer begin it."
     }
   }
 }
