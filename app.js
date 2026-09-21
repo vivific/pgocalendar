@@ -6,6 +6,7 @@ const els = {
   search: document.querySelector("#search"),
   zoom: document.querySelector("#zoom"),
   today: document.querySelector("#today"),
+  longRallies: document.querySelector("#toggle-long-rallies"),
   timeline: document.querySelector("#timeline"),
   empty: document.querySelector("#empty"),
   meta: document.querySelector("#meta"),
@@ -21,6 +22,7 @@ const els = {
 
 let payload = { schema_version: 1, events: [] };
 let events = [];
+let hideLongRallies = false;
 
 function parseDate(s) {
   const [y,m,d] = s.split("-").map(Number);
@@ -141,6 +143,20 @@ function regionalTypeRank(e) {
 function effectiveEnd(e, year) {
   return e.end || `${year}-12-31`;
 }
+function isLongStampRally(e, year) {
+  if (e.regional_type !== "stamp_rally") return false;
+  if (!e.end) return true;
+  return e.end > `${year}-12-31`;
+}
+function longStampRallyCount(year) {
+  const min=`${year}-01-01`, max=`${year}-12-31`;
+  return events.filter(e =>
+    e.start &&
+    effectiveEnd(e,year) >= min &&
+    e.start <= max &&
+    isLongStampRally(e,year)
+  ).length;
+}
 
 async function load() {
   const r = await fetch(DATA_URL,{cache:"no-store"});
@@ -182,6 +198,7 @@ function filtered(year) {
   const cat=els.category.value;
   return events.filter(e => {
     if (!e.start || effectiveEnd(e,year) < min || e.start > max) return false;
+    if (hideLongRallies && isLongStampRally(e,year)) return false;
     if (cat && e.category !== cat) return false;
     if (q && !JSON.stringify(e).toLowerCase().includes(q)) return false;
     return true;
@@ -214,8 +231,13 @@ function render() {
 
   const list=filtered(year);
   const rows=packRows(list,year);
+  const hiddenLong=hideLongRallies ? longStampRallyCount(year) : 0;
   els.empty.hidden=list.length!==0;
-  els.meta.textContent=`${list.length} event${list.length===1?"":"s"}`;
+  els.meta.textContent=`${list.length} event${list.length===1?"":"s"}${hiddenLong ? ` · ${hiddenLong} long stamp rall${hiddenLong===1?"y":"ies"} hidden` : ""}`;
+  if (els.longRallies) {
+    els.longRallies.textContent=hideLongRallies ? "Show long stamp rallies" : "Hide long stamp rallies";
+    els.longRallies.setAttribute("aria-pressed",String(hideLongRallies));
+  }
   if (els.subtypeLegend) {
     els.subtypeLegend.hidden=!list.some(e=>REGIONAL_TYPE_LABELS[e.regional_type]);
   }
@@ -306,6 +328,13 @@ function centerTimelineOnToday() {
 
   const x=daysBetween(`${y}-01-01`,iso(new Date()))*Number(els.zoom.value);
   shell.scrollLeft=Math.max(0,x-shell.clientWidth/2);
+}
+
+if (els.longRallies) {
+  els.longRallies.addEventListener("click",()=>{
+    hideLongRallies=!hideLongRallies;
+    render();
+  });
 }
 
 els.today.addEventListener("click",()=>{
