@@ -1903,21 +1903,21 @@
     },
     "gofest-2026-tokyo-koto-stamp-rally": {
       "status": "processed",
-      "last_checked": "2026-09-21T22:57:31.157Z",
-      "result": "start-window-closed-not-currently-claimable",
-      "note": "Koto City rally may remain completable for previously started accounts, but is excluded from active/future calendar because new players can no longer begin it."
+      "last_checked": "2026-09-21T23:08:11.661Z",
+      "result": "persistent-rally-active",
+      "note": "Distinct from the limited GO Fest Tokyo event window; the ward GO Stamp Rally remains available to new players and current in-game data has no end field."
     },
     "gofest-2026-tokyo-minato-stamp-rally": {
       "status": "processed",
-      "last_checked": "2026-09-21T23:00:39.294Z",
-      "result": "start-window-closed-not-currently-claimable",
-      "note": "Minato City GO Fest 2026 Tokyo stamp rally may remain visible/completable for previously started accounts, but is excluded from active/future calendar because new players can no longer begin it."
+      "last_checked": "2026-09-21T23:08:11.665Z",
+      "result": "persistent-rally-active",
+      "note": "Distinct from the limited GO Fest Tokyo event window; the ward GO Stamp Rally remains available to new players and current in-game data has no end field."
     },
     "gofest-2026-tokyo-shinagawa-stamp-rally": {
       "status": "processed",
-      "last_checked": "2026-09-21T23:00:39.294Z",
-      "result": "start-window-closed-not-currently-claimable",
-      "note": "Shinagawa City GO Fest 2026 Tokyo stamp rally may remain visible/completable for previously started accounts, but is excluded from active/future calendar because new players can no longer begin it."
+      "last_checked": "2026-09-21T23:08:11.665Z",
+      "result": "persistent-rally-active",
+      "note": "Distinct from the limited GO Fest Tokyo event window; the ward GO Stamp Rally remains available to new players and current in-game data has no end field."
     }
   }
 }
