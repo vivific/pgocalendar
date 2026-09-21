@@ -7,6 +7,7 @@ const els = {
   zoom: document.querySelector("#zoom"),
   today: document.querySelector("#today"),
   longRallies: document.querySelector("#toggle-long-rallies"),
+  hiddenEvents: document.querySelector("#hidden-events"),
   timeline: document.querySelector("#timeline"),
   empty: document.querySelector("#empty"),
   meta: document.querySelector("#meta"),
@@ -17,13 +18,31 @@ const els = {
   detailTitle: document.querySelector("#detail-title"),
   detailFields: document.querySelector("#detail-fields"),
   detailNotes: document.querySelector("#detail-notes"),
-  detailSource: document.querySelector("#detail-source")
+  detailSource: document.querySelector("#detail-source"),
+  hideEvent: document.querySelector("#hide-event"),
+  hiddenDialog: document.querySelector("#hidden-events-dialog"),
+  hiddenList: document.querySelector("#hidden-events-list"),
+  restoreAllHidden: document.querySelector("#restore-all-hidden")
 };
 
 let payload = { schema_version: 1, events: [] };
 let events = [];
 const LONG_RALLIES_STORAGE_KEY = "pgocalendar.hideLongRallies";
+const HIDDEN_EVENTS_STORAGE_KEY = "pgocalendar.hiddenEvents";
 let hideLongRallies = localStorage.getItem(LONG_RALLIES_STORAGE_KEY) === "true";
+let hiddenEventIds = loadHiddenEventIds();
+
+function loadHiddenEventIds() {
+  try {
+    const parsed=JSON.parse(localStorage.getItem(HIDDEN_EVENTS_STORAGE_KEY) || "[]");
+    return new Set(Array.isArray(parsed) ? parsed.filter(id=>typeof id==="string" && id) : []);
+  } catch {
+    return new Set();
+  }
+}
+function saveHiddenEventIds() {
+  localStorage.setItem(HIDDEN_EVENTS_STORAGE_KEY,JSON.stringify([...hiddenEventIds]));
+}
 
 function parseDate(s) {
   const [y,m,d] = s.split("-").map(Number);
@@ -158,6 +177,37 @@ function longStampRallyCount(year) {
     isLongStampRally(e,year)
   ).length;
 }
+function hiddenEventCount(year) {
+  const min=`${year}-01-01`, max=`${year}-12-31`;
+  return events.filter(e =>
+    e.id &&
+    hiddenEventIds.has(e.id) &&
+    e.start &&
+    effectiveEnd(e,year) >= min &&
+    e.start <= max
+  ).length;
+}
+function renderHiddenEventsManager() {
+  if (!els.hiddenList) return;
+  const hidden=events
+    .filter(e=>e.id && hiddenEventIds.has(e.id))
+    .sort((a,b)=>a.start.localeCompare(b.start) || a.title.localeCompare(b.title));
+
+  if (!hidden.length) {
+    els.hiddenList.innerHTML='<p class="hidden-empty">No individually hidden events.</p>';
+  } else {
+    els.hiddenList.innerHTML=hidden.map(e=>`
+      <div class="hidden-event-row">
+        <div class="hidden-event-info">
+          <strong>${escapeHtml(displayTitle(e))}</strong>
+          <span>${escapeHtml(humanRange(e.start,e.end))}</span>
+        </div>
+        <button type="button" class="restore-hidden-event" data-id="${escapeHtml(e.id)}">Restore</button>
+      </div>
+    `).join("");
+  }
+  if (els.restoreAllHidden) els.restoreAllHidden.disabled=hiddenEventIds.size===0;
+}
 
 async function load() {
   const r = await fetch(DATA_URL,{cache:"no-store"});
@@ -199,6 +249,7 @@ function filtered(year) {
   const cat=els.category.value;
   return events.filter(e => {
     if (!e.start || effectiveEnd(e,year) < min || e.start > max) return false;
+    if (e.id && hiddenEventIds.has(e.id)) return false;
     if (hideLongRallies && isLongStampRally(e,year)) return false;
     if (cat && e.category !== cat) return false;
     if (q && !JSON.stringify(e).toLowerCase().includes(q)) return false;
@@ -233,11 +284,18 @@ function render() {
   const list=filtered(year);
   const rows=packRows(list,year);
   const hiddenLong=hideLongRallies ? longStampRallyCount(year) : 0;
+  const hiddenIndividual=hiddenEventCount(year);
   els.empty.hidden=list.length!==0;
-  els.meta.textContent=`${list.length} event${list.length===1?"":"s"}${hiddenLong ? ` · ${hiddenLong} long stamp rall${hiddenLong===1?"y":"ies"} hidden` : ""}`;
+  const hiddenBits=[];
+  if (hiddenLong) hiddenBits.push(`${hiddenLong} long stamp rall${hiddenLong===1?"y":"ies"} hidden`);
+  if (hiddenIndividual) hiddenBits.push(`${hiddenIndividual} individual event${hiddenIndividual===1?"":"s"} hidden`);
+  els.meta.textContent=`${list.length} event${list.length===1?"":"s"}${hiddenBits.length ? ` · ${hiddenBits.join(" · ")}` : ""}`;
   if (els.longRallies) {
     els.longRallies.textContent=hideLongRallies ? "Show long stamp rallies" : "Hide long stamp rallies";
     els.longRallies.setAttribute("aria-pressed",String(hideLongRallies));
+  }
+  if (els.hiddenEvents) {
+    els.hiddenEvents.textContent=`Hidden events (${hiddenEventIds.size})`;
   }
   if (els.subtypeLegend) {
     els.subtypeLegend.hidden=!list.some(e=>REGIONAL_TYPE_LABELS[e.regional_type]);
@@ -314,11 +372,53 @@ function showEvent(id) {
   els.detailNotes.hidden=!e.notes;
   els.detailSource.href=e.source_url||"#";
   els.detailSource.hidden=!e.source_url;
+  if (els.hideEvent) {
+    els.hideEvent.dataset.id=e.id||"";
+    els.hideEvent.hidden=!e.id;
+  }
   els.dialog.showModal();
 }
 
 els.dialog.querySelector(".close").addEventListener("click",()=>els.dialog.close());
 els.dialog.addEventListener("click",e=>{ if(e.target===els.dialog) els.dialog.close(); });
+
+if (els.hideEvent) {
+  els.hideEvent.addEventListener("click",()=>{
+    const id=els.hideEvent.dataset.id;
+    if (!id) return;
+    hiddenEventIds.add(id);
+    saveHiddenEventIds();
+    els.dialog.close();
+    render();
+  });
+}
+
+if (els.hiddenEvents && els.hiddenDialog) {
+  els.hiddenEvents.addEventListener("click",()=>{
+    renderHiddenEventsManager();
+    els.hiddenDialog.showModal();
+  });
+  els.hiddenDialog.querySelector(".close").addEventListener("click",()=>els.hiddenDialog.close());
+  els.hiddenDialog.addEventListener("click",e=>{ if(e.target===els.hiddenDialog) els.hiddenDialog.close(); });
+}
+if (els.hiddenList) {
+  els.hiddenList.addEventListener("click",e=>{
+    const button=e.target.closest(".restore-hidden-event");
+    if (!button) return;
+    hiddenEventIds.delete(button.dataset.id);
+    saveHiddenEventIds();
+    renderHiddenEventsManager();
+    render();
+  });
+}
+if (els.restoreAllHidden) {
+  els.restoreAllHidden.addEventListener("click",()=>{
+    hiddenEventIds.clear();
+    saveHiddenEventIds();
+    renderHiddenEventsManager();
+    render();
+  });
+}
 for (const el of [els.year,els.category,els.search,els.zoom]) {
   el.addEventListener(el===els.search?"input":"change",render);
 }
