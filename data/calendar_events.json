@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-21T23:00:39.292Z",
+  "updated_at": "2026-09-21T23:02:27.451Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -218,6 +218,26 @@
       "notes": ""
     },
     {
+      "id": "legendary-flight-articuno-2025",
+      "title": "Legendary Flight: Dynamax Articuno",
+      "start": "2025-01-20",
+      "end": "2025-01-27",
+      "category": "Max Battle Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/ja/news/legendary-flight-2025",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/legendary-flight-2025"
+      ],
+      "source_slug": "legendary-flight-2025",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
       "id": "mcdonalds-us-2025-01-20",
       "title": "McDonald’s × Pokémon GO – US Week",
       "start": "2025-01-20",
@@ -235,26 +255,6 @@
       ],
       "source_slug": "mcdonalds-us",
       "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
-      "id": "legendary-flight-articuno-2025",
-      "title": "Legendary Flight: Dynamax Articuno",
-      "start": "2025-01-20",
-      "end": "2025-01-27",
-      "category": "Max Battle Day",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/ja/news/legendary-flight-2025",
-      "source_urls": [
-        "https://pokemongo.com/ja/news/legendary-flight-2025"
-      ],
-      "source_slug": "legendary-flight-2025",
-      "source_locale": "ja",
       "status": "confirmed",
       "notes": ""
     },
@@ -359,6 +359,26 @@
       "notes": ""
     },
     {
+      "id": "eggs-pedition-access-february-2025",
+      "title": "Eggs-pedition Access: February",
+      "start": "2025-02-01",
+      "end": "2025-02-28",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/eggs-pedition-access-february-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/eggs-pedition-access-february-2025"
+      ],
+      "source_slug": "eggs-pedition-access-february-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
       "id": "gigantamax-kingler-max-battle-day",
       "title": "Gigantamax Kingler Max Battle Day",
       "start": "2025-02-01",
@@ -395,26 +415,6 @@
         "https://pokemongo.com/en/news/tcg-prismatic-evolutions"
       ],
       "source_slug": "tcg-prismatic-evolutions",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
-      "id": "eggs-pedition-access-february-2025",
-      "title": "Eggs-pedition Access: February",
-      "start": "2025-02-01",
-      "end": "2025-02-28",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "ticketed"
-      ],
-      "source_url": "https://pokemongo.com/en/news/eggs-pedition-access-february-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/eggs-pedition-access-february-2025"
-      ],
-      "source_slug": "eggs-pedition-access-february-2025",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -605,26 +605,6 @@
       ]
     },
     {
-      "id": "road-to-unova-event",
-      "title": "Road to Unova",
-      "start": "2025-02-24",
-      "end": "2025-03-01",
-      "category": "GO Tour",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/road-to-unova-event",
-      "source_urls": [
-        "https://pokemongo.com/en/news/road-to-unova-event"
-      ],
-      "source_slug": "road-to-unova-event",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "tour-pass-2025",
       "title": "GO Tour Pass: Unova",
       "start": "2025-02-24",
@@ -640,6 +620,26 @@
         "https://pokemongo.com/en/news/tour-pass-2025"
       ],
       "source_slug": "tour-pass-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "road-to-unova-event",
+      "title": "Road to Unova",
+      "start": "2025-02-24",
+      "end": "2025-03-01",
+      "category": "GO Tour",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/road-to-unova-event",
+      "source_urls": [
+        "https://pokemongo.com/en/news/road-to-unova-event"
+      ],
+      "source_slug": "road-to-unova-event",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -705,26 +705,6 @@
       "notes": ""
     },
     {
-      "id": "power-up-ticket-march-2025",
-      "title": "Power Up Ticket: March",
-      "start": "2025-03-04",
-      "end": "2025-04-04",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "ticketed"
-      ],
-      "source_url": "https://pokemongo.com/en/news/power-up-ticket-march-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/power-up-ticket-march-2025"
-      ],
-      "source_slug": "power-up-ticket-march-2025",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "gbl-might-and-mastery-2025",
       "title": "GO Battle League: Might and Mastery",
       "start": "2025-03-04",
@@ -740,6 +720,26 @@
         "https://pokemongo.com/en/news/go-battle-league-might-and-mastery"
       ],
       "source_slug": "go-battle-league-might-and-mastery",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "power-up-ticket-march-2025",
+      "title": "Power Up Ticket: March",
+      "start": "2025-03-04",
+      "end": "2025-04-04",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/power-up-ticket-march-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/power-up-ticket-march-2025"
+      ],
+      "source_slug": "power-up-ticket-march-2025",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -1284,26 +1284,6 @@
       ]
     },
     {
-      "id": "sparring-partners-raid-day-2025",
-      "title": "Sparring Partners Raid Day",
-      "start": "2025-04-13",
-      "end": "2025-04-13",
-      "category": "Raid Day",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/sparring-partners-raid-day-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/sparring-partners-raid-day-2025"
-      ],
-      "source_slug": "sparring-partners-raid-day-2025",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "go-stamp-rally",
       "title": "GO Stamp Rally – Expo 2025 Osaka, Kansai",
       "start": "2025-04-13",
@@ -1324,21 +1304,21 @@
       "notes": ""
     },
     {
-      "id": "pokemon-horizons-anime-celebration-2025",
-      "title": "Pokémon Horizons: The Series Celebration Event",
-      "start": "2025-04-16",
-      "end": "2025-04-22",
-      "category": "Event",
+      "id": "sparring-partners-raid-day-2025",
+      "title": "Sparring Partners Raid Day",
+      "start": "2025-04-13",
+      "end": "2025-04-13",
+      "category": "Raid Day",
       "scope": "Global",
       "location": "Global",
       "access": [
         "global"
       ],
-      "source_url": "https://pokemongo.com/en/news/pokemon-horizons-anime-celebration-2025",
+      "source_url": "https://pokemongo.com/en/news/sparring-partners-raid-day-2025",
       "source_urls": [
-        "https://pokemongo.com/en/news/pokemon-horizons-anime-celebration-2025"
+        "https://pokemongo.com/en/news/sparring-partners-raid-day-2025"
       ],
-      "source_slug": "pokemon-horizons-anime-celebration-2025",
+      "source_slug": "sparring-partners-raid-day-2025",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -1359,6 +1339,26 @@
         "https://pokemongo.com/en/news/202503partnerresearch-jp"
       ],
       "source_slug": "202503partnerresearch-jp",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemon-horizons-anime-celebration-2025",
+      "title": "Pokémon Horizons: The Series Celebration Event",
+      "start": "2025-04-16",
+      "end": "2025-04-22",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-horizons-anime-celebration-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-horizons-anime-celebration-2025"
+      ],
+      "source_slug": "pokemon-horizons-anime-celebration-2025",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -1666,6 +1666,26 @@
       "notes": ""
     },
     {
+      "id": "ditto-time-korea-2025",
+      "title": "Ditto Time – Korea",
+      "start": "2025-05-09",
+      "end": "2025-05-11",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "South Korea",
+      "access": [
+        "regional"
+      ],
+      "source_url": "https://pokemongo.com/en/news/ko-132-ditto-time",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-132-ditto-time"
+      ],
+      "source_slug": "ko-132-ditto-time",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
       "id": "suita-city-stamp-rally",
       "title": "Suita City GO Stamp Rally",
       "start": "2025-05-09",
@@ -1688,21 +1708,21 @@
       "notes": "Official Pokémon GO source states that the Suita City Stamp Rally has no end-period restriction."
     },
     {
-      "id": "ditto-time-korea-2025",
-      "title": "Ditto Time – Korea",
-      "start": "2025-05-09",
-      "end": "2025-05-11",
+      "id": "crown-clash-2025",
+      "title": "Crown Clash",
+      "start": "2025-05-10",
+      "end": "2025-05-18",
       "category": "Event",
-      "scope": "Regional",
-      "location": "South Korea",
+      "scope": "Global",
+      "location": "Global",
       "access": [
-        "regional"
+        "global"
       ],
-      "source_url": "https://pokemongo.com/en/news/ko-132-ditto-time",
+      "source_url": "https://pokemongo.com/en/news/crown-clash-2025",
       "source_urls": [
-        "https://pokemongo.com/en/news/ko-132-ditto-time"
+        "https://pokemongo.com/en/news/crown-clash-2025"
       ],
-      "source_slug": "ko-132-ditto-time",
+      "source_slug": "crown-clash-2025",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -1723,26 +1743,6 @@
         "https://pokemongo.com/en/news/dynamax-suicune-max-battle-weekend"
       ],
       "source_slug": "dynamax-suicune-max-battle-weekend",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
-      "id": "crown-clash-2025",
-      "title": "Crown Clash",
-      "start": "2025-05-10",
-      "end": "2025-05-18",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/crown-clash-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/crown-clash-2025"
-      ],
-      "source_slug": "crown-clash-2025",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -2027,26 +2027,6 @@
       "notes": ""
     },
     {
-      "id": "go-pass-june-2025",
-      "title": "GO Pass: June",
-      "start": "2025-06-03",
-      "end": "2025-07-01",
-      "category": "GO Pass",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/ja/news/go-pass-june-2025",
-      "source_urls": [
-        "https://pokemongo.com/ja/news/go-pass-june-2025"
-      ],
-      "source_slug": "go-pass-june-2025",
-      "source_locale": "ja",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "eggs-pedition-access-june-2025",
       "title": "Eggs-pedition Access: June",
       "start": "2025-06-03",
@@ -2083,6 +2063,26 @@
       ],
       "source_slug": "go-battle-league-delightful-days",
       "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-june-2025",
+      "title": "GO Pass: June",
+      "start": "2025-06-03",
+      "end": "2025-07-01",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/ja/news/go-pass-june-2025",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/go-pass-june-2025"
+      ],
+      "source_slug": "go-pass-june-2025",
+      "source_locale": "ja",
       "status": "confirmed",
       "notes": ""
     },
@@ -2168,6 +2168,26 @@
       "notes": ""
     },
     {
+      "id": "partner-research-softbank-summer-2025",
+      "title": "Partner Research: SoftBank",
+      "start": "2025-06-13",
+      "end": "2025-08-31",
+      "category": "Timed Research",
+      "scope": "Regional",
+      "location": "Japan",
+      "access": [
+        "code"
+      ],
+      "source_url": "https://pokemongo.com/en/news/202506partnerresearch-jp",
+      "source_urls": [
+        "https://pokemongo.com/en/news/202506partnerresearch-jp"
+      ],
+      "source_slug": "202506partnerresearch-jp",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
       "id": "go-fest-paris-2025",
       "title": "Pokémon GO Fest 2025: Paris",
       "start": "2025-06-13",
@@ -2184,26 +2204,6 @@
         "https://pokemongo.com/en/news/go-fest-2025-events-announcement"
       ],
       "source_slug": "go-fest-2025-events-announcement",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
-      "id": "partner-research-softbank-summer-2025",
-      "title": "Partner Research: SoftBank",
-      "start": "2025-06-13",
-      "end": "2025-08-31",
-      "category": "Timed Research",
-      "scope": "Regional",
-      "location": "Japan",
-      "access": [
-        "code"
-      ],
-      "source_url": "https://pokemongo.com/en/news/202506partnerresearch-jp",
-      "source_urls": [
-        "https://pokemongo.com/en/news/202506partnerresearch-jp"
-      ],
-      "source_slug": "202506partnerresearch-jp",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -2477,26 +2477,6 @@
       "notes": ""
     },
     {
-      "id": "pokemongo-9th-anniversary",
-      "title": "Pokémon GO’s 9th Anniversary Party",
-      "start": "2025-07-01",
-      "end": "2025-07-06",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/pokemongo-9th-anniversary",
-      "source_urls": [
-        "https://pokemongo.com/en/news/pokemongo-9th-anniversary"
-      ],
-      "source_slug": "pokemongo-9th-anniversary",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "go-pass-july-2025",
       "title": "GO Pass: July",
       "start": "2025-07-01",
@@ -2513,6 +2493,26 @@
       ],
       "source_slug": "go-pass-july-2025",
       "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "pokemongo-9th-anniversary",
+      "title": "Pokémon GO’s 9th Anniversary Party",
+      "start": "2025-07-01",
+      "end": "2025-07-06",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemongo-9th-anniversary",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemongo-9th-anniversary"
+      ],
+      "source_slug": "pokemongo-9th-anniversary",
+      "source_locale": "en",
       "status": "confirmed",
       "notes": ""
     },
@@ -2679,6 +2679,26 @@
       "notes": "Road Trip stop with GO Truck and location-specific/citywide Pokémon GO gameplay."
     },
     {
+      "id": "partner-research-aeonmall-summer-2025",
+      "title": "Partner Research: AEON Mall",
+      "start": "2025-07-18",
+      "end": "2025-08-31",
+      "category": "Timed Research",
+      "scope": "Regional",
+      "location": "Japan",
+      "access": [
+        "code"
+      ],
+      "source_url": "https://pokemongo.com/en/news/202506partnerresearch-jp",
+      "source_urls": [
+        "https://pokemongo.com/en/news/202506partnerresearch-jp"
+      ],
+      "source_slug": "202506partnerresearch-jp",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
       "id": "mlb-miami-marlins-2025",
       "title": "Pokémon GO × Miami Marlins Game Day",
       "start": "2025-07-18",
@@ -2699,26 +2719,6 @@
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
       "regional_type": "local_raid"
-    },
-    {
-      "id": "partner-research-aeonmall-summer-2025",
-      "title": "Partner Research: AEON Mall",
-      "start": "2025-07-18",
-      "end": "2025-08-31",
-      "category": "Timed Research",
-      "scope": "Regional",
-      "location": "Japan",
-      "access": [
-        "code"
-      ],
-      "source_url": "https://pokemongo.com/en/news/202506partnerresearch-jp",
-      "source_urls": [
-        "https://pokemongo.com/en/news/202506partnerresearch-jp"
-      ],
-      "source_slug": "202506partnerresearch-jp",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
     },
     {
       "id": "gigantamax-lapras-max-battle-day-2025",
@@ -2885,26 +2885,6 @@
       "regional_type": "local_raid"
     },
     {
-      "id": "pokemon-go-road-trip-paris-2025",
-      "title": "Pokémon GO Road Trip 2025: Paris",
-      "start": "2025-07-26",
-      "end": "2025-07-26",
-      "category": "Event",
-      "scope": "Regional / In-person",
-      "location": "Paris, France",
-      "access": [
-        "onsite"
-      ],
-      "source_url": "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay",
-      "source_urls": [
-        "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay"
-      ],
-      "source_slug": "pokemon-go-road-trip-2025-gameplay",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "Road Trip stop with GO Truck and location-specific/citywide Pokémon GO gameplay."
-    },
-    {
       "id": "latias-latios-max-battle-weekend",
       "title": "Dynamax Latias & Latios Max Battle Weekend",
       "start": "2025-07-26",
@@ -2923,6 +2903,26 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
+    },
+    {
+      "id": "pokemon-go-road-trip-paris-2025",
+      "title": "Pokémon GO Road Trip 2025: Paris",
+      "start": "2025-07-26",
+      "end": "2025-07-26",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Paris, France",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-go-road-trip-2025-gameplay"
+      ],
+      "source_slug": "pokemon-go-road-trip-2025-gameplay",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Road Trip stop with GO Truck and location-specific/citywide Pokémon GO gameplay."
     },
     {
       "id": "ko-summer-water-festival-2025",
@@ -3005,6 +3005,40 @@
       "notes": "Road Trip stop with GO Truck and location-specific/citywide Pokémon GO gameplay."
     },
     {
+      "id": "eggs-pedition-access-august-2025",
+      "title": "Eggs-pedition Access: August",
+      "start": "2025-08-03",
+      "end": "2025-09-03",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/en/news/monthly-rewards-august-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/monthly-rewards-august-2025"
+      ],
+      "source_slug": "monthly-rewards-august-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 3,
+          "action": "first_catch",
+          "label": "3× First Catch XP"
+        },
+        {
+          "type": "xp",
+          "multiplier": 3,
+          "action": "first_spin",
+          "label": "3× First PokéStop/Gym Spin XP"
+        }
+      ]
+    },
+    {
       "id": "gigantamax-butterfree-max-battle-day",
       "title": "Gigantamax Butterfree Max Battle Day",
       "start": "2025-08-03",
@@ -3045,40 +3079,6 @@
       "notes": ""
     },
     {
-      "id": "eggs-pedition-access-august-2025",
-      "title": "Eggs-pedition Access: August",
-      "start": "2025-08-03",
-      "end": "2025-09-03",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "ticketed"
-      ],
-      "source_url": "https://pokemongo.com/en/news/monthly-rewards-august-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/monthly-rewards-august-2025"
-      ],
-      "source_slug": "monthly-rewards-august-2025",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "bonuses": [
-        {
-          "type": "xp",
-          "multiplier": 3,
-          "action": "first_catch",
-          "label": "3× First Catch XP"
-        },
-        {
-          "type": "xp",
-          "multiplier": 3,
-          "action": "first_spin",
-          "label": "3× First PokéStop/Gym Spin XP"
-        }
-      ]
-    },
-    {
       "id": "goaltimewithpikachu2025",
       "title": "Goal Time with Pikachu – Indonesia",
       "start": "2025-08-04",
@@ -3094,6 +3094,26 @@
         "https://pokemongo.com/en/news/goaltimewithpikachu2025"
       ],
       "source_slug": "goaltimewithpikachu2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "go-pass-august-2025",
+      "title": "GO Pass: August",
+      "start": "2025-08-05",
+      "end": "2025-09-02",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/monthly-rewards-august-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/monthly-rewards-august-2025"
+      ],
+      "source_slug": "monthly-rewards-august-2025",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -3119,26 +3139,6 @@
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
       "regional_type": "local_raid"
-    },
-    {
-      "id": "go-pass-august-2025",
-      "title": "GO Pass: August",
-      "start": "2025-08-05",
-      "end": "2025-09-02",
-      "category": "GO Pass",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/monthly-rewards-august-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/monthly-rewards-august-2025"
-      ],
-      "source_slug": "monthly-rewards-august-2025",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
     },
     {
       "id": "cozy-companions-2025",
@@ -3243,6 +3243,26 @@
       "notes": ""
     },
     {
+      "id": "delightful-days-tgr-2025",
+      "title": "Delightful Days: Taken Over",
+      "start": "2025-08-11",
+      "end": "2025-08-17",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/delightful-days-tgr-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/delightful-days-tgr-2025"
+      ],
+      "source_slug": "delightful-days-tgr-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
       "id": "mlb-chicago-white-sox-2025",
       "title": "Pokémon GO × Chicago White Sox Game Day",
       "start": "2025-08-11",
@@ -3263,26 +3283,6 @@
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with in-venue Timed Research and raids featuring Location Background encounters.",
       "regional_type": "local_raid"
-    },
-    {
-      "id": "delightful-days-tgr-2025",
-      "title": "Delightful Days: Taken Over",
-      "start": "2025-08-11",
-      "end": "2025-08-17",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/delightful-days-tgr-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/delightful-days-tgr-2025"
-      ],
-      "source_slug": "delightful-days-tgr-2025",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
     },
     {
       "id": "mlb-baltimore-orioles-2025",
@@ -3329,26 +3329,6 @@
       "regional_type": "local_raid"
     },
     {
-      "id": "gbl-weekend-delightful-days-2025",
-      "title": "GO Battle Weekend: Delightful Days",
-      "start": "2025-08-15",
-      "end": "2025-08-17",
-      "category": "GO Battle League",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/go-battle-league-delightful-days",
-      "source_urls": [
-        "https://pokemongo.com/en/news/go-battle-league-delightful-days"
-      ],
-      "source_slug": "go-battle-league-delightful-days",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "world-championships-event-2025",
       "title": "2025 Pokémon World Championships In-Game Event",
       "start": "2025-08-15",
@@ -3364,6 +3344,26 @@
         "https://pokemongo.com/en/news/world-championships-event-2025"
       ],
       "source_slug": "world-championships-event-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "gbl-weekend-delightful-days-2025",
+      "title": "GO Battle Weekend: Delightful Days",
+      "start": "2025-08-15",
+      "end": "2025-08-17",
+      "category": "GO Battle League",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-delightful-days",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-battle-league-delightful-days"
+      ],
+      "source_slug": "go-battle-league-delightful-days",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -3389,11 +3389,11 @@
       "notes": "Road Trip stop with GO Truck and location-specific/citywide Pokémon GO gameplay."
     },
     {
-      "id": "dark-skies-2025",
-      "title": "Pokémon GO: Dark Skies",
+      "id": "go-pass-max-finale-2025",
+      "title": "GO Pass: Max Finale",
       "start": "2025-08-18",
-      "end": "2025-08-23",
-      "category": "Event",
+      "end": "2025-08-24",
+      "category": "GO Pass",
       "scope": "Global",
       "location": "Global",
       "access": [
@@ -3409,11 +3409,11 @@
       "notes": ""
     },
     {
-      "id": "go-pass-max-finale-2025",
-      "title": "GO Pass: Max Finale",
+      "id": "dark-skies-2025",
+      "title": "Pokémon GO: Dark Skies",
       "start": "2025-08-18",
-      "end": "2025-08-24",
-      "category": "GO Pass",
+      "end": "2025-08-23",
+      "category": "Event",
       "scope": "Global",
       "location": "Global",
       "access": [
@@ -3701,6 +3701,26 @@
       "regional_type": "local_raid"
     },
     {
+      "id": "gbl-tales-of-transformation-2025",
+      "title": "GO Battle League: Tales of Transformation",
+      "start": "2025-09-02",
+      "end": "2025-12-02",
+      "category": "GO Battle League",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-tales-of-transformation",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-battle-league-tales-of-transformation"
+      ],
+      "source_slug": "go-battle-league-tales-of-transformation",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
       "id": "pokemongo-kanto-celebration-2025",
       "title": "Kanto Celebration",
       "start": "2025-09-02",
@@ -3736,26 +3756,6 @@
         "https://pokemongo.com/en/news/202509partnerresearch-jp"
       ],
       "source_slug": "202509partnerresearch-jp",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
-      "id": "gbl-tales-of-transformation-2025",
-      "title": "GO Battle League: Tales of Transformation",
-      "start": "2025-09-02",
-      "end": "2025-12-02",
-      "category": "GO Battle League",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/go-battle-league-tales-of-transformation",
-      "source_urls": [
-        "https://pokemongo.com/en/news/go-battle-league-tales-of-transformation"
-      ],
-      "source_slug": "go-battle-league-tales-of-transformation",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -3871,26 +3871,6 @@
       ]
     },
     {
-      "id": "megaweek-2025",
-      "title": "Mega Evolution Week arrives!",
-      "start": "2025-09-13",
-      "end": "2025-09-14",
-      "category": "Event",
-      "scope": "Regional / In-person",
-      "location": "South Korea",
-      "access": [
-        "onsite"
-      ],
-      "source_url": "https://pokemongo.com/en/news/megaweek-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/megaweek-2025"
-      ],
-      "source_slug": "megaweek-2025",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "pokemon-go-at-geek-pride-day-2025",
       "title": "Área de Pokémon GO no Orgulho Nerd SP 2025",
       "start": "2025-09-13",
@@ -3906,6 +3886,26 @@
         "https://pokemongo.com/en/news/pokemon-go-at-geek-pride-day-2025"
       ],
       "source_slug": "pokemon-go-at-geek-pride-day-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "megaweek-2025",
+      "title": "Mega Evolution Week arrives!",
+      "start": "2025-09-13",
+      "end": "2025-09-14",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "South Korea",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/megaweek-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/megaweek-2025"
+      ],
+      "source_slug": "megaweek-2025",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -4005,26 +4005,6 @@
       "notes": ""
     },
     {
-      "id": "shadow-groudon-raid-weekend-2025",
-      "title": "Groudon Shadow Raid Weekend",
-      "start": "2025-09-20",
-      "end": "2025-09-21",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/shadow-groudon-raid-weekend-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/shadow-groudon-raid-weekend-2025"
-      ],
-      "source_slug": "shadow-groudon-raid-weekend-2025",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "hawlucha-celebration-mexico-2025",
       "title": "Celebrating with Hawlucha",
       "start": "2025-09-20",
@@ -4040,6 +4020,26 @@
         "https://pokemongo.com/en/news/hawlucha-celebrando-septiembre-2025"
       ],
       "source_slug": "hawlucha-celebrando-septiembre-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "shadow-groudon-raid-weekend-2025",
+      "title": "Groudon Shadow Raid Weekend",
+      "start": "2025-09-20",
+      "end": "2025-09-21",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/shadow-groudon-raid-weekend-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/shadow-groudon-raid-weekend-2025"
+      ],
+      "source_slug": "shadow-groudon-raid-weekend-2025",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -4206,26 +4206,6 @@
       "notes": ""
     },
     {
-      "id": "mega-metagross-raid-day-2025",
-      "title": "Mega Metagross Raid Day",
-      "start": "2025-10-04",
-      "end": "2025-10-04",
-      "category": "Raid Day",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/mega-metagross-raid-day-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/mega-metagross-raid-day-2025"
-      ],
-      "source_slug": "mega-metagross-raid-day-2025",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "dancing-in-the-moonlight",
       "title": "Dancing in the Moonlight",
       "start": "2025-10-04",
@@ -4241,6 +4221,26 @@
         "https://pokemongo.com/en/news/dancing-in-the-moonlight"
       ],
       "source_slug": "dancing-in-the-moonlight",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mega-metagross-raid-day-2025",
+      "title": "Mega Metagross Raid Day",
+      "start": "2025-10-04",
+      "end": "2025-10-04",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mega-metagross-raid-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mega-metagross-raid-day-2025"
+      ],
+      "source_slug": "mega-metagross-raid-day-2025",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -4412,26 +4412,6 @@
       "notes": ""
     },
     {
-      "id": "mega-rayquaza-raid-day-2025",
-      "title": "Mega Rayquaza Raid Day",
-      "start": "2025-10-18",
-      "end": "2025-10-18",
-      "category": "Raid Day",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/mega-rayquaza-raid-day-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/mega-rayquaza-raid-day-2025"
-      ],
-      "source_slug": "mega-rayquaza-raid-day-2025",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "festival-of-lights-2025",
       "title": "Festival of Lights",
       "start": "2025-10-18",
@@ -4447,6 +4427,26 @@
         "https://pokemongo.com/en/news/festival-of-lights-2025"
       ],
       "source_slug": "festival-of-lights-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "mega-rayquaza-raid-day-2025",
+      "title": "Mega Rayquaza Raid Day",
+      "start": "2025-10-18",
+      "end": "2025-10-18",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/mega-rayquaza-raid-day-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mega-rayquaza-raid-day-2025"
+      ],
+      "source_slug": "mega-rayquaza-raid-day-2025",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -4472,26 +4472,6 @@
       "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
     },
     {
-      "id": "halloween-part-1-2025",
-      "title": "Halloween 2025 Part I",
-      "start": "2025-10-21",
-      "end": "2025-10-27",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/halloween-part-1-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/halloween-part-1-2025"
-      ],
-      "source_slug": "halloween-part-1-2025",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "go-pass-halloween-2025",
       "title": "GO Pass: Halloween 2025",
       "start": "2025-10-21",
@@ -4508,6 +4488,26 @@
       ],
       "source_slug": "go-pass-halloween-2025",
       "source_locale": "ja",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "halloween-part-1-2025",
+      "title": "Halloween 2025 Part I",
+      "start": "2025-10-21",
+      "end": "2025-10-27",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/halloween-part-1-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/halloween-part-1-2025"
+      ],
+      "source_slug": "halloween-part-1-2025",
+      "source_locale": "en",
       "status": "confirmed",
       "notes": ""
     },
@@ -4632,26 +4632,6 @@
       "notes": ""
     },
     {
-      "id": "observatory-sagamihara",
-      "title": "Pokémon Observatory Sagamihara × Pokémon GO",
-      "start": "2025-11-01",
-      "end": "2026-01-12",
-      "category": "Event",
-      "scope": "Regional / In-person",
-      "location": "Sagamihara City Museum, Sagamihara, Kanagawa, Japan",
-      "access": [
-        "onsite"
-      ],
-      "source_url": "https://pokemongo.com/en/news/observatory_sagamihara",
-      "source_urls": [
-        "https://pokemongo.com/en/news/observatory_sagamihara"
-      ],
-      "source_slug": "observatory_sagamihara",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
-    },
-    {
       "id": "202511-mega-tokkun",
       "title": "Pokémon GO Mega Training at AEON Mall",
       "start": "2025-11-01",
@@ -4667,6 +4647,26 @@
         "https://pokemongo.com/en/news/202511-mega-tokkun"
       ],
       "source_slug": "202511-mega-tokkun",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "id": "observatory-sagamihara",
+      "title": "Pokémon Observatory Sagamihara × Pokémon GO",
+      "start": "2025-11-01",
+      "end": "2026-01-12",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Sagamihara City Museum, Sagamihara, Kanagawa, Japan",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/observatory_sagamihara",
+      "source_urls": [
+        "https://pokemongo.com/en/news/observatory_sagamihara"
+      ],
+      "source_slug": "observatory_sagamihara",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -4795,6 +4795,26 @@
       "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
     },
     {
+      "id": "into-the-wild-2025",
+      "title": "Into the Wild",
+      "start": "2025-11-10",
+      "end": "2025-11-14",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/en/news/into-the-wild-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/news/into-the-wild-2025"
+      ],
+      "source_slug": "into-the-wild-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
       "id": "nagasaki-go-stamp-rally",
       "title": "Pokémon GO Stamp Rally in Nagasaki",
       "start": "2025-11-10",
@@ -4814,26 +4834,6 @@
       "status": "confirmed",
       "notes": "Ongoing eight-stop city stamp rally. Completing all eight stamps awards an encounter with Ampharos featuring a Nagasaki Location Background. The official article gives no end date.",
       "regional_type": "stamp_rally"
-    },
-    {
-      "id": "into-the-wild-2025",
-      "title": "Into the Wild",
-      "start": "2025-11-10",
-      "end": "2025-11-14",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "access": [
-        "global"
-      ],
-      "source_url": "https://pokemongo.com/en/news/into-the-wild-2025",
-      "source_urls": [
-        "https://pokemongo.com/en/news/into-the-wild-2025"
-      ],
-      "source_slug": "into-the-wild-2025",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": ""
     },
     {
       "id": "community-celebrations-go-wild-area-2025",
@@ -5093,21 +5093,21 @@
       "notes": "Sunday trade bonuses: one additional Special Trade, increased Lucky Trade chance, 10% reduced Stardust trade cost, and two Candy XL from trades."
     },
     {
-      "id": "journey-to-paldea-2025",
-      "title": "Journey to Paldea",
+      "id": "gbl-precious-paths-2025",
+      "title": "GO Battle League: Precious Paths",
       "start": "2025-12-02",
-      "end": "2025-12-09",
-      "category": "Event",
+      "end": "2026-03-03",
+      "category": "GO Battle League",
       "scope": "Global",
       "location": "Global",
       "access": [
         "global"
       ],
-      "source_url": "https://pokemongo.com/en/news/journey-to-paldea-2025",
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-precious-paths",
       "source_urls": [
-        "https://pokemongo.com/en/news/journey-to-paldea-2025"
+        "https://pokemongo.com/en/news/go-battle-league-precious-paths"
       ],
-      "source_slug": "journey-to-paldea-2025",
+      "source_slug": "go-battle-league-precious-paths",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -5133,21 +5133,21 @@
       "notes": ""
     },
     {
-      "id": "gbl-precious-paths-2025",
-      "title": "GO Battle League: Precious Paths",
+      "id": "journey-to-paldea-2025",
+      "title": "Journey to Paldea",
       "start": "2025-12-02",
-      "end": "2026-03-03",
-      "category": "GO Battle League",
+      "end": "2025-12-09",
+      "category": "Event",
       "scope": "Global",
       "location": "Global",
       "access": [
         "global"
       ],
-      "source_url": "https://pokemongo.com/en/news/go-battle-league-precious-paths",
+      "source_url": "https://pokemongo.com/en/news/journey-to-paldea-2025",
       "source_urls": [
-        "https://pokemongo.com/en/news/go-battle-league-precious-paths"
+        "https://pokemongo.com/en/news/journey-to-paldea-2025"
       ],
-      "source_slug": "go-battle-league-precious-paths",
+      "source_slug": "journey-to-paldea-2025",
       "source_locale": "en",
       "status": "confirmed",
       "notes": ""
@@ -5308,11 +5308,11 @@
       "notes": ""
     },
     {
-      "id": "winter-holiday-part1-2025",
-      "title": "Winter Holiday Part 1",
+      "id": "go-pass-winter-holiday-2025",
+      "title": "GO Pass: Winter Holiday 2025",
       "start": "2025-12-18",
-      "end": "2025-12-24",
-      "category": "Event",
+      "end": "2025-12-29",
+      "category": "GO Pass",
       "scope": "Global",
       "location": "Global",
       "access": [
@@ -5328,11 +5328,11 @@
       "notes": ""
     },
     {
-      "id": "go-pass-winter-holiday-2025",
-      "title": "GO Pass: Winter Holiday 2025",
+      "id": "winter-holiday-part1-2025",
+      "title": "Winter Holiday Part 1",
       "start": "2025-12-18",
-      "end": "2025-12-29",
-      "category": "GO Pass",
+      "end": "2025-12-24",
+      "category": "Event",
       "scope": "Global",
       "location": "Global",
       "access": [
@@ -5488,26 +5488,6 @@
       ]
     },
     {
-      "id": "pinch-perfect-2026",
-      "title": "Pinch Perfect",
-      "start": "2026-01-06",
-      "end": "2026-01-11",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/pinch-perfect-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/pinch-perfect-2026"
-      ],
-      "source_slug": "pinch-perfect-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "global"
-      ]
-    },
-    {
       "id": "go-pass-january-2026",
       "title": "GO Pass: January",
       "start": "2026-01-06",
@@ -5521,6 +5501,26 @@
       ],
       "source_slug": "go-pass-january-2026",
       "source_locale": "ja",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "global"
+      ]
+    },
+    {
+      "id": "pinch-perfect-2026",
+      "title": "Pinch Perfect",
+      "start": "2026-01-06",
+      "end": "2026-01-11",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/pinch-perfect-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pinch-perfect-2026"
+      ],
+      "source_slug": "pinch-perfect-2026",
+      "source_locale": "en",
       "status": "confirmed",
       "notes": "",
       "access": [
@@ -5768,26 +5768,6 @@
       ]
     },
     {
-      "id": "carnaval-2026-in-rio-1",
-      "title": "Carnival of Flamigo – Rio de Janeiro Celebration",
-      "start": "2026-02-03",
-      "end": "2026-02-08",
-      "category": "Event",
-      "scope": "Regional / In-person",
-      "location": "Rio de Janeiro, Brazil",
-      "source_url": "https://pokemongo.com/en/news/carnaval-2026-in-rio",
-      "source_urls": [
-        "https://pokemongo.com/en/news/carnaval-2026-in-rio"
-      ],
-      "source_slug": "carnaval-2026-in-rio",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
-      ]
-    },
-    {
       "id": "carnival-of-flamigo-2026",
       "title": "Carnival of Flamigo",
       "start": "2026-02-03",
@@ -5805,6 +5785,26 @@
       "notes": "",
       "access": [
         "global"
+      ]
+    },
+    {
+      "id": "carnaval-2026-in-rio-1",
+      "title": "Carnival of Flamigo – Rio de Janeiro Celebration",
+      "start": "2026-02-03",
+      "end": "2026-02-08",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Rio de Janeiro, Brazil",
+      "source_url": "https://pokemongo.com/en/news/carnaval-2026-in-rio",
+      "source_urls": [
+        "https://pokemongo.com/en/news/carnaval-2026-in-rio"
+      ],
+      "source_slug": "carnaval-2026-in-rio",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
       ]
     },
     {
@@ -5850,6 +5850,26 @@
       "regional_type": "local_raid"
     },
     {
+      "id": "go-stamp-rally-cologne",
+      "title": "Carnival of Flamigo – Cologne GO Stamp Rally",
+      "start": "2026-02-07",
+      "end": "2026-02-07",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Cologne, Germany",
+      "source_url": "https://pokemongo.com/en/news/go-stamp-rally-cologne",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-stamp-rally-cologne"
+      ],
+      "source_slug": "go-stamp-rally-cologne",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
+    },
+    {
       "id": "carnaval-2026-in-rio-2",
       "title": "Carnival of Flamigo – Rio Community Meetup & GO Stamp Rally",
       "start": "2026-02-07",
@@ -5887,26 +5907,6 @@
       "notes": "",
       "access": [
         "global"
-      ]
-    },
-    {
-      "id": "go-stamp-rally-cologne",
-      "title": "Carnival of Flamigo – Cologne GO Stamp Rally",
-      "start": "2026-02-07",
-      "end": "2026-02-07",
-      "category": "Event",
-      "scope": "Regional / In-person",
-      "location": "Cologne, Germany",
-      "source_url": "https://pokemongo.com/en/news/go-stamp-rally-cologne",
-      "source_urls": [
-        "https://pokemongo.com/en/news/go-stamp-rally-cologne"
-      ],
-      "source_slug": "go-stamp-rally-cologne",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
       ]
     },
     {
@@ -6051,26 +6051,6 @@
       ]
     },
     {
-      "id": "community-celebration-madrid-2026",
-      "title": "Pokémon GO Tour: Kalos – Global Community Celebration in Madrid",
-      "start": "2026-02-28",
-      "end": "2026-02-28",
-      "category": "Event",
-      "scope": "Regional / In-person",
-      "location": "Madrid, Spain",
-      "source_url": "https://pokemongo.com/en/news/community-celebration-madrid-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/community-celebration-madrid-2026"
-      ],
-      "source_slug": "community-celebration-madrid-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
-      ]
-    },
-    {
       "id": "go-tour-global-2026-australia",
       "title": "Celebrate Pokémon GO Tour: Kalos – Global in Sydney!",
       "start": "2026-02-28",
@@ -6086,6 +6066,26 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "",
+      "access": [
+        "onsite"
+      ]
+    },
+    {
+      "id": "go-tour-kalos-global-seoul",
+      "title": "GO Tour: Kalos – Global Celebration in Seoul",
+      "start": "2026-02-28",
+      "end": "2026-03-01",
+      "category": "GO Tour",
+      "scope": "Regional / In-person",
+      "location": "Seoul, South Korea",
+      "source_url": "https://pokemongo.com/en/news/ko-gotour-global-on-site-event",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-gotour-global-on-site-event"
+      ],
+      "source_slug": "ko-gotour-global-on-site-event",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Official Korean on-site celebration for GO Tour: Kalos – Global.",
       "access": [
         "onsite"
       ]
@@ -6111,41 +6111,41 @@
       ]
     },
     {
-      "id": "go-tour-kalos-global-seoul",
-      "title": "GO Tour: Kalos – Global Celebration in Seoul",
+      "id": "community-celebration-madrid-2026",
+      "title": "Pokémon GO Tour: Kalos – Global Community Celebration in Madrid",
       "start": "2026-02-28",
-      "end": "2026-03-01",
-      "category": "GO Tour",
+      "end": "2026-02-28",
+      "category": "Event",
       "scope": "Regional / In-person",
-      "location": "Seoul, South Korea",
-      "source_url": "https://pokemongo.com/en/news/ko-gotour-global-on-site-event",
+      "location": "Madrid, Spain",
+      "source_url": "https://pokemongo.com/en/news/community-celebration-madrid-2026",
       "source_urls": [
-        "https://pokemongo.com/en/news/ko-gotour-global-on-site-event"
+        "https://pokemongo.com/en/news/community-celebration-madrid-2026"
       ],
-      "source_slug": "ko-gotour-global-on-site-event",
+      "source_slug": "community-celebration-madrid-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Official Korean on-site celebration for GO Tour: Kalos – Global.",
+      "notes": "",
       "access": [
         "onsite"
       ]
     },
     {
-      "id": "pokemon-30th-anniversary-1",
-      "title": "Pokémon 30th Anniversary",
+      "id": "go-battle-league-memories-in-motion",
+      "title": "GO Battle League: Memories in Motion",
       "start": "2026-03-03",
-      "end": "2026-03-09",
-      "category": "Event",
+      "end": "2026-06-02",
+      "category": "GO Battle League",
       "scope": "Global",
       "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/pokemon-30th-anniversary",
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-memories-in-motion",
       "source_urls": [
-        "https://pokemongo.com/en/news/pokemon-30th-anniversary"
+        "https://pokemongo.com/en/news/go-battle-league-memories-in-motion"
       ],
-      "source_slug": "pokemon-30th-anniversary",
+      "source_slug": "go-battle-league-memories-in-motion",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "",
+      "notes": "Season window based on the official GO Battle League schedule.",
       "access": [
         "global"
       ]
@@ -6171,21 +6171,21 @@
       ]
     },
     {
-      "id": "go-battle-league-memories-in-motion",
-      "title": "GO Battle League: Memories in Motion",
+      "id": "pokemon-30th-anniversary-1",
+      "title": "Pokémon 30th Anniversary",
       "start": "2026-03-03",
-      "end": "2026-06-02",
-      "category": "GO Battle League",
+      "end": "2026-03-09",
+      "category": "Event",
       "scope": "Global",
       "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/go-battle-league-memories-in-motion",
+      "source_url": "https://pokemongo.com/en/news/pokemon-30th-anniversary",
       "source_urls": [
-        "https://pokemongo.com/en/news/go-battle-league-memories-in-motion"
+        "https://pokemongo.com/en/news/pokemon-30th-anniversary"
       ],
-      "source_slug": "go-battle-league-memories-in-motion",
+      "source_slug": "pokemon-30th-anniversary",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Season window based on the official GO Battle League schedule.",
+      "notes": "",
       "access": [
         "global"
       ]
@@ -6817,26 +6817,6 @@
       "regional_type": "local_raid"
     },
     {
-      "id": "pokemon-run-in-seoul-2026",
-      "title": "Pokémon GO Pokémon Run 2026 in Seoul",
-      "start": "2026-05-05",
-      "end": "2026-05-05",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Seoul, South Korea",
-      "source_url": "https://pokemongo.com/en/news/pokemon_run_in_seoul_2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/pokemon_run_in_seoul_2026"
-      ],
-      "source_slug": "pokemon_run_in_seoul_2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
-      ]
-    },
-    {
       "id": "go-pass-may-2026",
       "title": "GO Pass: May",
       "start": "2026-05-05",
@@ -6854,6 +6834,26 @@
       "notes": "",
       "access": [
         "global"
+      ]
+    },
+    {
+      "id": "pokemon-run-in-seoul-2026",
+      "title": "Pokémon GO Pokémon Run 2026 in Seoul",
+      "start": "2026-05-05",
+      "end": "2026-05-05",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Seoul, South Korea",
+      "source_url": "https://pokemongo.com/en/news/pokemon_run_in_seoul_2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon_run_in_seoul_2026"
+      ],
+      "source_slug": "pokemon_run_in_seoul_2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
       ]
     },
     {
@@ -7102,21 +7102,21 @@
       ]
     },
     {
-      "id": "global-events-gofest2026-overlays-4",
-      "title": "Spark’s Caretaking Quest",
+      "id": "go-battle-league-forever-forward",
+      "title": "GO Battle League: Forever Forward",
       "start": "2026-06-02",
-      "end": "2026-06-08",
-      "category": "Event",
+      "end": "2026-09-08",
+      "category": "GO Battle League",
       "scope": "Global",
       "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/global-events-gofest2026-overlays",
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-forever-forward",
       "source_urls": [
-        "https://pokemongo.com/en/news/global-events-gofest2026-overlays"
+        "https://pokemongo.com/en/news/go-battle-league-forever-forward"
       ],
-      "source_slug": "global-events-gofest2026-overlays",
+      "source_slug": "go-battle-league-forever-forward",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "",
+      "notes": "Season window based on the official GO Battle League schedule.",
       "access": [
         "global"
       ]
@@ -7142,21 +7142,21 @@
       ]
     },
     {
-      "id": "go-battle-league-forever-forward",
-      "title": "GO Battle League: Forever Forward",
+      "id": "global-events-gofest2026-overlays-4",
+      "title": "Spark’s Caretaking Quest",
       "start": "2026-06-02",
-      "end": "2026-09-08",
-      "category": "GO Battle League",
+      "end": "2026-06-08",
+      "category": "Event",
       "scope": "Global",
       "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/go-battle-league-forever-forward",
+      "source_url": "https://pokemongo.com/en/news/global-events-gofest2026-overlays",
       "source_urls": [
-        "https://pokemongo.com/en/news/go-battle-league-forever-forward"
+        "https://pokemongo.com/en/news/global-events-gofest2026-overlays"
       ],
-      "source_slug": "go-battle-league-forever-forward",
+      "source_slug": "global-events-gofest2026-overlays",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Season window based on the official GO Battle League schedule.",
+      "notes": "",
       "access": [
         "global"
       ]
@@ -7223,6 +7223,26 @@
       ]
     },
     {
+      "id": "gofest-2026-copenhagen-lego",
+      "title": "LEGO × Pokémon GO at GO Fest 2026: Copenhagen",
+      "start": "2026-06-12",
+      "end": "2026-06-14",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Copenhagen, Denmark",
+      "source_url": "https://pokemongo.com/en/news/gofest-2026-copenhagen-lego",
+      "source_urls": [
+        "https://pokemongo.com/en/news/gofest-2026-copenhagen-lego"
+      ],
+      "source_slug": "gofest-2026-copenhagen-lego",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
+    },
+    {
       "id": "go-fest-2026-copenhagen",
       "title": "Pokémon GO Fest 2026: Copenhagen",
       "start": "2026-06-12",
@@ -7244,26 +7264,6 @@
       ]
     },
     {
-      "id": "gofest-2026-copenhagen-lego",
-      "title": "LEGO × Pokémon GO at GO Fest 2026: Copenhagen",
-      "start": "2026-06-12",
-      "end": "2026-06-14",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Copenhagen, Denmark",
-      "source_url": "https://pokemongo.com/en/news/gofest-2026-copenhagen-lego",
-      "source_urls": [
-        "https://pokemongo.com/en/news/gofest-2026-copenhagen-lego"
-      ],
-      "source_slug": "gofest-2026-copenhagen-lego",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
-      ]
-    },
-    {
       "id": "gofesttw-2026zhongshan-1",
       "title": "Taipei Metro GO Fest 2026 Celebration",
       "start": "2026-06-15",
@@ -7281,6 +7281,26 @@
       "notes": "",
       "access": [
         "onsite"
+      ]
+    },
+    {
+      "id": "choose-your-path-forever-forward-2026-2",
+      "title": "Choose Your Path Timed Challenge – Forever Forward I",
+      "start": "2026-06-17",
+      "end": "2026-06-21",
+      "category": "Timed Research",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026"
+      ],
+      "source_slug": "choose-your-path-forever-forward-2026",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "global"
       ]
     },
     {
@@ -7306,26 +7326,6 @@
       "regional_type": "local_raid"
     },
     {
-      "id": "choose-your-path-forever-forward-2026-2",
-      "title": "Choose Your Path Timed Challenge – Forever Forward I",
-      "start": "2026-06-17",
-      "end": "2026-06-21",
-      "category": "Timed Research",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026",
-      "source_urls": [
-        "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026"
-      ],
-      "source_slug": "choose-your-path-forever-forward-2026",
-      "source_locale": "ja",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "global"
-      ]
-    },
-    {
       "id": "communityday-june-2026-frigibax",
       "title": "June 2026 Community Day: Frigibax",
       "start": "2026-06-20",
@@ -7338,6 +7338,26 @@
         "https://pokemongo.com/en/news/communityday-june-2026-frigibax"
       ],
       "source_slug": "communityday-june-2026-frigibax",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "global"
+      ]
+    },
+    {
+      "id": "flying-taxi-2026",
+      "title": "Flying Taxi",
+      "start": "2026-06-23",
+      "end": "2026-06-29",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/flying-taxi-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/flying-taxi-2026"
+      ],
+      "source_slug": "flying-taxi-2026",
       "source_locale": "en",
       "status": "confirmed",
       "notes": "",
@@ -7363,26 +7383,6 @@
       "notes": "",
       "access": [
         "regional"
-      ]
-    },
-    {
-      "id": "flying-taxi-2026",
-      "title": "Flying Taxi",
-      "start": "2026-06-23",
-      "end": "2026-06-29",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/flying-taxi-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/flying-taxi-2026"
-      ],
-      "source_slug": "flying-taxi-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "global"
       ]
     },
     {
@@ -7486,26 +7486,6 @@
       ]
     },
     {
-      "id": "assistant-pikachu",
-      "title": "Pokémon GO 10th Anniversary at Pokémon Centers Japan",
-      "start": "2026-07-01",
-      "end": "2026-07-17",
-      "category": "Event",
-      "scope": "Regional / In-person",
-      "location": "Pokémon Center locations, Japan",
-      "source_url": "https://pokemongo.com/en/news/assistant_pikachu",
-      "source_urls": [
-        "https://pokemongo.com/en/news/assistant_pikachu"
-      ],
-      "source_slug": "assistant_pikachu",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
-      ]
-    },
-    {
       "id": "pokemon-center-stamp-rally-2026",
       "title": "Pokémon Center Stamp Rally 2026",
       "start": "2026-07-01",
@@ -7527,6 +7507,26 @@
       "source_locale": "ja",
       "status": "confirmed",
       "notes": "18-location Pokémon Center / Pokémon GO Lab. stamp rally. In-game rally id: STAMP_RALLY_JAPAN_POKRMONCENTER_2026."
+    },
+    {
+      "id": "assistant-pikachu",
+      "title": "Pokémon GO 10th Anniversary at Pokémon Centers Japan",
+      "start": "2026-07-01",
+      "end": "2026-07-17",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "Pokémon Center locations, Japan",
+      "source_url": "https://pokemongo.com/en/news/assistant_pikachu",
+      "source_urls": [
+        "https://pokemongo.com/en/news/assistant_pikachu"
+      ],
+      "source_slug": "assistant_pikachu",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "mlb-guardians-2026",
@@ -7551,26 +7551,6 @@
       "regional_type": "local_raid"
     },
     {
-      "id": "communityday-july-2026-sobble",
-      "title": "July 2026 Community Day: Sobble",
-      "start": "2026-07-04",
-      "end": "2026-07-04",
-      "category": "Community Day",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/communityday-july-2026-sobble",
-      "source_urls": [
-        "https://pokemongo.com/en/news/communityday-july-2026-sobble"
-      ],
-      "source_slug": "communityday-july-2026-sobble",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "global"
-      ]
-    },
-    {
       "id": "10th-anniversary-party",
       "title": "10th Anniversary Party",
       "start": "2026-07-04",
@@ -7591,18 +7571,18 @@
       ]
     },
     {
-      "id": "road-of-legends-2026",
-      "title": "Road of Legends",
-      "start": "2026-07-06",
-      "end": "2026-07-10",
-      "category": "GO Fest",
+      "id": "communityday-july-2026-sobble",
+      "title": "July 2026 Community Day: Sobble",
+      "start": "2026-07-04",
+      "end": "2026-07-04",
+      "category": "Community Day",
       "scope": "Global",
       "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/road-of-legends-2026",
+      "source_url": "https://pokemongo.com/en/news/communityday-july-2026-sobble",
       "source_urls": [
-        "https://pokemongo.com/en/news/road-of-legends-2026"
+        "https://pokemongo.com/en/news/communityday-july-2026-sobble"
       ],
-      "source_slug": "road-of-legends-2026",
+      "source_slug": "communityday-july-2026-sobble",
       "source_locale": "en",
       "status": "confirmed",
       "notes": "",
@@ -7626,6 +7606,26 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Special GO Pass associated with the Road of Legends lead-up to GO Fest: Global.",
+      "access": [
+        "global"
+      ]
+    },
+    {
+      "id": "road-of-legends-2026",
+      "title": "Road of Legends",
+      "start": "2026-07-06",
+      "end": "2026-07-10",
+      "category": "GO Fest",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/road-of-legends-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/road-of-legends-2026"
+      ],
+      "source_slug": "road-of-legends-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
       "access": [
         "global"
       ]
@@ -7671,6 +7671,26 @@
       "status": "confirmed",
       "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
       "regional_type": "local_raid"
+    },
+    {
+      "id": "ko-gofest-global-on-site-event-2026",
+      "title": "GO Fest 2026: Global Celebration – Seoul",
+      "start": "2026-07-11",
+      "end": "2026-07-12",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "Seoul, South Korea",
+      "source_url": "https://pokemongo.com/en/news/ko-gofest-global-on-site-event-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/ko-gofest-global-on-site-event-2026"
+      ],
+      "source_slug": "ko-gofest-global-on-site-event-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
     },
     {
       "id": "community-celebration-barcelona",
@@ -7813,26 +7833,6 @@
       ]
     },
     {
-      "id": "ko-gofest-global-on-site-event-2026",
-      "title": "GO Fest 2026: Global Celebration – Seoul",
-      "start": "2026-07-11",
-      "end": "2026-07-12",
-      "category": "GO Fest",
-      "scope": "Regional / In-person",
-      "location": "Seoul, South Korea",
-      "source_url": "https://pokemongo.com/en/news/ko-gofest-global-on-site-event-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/ko-gofest-global-on-site-event-2026"
-      ],
-      "source_slug": "ko-gofest-global-on-site-event-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
-      ]
-    },
-    {
       "id": "special-anniversary-pikachu-celebration",
       "title": "Special Anniversary Pikachu Celebration",
       "start": "2026-07-13",
@@ -7845,26 +7845,6 @@
         "https://pokemongo.com/en/news/special-anniversary-pikachu-celebration"
       ],
       "source_slug": "special-anniversary-pikachu-celebration",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "global"
-      ]
-    },
-    {
-      "id": "raichu-super-mega-raid-day-2026",
-      "title": "Raichu Super Mega Raid Day",
-      "start": "2026-07-18",
-      "end": "2026-07-18",
-      "category": "Raid Day",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/raichu-super-mega-raid-day-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/raichu-super-mega-raid-day-2026"
-      ],
-      "source_slug": "raichu-super-mega-raid-day-2026",
       "source_locale": "en",
       "status": "confirmed",
       "notes": "",
@@ -7894,25 +7874,24 @@
       "regional_type": "local_raid"
     },
     {
-      "id": "swallows-game",
-      "title": "Pokémon Baseball Festa 2026: Tokyo Yakult Swallows",
-      "start": "2026-07-20",
-      "end": "2026-07-22",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Japan",
-      "source_url": "https://pokemongo.com/en/news/swallows_game",
+      "id": "raichu-super-mega-raid-day-2026",
+      "title": "Raichu Super Mega Raid Day",
+      "start": "2026-07-18",
+      "end": "2026-07-18",
+      "category": "Raid Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/raichu-super-mega-raid-day-2026",
       "source_urls": [
-        "https://pokemongo.com/en/news/swallows_game"
+        "https://pokemongo.com/en/news/raichu-super-mega-raid-day-2026"
       ],
-      "source_slug": "swallows_game",
+      "source_slug": "raichu-super-mega-raid-day-2026",
       "source_locale": "en",
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite"
-      ],
-      "regional_type": "local_raid"
+        "global"
+      ]
     },
     {
       "id": "mcdonalds-japan-field-research-1",
@@ -7953,6 +7932,27 @@
       "source_locale": "ja",
       "status": "confirmed",
       "notes": "Unlocked by redeeming a promotion code obtained through My McDonald's Rewards. Code acquisition ended August 31; code registration ended September 1 at 19:59 JST; Timed Challenge completion deadline was September 1 at 23:59 JST."
+    },
+    {
+      "id": "swallows-game",
+      "title": "Pokémon Baseball Festa 2026: Tokyo Yakult Swallows",
+      "start": "2026-07-20",
+      "end": "2026-07-22",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Japan",
+      "source_url": "https://pokemongo.com/en/news/swallows_game",
+      "source_urls": [
+        "https://pokemongo.com/en/news/swallows_game"
+      ],
+      "source_slug": "swallows_game",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "local_raid"
     },
     {
       "id": "happy-birthday-professor-willow-2026",
@@ -8035,6 +8035,26 @@
       ]
     },
     {
+      "id": "choose-your-path-forever-forward-2026-4",
+      "title": "Choose Your Path Timed Challenge – Forever Forward III",
+      "start": "2026-07-28",
+      "end": "2026-08-03",
+      "category": "Timed Research",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026"
+      ],
+      "source_slug": "choose-your-path-forever-forward-2026",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "global"
+      ]
+    },
+    {
       "id": "pokemon-baseball-festa-2026-all-star",
       "title": "Pokémon Baseball Festa 2026: MyNavi All-Star Game",
       "start": "2026-07-28",
@@ -8056,26 +8076,6 @@
       "regional_type": "local_raid"
     },
     {
-      "id": "choose-your-path-forever-forward-2026-4",
-      "title": "Choose Your Path Timed Challenge – Forever Forward III",
-      "start": "2026-07-28",
-      "end": "2026-08-03",
-      "category": "Timed Research",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026",
-      "source_urls": [
-        "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026"
-      ],
-      "source_slug": "choose-your-path-forever-forward-2026",
-      "source_locale": "ja",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "global"
-      ]
-    },
-    {
       "id": "gigantamax-rillaboom-max-battle-day-2026",
       "title": "Gigantamax Rillaboom Max Battle Day",
       "start": "2026-08-01",
@@ -8094,47 +8094,6 @@
       "access": [
         "global"
       ]
-    },
-    {
-      "id": "mcdonalds-japan-field-research-3",
-      "title": "McDonald's Japan Field Research – Phase 3",
-      "start": "2026-08-03",
-      "end": "2026-08-10",
-      "category": "Field Research",
-      "scope": "Regional / In-person",
-      "location": "McDonald’s locations, Japan",
-      "source_url": "https://pokemongo.com/en/news/202607backtomcd",
-      "source_urls": [
-        "https://pokemongo.com/en/news/202607backtomcd"
-      ],
-      "source_slug": "202607backtomcd",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
-      ]
-    },
-    {
-      "id": "lego-pokemon-go-2026",
-      "title": "LEGO Stores × Pokémon GO",
-      "start": "2026-08-03",
-      "end": "2026-09-30",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "US, UK, Poland, France, Germany & Australia",
-      "source_url": "https://pokemongo.com/en/news/lego-pokemon-go-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/lego-pokemon-go-2026"
-      ],
-      "source_slug": "lego-pokemon-go-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "Participating LEGO Stores featured local Pikachu raids, event Timed Research, and access to the LEGO GO Stamp Rally. The broader store collaboration ran through September 30, 2026; the separately tracked stamp rally remains completable longer.",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "local_raid"
     },
     {
       "id": "lego-pokemon-go-code-research-2026",
@@ -8158,6 +8117,47 @@
       "regional_type": "free_code"
     },
     {
+      "id": "lego-pokemon-go-2026",
+      "title": "LEGO Stores × Pokémon GO",
+      "start": "2026-08-03",
+      "end": "2026-09-30",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "US, UK, Poland, France, Germany & Australia",
+      "source_url": "https://pokemongo.com/en/news/lego-pokemon-go-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/lego-pokemon-go-2026"
+      ],
+      "source_slug": "lego-pokemon-go-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Participating LEGO Stores featured local Pikachu raids, event Timed Research, and access to the LEGO GO Stamp Rally. The broader store collaboration ran through September 30, 2026; the separately tracked stamp rally remains completable longer.",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "local_raid"
+    },
+    {
+      "id": "mcdonalds-japan-field-research-3",
+      "title": "McDonald's Japan Field Research – Phase 3",
+      "start": "2026-08-03",
+      "end": "2026-08-10",
+      "category": "Field Research",
+      "scope": "Regional / In-person",
+      "location": "McDonald’s locations, Japan",
+      "source_url": "https://pokemongo.com/en/news/202607backtomcd",
+      "source_urls": [
+        "https://pokemongo.com/en/news/202607backtomcd"
+      ],
+      "source_slug": "202607backtomcd",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
+    },
+    {
       "id": "lego-pokemon-go-stamp-rally-2026",
       "title": "Pokémon GO × LEGO Stamp Rally",
       "start": "2026-08-03",
@@ -8178,6 +8178,26 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Trainers can start the LEGO stamp rally by visiting a participating LEGO Store through September 30, 2026 at 11:59 p.m. local time. The calendar uses that final start/unlock date rather than the later completion-only deadline. In-game rally id: STAMP_RALLY_LEGO_GLOBAL_2026."
+    },
+    {
+      "id": "go-pass-august-2026",
+      "title": "GO Pass: August",
+      "start": "2026-08-04",
+      "end": "2026-09-08",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/go-pass-august-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/go-pass-august-2026"
+      ],
+      "source_slug": "go-pass-august-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "mlb-orioles-2026",
@@ -8214,26 +8234,6 @@
         "https://pokemongo.com/en/news/summer-marathon-2026"
       ],
       "source_slug": "summer-marathon-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "global"
-      ]
-    },
-    {
-      "id": "go-pass-august-2026",
-      "title": "GO Pass: August",
-      "start": "2026-08-04",
-      "end": "2026-09-08",
-      "category": "GO Pass",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/go-pass-august-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/go-pass-august-2026"
-      ],
-      "source_slug": "go-pass-august-2026",
       "source_locale": "en",
       "status": "confirmed",
       "notes": "",
@@ -8324,26 +8324,24 @@
       ]
     },
     {
-      "id": "mlb-diamondbacks-2026",
-      "title": "Pokémon GO × Arizona Diamondbacks Game Day",
+      "id": "choose-your-path-forever-forward-2026-5",
+      "title": "Choose Your Path Timed Challenge – Forever Forward IV",
       "start": "2026-08-11",
-      "end": "2026-08-11",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Arizona Diamondbacks ballpark, Phoenix, Arizona, USA",
-      "access": [
-        "onsite",
-        "ticketed"
-      ],
-      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "end": "2026-08-17",
+      "category": "Timed Research",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026",
       "source_urls": [
-        "https://pokemongo.com/news/mlb-2026"
+        "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026"
       ],
-      "source_slug": "mlb-2026",
-      "source_locale": "en",
+      "source_slug": "choose-your-path-forever-forward-2026",
+      "source_locale": "ja",
       "status": "confirmed",
-      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
-      "regional_type": "local_raid"
+      "notes": "",
+      "access": [
+        "global"
+      ]
     },
     {
       "id": "fighters-game",
@@ -8367,24 +8365,26 @@
       "regional_type": "local_raid"
     },
     {
-      "id": "choose-your-path-forever-forward-2026-5",
-      "title": "Choose Your Path Timed Challenge – Forever Forward IV",
+      "id": "mlb-diamondbacks-2026",
+      "title": "Pokémon GO × Arizona Diamondbacks Game Day",
       "start": "2026-08-11",
-      "end": "2026-08-17",
-      "category": "Timed Research",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026",
-      "source_urls": [
-        "https://pokemongo.com/ja/news/choose-your-path-forever-forward-2026"
-      ],
-      "source_slug": "choose-your-path-forever-forward-2026",
-      "source_locale": "ja",
-      "status": "confirmed",
-      "notes": "",
+      "end": "2026-08-11",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Arizona Diamondbacks ballpark, Phoenix, Arizona, USA",
       "access": [
-        "global"
-      ]
+        "onsite",
+        "ticketed"
+      ],
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
+      "regional_type": "local_raid"
     },
     {
       "id": "10th-anniversary-celebration",
@@ -8427,26 +8427,6 @@
       ]
     },
     {
-      "id": "communityday-august-2026-nickit",
-      "title": "August 2026 Community Day: Nickit",
-      "start": "2026-08-16",
-      "end": "2026-08-16",
-      "category": "Community Day",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/communityday-august-2026-nickit",
-      "source_urls": [
-        "https://pokemongo.com/en/news/communityday-august-2026-nickit"
-      ],
-      "source_slug": "communityday-august-2026-nickit",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "global"
-      ]
-    },
-    {
       "id": "jamsil-magikarp-2026",
       "title": "2026 Jamsil Magikarp Event",
       "start": "2026-08-16",
@@ -8464,6 +8444,26 @@
       "notes": "",
       "access": [
         "onsite"
+      ]
+    },
+    {
+      "id": "communityday-august-2026-nickit",
+      "title": "August 2026 Community Day: Nickit",
+      "start": "2026-08-16",
+      "end": "2026-08-16",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/communityday-august-2026-nickit",
+      "source_urls": [
+        "https://pokemongo.com/en/news/communityday-august-2026-nickit"
+      ],
+      "source_slug": "communityday-august-2026-nickit",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "global"
       ]
     },
     {
@@ -8676,6 +8676,26 @@
       "regional_type": "local_raid"
     },
     {
+      "id": "go-fest-2026-mega-finale-korea",
+      "title": "GO Fest 2026: Mega Finale – Korea On-Site Celebration",
+      "start": "2026-09-05",
+      "end": "2026-09-06",
+      "category": "GO Fest",
+      "scope": "Regional / In-person",
+      "location": "South Korea",
+      "source_url": "https://pokemongo.com/en/news/mega-finale-korea-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/mega-finale-korea-2026"
+      ],
+      "source_slug": "mega-finale-korea-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "onsite"
+      ]
+    },
+    {
       "id": "go-fest-2026-mega-finale",
       "title": "Pokémon GO Fest 2026: Mega Finale",
       "start": "2026-09-05",
@@ -8696,23 +8716,43 @@
       ]
     },
     {
-      "id": "go-fest-2026-mega-finale-korea",
-      "title": "GO Fest 2026: Mega Finale – Korea On-Site Celebration",
-      "start": "2026-09-05",
-      "end": "2026-09-06",
-      "category": "GO Fest",
-      "scope": "Regional / In-person",
-      "location": "South Korea",
-      "source_url": "https://pokemongo.com/en/news/mega-finale-korea-2026",
+      "id": "go-battle-league-twilight-trails",
+      "title": "GO Battle League: Twilight Trails",
+      "start": "2026-09-08",
+      "end": "2026-12-01",
+      "category": "GO Battle League",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/go-battle-league-twilight-trails",
       "source_urls": [
-        "https://pokemongo.com/en/news/mega-finale-korea-2026"
+        "https://pokemongo.com/en/news/go-battle-league-twilight-trails"
       ],
-      "source_slug": "mega-finale-korea-2026",
+      "source_slug": "go-battle-league-twilight-trails",
       "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Season window based on the official GO Battle League schedule.",
+      "access": [
+        "global"
+      ]
+    },
+    {
+      "id": "go-pass-september-2026",
+      "title": "GO Pass: September",
+      "start": "2026-09-08",
+      "end": "2026-10-06",
+      "category": "GO Pass",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/ja/news/go-pass-september-2026",
+      "source_urls": [
+        "https://pokemongo.com/ja/news/go-pass-september-2026"
+      ],
+      "source_slug": "go-pass-september-2026",
+      "source_locale": "ja",
       "status": "confirmed",
       "notes": "",
       "access": [
-        "onsite"
+        "global"
       ]
     },
     {
@@ -8756,64 +8796,25 @@
       ]
     },
     {
-      "id": "go-pass-september-2026",
-      "title": "GO Pass: September",
-      "start": "2026-09-08",
-      "end": "2026-10-06",
-      "category": "GO Pass",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/ja/news/go-pass-september-2026",
-      "source_urls": [
-        "https://pokemongo.com/ja/news/go-pass-september-2026"
-      ],
-      "source_slug": "go-pass-september-2026",
-      "source_locale": "ja",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "global"
-      ]
-    },
-    {
-      "id": "go-battle-league-twilight-trails",
-      "title": "GO Battle League: Twilight Trails",
-      "start": "2026-09-08",
-      "end": "2026-12-01",
-      "category": "GO Battle League",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/go-battle-league-twilight-trails",
-      "source_urls": [
-        "https://pokemongo.com/en/news/go-battle-league-twilight-trails"
-      ],
-      "source_slug": "go-battle-league-twilight-trails",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "Season window based on the official GO Battle League schedule.",
-      "access": [
-        "global"
-      ]
-    },
-    {
-      "id": "communitydayclassic-gible-september-2026",
-      "title": "September 2026 Community Day Classic: Gible",
+      "id": "pokexciting-cross-region-go-stamp-rally-2026",
+      "title": "PokéXciting! Cross-Region GO Stamp Rally",
       "start": "2026-09-12",
-      "end": "2026-09-12",
-      "category": "Community Day",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/communitydayclassic-gible-september-2026",
+      "end": "2029-09-11",
+      "category": "Regional / Collaboration",
+      "scope": "Regional",
+      "location": "Asia-Pacific (Kuala Lumpur, Taipei, Singapore, Manila; Bangkok TBA)",
+      "source_url": "https://pokemongo.com/en/news/event-apac-stamp-rally-2026",
       "source_urls": [
-        "https://pokemongo.com/en/news/communitydayclassic-gible-september-2026"
+        "https://pokemongo.com/en/news/event-apac-stamp-rally-2026"
       ],
-      "source_slug": "communitydayclassic-gible-september-2026",
+      "source_slug": "event-apac-stamp-rally-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "",
+      "notes": "Cross-region stamp series. Kuala Lumpur, Taipei, Singapore, and Manila stamp locations are scheduled through September 11, 2029; Bangkok details are to be announced.",
       "access": [
-        "global"
-      ]
+        "onsite"
+      ],
+      "regional_type": "stamp_rally"
     },
     {
       "id": "event-kuala-lumpur-30th-anniversary-2026",
@@ -8836,25 +8837,24 @@
       ]
     },
     {
-      "id": "pokexciting-cross-region-go-stamp-rally-2026",
-      "title": "PokéXciting! Cross-Region GO Stamp Rally",
+      "id": "communitydayclassic-gible-september-2026",
+      "title": "September 2026 Community Day Classic: Gible",
       "start": "2026-09-12",
-      "end": "2029-09-11",
-      "category": "Regional / Collaboration",
-      "scope": "Regional",
-      "location": "Asia-Pacific (Kuala Lumpur, Taipei, Singapore, Manila; Bangkok TBA)",
-      "source_url": "https://pokemongo.com/en/news/event-apac-stamp-rally-2026",
+      "end": "2026-09-12",
+      "category": "Community Day",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/communitydayclassic-gible-september-2026",
       "source_urls": [
-        "https://pokemongo.com/en/news/event-apac-stamp-rally-2026"
+        "https://pokemongo.com/en/news/communitydayclassic-gible-september-2026"
       ],
-      "source_slug": "event-apac-stamp-rally-2026",
+      "source_slug": "communitydayclassic-gible-september-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Cross-region stamp series. Kuala Lumpur, Taipei, Singapore, and Manila stamp locations are scheduled through September 11, 2029; Bangkok details are to be announced.",
+      "notes": "",
       "access": [
-        "onsite"
-      ],
-      "regional_type": "stamp_rally"
+        "global"
+      ]
     },
     {
       "id": "mlb-rays-2026",
@@ -8898,6 +8898,27 @@
         "regional"
       ],
       "regional_type": "timed_research"
+    },
+    {
+      "id": "partner-research-familymart-autumn-2026",
+      "title": "Partner Research: FamilyMart",
+      "start": "2026-09-15",
+      "end": "2026-10-05",
+      "category": "Timed Research",
+      "scope": "Regional",
+      "location": "Japan",
+      "access": [
+        "regional"
+      ],
+      "regional_type": "paid_code",
+      "source_url": "https://pokemongo.com/news/202609partnerresearch-jp",
+      "source_urls": [
+        "https://pokemongo.com/news/202609partnerresearch-jp"
+      ],
+      "source_slug": "202609partnerresearch-jp",
+      "source_locale": "ja",
+      "status": "confirmed",
+      "notes": "New participation tickets can be earned through FamilyMart's FamiPay campaign from September 15 through October 5, 2026. The calendar ends at the final acquisition date for a new player; promotion-code registration remains open through November 30 and previously unlocked Timed Research can be completed through December 31."
     },
     {
       "id": "weekly-branching-tr-korea-2026-2",
@@ -9033,27 +9054,6 @@
       "regional_type": "local_raid"
     },
     {
-      "id": "dancing-in-the-moonlight-2026",
-      "title": "Dancing in the Moonlight",
-      "start": "2026-09-23",
-      "end": "2026-09-27",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Select Asia-Pacific regions",
-      "source_url": "https://pokemongo.com/en/news/dancing-in-the-moonlight-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/dancing-in-the-moonlight-2026"
-      ],
-      "source_slug": "dancing-in-the-moonlight-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "regional"
-      ],
-      "regional_type": "timed_research"
-    },
-    {
       "id": "choose-your-path-twilight-trails-2026",
       "title": "Choose Your Path: Twilight Trails",
       "start": "2026-09-23",
@@ -9071,6 +9071,27 @@
       "notes": "",
       "access": [
         "global"
+      ],
+      "regional_type": "timed_research"
+    },
+    {
+      "id": "dancing-in-the-moonlight-2026",
+      "title": "Dancing in the Moonlight",
+      "start": "2026-09-23",
+      "end": "2026-09-27",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Select Asia-Pacific regions",
+      "source_url": "https://pokemongo.com/en/news/dancing-in-the-moonlight-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/dancing-in-the-moonlight-2026"
+      ],
+      "source_slug": "dancing-in-the-moonlight-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "regional"
       ],
       "regional_type": "timed_research"
     },
@@ -9276,27 +9297,6 @@
       "regional_type": "city_safari"
     },
     {
-      "id": "pokemongo-iitdelhi-2026",
-      "title": "Pokémon GO at Rendezvous 2026 – IIT Delhi",
-      "start": "2026-09-28",
-      "end": "2026-10-01",
-      "category": "Event",
-      "scope": "Regional / In-person",
-      "location": "IIT-Delhi campus, New Delhi, India",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "other",
-      "source_url": "https://pokemongo.com/news/pokemongo-iitdelhi-2026",
-      "source_urls": [
-        "https://pokemongo.com/news/pokemongo-iitdelhi-2026"
-      ],
-      "source_slug": "pokemongo-iitdelhi-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "Campus event with event wild encounters, daily raids, Collection Challenges, and Timed Research."
-    },
-    {
       "id": "patterns-of-the-wild-2026-1",
       "title": "Patterns of the Wild Timed Research",
       "start": "2026-09-28",
@@ -9316,6 +9316,27 @@
         "regional"
       ],
       "regional_type": "timed_research"
+    },
+    {
+      "id": "pokemongo-iitdelhi-2026",
+      "title": "Pokémon GO at Rendezvous 2026 – IIT Delhi",
+      "start": "2026-09-28",
+      "end": "2026-10-01",
+      "category": "Event",
+      "scope": "Regional / In-person",
+      "location": "IIT-Delhi campus, New Delhi, India",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "other",
+      "source_url": "https://pokemongo.com/news/pokemongo-iitdelhi-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/pokemongo-iitdelhi-2026"
+      ],
+      "source_slug": "pokemongo-iitdelhi-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Campus event with event wild encounters, daily raids, Collection Challenges, and Timed Research."
     },
     {
       "id": "harvest-festival-2026",
@@ -9380,6 +9401,26 @@
       "regional_type": "timed_research"
     },
     {
+      "id": "harvest-festival-tgr-2026",
+      "title": "Harvest Festival: Taken Over",
+      "start": "2026-10-02",
+      "end": "2026-10-05",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "source_url": "https://pokemongo.com/en/news/harvest-festival-tgr-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/harvest-festival-tgr-2026"
+      ],
+      "source_slug": "harvest-festival-tgr-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "",
+      "access": [
+        "global"
+      ]
+    },
+    {
       "id": "patterns-of-the-wild-2026-2",
       "title": "Patterns of the Wild – Indonesia",
       "start": "2026-10-02",
@@ -9399,26 +9440,6 @@
         "regional"
       ],
       "regional_type": "other"
-    },
-    {
-      "id": "harvest-festival-tgr-2026",
-      "title": "Harvest Festival: Taken Over",
-      "start": "2026-10-02",
-      "end": "2026-10-05",
-      "category": "Event",
-      "scope": "Global",
-      "location": "Global",
-      "source_url": "https://pokemongo.com/en/news/harvest-festival-tgr-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/harvest-festival-tgr-2026"
-      ],
-      "source_slug": "harvest-festival-tgr-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "global"
-      ]
     },
     {
       "id": "gigantamax-cinderace-max-battle-day-2026",
@@ -9462,6 +9483,27 @@
       "regional_type": "timed_research"
     },
     {
+      "id": "european-space-agency-event-2",
+      "title": "European Space Agency × Pokémon GO",
+      "start": "2026-10-04",
+      "end": "2027-04-30",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Participating European science & space museums",
+      "source_url": "https://pokemongo.com/en/news/european-space-agency-event",
+      "source_urls": [
+        "https://pokemongo.com/en/news/european-space-agency-event"
+      ],
+      "source_slug": "european-space-agency-event",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Local only-raids for astronaut Pikachu.",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "local_raid"
+    },
+    {
       "id": "european-space-agency-event-1",
       "title": "European Space Agency × Pokémon GO – Research & Raids",
       "start": "2026-10-04",
@@ -9501,27 +9543,6 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Global event with wild encounters and free Timed Research. The Timed Research can be completed through October 12, 2026 at 11:59 p.m. local time."
-    },
-    {
-      "id": "european-space-agency-event-2",
-      "title": "European Space Agency × Pokémon GO",
-      "start": "2026-10-04",
-      "end": "2027-04-30",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Participating European science & space museums",
-      "source_url": "https://pokemongo.com/en/news/european-space-agency-event",
-      "source_urls": [
-        "https://pokemongo.com/en/news/european-space-agency-event"
-      ],
-      "source_slug": "european-space-agency-event",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "Local only-raids for astronaut Pikachu.",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "local_raid"
     },
     {
       "id": "weekly-branching-tr-korea-2026-4",
@@ -9755,27 +9776,6 @@
       "regional_type": "wild_area"
     },
     {
-      "id": "event-apac-30th-anniversary-2026",
-      "title": "PokéXciting! Singapore",
-      "start": "2026-11-07",
-      "end": "2026-11-08",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Singapore",
-      "source_url": "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
-      "source_urls": [
-        "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026"
-      ],
-      "source_slug": "event-apac-30th-anniversary-2026",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "timed_research"
-    },
-    {
       "id": "pokemon-run-30-2026-2",
       "title": "Pokémon RUN 30 × Pokémon GO – Singapore",
       "start": "2026-11-07",
@@ -9797,21 +9797,21 @@
       "regional_type": "timed_research"
     },
     {
-      "id": "pokemon-run-30-2026-taiwan-new-taipei",
-      "title": "Pokémon RUN 30 × Pokémon GO – New Taipei",
-      "start": "2026-11-14",
-      "end": "2026-11-15",
+      "id": "event-apac-30th-anniversary-2026",
+      "title": "PokéXciting! Singapore",
+      "start": "2026-11-07",
+      "end": "2026-11-08",
       "category": "Regional / Collaboration",
       "scope": "Regional / In-person",
-      "location": "New Taipei Metropolitan Park, Taiwan",
-      "source_url": "https://pokemongo.com/en/news/pokemon-run-30-2026",
+      "location": "Singapore",
+      "source_url": "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
       "source_urls": [
-        "https://pokemongo.com/en/news/pokemon-run-30-2026"
+        "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026"
       ],
-      "source_slug": "pokemon-run-30-2026",
+      "source_slug": "event-apac-30th-anniversary-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "One of the 2026 Pokémon RUN 30 regional events.",
+      "notes": "",
       "access": [
         "onsite"
       ],
@@ -9837,6 +9837,27 @@
         "global"
       ],
       "regional_type": "wild_area"
+    },
+    {
+      "id": "pokemon-run-30-2026-taiwan-new-taipei",
+      "title": "Pokémon RUN 30 × Pokémon GO – New Taipei",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "New Taipei Metropolitan Park, Taiwan",
+      "source_url": "https://pokemongo.com/en/news/pokemon-run-30-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-run-30-2026"
+      ],
+      "source_slug": "pokemon-run-30-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "One of the 2026 Pokémon RUN 30 regional events.",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "timed_research"
     },
     {
       "id": "community-day-november-21-2026",
