@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-21T22:57:31.156Z",
+  "updated_at": "2026-09-21T23:00:39.292Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -7061,50 +7061,6 @@
       ]
     },
     {
-      "id": "tokyo-minato-stamp-rally-2026",
-      "title": "Tokyo: Minato City Stamp Rally",
-      "start": "2026-05-25",
-      "end": null,
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Minato City, Tokyo, Japan",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "stamp_rally",
-      "bonuses": [],
-      "source_url": "https://www.city.minato.tokyo.jp/kankouseisaku/event/pokemongo.html",
-      "source_urls": [
-        "https://www.city.minato.tokyo.jp/kankouseisaku/event/pokemongo.html"
-      ],
-      "source_slug": "gofest-2026-tokyo-city-stamp-rallies",
-      "source_locale": "ja",
-      "status": "confirmed",
-      "notes": "Persistent GO Fest 2026: Tokyo city stamp rally; no end field in current in-game data. Required stamps: 5. In-game rally id: STAMP_RALLY_TOKYO_MINATO_2026."
-    },
-    {
-      "id": "tokyo-shinagawa-stamp-rally-2026",
-      "title": "Tokyo: Shinagawa City Stamp Rally",
-      "start": "2026-05-25",
-      "end": null,
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Shinagawa City, Tokyo, Japan",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "stamp_rally",
-      "bonuses": [],
-      "source_url": "https://shinagawa-kanko.or.jp/event/pokemongo2026/",
-      "source_urls": [
-        "https://shinagawa-kanko.or.jp/event/pokemongo2026/"
-      ],
-      "source_slug": "gofest-2026-tokyo-city-stamp-rallies",
-      "source_locale": "ja",
-      "status": "confirmed",
-      "notes": "Persistent GO Fest 2026: Tokyo city stamp rally; no end field in current in-game data. Required stamps: 4. In-game rally id: STAMP_RALLY_TOKYO_SHINAGAWA_2026."
-    },
-    {
       "id": "global-events-gofest2026-overlays-2",
       "title": "Blanche's Quest for Knowledge",
       "start": "2026-05-26",
@@ -7368,27 +7324,6 @@
       "access": [
         "global"
       ]
-    },
-    {
-      "id": "partner-research-softbank-summer-2026",
-      "title": "Partner Research: SoftBank",
-      "start": "2026-06-19",
-      "end": "2026-09-30",
-      "category": "Timed Research",
-      "scope": "Regional",
-      "location": "Japan",
-      "source_url": "https://pokemongo.com/en/news/202606partnerresearch-jp",
-      "source_urls": [
-        "https://pokemongo.com/en/news/202606partnerresearch-jp"
-      ],
-      "source_slug": "202606partnerresearch-jp",
-      "source_locale": "ja",
-      "status": "confirmed",
-      "notes": "Research unlocks after code redemption. SoftBank participation tickets were available Jun 19–Aug 16. Code registration closed Aug 31, so as of Sep 20 only Trainers who already redeemed can continue; research completion deadline is Sep 30.",
-      "access": [
-        "regional"
-      ],
-      "regional_type": "timed_research"
     },
     {
       "id": "communityday-june-2026-frigibax",
@@ -7918,27 +7853,6 @@
       ]
     },
     {
-      "id": "partner-research-aeonmall-summer-2026",
-      "title": "Partner Research: AEON Mall",
-      "start": "2026-07-17",
-      "end": "2026-09-30",
-      "category": "Timed Research",
-      "scope": "Regional",
-      "location": "Japan",
-      "source_url": "https://pokemongo.com/en/news/202606partnerresearch-jp",
-      "source_urls": [
-        "https://pokemongo.com/en/news/202606partnerresearch-jp"
-      ],
-      "source_slug": "202606partnerresearch-jp",
-      "source_locale": "ja",
-      "status": "confirmed",
-      "notes": "Research unlocks after code redemption. AEON Mall participation tickets were available Jul 17–Aug 23. Code registration closed Aug 31, so as of Sep 20 only Trainers who already redeemed can continue; research completion deadline is Sep 30.",
-      "access": [
-        "regional"
-      ],
-      "regional_type": "timed_research"
-    },
-    {
       "id": "raichu-super-mega-raid-day-2026",
       "title": "Raichu Super Mega Raid Day",
       "start": "2026-07-18",
@@ -8247,7 +8161,7 @@
       "id": "lego-pokemon-go-stamp-rally-2026",
       "title": "Pokémon GO × LEGO Stamp Rally",
       "start": "2026-08-03",
-      "end": "2027-02-03",
+      "end": "2026-09-30",
       "category": "Regional / Collaboration",
       "scope": "Regional / In-person",
       "location": "Participating LEGO Stores in Australia, France, Germany, Poland, the UK & US",
@@ -8263,7 +8177,7 @@
       "source_slug": "lego-pokemon-go-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "The official article allowed Trainers to start the LEGO stamp rally at participating stores through September 30, 2026. In-game rally data keeps the rally active for existing participants through 2027-02-03T13:59:59Z. In-game rally id: STAMP_RALLY_LEGO_GLOBAL_2026."
+      "notes": "Trainers can start the LEGO stamp rally by visiting a participating LEGO Store through September 30, 2026 at 11:59 p.m. local time. The calendar uses that final start/unlock date rather than the later completion-only deadline. In-game rally id: STAMP_RALLY_LEGO_GLOBAL_2026."
     },
     {
       "id": "mlb-orioles-2026",
