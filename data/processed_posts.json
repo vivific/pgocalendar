@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "monitor_from": "2026-09-20",
-  "last_checked_at": "2026-09-20T17:34:05.489Z",
+  "last_checked_at": "2026-09-21T21:41:53.010Z",
   "posts": {
     "10th-anniversary-celebration": {
       "bootstrap": true,
@@ -746,7 +746,7 @@
       "status": "processed",
       "source_url": "https://pokemongo.com/news/mlb-2026",
       "result": "event-added: 13 separately dated MLB themed game days with ballpark-only gameplay",
-      "last_checked": "2026-09-20"
+      "last_checked": "2026-09-21T21:41:53.010Z"
     },
     "new-years-2026": {
       "status": "processed",
@@ -1860,6 +1860,38 @@
       "bootstrap": true,
       "status": "ignored",
       "result": "historical-2025 semantic review: localized/duplicate meetup source; canonical Wild Area gameplay already represented"
+    },
+    "world-space-week-2026": {
+      "first_seen": "2026-09-21T21:41:53.010Z",
+      "last_checked": "2026-09-21T21:41:53.010Z",
+      "status": "processed",
+      "locale_discovered": "en",
+      "source_url": "https://pokemongo.com/news/world-space-week-2026",
+      "result": "event-added: global World Space Week gameplay window"
+    },
+    "pokemongo-iitdelhi-2026": {
+      "first_seen": "2026-09-21T21:41:53.010Z",
+      "last_checked": "2026-09-21T21:41:53.010Z",
+      "status": "processed",
+      "locale_discovered": "en",
+      "source_url": "https://pokemongo.com/news/pokemongo-iitdelhi-2026",
+      "result": "event-added: IIT Delhi Rendezvous campus gameplay"
+    },
+    "rio-city-safari-know-before-you-go": {
+      "first_seen": "2026-09-21T21:41:53.010Z",
+      "last_checked": "2026-09-21T21:41:53.010Z",
+      "status": "processed",
+      "locale_discovered": "pt-BR",
+      "source_url": "https://pokemongo.com/pt-BR/news/rio-city-safari-know-before-you-go",
+      "result": "event-updated: detailed source attached to existing Rio City Safari"
+    },
+    "legend-research-nihonbashi-yaesu-2026": {
+      "first_seen": "2026-09-21T21:41:53.010Z",
+      "last_checked": "2026-09-21T21:41:53.010Z",
+      "status": "ignored",
+      "locale_discovered": "ja",
+      "source_url": "https://pokemongo.com/ja/news/legend-research-nihonbashi-yaesu-2026",
+      "result": "non-calendar-post: temporary PokéStops/Gyms only; no substantive player-facing gameplay window"
     }
   }
 }
