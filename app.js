@@ -22,7 +22,8 @@ const els = {
 
 let payload = { schema_version: 1, events: [] };
 let events = [];
-let hideLongRallies = false;
+const LONG_RALLIES_STORAGE_KEY = "pgocalendar.hideLongRallies";
+let hideLongRallies = localStorage.getItem(LONG_RALLIES_STORAGE_KEY) === "true";
 
 function parseDate(s) {
   const [y,m,d] = s.split("-").map(Number);
@@ -333,6 +334,7 @@ function centerTimelineOnToday() {
 if (els.longRallies) {
   els.longRallies.addEventListener("click",()=>{
     hideLongRallies=!hideLongRallies;
+    localStorage.setItem(LONG_RALLIES_STORAGE_KEY,String(hideLongRallies));
     render();
   });
 }
