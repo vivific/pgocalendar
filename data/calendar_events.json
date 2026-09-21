@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-21T23:33:48.861Z",
+  "updated_at": "2026-09-21T23:38:24.118Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -5842,7 +5842,7 @@
       "source_slug": "ppk_launch",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Ongoing daily PokéPark KANTO–exclusive Pokémon GO content beginning February 5, 2026; the source gives no end date. Admission to PokéPark KANTO requires a ticket.",
+      "notes": "Local-only raids at PokéPark KANTO rotate among Moltres, Articuno, and Zapdos on a four-month schedule. Raid catches can have the PokéPark KANTO Location Background. Ongoing daily PokéPark KANTO–exclusive Pokémon GO content beginning February 5, 2026; admission requires a ticket.",
       "access": [
         "onsite",
         "ticketed"
@@ -6993,7 +6993,7 @@
       "source_slug": "pgo-pokemon-fossil-musuem-chicago-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Pokémon GO gameplay at the Field Museum follows the Pokémon Fossil Museum exhibition window from May 22, 2026 through April 11, 2027, including Timed Research, Field Research, local raids, wild encounters, and the Collection Challenge.",
+      "notes": "Local-only raids for Excavator Pikachu and Mega Aerodactyl at the Field Museum. Both can be shiny. Pokémon GO gameplay follows the Pokémon Fossil Museum exhibition window from May 22, 2026 through April 11, 2027.",
       "access": [
         "onsite"
       ],
@@ -7939,7 +7939,7 @@
       "source_slug": "nationaltrust-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Special Pokémon GO activities began July 18; the partnership was later extended through December 31, 2026.",
+      "notes": "Local-only raids vary by National Trust region: Hoppip in London & South East, Sewaddle in Midlands & East of England, Pineco in North of England & Northern Ireland, and Seedot in South West England & Wales. Raid catches can have the visited National Trust site's Location Background. Activities run through December 31, 2026.",
       "access": [
         "onsite"
       ],
@@ -8203,7 +8203,7 @@
       "source_slug": "lego-pokemon-go-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Participating LEGO Stores feature local Pikachu raids, event Timed Research, and access to the LEGO GO Stamp Rally through September 30, 2026. The separately tracked Stamp Rally uses the same September 30 final start date for new participants.",
+      "notes": "Local-only one-star raids for Pikachu at participating LEGO Stores through September 30, 2026. Pikachu can be shiny or have the LEGO Special Background. The store collaboration also includes event Timed Research and access to the separately tracked GO Stamp Rally.",
       "access": [
         "onsite"
       ],
@@ -9078,7 +9078,7 @@
       "source_slug": "pikachu-autumn-picnic-korea-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Local-only raids for orange hanbok Pikachu.",
+      "notes": "Local-only one-star raids for Orange Hanbok Pikachu at designated event Gyms in South Korea through October 11, 2026. Remote Raid Passes cannot be used; shiny odds are boosted.",
       "access": [
         "onsite"
       ],
@@ -9099,7 +9099,7 @@
       "source_slug": "2026_ana_green",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Phase 2 airport gameplay runs September 18, 2026 through August 31, 2027. A new visitor to any participating Phase 2 airport can claim the Timed Research once during this window; that research expires three days after receipt. Local Bulbasaur raids with the Green Pokémon Jet Location Background also remain available through the event window.",
+      "notes": "Local-only raids for Bulbasaur at participating ANA Green Pokémon Jet airports through August 31, 2027. Raid catches can have the Green Pokémon Jet Location Background. A new visitor can also claim the Phase 2 Timed Research once during the airport campaign window; that research expires three days after receipt.",
       "access": [
         "onsite"
       ],
@@ -9144,7 +9144,7 @@
       "source_slug": "mlb-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
+      "notes": "Ballpark-only one-star raids for Pikachu during the Seattle Mariners Pokémon GO Game Day on September 22, 2026. Pikachu can be shiny or have the ballpark Location Background. Ballpark admission/game access is required.",
       "regional_type": "local_raid"
     },
     {
@@ -9229,7 +9229,7 @@
       "source_slug": "mlb-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Pokémon GO–themed MLB game day with ballpark-only Pikachu raids, one-hour Lure Module bonuses, event Timed Research, and Field Research. Ballpark admission/game access is required for the in-venue gameplay.",
+      "notes": "Ballpark-only one-star raids for Pikachu during the Boston Red Sox Pokémon GO Game Day on September 25, 2026. Pikachu can be shiny or have the ballpark Location Background. Ballpark admission/game access is required.",
       "regional_type": "local_raid"
     },
     {
@@ -9591,28 +9591,7 @@
       "source_slug": "european-space-agency-event",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Participating science and space museums offer Astronaut Pikachu raids and Timed Research that a new visitor can unlock anytime from October 4, 2026 through April 30, 2027. The additional wild encounters and Field Research are limited to October 4–10.",
-      "access": [
-        "onsite"
-      ],
-      "regional_type": "local_raid"
-    },
-    {
-      "id": "european-space-agency-event-1",
-      "title": "European Space Agency × Pokémon GO – Research & Raids",
-      "start": "2026-10-04",
-      "end": "2026-10-10",
-      "category": "Regional / Collaboration",
-      "scope": "Regional / In-person",
-      "location": "Participating European science & space museums",
-      "source_url": "https://pokemongo.com/en/news/european-space-agency-event",
-      "source_urls": [
-        "https://pokemongo.com/en/news/european-space-agency-event"
-      ],
-      "source_slug": "european-space-agency-event",
-      "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
+      "notes": "Local-only one-star raids for Astronaut Pikachu at participating European science and space museums from October 4, 2026 through April 30, 2027. Astronaut Pikachu can be shiny, and in-person raid catches can have the visited museum's Location Background. Timed Research is also unlockable by new museum visitors throughout this window; extra wild encounters and Field Research run only October 4–10.",
       "access": [
         "onsite"
       ],
