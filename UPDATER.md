@@ -225,6 +225,24 @@ Commit only when repository data actually changes. Keep edits focused on:
 Do not rewrite the frontend during routine monitoring.
 
 
+## Candidate existence check
+
+Before treating any discovered News slug/article as a new canonical event, check the **complete current** `data/calendar_events.json` internally for evidence that the gameplay is already represented. Do not rely on a surfaced/truncated excerpt for this check.
+
+Check at least:
+- exact `source_slug` match;
+- exact or expected canonical `id` match;
+- the candidate URL against `source_url` and every entry in `source_urls`;
+- normalized title similarity together with overlapping or matching gameplay dates;
+- same location/scope plus the same distinctive mechanic when titles differ between locales or later detail posts.
+
+A match on any one field is not automatically conclusive, but a candidate must not be called "new" until these checks have been performed. In particular, later localized articles, detail posts, corrections, "know before you GO" posts, and translated titles commonly describe an event already present under another source URL or canonical title.
+
+If the candidate maps to an existing canonical event, update that record or its source list as appropriate and record the post as `event-updated`, `duplicate-source`, or another accurate monitoring result. Do not create a duplicate.
+
+When reporting updater results, verify the claimed add/update/no-op decision against the post-write (or unchanged) canonical state before stating that an event was missing, newly added, or already present.
+
+
 ## Stable canonical IDs
 
 Canonical event IDs are persistent identity keys. Once an event has been published, do not change its `id` merely because its title, dates, category, access, regional_type, location, notes, or source links are corrected. Update the existing record in place. Change/replace an ID only when resolving a true duplicate/merge or when two records were incorrectly representing the same canonical gameplay window. Stable IDs are required for downstream/client preferences such as individually hidden events.
