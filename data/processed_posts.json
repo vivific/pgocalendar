@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "monitor_from": "2026-09-20",
-  "last_checked_at": "2026-09-21T21:41:53.010Z",
+  "last_checked_at": "2026-09-22T03:39:56.245Z",
   "posts": {
     "10th-anniversary-celebration": {
       "bootstrap": true,
@@ -1930,6 +1930,14 @@
       "last_checked": "2026-09-22T00:06:35.260Z",
       "source_url": "https://pokemongo.com/news/2026_ana_red?hl=en",
       "result": "event-added"
+    },
+    "hangul-nal-2026": {
+      "first_seen": "2026-09-22T03:39:56.245Z",
+      "last_checked": "2026-09-22T03:39:56.245Z",
+      "status": "processed",
+      "locale_discovered": "ko",
+      "source_url": "https://pokemongo.com/ko/news/hangul-nal-2026",
+      "result": "event-added: South Korea Hangul Day gameplay window"
     }
   }
 }

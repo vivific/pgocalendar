@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-22T00:25:59Z",
+  "updated_at": "2026-09-22T03:39:56.245Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -9704,6 +9704,27 @@
         "regional"
       ],
       "regional_type": "timed_research"
+    },
+    {
+      "id": "hangul-nal-2026",
+      "title": "2026 Hangul Day Event",
+      "start": "2026-10-06",
+      "end": "2026-10-09",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "South Korea",
+      "access": [
+        "regional"
+      ],
+      "regional_type": "other",
+      "source_url": "https://pokemongo.com/ko/news/hangul-nal-2026",
+      "source_urls": [
+        "https://pokemongo.com/ko/news/hangul-nal-2026"
+      ],
+      "source_slug": "hangul-nal-2026",
+      "source_locale": "ko",
+      "status": "confirmed",
+      "notes": "South Korea–wide Hangul Day event. Event-themed Pokémon are attracted by regular Lure Modules and Incense (excluding Daily Adventure Incense); Lure Modules last 1 hour and Incense lasts 2 hours. The Collection Challenge rewards 5,000 XP, 5,000 Stardust, and an encounter with Unown H."
     },
     {
       "id": "communityday-october-2026-zorua",
