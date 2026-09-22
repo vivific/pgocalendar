@@ -235,7 +235,10 @@
     },
     "event-apac-30th-anniversary-2026": {
       "bootstrap": true,
-      "status": "processed"
+      "status": "processed",
+      "last_checked": "2026-09-22T00:06:35.260Z",
+      "result": "event-updated-split-mechanics",
+      "note": "Main two-day city events are separate from the one-month post-event regional Pikachu wild windows. Singapore/Manila/Bangkok local GO Stamp Rally exact cutoffs remain pending city-specific confirmation because the umbrella wording conflicts with the exact KL/Taipei implementation."
     },
     "event-apac-stamp-rally-2026": {
       "bootstrap": true,
@@ -1918,6 +1921,12 @@
       "last_checked": "2026-09-21T23:08:11.665Z",
       "result": "persistent-rally-active",
       "note": "Distinct from the limited GO Fest Tokyo event window; the ward GO Stamp Rally remains available to new players and current in-game data has no end field."
+    },
+    "2026_ana_red": {
+      "status": "processed",
+      "last_checked": "2026-09-22T00:06:35.260Z",
+      "source_url": "https://pokemongo.com/news/2026_ana_red?hl=en",
+      "result": "event-added"
     }
   }
 }

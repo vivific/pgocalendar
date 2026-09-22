@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-21T23:57:14.621Z",
+  "updated_at": "2026-09-22T00:06:35.259Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -8107,6 +8107,28 @@
       ]
     },
     {
+      "id": "2026-ana-red",
+      "title": "ANA Red Pokémon Jet × Pokémon GO",
+      "start": "2026-07-28",
+      "end": "2027-08-31",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Japan – Phase 1 participating airports",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "local_raid",
+      "bonuses": [],
+      "source_url": "https://pokemongo.com/news/2026_ana_red?hl=en",
+      "source_urls": [
+        "https://pokemongo.com/news/2026_ana_red?hl=en"
+      ],
+      "source_slug": "2026_ana_red",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Local-only raids for Charmander at participating ANA Red Pokémon Jet airports through August 31, 2027. Raid catches can have the Red Pokémon Jet Location Background. Phase 1 airport visitors can also claim the Timed Research once during the campaign window; that research expires three days after receipt."
+    },
+    {
       "id": "choose-your-path-forever-forward-2026-4",
       "title": "Choose Your Path Timed Challenge – Forever Forward III",
       "start": "2026-07-28",
@@ -8909,6 +8931,29 @@
       ]
     },
     {
+      "id": "pokexciting-kuala-lumpur-pikachu-wild-2026",
+      "title": "PokéXciting! Kuala Lumpur – Pikachu Wild Encounters",
+      "start": "2026-09-12",
+      "end": "2026-10-13",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Kuala Lumpur, Malaysia",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "other",
+      "bonuses": [],
+      "source_url": "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
+        "https://pokemongo.com/news/event-kuala-lumpur-30th-anniversary-2026"
+      ],
+      "source_slug": "event-apac-30th-anniversary-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "PokéXciting! Pikachu (Turquoise) remains available as a wild encounter in Kuala Lumpur for one month after the September 12–13 event concludes. This extended wild-encounter window is separate from the two-day main event, the KLCC local GO Stamp Rally, and the long-term cross-region stamp."
+    },
+    {
       "id": "pokexciting-kuala-lumpur-stamp-rally-2026",
       "title": "PokéXciting! Kuala Lumpur GO Stamp Rally",
       "start": "2026-09-12",
@@ -9695,11 +9740,35 @@
       "source_slug": "event-taipei-30th-anniversary-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "",
+      "notes": "Two-day main PokéXciting! Taipei event window. The Pink PokéXciting! Pikachu wild encounters and the Taipei GO Stamp Rally continue beyond the event and are tracked as separate bars.",
       "access": [
         "onsite"
       ],
       "regional_type": "timed_research"
+    },
+    {
+      "id": "pokexciting-taipei-pikachu-wild-2026",
+      "title": "PokéXciting! Taipei – Pikachu Wild Encounters",
+      "start": "2026-10-10",
+      "end": "2026-11-11",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Taipei, Taiwan",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "other",
+      "bonuses": [],
+      "source_url": "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
+        "https://pokemongo.com/en/news/event-taipei-30th-anniversary-2026",
+        "https://tw.portal-pokemon.com/30th/topics/pokexciting_news0/"
+      ],
+      "source_slug": "event-apac-30th-anniversary-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "PokéXciting! Pikachu (Pink) remains available as a wild encounter in Taipei for one month after the October 10–11 event concludes. This extended wild-encounter window is separate from the two-day main event and the Taipei GO Stamp Rally."
     },
     {
       "id": "event-taipei-30th-anniversary-2026-2",
@@ -9906,11 +9975,34 @@
       "source_slug": "event-apac-30th-anniversary-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "",
+      "notes": "Two-day main PokéXciting! Singapore event window. Blue PokéXciting! Pikachu remains available in the wild for one month after the event and is tracked separately. A local five-stamp GO Stamp Rally is also announced to continue after the event; its exact cutoff is awaiting a city-specific source or in-game timestamp.",
       "access": [
         "onsite"
       ],
       "regional_type": "timed_research"
+    },
+    {
+      "id": "pokexciting-singapore-pikachu-wild-2026",
+      "title": "PokéXciting! Singapore – Pikachu Wild Encounters",
+      "start": "2026-11-07",
+      "end": "2026-12-08",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Singapore",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "other",
+      "bonuses": [],
+      "source_url": "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
+        "https://sg.portal-pokemon.com/30th/topics/pokexciting_news0/"
+      ],
+      "source_slug": "event-apac-30th-anniversary-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "PokéXciting! Pikachu (Blue) remains available as a wild encounter in Singapore for one month after the November 7–8 event concludes. This extended wild-encounter window is separate from the two-day main event."
     },
     {
       "id": "save-the-date-go-wild-area-2026-2",
@@ -10096,8 +10188,31 @@
       "source_slug": "event-apac-30th-anniversary-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Pokémon 30th anniversary PokéXciting! city event with location-specific gameplay.",
+      "notes": "Two-day main PokéXciting! Manila event window. Red PokéXciting! Pikachu remains available in the wild for one month after the event and is tracked separately. A local five-stamp GO Stamp Rally is also announced to continue after the event; its exact cutoff is awaiting a city-specific source or in-game timestamp.",
       "regional_type": "timed_research"
+    },
+    {
+      "id": "pokexciting-manila-pikachu-wild-2027",
+      "title": "PokéXciting! Manila – Pikachu Wild Encounters",
+      "start": "2027-01-23",
+      "end": "2027-02-24",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Manila, Philippines",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "other",
+      "bonuses": [],
+      "source_url": "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
+        "https://ph.portal-pokemon.com/30th/topics/pokexciting_news0/"
+      ],
+      "source_slug": "event-apac-30th-anniversary-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "PokéXciting! Pikachu (Red) remains available as a wild encounter in Manila for one month after the January 23–24 event concludes. This extended wild-encounter window is separate from the two-day main event."
     },
     {
       "id": "pokexciting-bangkok-2027",
@@ -10117,8 +10232,31 @@
       "source_slug": "event-apac-30th-anniversary-2026",
       "source_locale": "en",
       "status": "announced",
-      "notes": "Dates are confirmed; event gameplay area/location details are still to be announced.",
+      "notes": "Two-day main PokéXciting! Bangkok event window. The city's PokéXciting! Pikachu remains available in the wild for one month after the event and is tracked separately. A local five-stamp GO Stamp Rally is also announced to continue after the event; its exact cutoff is awaiting detailed official information.",
       "regional_type": "timed_research"
+    },
+    {
+      "id": "pokexciting-bangkok-pikachu-wild-2027",
+      "title": "PokéXciting! Bangkok – Pikachu Wild Encounters",
+      "start": "2027-02-13",
+      "end": "2027-03-14",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Bangkok, Thailand",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "other",
+      "bonuses": [],
+      "source_url": "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
+        "https://th.portal-pokemon.com/30th/topics/pokexciting_news0/"
+      ],
+      "source_slug": "event-apac-30th-anniversary-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Bangkok's region-exclusive PokéXciting! Pikachu remains available as a wild encounter for one month after the February 13–14 event concludes. The costume color and final event gameplay area have not yet been announced. This extended wild-encounter window is separate from the two-day main event."
     }
   ]
 }

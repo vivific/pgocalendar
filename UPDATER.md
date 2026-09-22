@@ -181,6 +181,8 @@ If a bonus applies only to a narrower subwindow than the canonical event, do not
 
 When distinct player-facing mechanics from the same announcement have materially different availability windows, represent them as separate canonical bars so one mechanic is never implied to last as long as another. For example, if local raids run for two days but Timed Research can be newly obtained for a longer period, create separate raid and research windows. Likewise, a short wild-encounter/Field Research phase may be separate from a longer raid/research program. Do not split merely because already-claimed content has a later completion deadline; the split must reflect distinct windows in which a new player can actually access the mechanic.
 
+If a Pokémon encounter mechanic explicitly persists beyond its parent event (for example, a city-exclusive costume Pokémon that remains in the wild for one month after a two-day event), give that mechanic its own canonical bar covering its full actual availability window. The parent event keeps only the shorter event-period mechanics. When an announced sub-feature clearly outlives the parent but its exact cutoff is ambiguous or conflicts with known implementation, do not guess the endpoint: keep the confirmed parent data, mark the sub-feature for review in `processed_posts.json`, and add the separate bar once an exact official or in-game cutoff is available.
+
 ## Status
 
 Use:
