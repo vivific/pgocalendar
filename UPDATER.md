@@ -231,3 +231,40 @@ Canonical event IDs are persistent identity keys. Once an event has been publish
 
 
 For unusually long active/future windows (roughly 45+ days, cross-year windows, or `end: null`), periodically verify that the source actually allows a **new player/visitor** to obtain or start the gameplay throughout that window. Do not retain a long bar solely because already-claimed Timed Research, an enrolled rally, or another previously unlocked feature remains completable. Record the qualifying lifecycle detail in `notes` when it prevents ambiguity.
+
+## Large-file safety and atomic writes
+
+The canonical JSON files can be too large for their complete contents to be surfaced back into the conversation/tool transcript. A truncated displayed tool result does **not** mean the GitHub connector failed to fetch the complete file.
+
+When reading or modifying `data/calendar_events.json` or `data/processed_posts.json`:
+
+- keep the complete file contents inside the GitHub/Code Mode execution whenever possible;
+- parse and modify the complete JSON internally, and return only compact metadata needed for reasoning (for example blob SHA, event count, `updated_at`, candidate records, recent monitoring state, and validation results);
+- never reconstruct, rewrite, or overwrite either file from a truncated displayed tool result;
+- do not abort a valid update solely because the surfaced copy of a large file was truncated if the tool execution still has access to the complete contents.
+
+After semantic interpretation is complete, treat the intended repository changes as a small delta (for example add one event, update one stable event ID, attach a source URL, or update one post-state record). Immediately before writing, fetch the current `main` state again and apply that delta to the freshly fetched complete JSON rather than to a stale copy from the beginning of the run.
+
+Validate the resulting data before writing. At minimum:
+- both edited JSON documents parse successfully;
+- `schema_version` remains unchanged unless an explicit schema migration is intended;
+- pre-existing canonical event IDs have not disappeared unexpectedly;
+- canonical event IDs remain unique;
+- the event-count change matches the intended add/remove operations;
+- `updated_at` changes whenever and only when `calendar_events.json` changes;
+- unrelated frontend or repository files are not modified during a routine updater run.
+
+Prefer one **atomic Git commit** for all updater-data changes. When the available GitHub actions support Git data operations, use this pattern:
+
+1. Fetch the current `main` HEAD and its tree.
+2. Create new blobs only for the updater files that actually changed.
+3. Create a new tree on top of the current `main` tree with those blob replacements.
+4. Create one commit whose parent is the current `main` HEAD.
+5. Fast-forward `main` to that commit with a non-forced ref update.
+
+This makes `calendar_events.json` and `processed_posts.json` land together and avoids partial updater state or unnecessary superseded Pages builds.
+
+If `main` moves before the final ref update, do **not** force-push and do not overwrite the newer state. Fetch the new HEAD, reapply the same semantic delta to the newly fetched complete files, revalidate, create a new commit, and retry the non-forced fast-forward update.
+
+If atomic Git-data actions are unavailable, use the safest available full-file update method while preserving the same rules: fetch the complete current file immediately before its write, apply only the intended delta internally, validate, and never rebuild from truncated output. If a multi-file update cannot be completed safely, prefer leaving repository data unchanged over making a known partial or destructive write.
+
