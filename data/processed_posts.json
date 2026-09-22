@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "monitor_from": "2026-09-20",
-  "last_checked_at": "2026-09-22T03:39:56.245Z",
+  "last_checked_at": "2026-09-22T17:39:43.152Z",
   "posts": {
     "10th-anniversary-celebration": {
       "bootstrap": true,
@@ -1942,6 +1942,14 @@
       "locale_discovered": "ko",
       "source_url": "https://pokemongo.com/ko/news/hangul-nal-2026",
       "result": "event-added: South Korea Hangul Day gameplay window"
+    },
+    "go-pass-october-2026": {
+      "first_seen": "2026-09-22T17:39:43.152Z",
+      "last_checked": "2026-09-22T17:39:43.152Z",
+      "status": "processed",
+      "locale_discovered": "en",
+      "source_url": "https://pokemongo.com/news/go-pass-october-2026",
+      "result": "event-added: global October 2026 GO Pass window"
     }
   }
 }

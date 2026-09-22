@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-22T12:36:00Z",
+  "updated_at": "2026-09-22T17:39:43.152Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -9769,6 +9769,26 @@
       "source_locale": "ko",
       "status": "confirmed",
       "notes": "South Korea–wide Hangul Day event. Event-themed Pokémon are attracted by regular Lure Modules and Incense (excluding Daily Adventure Incense); Lure Modules last 1 hour and Incense lasts 2 hours. The Collection Challenge rewards 5,000 XP, 5,000 Stardust, and an encounter with Unown H."
+    },
+    {
+      "id": "go-pass-october-2026",
+      "title": "GO Pass: October",
+      "start": "2026-10-06",
+      "end": "2026-11-03",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "source_url": "https://pokemongo.com/news/go-pass-october-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/go-pass-october-2026"
+      ],
+      "source_slug": "go-pass-october-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Monthly free GO Pass availability window. Optional GO Pass Deluxe upgrades do not make the event ticketed; later reward-claim deadlines are not included in the calendar bar."
     },
     {
       "id": "communityday-october-2026-zorua",
