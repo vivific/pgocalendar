@@ -194,6 +194,17 @@ Use:
 
 `data/processed_posts.json` is the discovery state.
 
+The slug-indexed monitoring dictionary is **`root.posts`** (that is, the top-level object's `posts` property). Do not look for slugs as top-level keys.
+
+Before treating any slug discovered on a locale index as unseen:
+- parse `data/processed_posts.json`;
+- read `root.posts[slug]`;
+- if that entry exists with `status: "processed"` or `status: "ignored"`, the slug is **not unseen** and must not be surfaced as a new candidate merely because it appeared on an index;
+- entries with `status: "review"` remain eligible for review;
+- a previously handled `processed` or `ignored` slug may still be re-read through the recent-edit/recheck path, but only a material article change relative to the current canonical state should trigger repository action or a monitor notification.
+
+The `root.posts` check is the first discovery gate. Canonical event deduplication is a second safety net, not a substitute for correctly consulting processed-post state.
+
 For newly handled posts, store useful state such as:
 - `first_seen`
 - `last_checked`
