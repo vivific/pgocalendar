@@ -201,7 +201,7 @@ The slug-indexed monitoring dictionary is **`root.posts`** (that is, the top-lev
 Before treating any slug discovered on a locale index as unseen:
 - parse `data/processed_posts.json`;
 - read `root.posts[slug]`;
-- if that entry exists with `status: "processed"` or `status: "ignored"`, the slug is **not unseen** and must not be surfaced as a new candidate merely because it appeared on an index;
+- if that entry exists with `status: "processed"` or `status: "ignored"`, the slug is **not unseen** and must not be surfaced as a new candidate merely because it appeared on an index; this applies equally to legacy/bootstrap entries such as `{"bootstrap": true, "status": "processed"}`—`bootstrap: true` does not make a processed slug unseen or eligible for new-event discovery;
 - entries with `status: "review"` remain eligible for review;
 - a previously handled `processed` or `ignored` slug may still be re-read through the recent-edit/recheck path, but only a material article change relative to the current canonical state should trigger repository action or a monitor notification.
 
