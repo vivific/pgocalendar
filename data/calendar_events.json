@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-22T03:39:56.245Z",
+  "updated_at": "2026-09-22T12:36:00Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -2415,6 +2415,28 @@
       "source_locale": "ja",
       "status": "confirmed",
       "notes": ""
+    },
+    {
+      "id": "mlb-offer-code-2025",
+      "title": "MLB × Pokémon GO 2025 Offer Code",
+      "start": "2025-06-24",
+      "end": "2025-09-28",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "regional_type": "free_code",
+      "source_url": "https://pokemongo.com/en/post/mlb-2025",
+      "source_urls": [
+        "https://pokemongo.com/en/post/mlb-2025",
+        "https://pokemongo.com/en/news/mlb-2025"
+      ],
+      "source_slug": "mlb-2025",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Free global offer code MLBxPOKEMONGO grants an MLB-branded cap avatar item. The official 2025 MLB collaboration states that the offer code was available from June 24 through September 28, 2025."
     },
     {
       "id": "indonesia-journey-2025-bekasi",
@@ -6615,6 +6637,27 @@
       "regional_type": "local_raid"
     },
     {
+      "id": "mlb-offer-code-2026",
+      "title": "MLB × Pokémon GO 2026 Offer Code",
+      "start": "2026-04-22",
+      "end": "2026-09-30",
+      "category": "Event",
+      "scope": "Global",
+      "location": "Global",
+      "access": [
+        "global"
+      ],
+      "regional_type": "free_code",
+      "source_url": "https://pokemongo.com/news/mlb-2026",
+      "source_urls": [
+        "https://pokemongo.com/news/mlb-2026"
+      ],
+      "source_slug": "mlb-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Free global offer code MLBxPOKEMONGO2026 grants an MLB-branded T-shirt avatar item through the Pokémon GO Web Store. The 2026 collaboration makes the global offer available beginning April 22, 2026 and states that redemption ends September 30, 2026."
+    },
+    {
       "id": "replay-go-bigger-2026",
       "title": "Replay: GO Bigger",
       "start": "2026-04-25",
@@ -8119,14 +8162,15 @@
       ],
       "regional_type": "local_raid",
       "bonuses": [],
-      "source_url": "https://pokemongo.com/news/2026_ana_red?hl=en",
+      "source_url": "https://pokemongo.com/ja/news/2026_ana_red",
       "source_urls": [
+        "https://pokemongo.com/ja/news/2026_ana_red",
         "https://pokemongo.com/news/2026_ana_red?hl=en"
       ],
       "source_slug": "2026_ana_red",
-      "source_locale": "en",
+      "source_locale": "ja",
       "status": "confirmed",
-      "notes": "Local-only raids for Charmander at participating ANA Red Pokémon Jet airports through August 31, 2027. Raid catches can have the Red Pokémon Jet Location Background. Phase 1 airport visitors can also claim the Timed Research once during the campaign window; that research expires three days after receipt."
+      "notes": "Local-only raids for Charmander at Phase 1 participating ANA Red Pokémon Jet airports from July 28, 2026 through August 31, 2027. Charmander can be Shiny, and raid catches have the Red Pokémon Jet Location Background. Each Trainer can participate in one raid per day at each Gym. Phase 1 airports: New Chitose, Hakodate, Akita, Sendai, Haneda (Terminals 2 and 3), and Narita (Terminal 1). Airport visitors can also claim the Phase 1 Timed Research once; it expires three days after receipt."
     },
     {
       "id": "choose-your-path-forever-forward-2026-4",

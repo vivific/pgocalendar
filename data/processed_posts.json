@@ -759,8 +759,9 @@
     "mlb-2026": {
       "status": "processed",
       "source_url": "https://pokemongo.com/news/mlb-2026",
-      "result": "event-added: 13 separately dated MLB themed game days with ballpark-only gameplay",
-      "last_checked": "2026-09-21T21:41:53.010Z"
+      "result": "event-updated: 13 MLB game days retained and global free offer-code window added",
+      "last_checked": "2026-09-22T12:36:00Z",
+      "note": "MLBxPOKEMONGO2026 is redeemable globally through September 30, 2026 for an MLB-branded T-shirt avatar item."
     },
     "new-years-2026": {
       "status": "processed",
@@ -1438,7 +1439,10 @@
     "mlb-2025": {
       "bootstrap": true,
       "status": "processed",
-      "result": "historical-2025 semantic review: canonical gameplay event/source retained"
+      "result": "event-updated: retained MLB game-day gameplay and added global free offer-code window",
+      "last_checked": "2026-09-22T12:36:00Z",
+      "source_url": "https://pokemongo.com/en/post/mlb-2025",
+      "note": "MLBxPOKEMONGO was redeemable globally June 24–September 28, 2025 for an MLB-branded cap avatar item."
     },
     "monthly-rewards-august-2025": {
       "bootstrap": true,
@@ -1927,9 +1931,9 @@
     },
     "2026_ana_red": {
       "status": "processed",
-      "last_checked": "2026-09-22T00:06:35.260Z",
-      "source_url": "https://pokemongo.com/news/2026_ana_red?hl=en",
-      "result": "event-added"
+      "last_checked": "2026-09-22T12:36:00Z",
+      "source_url": "https://pokemongo.com/ja/news/2026_ana_red",
+      "result": "event-updated: clarified Charmander local raids, Location Background, daily limit, and Phase 1 airports"
     },
     "hangul-nal-2026": {
       "first_seen": "2026-09-22T03:39:56.245Z",

@@ -29,7 +29,7 @@ Write only real gameplay/research/event windows to `data/calendar_events.json`.
 
 Do **not** create a separate calendar bar solely for:
 - ticket-sale or registration windows;
-- code redemption or reward-claim deadlines;
+- code redemption or reward-claim deadlines that only outlive the underlying gameplay or tracked promotion window;
 - web-store purchase windows;
 - merchandise shop hours;
 - article publication/update timestamps;
@@ -39,6 +39,8 @@ Do **not** create a separate calendar bar solely for:
 - temporary PokéStops, Gyms, Routes, Photo Discs, postcards, themed images, stickers, or other promotional map dressing when the article provides no substantive gameplay beyond those objects.
 
 A collaboration or promotion belongs on the main calendar only when it creates a real player-facing gameplay window such as research, raids, altered wild encounters, event bonuses, stamp-rally rewards/encounters, Collection Challenges, or another meaningful in-game activity. If an article mixes promotion and gameplay, calendarize the gameplay window(s), not the surrounding advertising or infrastructure period.
+
+A narrow exception is an officially announced, freely distributed offer code with a clearly stated active redemption window. When the code itself is the player-facing availability and grants an in-game reward, including an avatar item, it may be represented as a `free_code` bar for the actual redemption window. Do not use this exception for Web Store sales, purchase-only codes, generic claim deadlines, or a later completion deadline after the code can no longer be newly redeemed.
 
 Those facts can be kept in `notes` when useful.
 
@@ -84,7 +86,7 @@ For current and future regional/live events, code acquisition and event mechanic
 - `local_raid` — location-bound raid activations where the raid is a distinguishing reason to visit the venue/area, including explicit non-remote raids, sports game-day ballpark raids, museum/site/airport raids, and similar local raid programs. Do not use this merely because ordinary raids happen to be part of a broad regional event.
 - `city_safari` — official Pokémon GO City Safari live events.
 - `wild_area` — Pokémon GO Wild Area events, including regional live events and the Global edition.
-- `free_code` — gameplay/research unlocked by a freely distributed code.
+- `free_code` — gameplay/research or another explicitly tracked in-game reward unlocked by a freely distributed official offer code.
 - `paid_code` — gameplay/research unlocked by a code obtained through a purchase, paid participation, qualifying transaction, or equivalent paid acquisition.
 - `stamp_rally` — GO Stamp Rally gameplay.
 - `other` — substantive regional gameplay that does not fit the above.
