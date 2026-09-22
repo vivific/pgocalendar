@@ -291,11 +291,11 @@ function render() {
   if (hiddenIndividual) hiddenBits.push(`${hiddenIndividual} individual event${hiddenIndividual===1?"":"s"} hidden`);
   els.meta.textContent=`${list.length} event${list.length===1?"":"s"}${hiddenBits.length ? ` · ${hiddenBits.join(" · ")}` : ""}`;
   if (els.longRallies) {
-    els.longRallies.textContent=hideLongRallies ? "Show long stamp rallies" : "Hide long stamp rallies";
+    els.longRallies.textContent=hideLongRallies ? "Long rallies: hidden" : "Long rallies: shown";
     els.longRallies.setAttribute("aria-pressed",String(hideLongRallies));
   }
   if (els.hiddenEvents) {
-    els.hiddenEvents.textContent=`Hidden events (${hiddenEventIds.size})`;
+    els.hiddenEvents.textContent=`Hidden (${hiddenEventIds.size})`;
   }
   if (els.subtypeLegend) {
     els.subtypeLegend.hidden=!list.some(e=>REGIONAL_TYPE_LABELS[e.regional_type]);
@@ -330,7 +330,7 @@ function render() {
       const expired=e.end && e.end < today ? " expired" : "";
       return `<button class="bar ${primaryAccess(e)}${ongoing}${expired}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(displayTitle(e))} — ${humanRange(e.start,e.end)}"><span class="bar-label">${escapeHtml(displayTitle(e))}</span></button>`;
     }).join("");
-    html += `<div class="event-row"><div class="row-label">Track ${ri+1}</div><div class="row-grid">${cells}</div>${bars}</div>`;
+    html += `<div class="event-row"><div class="row-grid">${cells}</div>${bars}</div>`;
   });
 
   els.timeline.innerHTML=html;

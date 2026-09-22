@@ -4,56 +4,63 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f3fbf3">
   <title>Pokémon GO Event Calendar</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar"  style="display:none;">
-    <div>
-      <p class="eyebrow" style="display:none;">Unofficial • source-backed</p>
-      <h1 style="display:none;">Pokémon GO Event Calendar</h1>
-      <p class="lede" style="display:none;">Official News events in one timeline, including regional announcements that may not appear on the English News index.</p>
-    </div>
-    <a class="repo-link" href="https://github.com/vivific/pgocalendar" target="_blank" rel="noreferrer">GitHub</a>
-  </header>
-
   <main>
     <section class="controls" aria-label="Calendar controls">
-      <label>Year
+      <label class="control search">
+        <span class="sr-only">Search</span>
+        <input id="search" type="search" placeholder="Search events, locations, notes…">
+      </label>
+
+      <label class="control">
+        <span>Year</span>
         <select id="year"></select>
       </label>
-      <label>Category
+
+      <label class="control category-control">
+        <span>Category</span>
         <select id="category"><option value="">All categories</option></select>
       </label>
-      <label class="search">Search
-        <input id="search" type="search" placeholder="Event, location, notes…">
-      </label>
-      <label>Day width
+
+      <label class="control zoom-control">
+        <span>Zoom</span>
         <input id="zoom" type="range" min="16" max="64" value="64">
       </label>
+
       <button id="today" type="button">Today</button>
-      <button id="toggle-long-rallies" type="button" aria-pressed="false" title="Hide Stamp Rallies with no end date or that continue beyond the selected year">Hide long stamp rallies</button>
-      <button id="hidden-events" type="button" title="Manage events hidden on this browser">Hidden events (0)</button>
+      <button id="toggle-long-rallies" type="button" aria-pressed="false" title="Hide Stamp Rallies with no end date or that continue beyond the selected year">Long rallies: shown</button>
+      <button id="hidden-events" type="button" title="Manage events hidden on this browser">Hidden (0)</button>
     </section>
 
-    <section class="legend" aria-label="Participation legend">
-      <span><i class="swatch global"></i>Global</span>
-      <span><i class="swatch regional"></i>Regional</span>
-      <span><i class="swatch onsite"></i>On-site / geofenced</span>
-      <span><i class="swatch ticketed"></i>Ticketed</span>
+    <div class="calendar-info">
+      <details class="legend-panel">
+        <summary>Legend</summary>
+        <div class="legend-popover">
+          <section class="legend" aria-label="Participation legend">
+            <span><i class="swatch global"></i>Global</span>
+            <span><i class="swatch regional"></i>Regional</span>
+            <span><i class="swatch onsite"></i>On-site</span>
+            <span><i class="swatch ticketed"></i>Ticketed</span>
+          </section>
+
+          <section class="subtype-legend" id="subtype-legend" aria-label="Regional event type legend" hidden>
+            <span class="legend-title">Event icons</span>
+            <span>⏱ Timed Research</span>
+            <span>📍 Local Raid</span>
+            <span>🏙️ City Safari</span>
+            <span>🥾 GO Wild Area</span>
+            <span>🆓 Free code</span>
+            <span>💲 Paid code</span>
+            <span>💮 Stamp rally</span>
+          </section>
+        </div>
+      </details>
       <span class="meta" id="meta"></span>
-    </section>
-
-    <section class="subtype-legend" id="subtype-legend" aria-label="Regional event type legend" hidden>
-      <span class="legend-title">Regional type</span>
-      <span>⏱ Timed Research</span>
-      <span>📍 Local Raid</span>
-      <span>🏙️ City Safari</span>
-      <span>🥾 GO Wild Area</span>
-      <span>🆓 Free code</span>
-      <span>💲 Paid code</span>
-      <span>💮 Stamp rally</span>
-    </section>
+    </div>
 
     <section class="timeline-shell">
       <div id="empty" class="empty" hidden>
@@ -69,7 +76,7 @@
     <h2 id="detail-title"></h2>
     <dl id="detail-fields"></dl>
     <p id="detail-notes"></p>
-    <p><a id="detail-source" target="_blank" rel="noreferrer">Official Pokémon GO News source ↗</a></p>
+    <p><a id="detail-source" class="source-link" target="_blank" rel="noreferrer">Official Pokémon GO News source ↗</a></p>
     <div class="dialog-actions">
       <button id="hide-event" class="secondary-action" type="button">Hide this event</button>
     </div>
@@ -87,7 +94,7 @@
 
   <footer>
     <p class="update-status" id="footer-status">Checks for updates every hour. Last updated: loading…</p>
-    <p class="disclaimer">This site is unofficial. Event information is pulled from official Pokémon GO News posts. Click on an event to find the article post link.</p>
+    <p class="disclaimer">Unofficial calendar built from official Pokémon GO News posts. Select an event for its source.</p>
   </footer>
 
   <script src="app.js"></script>
