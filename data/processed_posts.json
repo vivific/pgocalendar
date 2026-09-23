@@ -1968,6 +1968,13 @@
       "status": "ignored",
       "source_url": "https://pokemongo.com/en/news/mega-finale-2026-community",
       "result": "historical-only: gameplay window ended before discovery; routine monitoring does not backfill already-ended events"
+    },
+    "seasons--twilight-trails": {
+      "first_seen": "2026-09-23T13:04:44Z",
+      "last_checked": "2026-09-23T13:04:44Z",
+      "status": "ignored",
+      "source_url": "https://pokemongo.com/news/seasons--twilight-trails",
+      "result": "non-calendar-post: season landing/umbrella page; concrete gameplay windows are represented separately"
     }
   }
 }

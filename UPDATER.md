@@ -46,6 +46,23 @@ Those facts can be kept in `notes` when useful.
 
 An article may create multiple event entries when it contains genuinely distinct gameplay windows, phases, regional activations, or research periods. Do not split an event merely because an article lists bonuses on different dates.
 
+### Canonical-shape gate
+
+Admission to `manifest.new` means only that a slug is eligible for semantic review. It does **not** mean a canonical calendar event is missing.
+
+Before notifying on or adding a NEW candidate, verify that the article describes at least one **concrete player-facing gameplay window** of a kind this calendar tracks, such as research, raids, altered wild encounters, gameplay bonuses, stamp-rally participation, Collection Challenges, or another directly playable mechanic.
+
+Do not create a canonical bar solely because an official page has a broad date range. In particular, treat these as non-calendar unless they themselves define a distinct gameplay window:
+- Season landing pages or season overview pages;
+- campaign hubs and anniversary/marketing overview pages;
+- monthly/event schedule indexes;
+- article collections, navigation pages, or other umbrella/index/landing pages;
+- pages whose concrete gameplay is already represented by separately dated canonical records.
+
+When an umbrella page contains or links to multiple concrete mechanics, evaluate those mechanics individually. If their actual gameplay windows are already represented by existing canonical records, the umbrella page itself should be marked `ignored` as a non-calendar/aggregate source rather than creating an overlapping parent bar.
+
+Routine monitoring must also avoid silently inventing a new canonical modeling convention. Before proposing a new top-level event shape, inspect the complete current calendar for comparable precedent. If there is no established precedent for that type of umbrella record, do not introduce it merely because the candidate is in `manifest.new`; either map its concrete mechanics to existing canonical shapes or treat the umbrella itself as non-calendar. A user-requested schema/modeling change may override this rule.
+
 ## Deduplication
 
 Treat save-the-date posts, detailed announcements, "know before you GO" posts, corrections, and later updates as sources for the same canonical event when they describe the same gameplay window.
