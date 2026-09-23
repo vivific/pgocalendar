@@ -3,20 +3,52 @@ on:
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
+
 permissions:
-  contents: read
+  contents: write
+
 jobs:
   candidates:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build deterministic candidate manifest
-        run: python scripts/monitor_candidates.py --output monitor_candidates.json
-      - uses: actions/upload-artifact@v4
-        with:
-          name: monitor-candidates
-          path: monitor_candidates.json
-          retention-days: 7
+
+      - name: Build deterministic candidate manifest from main
+        shell: bash
+        run: |
+          CAL_SHA="$(git rev-parse HEAD:data/calendar_events.json)"
+          PROC_SHA="$(git rev-parse HEAD:data/processed_posts.json)"
+          python scripts/monitor_candidates.py \
+            --output /tmp/monitor_candidates.json \
+            --calendar-sha "$CAL_SHA" \
+            --processed-sha "$PROC_SHA"
+
+      - name: Publish manifest to monitor-state branch
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin monitor-state >/dev/null 2>&1; then
+            git fetch origin monitor-state:monitor-state
+            git checkout monitor-state
+          else
+            git checkout -b monitor-state
+          fi
+
+          cp /tmp/monitor_candidates.json monitor_candidates.json
+          git add monitor_candidates.json
+
+          if git diff --cached --quiet; then
+            echo "Manifest unchanged."
+            exit 0
+          fi
+
+          git commit -m "Update monitor candidate manifest"
+          git push origin monitor-state

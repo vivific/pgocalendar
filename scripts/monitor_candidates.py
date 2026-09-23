@@ -32,6 +32,8 @@ def main():
     ap.add_argument("--processed",default="data/processed_posts.json")
     ap.add_argument("--output",default="data/monitor_candidates.json")
     ap.add_argument("--recheck-days",type=int,default=14)
+    ap.add_argument("--calendar-sha",default=None)
+    ap.add_argument("--processed-sha",default=None)
     args=ap.parse_args()
     cal, proc = load(args.calendar), load(args.processed)
     posts=proc.get("posts",{})
@@ -61,6 +63,8 @@ def main():
     out={
       "schema_version":1,
       "generated_at":now.isoformat().replace("+00:00","Z"),
+      "calendar_blob_sha":args.calendar_sha,
+      "processed_blob_sha":args.processed_sha,
       "complete":not failures,
       "locales_checked":LOCALES,
       "locale_failures":failures,
