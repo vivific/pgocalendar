@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-22T22:19:00.016Z",
+  "updated_at": "2026-09-23T04:40:34Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -9584,6 +9584,48 @@
       "regional_type": "timed_research"
     },
     {
+      "id": "pokemon-30th-mall-exploration-ombak-klcc-2026",
+      "title": "Pokémon 30th Anniversary Mall Exploration – Ombak KLCC",
+      "start": "2026-10-01",
+      "end": "2026-12-31",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Ombak KLCC, Malaysia",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026",
+      "source_urls": [
+        "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
+      ],
+      "source_slug": "apac-mall-exploration-2026",
+      "source_locale": "zh-Hant",
+      "status": "confirmed",
+      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "regional_type": "timed_research"
+    },
+    {
+      "id": "pokemon-30th-mall-exploration-sm-mall-of-asia-2026",
+      "title": "Pokémon 30th Anniversary Mall Exploration – SM Mall of Asia",
+      "start": "2026-10-01",
+      "end": "2027-01-31",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "SM Mall of Asia, Philippines",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026",
+      "source_urls": [
+        "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
+      ],
+      "source_slug": "apac-mall-exploration-2026",
+      "source_locale": "zh-Hant",
+      "status": "confirmed",
+      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "regional_type": "timed_research"
+    },
+    {
       "id": "harvest-festival-tgr-2026",
       "title": "Harvest Festival: Taken Over",
       "start": "2026-10-02",
@@ -9918,6 +9960,27 @@
       "regional_type": "timed_research"
     },
     {
+      "id": "pokemon-30th-mall-exploration-sm-east-ortigas-2026",
+      "title": "Pokémon 30th Anniversary Mall Exploration – SM East Ortigas",
+      "start": "2026-10-23",
+      "end": "2026-11-08",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "SM East Ortigas, Philippines",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026",
+      "source_urls": [
+        "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
+      ],
+      "source_slug": "apac-mall-exploration-2026",
+      "source_locale": "zh-Hant",
+      "status": "confirmed",
+      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "regional_type": "timed_research"
+    },
+    {
       "id": "max-battle-day-2026-10-24",
       "title": "October 24, 2026 Max Battle Day",
       "start": "2026-10-24",
@@ -10090,6 +10153,48 @@
       "notes": "PokéXciting! Pikachu (Blue) remains available as a wild encounter in Singapore for one month after the November 7–8 event concludes. This extended wild-encounter window is separate from the two-day main event."
     },
     {
+      "id": "pokemon-30th-mall-exploration-changi-airport-2026",
+      "title": "Pokémon 30th Anniversary Mall Exploration – Changi Airport",
+      "start": "2026-11-07",
+      "end": "2027-02-28",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Changi Airport, Singapore",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026",
+      "source_urls": [
+        "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
+      ],
+      "source_slug": "apac-mall-exploration-2026",
+      "source_locale": "zh-Hant",
+      "status": "confirmed",
+      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "regional_type": "timed_research"
+    },
+    {
+      "id": "pokemon-30th-mall-exploration-jewel-changi-airport-2026",
+      "title": "Pokémon 30th Anniversary Mall Exploration – Jewel Changi Airport",
+      "start": "2026-11-07",
+      "end": "2027-01-31",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Jewel Changi Airport, Singapore",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026",
+      "source_urls": [
+        "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
+      ],
+      "source_slug": "apac-mall-exploration-2026",
+      "source_locale": "zh-Hant",
+      "status": "confirmed",
+      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "regional_type": "timed_research"
+    },
+    {
       "id": "save-the-date-go-wild-area-2026-2",
       "title": "Pokémon GO Wild Area 2026 – Global",
       "start": "2026-11-14",
@@ -10129,6 +10234,27 @@
       "access": [
         "onsite"
       ],
+      "regional_type": "timed_research"
+    },
+    {
+      "id": "pokemon-30th-mall-exploration-sm-southmall-2026",
+      "title": "Pokémon 30th Anniversary Mall Exploration – SM Southmall",
+      "start": "2026-11-20",
+      "end": "2026-11-30",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "SM Southmall, Philippines",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026",
+      "source_urls": [
+        "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
+      ],
+      "source_slug": "apac-mall-exploration-2026",
+      "source_locale": "zh-Hant",
+      "status": "confirmed",
+      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
       "regional_type": "timed_research"
     },
     {
@@ -10193,6 +10319,27 @@
       "notes": "Date and event type are officially announced; featured Pokémon/details have not yet been published."
     },
     {
+      "id": "pokemon-30th-mall-exploration-sm-north-edsa-2026",
+      "title": "Pokémon 30th Anniversary Mall Exploration – SM North EDSA",
+      "start": "2026-12-10",
+      "end": "2027-01-03",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "SM North EDSA, Philippines",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026",
+      "source_urls": [
+        "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
+      ],
+      "source_slug": "apac-mall-exploration-2026",
+      "source_locale": "zh-Hant",
+      "status": "confirmed",
+      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "regional_type": "timed_research"
+    },
+    {
       "id": "pokemon-run-30-2026-4",
       "title": "Pokémon RUN 30 × Pokémon GO – Indonesia",
       "start": "2026-12-12",
@@ -10232,6 +10379,27 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Event-area wild encounters and Incense encounters include first-partner Pokémon and Unown N, R, and U. Bonuses: 2× Incense duration (excluding Daily Adventure Incense), 10× XP for spinning new PokéStops, 2× XP for spinning PokéStops, and 1/2 Hatch Distance. Two free event-exclusive Timed Research opportunities can be obtained in the event area; their later completion/claim grace periods do not extend this calendar bar.",
+      "regional_type": "timed_research"
+    },
+    {
+      "id": "pokemon-30th-mall-exploration-sm-marikina-2027",
+      "title": "Pokémon 30th Anniversary Mall Exploration – SM Marikina",
+      "start": "2027-01-15",
+      "end": "2027-01-31",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "SM Marikina, Philippines",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026",
+      "source_urls": [
+        "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
+      ],
+      "source_slug": "apac-mall-exploration-2026",
+      "source_locale": "zh-Hant",
+      "status": "confirmed",
+      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
       "regional_type": "timed_research"
     },
     {
@@ -10300,6 +10468,27 @@
       "notes": "PokéXciting! Pikachu (Red) remains available as a wild encounter in Manila for one month after the January 23–24 event concludes. This extended wild-encounter window is separate from the two-day main event."
     },
     {
+      "id": "pokemon-30th-mall-exploration-sm-seaside-cebu-2027",
+      "title": "Pokémon 30th Anniversary Mall Exploration – SM Seaside Cebu",
+      "start": "2027-02-05",
+      "end": "2027-02-14",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "SM Seaside Cebu, Philippines",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026",
+      "source_urls": [
+        "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
+      ],
+      "source_slug": "apac-mall-exploration-2026",
+      "source_locale": "zh-Hant",
+      "status": "confirmed",
+      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "regional_type": "timed_research"
+    },
+    {
       "id": "pokexciting-bangkok-2027",
       "title": "PokéXciting! Bangkok",
       "start": "2027-02-13",
@@ -10342,6 +10531,48 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "Bangkok's region-exclusive PokéXciting! Pikachu remains available as a wild encounter for one month after the February 13–14 event concludes. The costume color and final event gameplay area have not yet been announced. This extended wild-encounter window is separate from the two-day main event."
+    },
+    {
+      "id": "pokemon-30th-mall-exploration-sm-davao-2027",
+      "title": "Pokémon 30th Anniversary Mall Exploration – SM Davao",
+      "start": "2027-02-20",
+      "end": "2027-03-07",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "SM Davao, Philippines",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026",
+      "source_urls": [
+        "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
+      ],
+      "source_slug": "apac-mall-exploration-2026",
+      "source_locale": "zh-Hant",
+      "status": "confirmed",
+      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "regional_type": "timed_research"
+    },
+    {
+      "id": "pokemon-30th-mall-exploration-sm-cdo-downtown-2027",
+      "title": "Pokémon 30th Anniversary Mall Exploration – SM CDO Downtown",
+      "start": "2027-03-13",
+      "end": "2027-03-28",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "SM CDO Downtown, Philippines",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026",
+      "source_urls": [
+        "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
+      ],
+      "source_slug": "apac-mall-exploration-2026",
+      "source_locale": "zh-Hant",
+      "status": "confirmed",
+      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "regional_type": "timed_research"
     }
   ]
 }
