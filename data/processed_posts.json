@@ -1953,6 +1953,14 @@
       "locale_discovered": "en",
       "source_url": "https://pokemongo.com/news/go-pass-october-2026",
       "result": "event-added: global October 2026 GO Pass window"
+    },
+    "apac-mall-exploration-2026": {
+      "first_seen": "2026-09-23T04:40:34Z",
+      "last_checked": "2026-09-23T04:40:34Z",
+      "status": "processed",
+      "locale_discovered": "zh-Hant",
+      "source_url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026",
+      "result": "event-added: 11 venue-specific onsite Timed Research windows for Pokémon 30th Anniversary Mall Exploration"
     }
   }
 }
