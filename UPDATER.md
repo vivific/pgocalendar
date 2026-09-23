@@ -248,6 +248,17 @@ The scheduled AI monitor must use `monitor_candidates.json` from the dedicated `
 - Editorial interpretation remains the AI's job, but identity/set membership does not.
 
 
+### Historical-only discoveries
+
+Routine monitoring is for maintaining gameplay that is current or still upcoming, not for opportunistic backfilling of already-ended events.
+
+- If a newly admitted `manifest.new` post describes only player-facing gameplay windows that had **fully ended before the post was first discovered by the monitor**, treat it as historical-only and do not add missing canonical event bars during routine monitoring.
+- Mark such a slug `ignored` in `data/processed_posts.json` with a concise `historical-only` result when performing a write-enabled maintenance/update run, so deterministic discovery stops resurfacing it as NEW.
+- Do **not** apply this rule merely because the article itself is old. If any substantive gameplay described by the post is still active, ongoing with no known end, or future, evaluate and maintain that gameplay normally.
+- Do not delete or degrade historical canonical records that already exist. Historical-only suppression applies to newly discovered missing backfill, not to preservation of existing history.
+- A historical article may still justify action when it materially corrects or supplies a detail source for a canonical record whose current/future availability is affected.
+- Explicit historical audits or backfill projects requested by the user override this routine-monitoring suppression.
+
 ## Recent edits
 
 Niantic may edit News posts after publication. Re-read recently discovered/updated posts when practical, especially within roughly the last 14 days. If an official correction changes dates, location, access, cancellation status, or event identity, update the canonical event.

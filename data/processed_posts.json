@@ -1961,6 +1961,13 @@
       "locale_discovered": "zh-Hant",
       "source_url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026",
       "result": "event-added: 11 venue-specific onsite Timed Research windows for Pokémon 30th Anniversary Mall Exploration"
+    },
+    "mega-finale-2026-community": {
+      "first_seen": "2026-09-23T10:58:38Z",
+      "last_checked": "2026-09-23T10:58:38Z",
+      "status": "ignored",
+      "source_url": "https://pokemongo.com/en/news/mega-finale-2026-community",
+      "result": "historical-only: gameplay window ended before discovery; routine monitoring does not backfill already-ended events"
     }
   }
 }
