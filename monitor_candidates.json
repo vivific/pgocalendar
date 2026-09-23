@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T03:55:37.031288Z",
-  "calendar_blob_sha": "153424e1aadce3bf31c7fccb22030dd310104165",
+  "generated_at": "2026-09-23T04:41:44.676801Z",
+  "calendar_blob_sha": "293aba397cef7d5bdc2f210bf35ae03ef8d159bb",
   "processed_blob_sha": "6eca9acf113146941809d4dec6fca7ed3bc68ebb",
   "complete": true,
   "locales_checked": [
@@ -26,17 +26,12 @@
   "counts": {
     "index_slugs": 84,
     "handled_slugs": 417,
-    "canonical_source_slugs": 362,
-    "new": 36,
+    "canonical_source_slugs": 363,
+    "new": 35,
     "recheck": 8,
-    "blocked_by_canonical": 1
+    "blocked_by_canonical": 2
   },
   "new": [
-    {
-      "slug": "apac-mall-exploration-2026",
-      "processed_state": null,
-      "canonical_matches": []
-    },
     {
       "slug": "apex-reveal",
       "processed_state": null,
@@ -281,6 +276,23 @@
     }
   ],
   "blocked_by_canonical": [
+    {
+      "slug": "apac-mall-exploration-2026",
+      "processed_state": null,
+      "canonical_matches": [
+        "pokemon-30th-mall-exploration-ombak-klcc-2026",
+        "pokemon-30th-mall-exploration-sm-mall-of-asia-2026",
+        "pokemon-30th-mall-exploration-sm-east-ortigas-2026",
+        "pokemon-30th-mall-exploration-changi-airport-2026",
+        "pokemon-30th-mall-exploration-jewel-changi-airport-2026",
+        "pokemon-30th-mall-exploration-sm-southmall-2026",
+        "pokemon-30th-mall-exploration-sm-north-edsa-2026",
+        "pokemon-30th-mall-exploration-sm-marikina-2027",
+        "pokemon-30th-mall-exploration-sm-seaside-cebu-2027",
+        "pokemon-30th-mall-exploration-sm-davao-2027",
+        "pokemon-30th-mall-exploration-sm-cdo-downtown-2027"
+      ]
+    },
     {
       "slug": "city-safari-brisbane-know-before-you-go",
       "processed_state": null,
