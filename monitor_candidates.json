@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T10:59:37.491777Z",
+  "generated_at": "2026-09-23T13:05:29.847678Z",
   "calendar_blob_sha": "293aba397cef7d5bdc2f210bf35ae03ef8d159bb",
-  "processed_blob_sha": "dea4ba5fa862a396903b608a594b001833504bcf",
+  "processed_blob_sha": "1b526ef94c5c292ecb68c5ca191931c2a38147b6",
   "complete": true,
   "locales_checked": [
     "en",
@@ -25,10 +25,10 @@
   "locale_failures": {},
   "counts": {
     "index_slugs": 84,
-    "handled_slugs": 419,
+    "handled_slugs": 420,
     "canonical_source_slugs": 363,
-    "new": 34,
-    "recheck": 10,
+    "new": 33,
+    "recheck": 11,
     "blocked_by_canonical": 1
   },
   "new": [
@@ -188,11 +188,6 @@
       "canonical_matches": []
     },
     {
-      "slug": "seasons--twilight-trails",
-      "processed_state": null,
-      "canonical_matches": []
-    },
-    {
       "slug": "valentines-day-event-2022",
       "processed_state": null,
       "canonical_matches": []
@@ -283,6 +278,11 @@
       "canonical_matches": [
         "pokemongo-iitdelhi-2026"
       ]
+    },
+    {
+      "slug": "seasons--twilight-trails",
+      "processed_state": "ignored",
+      "canonical_matches": []
     },
     {
       "slug": "world-space-week-2026",
