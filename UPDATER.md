@@ -285,6 +285,8 @@ For `manifest.recheck`, the fingerprint change only establishes that the officia
 
 The `monitor-state` branch is machine state only. Routine editorial/updater work must not merge it into `main` or treat its commits as canonical calendar history. Editorial interpretation remains the AI's job; discovery identity and source-change detection do not.
 
+The separate `Monitor source freshness watchdog` workflow is health-only. It checks that the published schema-v2 source snapshot is complete and no more than 40 minutes old for the quarter-hour crawler cadence. A watchdog success or failure never authorizes candidate identity; only `manifest.new` and `manifest.recheck` do.
+
 ### Historical-only discoveries
 
 Routine monitoring is for maintaining gameplay that is current or still upcoming, not for opportunistic backfilling of already-ended events.
