@@ -217,7 +217,7 @@ Discovery classification must be computed **before article interpretation**. Do 
 
 1. Parse `data/processed_posts.json` and construct `handledSlugs` from every `root.posts[slug]` whose `status` is `"processed"` or `"ignored"`. Other fields, including `bootstrap`, do not affect membership.
 2. Collect slugs from all required locale indexes as `indexSlugs`.
-3. Compute `unseenSlugs = indexSlugs - handledSlugs`. Only these slugs may enter the **new-post** pipeline. A `review` entry may enter review handling, but a processed/ignored slug can only enter the separate recent-edit/recheck pipeline.
+3. Compute `unseenSlugs = indexSlugs - handledSlugs`. Only these slugs may enter the **new-post** pipeline. A `review` entry may enter review handling, but a processed/ignored slug can only enter the separate machine-detected source-change/recheck pipeline.
 4. Before any new-event notification, build/look up the complete canonical source-slug index. If one or more canonical events already have the candidate `source_slug`, classification as **new is prohibited**. Compare the article against those records and notify only if there is a concrete material delta.
 5. Apply the other canonical candidate-existence checks (ID, URL, title+dates, location/scope/mechanic) as additional dedupe gates.
 
@@ -255,15 +255,35 @@ Historical bootstrap entries may remain minimal.
 
 ### Machine-enforced monitor discovery
 
-The scheduled AI monitor must use `monitor_candidates.json` from the dedicated `monitor-state` branch, produced by `scripts/monitor_candidates.py` via the `Build monitor candidate manifest` GitHub Actions workflow, as its **only source of NEW candidates**. It must not independently promote a news-index slug to NEW.
+The scheduled AI monitor must use `monitor_candidates.json` from the dedicated `monitor-state` branch, produced by `scripts/monitor_candidates.py` via the `Build monitor candidate manifest` GitHub Actions workflow, as its **only source of candidate identity**. It must not independently promote a News-index slug to NEW.
 
-- `new`: deterministic set subtraction has established that the slug is neither processed/ignored nor represented by canonical `source_slug`.
-- `recheck`: recently handled posts eligible only for material-delta review.
-- `blocked_by_canonical`: diagnostic only; never NEW.
-- Before using the manifest, compare its `calendar_blob_sha` and `processed_blob_sha` with the current `main` blob SHAs for `data/calendar_events.json` and `data/processed_posts.json`. Also require a parseable `generated_at` no more than 60 minutes old at the start of the monitor run. If either SHA differs, the manifest is missing/incomplete, locale fetching failed, or the manifest is stale, the monitor must stay silent rather than fall back to model-side discovery.
-- The `monitor-state` branch is machine state only. Routine editorial/updater work must not merge it into `main` or treat its commits as canonical calendar history.
-- Editorial interpretation remains the AI's job, but identity/set membership does not.
+The manifest is a source snapshot, not merely a list:
+- `source_snapshot_at` records when the required official locale indexes were actually fetched. This timestamp, not merely `generated_at`, is the freshness authority.
+- `locale_states` and `index_snapshot_sha256` record the exact index snapshot used for discovery.
+- `index_delta` is diagnostic evidence of index additions/removals relative to the previous schema-v2 manifest. It does not independently authorize semantic review outside `new` or `recheck`.
+- `article_fingerprints` persist normalized official-article content hashes on `monitor-state`. They are machine state, not canonical calendar data.
+- Article fingerprint failures are recorded per slug. They suppress change-based RECHECK for that slug but do not invalidate an otherwise complete locale-index snapshot or authorize model-side discovery.
 
+Candidate queues are strict:
+- `new`: deterministic set subtraction has established that the slug is neither processed/ignored nor represented by canonical `source_slug`. Article metadata attached to the item is supporting source state; NEW identity comes from the deterministic set calculation.
+- `recheck`: a processed/ignored source eligible for maintenance whose normalized official-article fingerprint **changed compared with the previous published manifest**. Every recheck item must have `article_changed: true`. The first schema-v2 fingerprint establishes a baseline and must not itself be treated as an edit.
+- `blocked_by_canonical`: diagnostic only; never NEW and never a substitute recheck queue.
+- `index_delta`, `article_fingerprints`, `article_failures`, and `locale_states` are diagnostic/state fields only. Never create a candidate from those fields.
+
+Recheck fingerprint eligibility may include recently handled posts and source slugs backing current, upcoming, or recently ended canonical events. This eligibility is mechanical maintenance coverage only; it does not decide whether an article change is materially calendar-worthy.
+
+Before using the manifest:
+1. Fetch current `data/calendar_events.json` and `data/processed_posts.json` from `main` with their blob SHAs.
+2. Require manifest `schema_version: 2`, `complete: true`, and no `locale_failures`.
+3. Require manifest `calendar_blob_sha` and `processed_blob_sha` to exactly match those current-main blob SHAs.
+4. Require a parseable `source_snapshot_at` no more than 60 minutes old at the start of the monitor run. A fresh `generated_at` does not rescue a stale source snapshot.
+5. If any requirement fails, stay silent for event monitoring and do not fall back to model-side index discovery. The latest GitHub Actions run may be inspected only to diagnose pipeline health; it cannot authorize a candidate.
+
+Before notifying on any `manifest.new` item, re-check current `main`. If it has become processed/ignored or has any canonical match, suppress NEW and at most handle it through a valid material update path.
+
+For `manifest.recheck`, the fingerprint change only establishes that the official source changed. The AI must still compare the live official article against the exact current canonical record(s) and notify only for a concrete material delta. Cosmetic/template/hash-only changes are no-ops.
+
+The `monitor-state` branch is machine state only. Routine editorial/updater work must not merge it into `main` or treat its commits as canonical calendar history. Editorial interpretation remains the AI's job; discovery identity and source-change detection do not.
 
 ### Historical-only discoveries
 

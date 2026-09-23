@@ -1,4 +1,5 @@
 name: Build monitor candidate manifest
+
 on:
   push:
     branches: [main]
@@ -14,9 +15,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: monitor-candidate-manifest
+  cancel-in-progress: false
+
 jobs:
   candidates:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,36 +32,67 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Build deterministic candidate manifest from main
+      - name: Load previous monitor-state baseline
+        shell: bash
+        run: |
+          if git ls-remote --exit-code --heads origin monitor-state >/dev/null 2>&1; then
+            git fetch origin monitor-state:refs/remotes/origin/monitor-state
+            if git show origin/monitor-state:monitor_candidates.json > /tmp/previous_monitor_candidates.json 2>/dev/null; then
+              echo "Loaded previous manifest baseline."
+            else
+              printf '{}\n' > /tmp/previous_monitor_candidates.json
+            fi
+          else
+            printf '{}\n' > /tmp/previous_monitor_candidates.json
+          fi
+
+      - name: Build deterministic source and candidate manifest from main
         shell: bash
         run: |
           CAL_SHA="$(git rev-parse HEAD:data/calendar_events.json)"
           PROC_SHA="$(git rev-parse HEAD:data/processed_posts.json)"
           python scripts/monitor_candidates.py \
             --output /tmp/monitor_candidates.json \
+            --previous-manifest /tmp/previous_monitor_candidates.json \
             --calendar-sha "$CAL_SHA" \
             --processed-sha "$PROC_SHA"
+
+      - name: Validate manifest structure
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('/tmp/monitor_candidates.json').read_text(encoding='utf-8'))
+          required={'schema_version','generated_at','source_snapshot_at','calendar_blob_sha','processed_blob_sha','complete','locale_failures','locale_states','index_snapshot_sha256','index_slugs','new','recheck','blocked_by_canonical','article_fingerprints'}
+          missing=sorted(required-set(data))
+          if missing: raise SystemExit(f'Manifest missing required fields: {missing}')
+          if data['schema_version'] != 2: raise SystemExit(f"Unexpected schema_version: {data['schema_version']}")
+          PY
 
       - name: Publish manifest to monitor-state branch
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          if git ls-remote --exit-code --heads origin monitor-state >/dev/null 2>&1; then
-            git fetch origin monitor-state:monitor-state
-            git checkout monitor-state
+          if git show-ref --verify --quiet refs/remotes/origin/monitor-state; then
+            git checkout -B monitor-state origin/monitor-state
           else
             git checkout -b monitor-state
           fi
-
           cp /tmp/monitor_candidates.json monitor_candidates.json
           git add monitor_candidates.json
-
-          if git diff --cached --quiet; then
-            echo "Manifest unchanged."
-            exit 0
-          fi
-
           git commit -m "Update monitor candidate manifest"
           git push origin monitor-state
+
+      - name: Fail run if locale discovery was incomplete
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('/tmp/monitor_candidates.json').read_text(encoding='utf-8'))
+          if not data.get('complete'):
+              raise SystemExit(f"Incomplete source discovery: {data.get('locale_failures', {})}")
+          PY
