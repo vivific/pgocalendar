@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T07:44:01.830543Z",
+  "generated_at": "2026-09-23T10:59:37.491777Z",
   "calendar_blob_sha": "293aba397cef7d5bdc2f210bf35ae03ef8d159bb",
-  "processed_blob_sha": "df7a678eb70bc9c6e3dca2f94112923ed741f5d9",
+  "processed_blob_sha": "dea4ba5fa862a396903b608a594b001833504bcf",
   "complete": true,
   "locales_checked": [
     "en",
@@ -25,10 +25,10 @@
   "locale_failures": {},
   "counts": {
     "index_slugs": 84,
-    "handled_slugs": 418,
+    "handled_slugs": 419,
     "canonical_source_slugs": 363,
-    "new": 35,
-    "recheck": 9,
+    "new": 34,
+    "recheck": 10,
     "blocked_by_canonical": 1
   },
   "new": [
@@ -134,11 +134,6 @@
     },
     {
       "slug": "lunar-new-year-event-2022",
-      "processed_state": null,
-      "canonical_matches": []
-    },
-    {
-      "slug": "mega-finale-2026-community",
       "processed_state": null,
       "canonical_matches": []
     },
@@ -268,6 +263,11 @@
       "canonical_matches": [
         "hangul-nal-2026"
       ]
+    },
+    {
+      "slug": "mega-finale-2026-community",
+      "processed_state": "ignored",
+      "canonical_matches": []
     },
     {
       "slug": "patterns-of-the-wild-2026",
