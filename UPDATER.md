@@ -260,7 +260,7 @@ The scheduled AI monitor must use `monitor_candidates.json` from the dedicated `
 - `new`: deterministic set subtraction has established that the slug is neither processed/ignored nor represented by canonical `source_slug`.
 - `recheck`: recently handled posts eligible only for material-delta review.
 - `blocked_by_canonical`: diagnostic only; never NEW.
-- Before using the manifest, compare its `calendar_blob_sha` and `processed_blob_sha` with the current `main` blob SHAs for `data/calendar_events.json` and `data/processed_posts.json`. If either differs, or if the manifest is missing/incomplete, the monitor must stay silent rather than fall back to model-side discovery.
+- Before using the manifest, compare its `calendar_blob_sha` and `processed_blob_sha` with the current `main` blob SHAs for `data/calendar_events.json` and `data/processed_posts.json`. Also require a parseable `generated_at` no more than 60 minutes old at the start of the monitor run. If either SHA differs, the manifest is missing/incomplete, locale fetching failed, or the manifest is stale, the monitor must stay silent rather than fall back to model-side discovery.
 - The `monitor-state` branch is machine state only. Routine editorial/updater work must not merge it into `main` or treat its commits as canonical calendar history.
 - Editorial interpretation remains the AI's job, but identity/set membership does not.
 
