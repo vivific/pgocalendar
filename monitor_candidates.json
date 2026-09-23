@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T18:51:07.005034Z",
+  "generated_at": "2026-09-23T21:05:23.681887Z",
   "calendar_blob_sha": "1da3dcc03d80dd8e1dd7009f98fa0c588f78fe89",
   "processed_blob_sha": "af76c193a0660d808f0a1402513d1870c37d4a17",
   "complete": true,
@@ -27,7 +27,7 @@
     "index_slugs": 84,
     "handled_slugs": 420,
     "canonical_source_slugs": 363,
-    "new": 33,
+    "new": 34,
     "recheck": 11,
     "blocked_by_canonical": 1
   },
@@ -59,6 +59,11 @@
     },
     {
       "slug": "devdiary-dec2021-seasonofheritage",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "fall-marathon-buddy-trek-2026",
       "processed_state": null,
       "canonical_matches": []
     },
