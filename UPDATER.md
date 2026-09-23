@@ -194,6 +194,25 @@ Use:
 
 ## Monitoring state
 
+### Deterministic discovery gates
+
+Discovery classification must be computed **before article interpretation**. Do not reason from an index entry directly into a "new" candidate.
+
+1. Parse `data/processed_posts.json` and construct `handledSlugs` from every `root.posts[slug]` whose `status` is `"processed"` or `"ignored"`. Other fields, including `bootstrap`, do not affect membership.
+2. Collect slugs from all required locale indexes as `indexSlugs`.
+3. Compute `unseenSlugs = indexSlugs - handledSlugs`. Only these slugs may enter the **new-post** pipeline. A `review` entry may enter review handling, but a processed/ignored slug can only enter the separate recent-edit/recheck pipeline.
+4. Before any new-event notification, build/look up the complete canonical source-slug index. If one or more canonical events already have the candidate `source_slug`, classification as **new is prohibited**. Compare the article against those records and notify only if there is a concrete material delta.
+5. Apply the other canonical candidate-existence checks (ID, URL, title+dates, location/scope/mechanic) as additional dedupe gates.
+
+For every candidate, internally resolve at least: `slug → processed_state → canonical_match_count → classification → material_delta`.
+
+Hard invariants:
+- `classification == "new"` requires both (a) no processed/ignored state for the slug and (b) `canonical_match_count == 0`.
+- `classification == "update"` requires a concrete non-empty `material_delta`.
+- If either invariant fails, suppress the notification rather than trying to reinterpret the candidate as new.
+- A legacy entry such as `{"bootstrap": true, "status": "processed"}` is in `handledSlugs` exactly like any other processed entry.
+
+
 `data/processed_posts.json` is the discovery state.
 
 The slug-indexed monitoring dictionary is **`root.posts`** (that is, the top-level object's `posts` property). Do not look for slugs as top-level keys.
