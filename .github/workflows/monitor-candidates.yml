@@ -1,5 +1,12 @@
 name: Build monitor candidate manifest
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/calendar_events.json'
+      - 'data/processed_posts.json'
+      - 'scripts/monitor_candidates.py'
+      - '.github/workflows/monitor-candidates.yml'
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
