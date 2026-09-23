@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-23T03:55:37.031288Z",
+  "calendar_blob_sha": "153424e1aadce3bf31c7fccb22030dd310104165",
+  "processed_blob_sha": "6eca9acf113146941809d4dec6fca7ed3bc68ebb",
+  "complete": true,
+  "locales_checked": [
+    "en",
+    "de",
+    "es",
+    "es-MX",
+    "fr",
+    "hi",
+    "id",
+    "it",
+    "pl",
+    "pt-BR",
+    "ja",
+    "ko",
+    "ru",
+    "th",
+    "tr",
+    "zh-Hant"
+  ],
+  "locale_failures": {},
+  "counts": {
+    "index_slugs": 84,
+    "handled_slugs": 417,
+    "canonical_source_slugs": 362,
+    "new": 36,
+    "recheck": 8,
+    "blocked_by_canonical": 1
+  },
+  "new": [
+    {
+      "slug": "apac-mall-exploration-2026",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "apex-reveal",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "cd-savethedate-mar-may",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "community-day-classic-bulbasaur-jan22",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "communityday-feb22-hoppip",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "communityday-jan22",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "devdiary-dec2021-seasonofheritage",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "february-2022-content-update",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "flying-pikachu-2022",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "gamescom2026",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "go-battle-league-next-season-update",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "go-fest-2024-community-meetups",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "go-fest-2024-stadium-sights",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "go-fest-2024-ultra-unlock-challenges",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "gofest-2022-berlin-recap",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "gofest2022-finale-event",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "gofest2026-mega-finale-incoming",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "gofestmaxfinale",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "hisuiregion",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "jan-2022-events",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "legends-arceus-outfit",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "lunar-new-year-event-2022",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "mega-finale-2026-community",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "more-mega-updates-2026",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "new-year-2022",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "notable-trainer-meet-greet-go-fest-2024",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "partyplay",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "pgo-explorer-gadget-2026",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "pokeball-prep-go-tour-prep-event",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "pokemongotour-johto-research",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "pokemongotour-live-details",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "season-of-heritage-mountains-of-power-event",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "season-of-heritage-power-plant-event",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "seasons--twilight-trails",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "valentines-day-event-2022",
+      "processed_state": null,
+      "canonical_matches": []
+    },
+    {
+      "slug": "welcome-to-tales-of-transformation",
+      "processed_state": null,
+      "canonical_matches": []
+    }
+  ],
+  "recheck": [
+    {
+      "slug": "202609partnerresearch-jp",
+      "processed_state": "processed",
+      "canonical_matches": [
+        "partner-research-familymart-autumn-2026"
+      ]
+    },
+    {
+      "slug": "event-apac-30th-anniversary-2026",
+      "processed_state": "processed",
+      "canonical_matches": [
+        "pokexciting-kuala-lumpur-pikachu-wild-2026",
+        "pokexciting-taipei-pikachu-wild-2026",
+        "event-apac-30th-anniversary-2026",
+        "pokexciting-singapore-pikachu-wild-2026",
+        "pokexciting-manila-2027",
+        "pokexciting-manila-pikachu-wild-2027",
+        "pokexciting-bangkok-2027",
+        "pokexciting-bangkok-pikachu-wild-2027"
+      ]
+    },
+    {
+      "slug": "event-kuala-lumpur-30th-anniversary-2026",
+      "processed_state": "processed",
+      "canonical_matches": [
+        "event-kuala-lumpur-30th-anniversary-2026",
+        "pokexciting-kuala-lumpur-stamp-rally-2026"
+      ]
+    },
+    {
+      "slug": "go-pass-october-2026",
+      "processed_state": "processed",
+      "canonical_matches": [
+        "go-pass-october-2026"
+      ]
+    },
+    {
+      "slug": "hangul-nal-2026",
+      "processed_state": "processed",
+      "canonical_matches": [
+        "hangul-nal-2026"
+      ]
+    },
+    {
+      "slug": "patterns-of-the-wild-2026",
+      "processed_state": "processed",
+      "canonical_matches": [
+        "patterns-of-the-wild-2026-1",
+        "patterns-of-the-wild-2026-2"
+      ]
+    },
+    {
+      "slug": "pokemongo-iitdelhi-2026",
+      "processed_state": "processed",
+      "canonical_matches": [
+        "pokemongo-iitdelhi-2026"
+      ]
+    },
+    {
+      "slug": "world-space-week-2026",
+      "processed_state": "processed",
+      "canonical_matches": [
+        "world-space-week-2026"
+      ]
+    }
+  ],
+  "blocked_by_canonical": [
+    {
+      "slug": "city-safari-brisbane-know-before-you-go",
+      "processed_state": null,
+      "canonical_matches": [
+        "city-safari-brisbane-2026"
+      ]
+    }
+  ]
+}
