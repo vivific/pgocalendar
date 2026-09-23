@@ -536,9 +536,9 @@
     "patterns-of-the-wild-2026": {
       "bootstrap": true,
       "status": "processed",
-      "last_checked": "2026-09-22T00:25:59Z",
-      "result": "event-updated-split-mechanics",
-      "note": "Corrected the Timed Research availability window to September 28–October 7, 2026 per the official article; the distinct one-day October 2 gameplay event remains a separate canonical bar."
+      "last_checked": "2026-09-23T18:50:14Z",
+      "result": "event-updated-official-correction",
+      "note": "Official article changed the Timed Research cutoff from October 7 back to October 10, 2026; canonical research window updated to match the current live page while the separate October 2 gameplay event remains unchanged."
     },
     "pgo-pokemon-fossil-musuem-chicago-2026": {
       "bootstrap": true,

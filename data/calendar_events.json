@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-23T04:40:34Z",
+  "updated_at": "2026-09-23T18:50:14Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -9483,7 +9483,7 @@
       "id": "patterns-of-the-wild-2026-1",
       "title": "Patterns of the Wild Timed Research",
       "start": "2026-09-28",
-      "end": "2026-10-07",
+      "end": "2026-10-10",
       "category": "Timed Research",
       "scope": "Regional / In-person",
       "location": "Indonesia",
@@ -9494,7 +9494,7 @@
       "source_slug": "patterns-of-the-wild-2026",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "Timed Research is available to new players in Indonesia from September 28 at 6:00 a.m. through October 7, 2026 at 11:59 p.m. local time. The separate October 2 Patterns of the Wild event window is tracked as its own bar.",
+      "notes": "Timed Research is available to new players in Indonesia from September 28 at 6:00 a.m. through October 10, 2026 at 11:59 p.m. local time. The official article was edited after an earlier October 7 cutoff; this record follows the current live page. The separate October 2 Patterns of the Wild event window is tracked as its own bar.",
       "access": [
         "regional"
       ],
