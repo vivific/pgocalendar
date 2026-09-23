@@ -236,6 +236,17 @@ For newly handled posts, store useful state such as:
 
 Historical bootstrap entries may remain minimal.
 
+### Machine-enforced monitor discovery
+
+The scheduled AI monitor must use the output of `scripts/monitor_candidates.py` (produced by the `Build monitor candidate manifest` GitHub Actions workflow) as its **only source of NEW candidates**. It must not independently promote a news-index slug to NEW.
+
+- `new`: deterministic set subtraction has established that the slug is neither processed/ignored nor represented by canonical `source_slug`.
+- `recheck`: recently handled posts eligible only for material-delta review.
+- `blocked_by_canonical`: diagnostic only; never NEW.
+- If the manifest is missing, stale, incomplete, or its workflow failed, the monitor must stay silent rather than fall back to model-side discovery.
+- Editorial interpretation remains the AI's job, but identity/set membership does not.
+
+
 ## Recent edits
 
 Niantic may edit News posts after publication. Re-read recently discovered/updated posts when practical, especially within roughly the last 14 days. If an official correction changes dates, location, access, cancellation status, or event identity, update the canonical event.
