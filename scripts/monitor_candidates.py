@@ -333,14 +333,22 @@ def main():
         )
     )
 
+    previous_pending = set()
+    if isinstance(previous_manifest, dict):
+        for queue_name in ("new", "unresolved_new"):
+            for item in previous_manifest.get(queue_name, []) or []:
+                if isinstance(item, dict) and item.get("slug"):
+                    previous_pending.add(item["slug"])
+
+    candidate_pool = newly_visible_index | previous_pending
     unseen = sorted(
         slug
-        for slug in newly_visible_index
+        for slug in candidate_pool
         if slug not in handled and not canonical.get(slug)
     )
     blocked = sorted(
         slug
-        for slug in newly_visible_index
+        for slug in candidate_pool
         if slug not in handled and canonical.get(slug)
     )
 
@@ -547,6 +555,7 @@ def main():
             "index_slugs": len(full_index),
             "discovery_index_slugs": len(discovery_index),
             "newly_visible_index_slugs": len(newly_visible_index),
+            "pending_new_slugs": len(candidate_pool),
             "handled_slugs": len(handled),
             "canonical_source_slugs": len(canonical),
             "unseen": len(unseen),
