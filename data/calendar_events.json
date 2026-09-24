@@ -9365,19 +9365,20 @@
     {
       "id": "boston-city-safari-know-before-you-go",
       "title": "Pokémon GO City Safari: Boston",
-      "start": "2026-09-26",
-      "end": "2026-09-27",
+      "start": null,
+      "end": null,
       "category": "City Safari",
       "scope": "Regional / In-person",
       "location": "Boston, Massachusetts, USA",
-      "source_url": "https://pokemongo.com/en/news/boston-city-safari-know-before-you-go",
+      "source_url": "https://pokemongo.com/en/news/city-safari-boston-update",
       "source_urls": [
+        "https://pokemongo.com/en/news/city-safari-boston-update",
         "https://pokemongo.com/en/news/boston-city-safari-know-before-you-go"
       ],
-      "source_slug": "boston-city-safari-know-before-you-go",
+      "source_slug": "city-safari-boston-update",
       "source_locale": "en",
-      "status": "confirmed",
-      "notes": "",
+      "status": "postponed",
+      "notes": "Originally scheduled for September 26–27, 2026, 10:00 a.m.–6:00 p.m. local time. On September 24, 2026, Pokémon GO announced that City Safari Boston would be rescheduled because of the projected severity of an incoming storm. Ticket sales are closed. New event dates and options for existing ticket holders have not yet been announced. The null dates intentionally keep this postponed event off the active calendar until official replacement dates are published.",
       "access": [
         "onsite",
         "ticketed"

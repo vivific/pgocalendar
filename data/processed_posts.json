@@ -2007,6 +2007,14 @@
       "locale_discovered": "en",
       "source_url": "https://pokemongo.com/en/news/sandile-hatch-day-2026",
       "result": "event-updated: detailed Sandile Hatch Day source replaced October 17 save-the-date placeholder"
+    },
+    "city-safari-boston-update": {
+      "first_seen": "2026-09-24T17:05:00Z",
+      "last_checked": "2026-09-24T17:05:00Z",
+      "status": "processed",
+      "locale_discovered": "en",
+      "source_url": "https://pokemongo.com/en/news/city-safari-boston-update",
+      "result": "event-updated: Boston City Safari postponed; replacement dates pending"
     }
   }
 }

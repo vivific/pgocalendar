@@ -142,7 +142,7 @@ This subtype is a live usability aid, not a replacement for `category` or `acces
 {
   "id": "stable-human-readable-id",
   "title": "Official or concise canonical title",
-  "start": "YYYY-MM-DD",
+  "start": "YYYY-MM-DD or null only for an officially postponed event with replacement dates pending",
   "end": "YYYY-MM-DD or null",
   "category": "Event",
   "scope": "Global or Regional / In-person etc.",
@@ -207,7 +207,10 @@ If a Pokémon encounter mechanic explicitly persists beyond its parent event (fo
 Use:
 - `confirmed` when full event details/dates are officially published;
 - `announced` for future save-the-date information that is specific enough to be useful but not yet fully detailed;
+- `postponed` when an official source explicitly postpones/reschedules an event and replacement dates have not yet been announced;
 - `cancelled` only when an official source says the event was cancelled.
+
+For a `postponed` event whose replacement dates are not yet known, preserve the existing stable event `id`, set `start` and `end` to `null`, keep the superseded dates in `notes`, and make the postponement/correction notice the primary source. This intentionally removes the stale bar from the rendered calendar without misclassifying the event as cancelled. Restore concrete dates and the appropriate normal status once an official replacement schedule is published.
 
 ## Monitoring state
 
