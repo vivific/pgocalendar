@@ -241,6 +241,7 @@ def main():
 
     by_locale = {}
     discovery_by_locale = {}
+    newly_visible_by_locale = {}
     locale_states = {}
     locale_failures = {}
     started = now()
@@ -257,13 +258,18 @@ def main():
             ordered = ordered_unique(HREF.findall(raw))
             by_locale[locale] = ordered
 
-            previous_recent = set()
             previous_state = previous_locale_states.get(locale, {})
-            if isinstance(previous_state, dict):
-                previous_recent = set(previous_state.get("recent_slugs", []) or [])
+            previous_recent_list = (
+                list(previous_state.get("recent_slugs", []) or [])
+                if isinstance(previous_state, dict)
+                else []
+            )
+            previous_recent = set(previous_recent_list)
 
             window_len = min(len(ordered), args.recent_limit)
-            if previous_recent:
+            first_known = None
+            baseline_established = bool(previous_recent)
+            if baseline_established:
                 first_known = next(
                     (
                         index
@@ -274,11 +280,17 @@ def main():
                 )
                 if first_known is None:
                     window_len = min(len(ordered), args.burst_cap)
+                    newly_visible = ordered[:window_len]
                 else:
                     window_len = max(window_len, first_known + 1)
+                    newly_visible = ordered[:first_known]
+            else:
+                # First run for this locale establishes a baseline only.
+                newly_visible = []
 
             discovery_window = ordered[:window_len]
             discovery_by_locale[locale] = discovery_window
+            newly_visible_by_locale[locale] = newly_visible
             locale_states[locale] = {
                 "url": url,
                 "final_url": final,
@@ -287,6 +299,9 @@ def main():
                 "slug_count": len(ordered),
                 "recent_slugs": ordered[: args.recent_limit],
                 "discovery_window_slugs": discovery_window,
+                "newly_visible_slugs": newly_visible,
+                "baseline_established": baseline_established,
+                "baseline_overlap_index": first_known,
                 "etag": headers.get("ETag"),
                 "last_modified": headers.get("Last-Modified"),
             }
@@ -300,8 +315,12 @@ def main():
     discovery_index = set()
     for slugs in discovery_by_locale.values():
         discovery_index.update(slugs)
+    newly_visible_index = set()
+    for slugs in newly_visible_by_locale.values():
+        newly_visible_index.update(slugs)
     index_slugs = sorted(full_index)
     discovery_index_slugs = sorted(discovery_index)
+    newly_visible_index_slugs = sorted(newly_visible_index)
     discovered = {
         slug: [locale for locale in LOCALES if slug in by_locale.get(locale, [])]
         for slug in index_slugs
@@ -316,12 +335,12 @@ def main():
 
     unseen = sorted(
         slug
-        for slug in discovery_index
+        for slug in newly_visible_index
         if slug not in handled and not canonical.get(slug)
     )
     blocked = sorted(
         slug
-        for slug in discovery_index
+        for slug in newly_visible_index
         if slug not in handled and canonical.get(slug)
     )
 
@@ -518,6 +537,7 @@ def main():
         "index_snapshot_sha256": index_hash,
         "index_slugs": index_slugs,
         "discovery_index_slugs": discovery_index_slugs,
+        "newly_visible_index_slugs": newly_visible_index_slugs,
         "index_delta": index_delta,
         "source_changed": bool(index_delta["added"] or index_delta["removed"]),
         "article_failures": article_failures,
@@ -526,6 +546,7 @@ def main():
         "counts": {
             "index_slugs": len(full_index),
             "discovery_index_slugs": len(discovery_index),
+            "newly_visible_index_slugs": len(newly_visible_index),
             "handled_slugs": len(handled),
             "canonical_source_slugs": len(canonical),
             "unseen": len(unseen),
