@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-24T16:03:00Z",
+  "updated_at": "2026-09-24T17:05:00Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -9969,7 +9969,7 @@
     },
     {
       "id": "hatch-day-2026-10-17",
-      "title": "October 17, 2026 Hatch Day",
+      "title": "Sandile Hatch Day",
       "start": "2026-10-17",
       "end": "2026-10-17",
       "category": "Hatch Day",
@@ -9978,14 +9978,29 @@
       "access": [
         "global"
       ],
-      "source_url": "https://pokemongo.com/news/save-the-date-s24",
+      "source_url": "https://pokemongo.com/en/news/sandile-hatch-day-2026",
       "source_urls": [
+        "https://pokemongo.com/en/news/sandile-hatch-day-2026",
         "https://pokemongo.com/news/save-the-date-s24"
       ],
-      "source_slug": "save-the-date-s24",
+      "source_slug": "sandile-hatch-day-2026",
       "source_locale": "en",
-      "status": "announced",
-      "notes": "Date and event type are officially announced; featured Pokémon/details have not yet been published."
+      "status": "confirmed",
+      "notes": "Runs from 11:00 a.m. to 5:00 p.m. local time. Sandile hatches much more frequently from 2 km Eggs, with an increased chance of hatching Shiny Sandile and an increased chance of receiving 2 km Eggs from spinning PokéStops. Free event-exclusive Timed Research awards an Incubator and XP and expires at 5:00 p.m. Optional US$1.99 paid Timed Research grants 1/4 Egg Hatch Distance during the event and rewards including one Star Piece and two Super Incubators; this optional ticket does not make the base event ticketed.",
+      "bonuses": [
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "hatch",
+          "label": "2× Hatch Candy"
+        },
+        {
+          "type": "hatch_distance",
+          "multiplier": 0.5,
+          "action": "incubate",
+          "label": "1/2 Egg Hatch Distance"
+        }
+      ]
     },
     {
       "id": "pokemon-run-30-2026-taiwan-taichung",

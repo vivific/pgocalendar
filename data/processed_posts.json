@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "monitor_from": "2026-09-20",
-  "last_checked_at": "2026-09-24T16:03:00Z",
+  "last_checked_at": "2026-09-24T17:05:00Z",
   "posts": {
     "10th-anniversary-celebration": {
       "bootstrap": true,
@@ -1999,6 +1999,14 @@
       "locale_discovered": "en",
       "source_url": "https://pokemongo.com/en/news/pokemon-x-adidas-2026",
       "result": "event-added: onsite adidas Timed Research at participating stores worldwide"
+    },
+    "sandile-hatch-day-2026": {
+      "first_seen": "2026-09-24T17:05:00Z",
+      "last_checked": "2026-09-24T17:05:00Z",
+      "status": "processed",
+      "locale_discovered": "en",
+      "source_url": "https://pokemongo.com/en/news/sandile-hatch-day-2026",
+      "result": "event-updated: detailed Sandile Hatch Day source replaced October 17 save-the-date placeholder"
     }
   }
 }
