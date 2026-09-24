@@ -385,6 +385,9 @@ def main():
         if details.get("content_sha256"):
             write_payload(slug, "new", False)
 
+    admitted_new = [slug for slug in unseen if slug in payload_meta]
+    unresolved_new = [slug for slug in unseen if slug not in payload_meta]
+
     for slug in sorted(eligible):
         details = current_articles.get(slug, {})
         previous = previous_snapshots.get(slug)
@@ -480,14 +483,25 @@ def main():
             "index_slugs": len(index),
             "handled_slugs": len(handled),
             "canonical_source_slugs": len(canonical),
-            "new": len(unseen),
-            "new_with_payload": sum(1 for slug in unseen if slug in payload_meta),
+            "unseen": len(unseen),
+            "new": len(admitted_new),
+            "unresolved_new": len(unresolved_new),
             "recheck": len(recheck_slugs),
             "blocked_by_canonical": len(blocked),
             "recheck_eligible_fingerprinted": len(eligible),
         },
-        "new": [item(slug) for slug in unseen],
+        "new": [item(slug) for slug in admitted_new],
         "recheck": [item(slug, True) for slug in recheck_slugs],
+        "unresolved_new": [
+            {
+                "slug": slug,
+                "processed_state": posts.get(slug, {}).get("status"),
+                "canonical_matches": canonical.get(slug, []),
+                "discovery_locales": discovered.get(slug, []),
+                "article_failure": article_failures.get(slug, {}),
+            }
+            for slug in unresolved_new
+        ],
         "blocked_by_canonical": [
             {
                 "slug": slug,

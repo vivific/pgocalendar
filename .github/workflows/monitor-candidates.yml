@@ -77,7 +77,7 @@ jobs:
               'source_snapshot_at', 'calendar_blob_sha', 'processed_blob_sha',
               'complete', 'locale_failures', 'locale_states',
               'index_snapshot_sha256', 'index_slugs', 'new', 'recheck',
-              'blocked_by_canonical', 'article_fingerprints',
+              'unresolved_new', 'blocked_by_canonical', 'article_fingerprints',
               'article_snapshots_path', 'article_snapshots_sha256'
           }
           missing = sorted(required - set(data))
