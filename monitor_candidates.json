@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
   "payload_schema_version": 1,
-  "generated_at": "2026-09-24T17:23:49.233052Z",
-  "source_snapshot_at": "2026-09-24T17:23:03.802269Z",
-  "source_fetch_started_at": "2026-09-24T17:22:53.356488Z",
-  "previous_source_snapshot_at": "2026-09-24T17:10:48.689993Z",
+  "generated_at": "2026-09-24T17:28:00.240403Z",
+  "source_snapshot_at": "2026-09-24T17:27:34.182669Z",
+  "source_fetch_started_at": "2026-09-24T17:27:21.759915Z",
+  "previous_source_snapshot_at": "2026-09-24T17:23:03.802269Z",
   "calendar_blob_sha": "0a14dd2ee12405204b5795b387aaa7e979577b8a",
   "processed_blob_sha": "3f2f85358365c0c6dcc9739721dc7c98b73a8765",
   "complete": true,
@@ -31,7 +31,7 @@
     "en": {
       "url": "https://pokemongo.com/en/news",
       "final_url": "https://pokemongo.com/en/news",
-      "fetched_at": "2026-09-24T17:22:53.921947Z",
+      "fetched_at": "2026-09-24T17:27:22.055260Z",
       "index_sha256": "a35ce84476c7d609819f1f51137ea00ec4222501401e10365ac2dcc76702533d",
       "slug_count": 30,
       "recent_slugs": [
@@ -39,32 +39,14 @@
         "city-safari-boston-update",
         "pokemon-x-adidas-2026",
         "save-the-date-go-tour-2027",
-        "fall-marathon-buddy-trek-2026",
-        "apac-mall-exploration-2026",
-        "go-pass-october-2026",
-        "world-space-week-2026",
-        "pokemongo-iitdelhi-2026",
-        "european-space-agency-event",
-        "city-safari-brisbane-know-before-you-go",
-        "communityday-october-2026-zorua",
-        "choose-your-path-twilight-trails-2026",
-        "city-safaris-europe-2026",
-        "patterns-of-the-wild-2026",
-        "boston-city-safari-know-before-you-go",
-        "gigantamax-cinderace-max-battle-day-2026",
-        "gowildarea-sendai-ticket-update",
-        "harvest-festival-tgr-2026",
-        "harvest-festival-2026",
-        "pokemon-horizons-celebration-event-2026",
-        "staraptor-super-mega-raid-day-2026",
-        "mega-squads-2026",
-        "mega-finale-2026-community",
-        "communitydayclassic-gible-september-2026",
-        "go-battle-league-twilight-trails",
-        "more-mega-updates-2026",
-        "megafinale-2026-armored-mewtwo",
-        "catch-mastery-phantump-2026",
-        "seasons--twilight-trails"
+        "fall-marathon-buddy-trek-2026"
+      ],
+      "discovery_window_slugs": [
+        "sandile-hatch-day-2026",
+        "city-safari-boston-update",
+        "pokemon-x-adidas-2026",
+        "save-the-date-go-tour-2027",
+        "fall-marathon-buddy-trek-2026"
       ],
       "etag": null,
       "last_modified": null
@@ -72,7 +54,7 @@
     "de": {
       "url": "https://pokemongo.com/de/news",
       "final_url": "https://pokemongo.com/de/news",
-      "fetched_at": "2026-09-24T17:22:54.429193Z",
+      "fetched_at": "2026-09-24T17:27:22.631672Z",
       "index_sha256": "b8ba2f91243c205db2fbefc88dc41e6375f49b5819e829064fbd45484903439a",
       "slug_count": 30,
       "recent_slugs": [
@@ -80,32 +62,14 @@
         "pokemon-x-adidas-2026",
         "save-the-date-go-tour-2027",
         "fall-marathon-buddy-trek-2026",
-        "go-pass-october-2026",
-        "world-space-week-2026",
-        "european-space-agency-event",
-        "communityday-october-2026-zorua",
-        "choose-your-path-twilight-trails-2026",
-        "city-safaris-europe-2026",
-        "gigantamax-cinderace-max-battle-day-2026",
-        "harvest-festival-tgr-2026",
-        "harvest-festival-2026",
-        "pokemon-horizons-celebration-event-2026",
-        "staraptor-super-mega-raid-day-2026",
-        "mega-squads-2026",
-        "mega-finale-2026-community",
-        "communitydayclassic-gible-september-2026",
-        "go-battle-league-twilight-trails",
-        "more-mega-updates-2026",
-        "megafinale-2026-armored-mewtwo",
-        "catch-mastery-phantump-2026",
-        "go-pass-september-2026",
-        "gamescom2026",
-        "pgo-explorer-gadget-2026",
-        "10th-anniversary-celebration",
-        "save-the-date-s24",
-        "world-championships-event-2026",
-        "gofest2026-finale-save-the-date",
-        "go-pass-august-2026"
+        "go-pass-october-2026"
+      ],
+      "discovery_window_slugs": [
+        "sandile-hatch-day-2026",
+        "pokemon-x-adidas-2026",
+        "save-the-date-go-tour-2027",
+        "fall-marathon-buddy-trek-2026",
+        "go-pass-october-2026"
       ],
       "etag": null,
       "last_modified": null
@@ -113,7 +77,7 @@
     "es": {
       "url": "https://pokemongo.com/es/news",
       "final_url": "https://pokemongo.com/es/news",
-      "fetched_at": "2026-09-24T17:22:55.047264Z",
+      "fetched_at": "2026-09-24T17:27:23.629972Z",
       "index_sha256": "f3644d5eb46e0775955d95cc7c689af74754507ec10015c9d2d76c90b344e4dc",
       "slug_count": 30,
       "recent_slugs": [
@@ -121,32 +85,14 @@
         "pokemon-x-adidas-2026",
         "save-the-date-go-tour-2027",
         "fall-marathon-buddy-trek-2026",
-        "go-pass-october-2026",
-        "world-space-week-2026",
-        "european-space-agency-event",
-        "communityday-october-2026-zorua",
-        "choose-your-path-twilight-trails-2026",
-        "city-safaris-europe-2026",
-        "boston-city-safari-know-before-you-go",
-        "gigantamax-cinderace-max-battle-day-2026",
-        "harvest-festival-tgr-2026",
-        "harvest-festival-2026",
-        "comic-con-malaga-2026",
-        "pokemon-horizons-celebration-event-2026",
-        "staraptor-super-mega-raid-day-2026",
-        "mega-squads-2026",
-        "mega-finale-2026-community",
-        "communitydayclassic-gible-september-2026",
-        "go-battle-league-twilight-trails",
-        "more-mega-updates-2026",
-        "megafinale-2026-armored-mewtwo",
-        "catch-mastery-phantump-2026",
-        "go-pass-september-2026",
-        "pgo-explorer-gadget-2026",
-        "10th-anniversary-celebration",
-        "save-the-date-s24",
-        "world-championships-event-2026",
-        "gofest2026-finale-save-the-date"
+        "go-pass-october-2026"
+      ],
+      "discovery_window_slugs": [
+        "sandile-hatch-day-2026",
+        "pokemon-x-adidas-2026",
+        "save-the-date-go-tour-2027",
+        "fall-marathon-buddy-trek-2026",
+        "go-pass-october-2026"
       ],
       "etag": null,
       "last_modified": null
@@ -154,17 +100,18 @@
     "es-MX": {
       "url": "https://pokemongo.com/es-MX/news",
       "final_url": "https://pokemongo.com/es-MX/news",
-      "fetched_at": "2026-09-24T17:22:55.668844Z",
+      "fetched_at": "2026-09-24T17:27:24.027039Z",
       "index_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "slug_count": 0,
       "recent_slugs": [],
+      "discovery_window_slugs": [],
       "etag": null,
       "last_modified": null
     },
     "fr": {
       "url": "https://pokemongo.com/fr/news",
       "final_url": "https://pokemongo.com/fr/news",
-      "fetched_at": "2026-09-24T17:22:57.318037Z",
+      "fetched_at": "2026-09-24T17:27:24.703513Z",
       "index_sha256": "0fb3e369d15ad129bd07b8bcd3953c2d60cf6e6669522ff9f38e3c532befbece",
       "slug_count": 30,
       "recent_slugs": [
@@ -172,32 +119,14 @@
         "pokemon-x-adidas-2026",
         "save-the-date-go-tour-2027",
         "fall-marathon-buddy-trek-2026",
-        "go-pass-october-2026",
-        "world-space-week-2026",
-        "european-space-agency-event",
-        "communityday-october-2026-zorua",
-        "choose-your-path-twilight-trails-2026",
-        "city-safaris-europe-2026",
-        "boston-city-safari-know-before-you-go",
-        "gigantamax-cinderace-max-battle-day-2026",
-        "harvest-festival-tgr-2026",
-        "harvest-festival-2026",
-        "pokemon-horizons-celebration-event-2026",
-        "staraptor-super-mega-raid-day-2026",
-        "mega-squads-2026",
-        "mega-finale-2026-community",
-        "communitydayclassic-gible-september-2026",
-        "go-battle-league-twilight-trails",
-        "more-mega-updates-2026",
-        "megafinale-2026-armored-mewtwo",
-        "catch-mastery-phantump-2026",
-        "go-pass-september-2026",
-        "pgo-explorer-gadget-2026",
-        "10th-anniversary-celebration",
-        "save-the-date-s24",
-        "world-championships-event-2026",
-        "gofest2026-finale-save-the-date",
-        "go-pass-august-2026"
+        "go-pass-october-2026"
+      ],
+      "discovery_window_slugs": [
+        "sandile-hatch-day-2026",
+        "pokemon-x-adidas-2026",
+        "save-the-date-go-tour-2027",
+        "fall-marathon-buddy-trek-2026",
+        "go-pass-october-2026"
       ],
       "etag": null,
       "last_modified": null
@@ -205,7 +134,7 @@
     "hi": {
       "url": "https://pokemongo.com/hi/news",
       "final_url": "https://pokemongo.com/hi/news",
-      "fetched_at": "2026-09-24T17:22:57.935332Z",
+      "fetched_at": "2026-09-24T17:27:25.799470Z",
       "index_sha256": "253e2657cf8c2d1829db65b8eab69bd09ddbbf271d9aeb50389844ce2a9354be",
       "slug_count": 30,
       "recent_slugs": [
@@ -213,32 +142,14 @@
         "pokemon-x-adidas-2026",
         "save-the-date-go-tour-2027",
         "fall-marathon-buddy-trek-2026",
-        "go-pass-october-2026",
-        "world-space-week-2026",
-        "communityday-october-2026-zorua",
-        "choose-your-path-twilight-trails-2026",
-        "gigantamax-cinderace-max-battle-day-2026",
-        "harvest-festival-tgr-2026",
-        "harvest-festival-2026",
-        "pokemon-horizons-celebration-event-2026",
-        "staraptor-super-mega-raid-day-2026",
-        "mega-squads-2026",
-        "mega-finale-2026-community",
-        "communitydayclassic-gible-september-2026",
-        "go-battle-league-twilight-trails",
-        "more-mega-updates-2026",
-        "megafinale-2026-armored-mewtwo",
-        "catch-mastery-phantump-2026",
-        "go-pass-september-2026",
-        "pgo-explorer-gadget-2026",
-        "10th-anniversary-celebration",
-        "gofest2026-mega-finale-incoming",
-        "save-the-date-s24",
-        "world-championships-event-2026",
-        "gofest2026-finale-save-the-date",
-        "fire-and-ice-hatch-day-2026",
-        "save-the-date-go-wild-area-2026",
-        "summer-marathon-2026"
+        "go-pass-october-2026"
+      ],
+      "discovery_window_slugs": [
+        "sandile-hatch-day-2026",
+        "pokemon-x-adidas-2026",
+        "save-the-date-go-tour-2027",
+        "fall-marathon-buddy-trek-2026",
+        "go-pass-october-2026"
       ],
       "etag": null,
       "last_modified": null
@@ -246,7 +157,7 @@
     "id": {
       "url": "https://pokemongo.com/id/news",
       "final_url": "https://pokemongo.com/id/news",
-      "fetched_at": "2026-09-24T17:22:58.590312Z",
+      "fetched_at": "2026-09-24T17:27:26.809266Z",
       "index_sha256": "62c84a8d25f7297bf20c752a0da9abf2001f80d4a1b24f2a1770de2fd2b40b41",
       "slug_count": 30,
       "recent_slugs": [
@@ -254,32 +165,14 @@
         "pokemon-x-adidas-2026",
         "save-the-date-go-tour-2027",
         "fall-marathon-buddy-trek-2026",
-        "go-pass-october-2026",
-        "world-space-week-2026",
-        "communityday-october-2026-zorua",
-        "choose-your-path-twilight-trails-2026",
-        "patterns-of-the-wild-2026",
-        "gigantamax-cinderace-max-battle-day-2026",
-        "harvest-festival-tgr-2026",
-        "harvest-festival-2026",
-        "pokemon-horizons-celebration-event-2026",
-        "staraptor-super-mega-raid-day-2026",
-        "mega-squads-2026",
-        "mega-finale-2026-community",
-        "communitydayclassic-gible-september-2026",
-        "go-battle-league-twilight-trails",
-        "more-mega-updates-2026",
-        "megafinale-2026-armored-mewtwo",
-        "catch-mastery-phantump-2026",
-        "go-pass-september-2026",
-        "dancing-in-the-moonlight-2026",
-        "pgo-explorer-gadget-2026",
-        "10th-anniversary-celebration",
-        "gofest2026-mega-finale-incoming",
-        "save-the-date-s24",
-        "world-championships-event-2026",
-        "gofest2026-finale-save-the-date",
-        "go-pass-august-2026"
+        "go-pass-october-2026"
+      ],
+      "discovery_window_slugs": [
+        "sandile-hatch-day-2026",
+        "pokemon-x-adidas-2026",
+        "save-the-date-go-tour-2027",
+        "fall-marathon-buddy-trek-2026",
+        "go-pass-october-2026"
       ],
       "etag": null,
       "last_modified": null
@@ -287,7 +180,7 @@
     "it": {
       "url": "https://pokemongo.com/it/news",
       "final_url": "https://pokemongo.com/it/news",
-      "fetched_at": "2026-09-24T17:22:59.438508Z",
+      "fetched_at": "2026-09-24T17:27:27.737690Z",
       "index_sha256": "d26f9e303bd2caf54994259c74d31ff40aa488376250043678dd2269a8e2d91d",
       "slug_count": 30,
       "recent_slugs": [
@@ -295,32 +188,14 @@
         "pokemon-x-adidas-2026",
         "save-the-date-go-tour-2027",
         "fall-marathon-buddy-trek-2026",
-        "go-pass-october-2026",
-        "world-space-week-2026",
-        "european-space-agency-event",
-        "communityday-october-2026-zorua",
-        "choose-your-path-twilight-trails-2026",
-        "city-safaris-europe-2026",
-        "gigantamax-cinderace-max-battle-day-2026",
-        "harvest-festival-tgr-2026",
-        "harvest-festival-2026",
-        "pokemon-horizons-celebration-event-2026",
-        "staraptor-super-mega-raid-day-2026",
-        "mega-squads-2026",
-        "mega-finale-2026-community",
-        "communitydayclassic-gible-september-2026",
-        "go-battle-league-twilight-trails",
-        "more-mega-updates-2026",
-        "megafinale-2026-armored-mewtwo",
-        "catch-mastery-phantump-2026",
-        "go-pass-september-2026",
-        "pgo-explorer-gadget-2026",
-        "10th-anniversary-celebration",
-        "save-the-date-s24",
-        "world-championships-event-2026",
-        "gofest2026-finale-save-the-date",
-        "go-pass-august-2026",
-        "fire-and-ice-hatch-day-2026"
+        "go-pass-october-2026"
+      ],
+      "discovery_window_slugs": [
+        "sandile-hatch-day-2026",
+        "pokemon-x-adidas-2026",
+        "save-the-date-go-tour-2027",
+        "fall-marathon-buddy-trek-2026",
+        "go-pass-october-2026"
       ],
       "etag": null,
       "last_modified": null
@@ -328,7 +203,7 @@
     "pl": {
       "url": "https://pokemongo.com/pl/news",
       "final_url": "https://pokemongo.com/pl/news",
-      "fetched_at": "2026-09-24T17:23:00.553786Z",
+      "fetched_at": "2026-09-24T17:27:28.891603Z",
       "index_sha256": "93e538b1d664cb4d16b0caf1d43240895863b3991a2fc60a181fddc6198e7586",
       "slug_count": 30,
       "recent_slugs": [
@@ -336,32 +211,14 @@
         "pokemon-x-adidas-2026",
         "save-the-date-go-tour-2027",
         "fall-marathon-buddy-trek-2026",
-        "go-pass-october-2026",
-        "world-space-week-2026",
-        "communityday-october-2026-zorua",
-        "choose-your-path-twilight-trails-2026",
-        "city-safaris-europe-2026",
-        "gigantamax-cinderace-max-battle-day-2026",
-        "harvest-festival-tgr-2026",
-        "harvest-festival-2026",
-        "pokemon-horizons-celebration-event-2026",
-        "staraptor-super-mega-raid-day-2026",
-        "mega-squads-2026",
-        "mega-finale-2026-community",
-        "communitydayclassic-gible-september-2026",
-        "go-battle-league-twilight-trails",
-        "more-mega-updates-2026",
-        "megafinale-2026-armored-mewtwo",
-        "catch-mastery-phantump-2026",
-        "go-pass-september-2026",
-        "pgo-explorer-gadget-2026",
-        "10th-anniversary-celebration",
-        "save-the-date-s24",
-        "world-championships-event-2026",
-        "gofest2026-finale-save-the-date",
-        "go-pass-august-2026",
-        "fire-and-ice-hatch-day-2026",
-        "save-the-date-go-wild-area-2026"
+        "go-pass-october-2026"
+      ],
+      "discovery_window_slugs": [
+        "sandile-hatch-day-2026",
+        "pokemon-x-adidas-2026",
+        "save-the-date-go-tour-2027",
+        "fall-marathon-buddy-trek-2026",
+        "go-pass-october-2026"
       ],
       "etag": null,
       "last_modified": null
@@ -369,17 +226,18 @@
     "pt-BR": {
       "url": "https://pokemongo.com/pt-BR/news",
       "final_url": "https://pokemongo.com/pt-BR/news",
-      "fetched_at": "2026-09-24T17:23:00.826946Z",
+      "fetched_at": "2026-09-24T17:27:30.009479Z",
       "index_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "slug_count": 0,
       "recent_slugs": [],
+      "discovery_window_slugs": [],
       "etag": null,
       "last_modified": null
     },
     "ja": {
       "url": "https://pokemongo.com/ja/news",
       "final_url": "https://pokemongo.com/ja/news",
-      "fetched_at": "2026-09-24T17:23:01.028691Z",
+      "fetched_at": "2026-09-24T17:27:30.802962Z",
       "index_sha256": "3dcfced87af585aeb49892a20da50ab43fef6af476c55ea61cd35beb48883126",
       "slug_count": 30,
       "recent_slugs": [
@@ -387,32 +245,14 @@
         "pokemon-x-adidas-2026",
         "save-the-date-go-tour-2027",
         "fall-marathon-buddy-trek-2026",
-        "go-pass-october-2026",
-        "world-space-week-2026",
-        "communityday-october-2026-zorua",
-        "choose-your-path-twilight-trails-2026",
-        "202609partnerresearch-jp",
-        "gigantamax-cinderace-max-battle-day-2026",
-        "gowildarea-sendai-ticket-update",
-        "harvest-festival-tgr-2026",
-        "harvest-festival-2026",
-        "pokemon-horizons-celebration-event-2026",
-        "staraptor-super-mega-raid-day-2026",
-        "mega-squads-2026",
-        "mega-finale-2026-community",
-        "communitydayclassic-gible-september-2026",
-        "go-battle-league-twilight-trails",
-        "more-mega-updates-2026",
-        "megafinale-2026-armored-mewtwo",
-        "legend_research_jp",
-        "catch-mastery-phantump-2026",
-        "go-pass-september-2026",
-        "2026_ana_green",
-        "dancing-in-the-moonlight-2026",
-        "pgo-explorer-gadget-2026",
-        "10th-anniversary-celebration",
-        "event-apac-stamp-rally-2026",
-        "event-apac-30th-anniversary-2026"
+        "go-pass-october-2026"
+      ],
+      "discovery_window_slugs": [
+        "sandile-hatch-day-2026",
+        "pokemon-x-adidas-2026",
+        "save-the-date-go-tour-2027",
+        "fall-marathon-buddy-trek-2026",
+        "go-pass-october-2026"
       ],
       "etag": null,
       "last_modified": null
@@ -420,7 +260,7 @@
     "ko": {
       "url": "https://pokemongo.com/ko/news",
       "final_url": "https://pokemongo.com/ko/news",
-      "fetched_at": "2026-09-24T17:23:01.637879Z",
+      "fetched_at": "2026-09-24T17:27:31.412095Z",
       "index_sha256": "3939e4d755f27d439461c76be976c4f74bcf139b79d43b9a7582347383f8d9bd",
       "slug_count": 30,
       "recent_slugs": [
@@ -428,32 +268,14 @@
         "pokemon-x-adidas-2026",
         "save-the-date-go-tour-2027",
         "fall-marathon-buddy-trek-2026",
-        "go-pass-october-2026",
-        "hangul-nal-2026",
-        "world-space-week-2026",
-        "communityday-october-2026-zorua",
-        "choose-your-path-twilight-trails-2026",
-        "gigantamax-cinderace-max-battle-day-2026",
-        "weekly-branching-tr-korea-2026",
-        "gowildarea-sendai-ticket-update",
-        "harvest-festival-tgr-2026",
-        "harvest-festival-2026",
-        "pokemon-horizons-celebration-event-2026",
-        "staraptor-super-mega-raid-day-2026",
-        "mega-squads-2026",
-        "mega-finale-2026-community",
-        "communitydayclassic-gible-september-2026",
-        "go-battle-league-twilight-trails",
-        "more-mega-updates-2026",
-        "megafinale-2026-armored-mewtwo",
-        "catch-mastery-phantump-2026",
-        "pikachu-autumn-picnic-korea-2026",
-        "go-pass-september-2026",
-        "mega-finale-korea-2026",
-        "dancing-in-the-moonlight-2026",
-        "pgo-explorer-gadget-2026",
-        "10th-anniversary-celebration",
-        "event-apac-stamp-rally-2026"
+        "go-pass-october-2026"
+      ],
+      "discovery_window_slugs": [
+        "sandile-hatch-day-2026",
+        "pokemon-x-adidas-2026",
+        "save-the-date-go-tour-2027",
+        "fall-marathon-buddy-trek-2026",
+        "go-pass-october-2026"
       ],
       "etag": null,
       "last_modified": null
@@ -461,7 +283,7 @@
     "ru": {
       "url": "https://pokemongo.com/ru/news",
       "final_url": "https://pokemongo.com/ru/news",
-      "fetched_at": "2026-09-24T17:23:02.063257Z",
+      "fetched_at": "2026-09-24T17:27:31.931260Z",
       "index_sha256": "13b9ed033d74110ad9db7deb4436cf62974af187ab56adbd8c738cf6a04f0057",
       "slug_count": 30,
       "recent_slugs": [
@@ -469,32 +291,14 @@
         "gofestmaxfinale",
         "go-fest-2025-events-announcement",
         "go-fest-2024-ultra-unlock-challenges",
-        "go-fest-2024-community-meetups",
-        "notable-trainer-meet-greet-go-fest-2024",
-        "go-fest-2024-stadium-sights",
-        "partyplay",
-        "gofest2022-finale-event",
-        "gofest-2022-berlin-recap",
-        "flying-pikachu-2022",
-        "go-battle-league-next-season-update",
-        "pokeball-prep-go-tour-prep-event",
-        "apex-reveal",
-        "cd-savethedate-mar-may",
-        "valentines-day-event-2022",
-        "lunar-new-year-event-2022",
-        "hisuiregion",
-        "pokemongotour-live-details",
-        "legends-arceus-outfit",
-        "february-2022-content-update",
-        "communityday-feb22-hoppip",
-        "season-of-heritage-power-plant-event",
-        "pokemongotour-johto-research",
-        "season-of-heritage-mountains-of-power-event",
-        "community-day-classic-bulbasaur-jan22",
-        "devdiary-dec2021-seasonofheritage",
-        "new-year-2022",
-        "jan-2022-events",
-        "communityday-jan22"
+        "go-fest-2024-community-meetups"
+      ],
+      "discovery_window_slugs": [
+        "welcome-to-tales-of-transformation",
+        "gofestmaxfinale",
+        "go-fest-2025-events-announcement",
+        "go-fest-2024-ultra-unlock-challenges",
+        "go-fest-2024-community-meetups"
       ],
       "etag": null,
       "last_modified": null
@@ -502,7 +306,7 @@
     "th": {
       "url": "https://pokemongo.com/th/news",
       "final_url": "https://pokemongo.com/th/news",
-      "fetched_at": "2026-09-24T17:23:02.593233Z",
+      "fetched_at": "2026-09-24T17:27:32.522397Z",
       "index_sha256": "4319f5d6f3c70f1ee7ddf6b8515d9a27395c28074602f5bf1fb6ac4cd31a87a9",
       "slug_count": 30,
       "recent_slugs": [
@@ -510,32 +314,14 @@
         "pokemon-x-adidas-2026",
         "save-the-date-go-tour-2027",
         "fall-marathon-buddy-trek-2026",
-        "apac-mall-exploration-2026",
-        "go-pass-october-2026",
-        "world-space-week-2026",
-        "communityday-october-2026-zorua",
-        "choose-your-path-twilight-trails-2026",
-        "gigantamax-cinderace-max-battle-day-2026",
-        "harvest-festival-tgr-2026",
-        "harvest-festival-2026",
-        "pokemon-horizons-celebration-event-2026",
-        "staraptor-super-mega-raid-day-2026",
-        "mega-squads-2026",
-        "mega-finale-2026-community",
-        "communitydayclassic-gible-september-2026",
-        "go-battle-league-twilight-trails",
-        "more-mega-updates-2026",
-        "megafinale-2026-armored-mewtwo",
-        "catch-mastery-phantump-2026",
-        "go-pass-september-2026",
-        "pgo-explorer-gadget-2026",
-        "10th-anniversary-celebration",
-        "event-apac-stamp-rally-2026",
-        "gofest2026-mega-finale-incoming",
-        "save-the-date-s24",
-        "world-championships-event-2026",
-        "gofest2026-finale-save-the-date",
-        "go-pass-august-2026"
+        "apac-mall-exploration-2026"
+      ],
+      "discovery_window_slugs": [
+        "sandile-hatch-day-2026",
+        "pokemon-x-adidas-2026",
+        "save-the-date-go-tour-2027",
+        "fall-marathon-buddy-trek-2026",
+        "apac-mall-exploration-2026"
       ],
       "etag": null,
       "last_modified": null
@@ -543,7 +329,7 @@
     "tr": {
       "url": "https://pokemongo.com/tr/news",
       "final_url": "https://pokemongo.com/tr/news",
-      "fetched_at": "2026-09-24T17:23:03.153304Z",
+      "fetched_at": "2026-09-24T17:27:33.410027Z",
       "index_sha256": "73a1a54fdcf68750bac87bb5bb2019cb59879f2fbc97ac786c05203cc5bd3b02",
       "slug_count": 30,
       "recent_slugs": [
@@ -551,32 +337,14 @@
         "pokemon-x-adidas-2026",
         "save-the-date-go-tour-2027",
         "fall-marathon-buddy-trek-2026",
-        "go-pass-october-2026",
-        "world-space-week-2026",
-        "communityday-october-2026-zorua",
-        "choose-your-path-twilight-trails-2026",
-        "gigantamax-cinderace-max-battle-day-2026",
-        "harvest-festival-tgr-2026",
-        "harvest-festival-2026",
-        "pokemon-horizons-celebration-event-2026",
-        "staraptor-super-mega-raid-day-2026",
-        "mega-squads-2026",
-        "mega-finale-2026-community",
-        "communitydayclassic-gible-september-2026",
-        "go-battle-league-twilight-trails",
-        "more-mega-updates-2026",
-        "megafinale-2026-armored-mewtwo",
-        "catch-mastery-phantump-2026",
-        "go-pass-september-2026",
-        "pgo-explorer-gadget-2026",
-        "10th-anniversary-celebration",
-        "save-the-date-s24",
-        "world-championships-event-2026",
-        "gofest2026-finale-save-the-date",
-        "go-pass-august-2026",
-        "fire-and-ice-hatch-day-2026",
-        "save-the-date-go-wild-area-2026",
-        "summer-marathon-2026"
+        "go-pass-october-2026"
+      ],
+      "discovery_window_slugs": [
+        "sandile-hatch-day-2026",
+        "pokemon-x-adidas-2026",
+        "save-the-date-go-tour-2027",
+        "fall-marathon-buddy-trek-2026",
+        "go-pass-october-2026"
       ],
       "etag": null,
       "last_modified": null
@@ -584,10 +352,11 @@
     "zh-Hant": {
       "url": "https://pokemongo.com/zh-Hant/news",
       "final_url": "https://pokemongo.com/zh-Hant/news",
-      "fetched_at": "2026-09-24T17:23:03.802236Z",
+      "fetched_at": "2026-09-24T17:27:34.182632Z",
       "index_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "slug_count": 0,
       "recent_slugs": [],
+      "discovery_window_slugs": [],
       "etag": null,
       "last_modified": null
     }
@@ -678,6 +447,20 @@
     "world-championships-event-2026",
     "world-space-week-2026"
   ],
+  "discovery_index_slugs": [
+    "apac-mall-exploration-2026",
+    "city-safari-boston-update",
+    "fall-marathon-buddy-trek-2026",
+    "go-fest-2024-community-meetups",
+    "go-fest-2024-ultra-unlock-challenges",
+    "go-fest-2025-events-announcement",
+    "go-pass-october-2026",
+    "gofestmaxfinale",
+    "pokemon-x-adidas-2026",
+    "sandile-hatch-day-2026",
+    "save-the-date-go-tour-2027",
+    "welcome-to-tales-of-transformation"
+  ],
   "index_delta": {
     "added": [],
     "removed": []
@@ -689,12 +472,6 @@
       "ja": "redirected to https://pokemongo.com/gofestmaxfinale",
       "zh-Hant": "redirected to https://pokemongo.com/gofestmaxfinale",
       "ru": "redirected to https://pokemongo.com/gofestmaxfinale"
-    },
-    "partyplay": {
-      "en": "redirected to https://pokemongo.com/en/partyplay",
-      "ja": "redirected to https://pokemongo.com/ja/partyplay",
-      "zh-Hant": "redirected to https://pokemongo.com/zh-Hant/partyplay",
-      "ru": "redirected to https://pokemongo.com/ru/partyplay"
     },
     "seasons--twilight-trails": {
       "en": "redirected to https://pokemongo.com/seasons/twilight-trails",
@@ -709,199 +486,20 @@
     }
   },
   "article_snapshots_path": "article_snapshots.json",
-  "article_snapshots_sha256": "4d2557f6a17360eb15ceaa0a190e5f8d30da4b8cffc64b7c598e143bfb90e2c2",
+  "article_snapshots_sha256": "96db186887bdc207111221a3e5833fd36f47d566c62819cdf814e07a97cec6f5",
   "counts": {
     "index_slugs": 83,
+    "discovery_index_slugs": 12,
     "handled_slugs": 425,
     "canonical_source_slugs": 367,
-    "unseen": 33,
-    "new": 30,
-    "unresolved_new": 3,
+    "unseen": 4,
+    "new": 2,
+    "unresolved_new": 2,
     "recheck": 0,
-    "blocked_by_canonical": 1,
+    "blocked_by_canonical": 0,
     "recheck_eligible_fingerprinted": 36
   },
   "new": [
-    {
-      "slug": "apex-reveal",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/apex-reveal",
-        "title": "Apex Shadow Lugia and Apex Shadow Ho-Oh Revealed! — Pokémon GO",
-        "signature": "0f86c6aa358a25ff64726cfe59075af82790b5e9ebc24a872355e21864048372",
-        "content_sha256": "e726137aa61eb37d8c53d3b14fe94dc270ee192dd11a6cdbf53fdeaa24699029"
-      },
-      "payload_path": "monitor_payloads/apex-reveal.json",
-      "payload_sha256": "0bdce1a6031fbf3513a93dee073c38c6118e95c1c7c06f363c55747b776eb7c9",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "cd-savethedate-mar-may",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/cd-savethedate-mar-may",
-        "title": "Save the dates: Next Season’s Community Day events! — Pokémon GO",
-        "signature": "773f0f1009e88288da0628d64c2b0d5fcb76774222985582baa27765f34f02a5",
-        "content_sha256": "0074d18622f752e2e129cabfd837e48a44d88083273cf223e76f5f826ff6da05"
-      },
-      "payload_path": "monitor_payloads/cd-savethedate-mar-may.json",
-      "payload_sha256": "33fa1d2e2563ace418a1899218769ca4647715275f38cfbca847ba25ddb00b63",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "community-day-classic-bulbasaur-jan22",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/community-day-classic-bulbasaur-jan22",
-        "title": "Community Day Classic: Back to Bulbasaur — Pokémon GO",
-        "signature": "84f0519c988368dcebf2e49607729a0698bb1f8e845ad3c25a347204a3ecec78",
-        "content_sha256": "38ffff96138c938747ea9836d1f710ac6b3285fe88d38ae0d5193d6062df0de0"
-      },
-      "payload_path": "monitor_payloads/community-day-classic-bulbasaur-jan22.json",
-      "payload_sha256": "e9ee9228178f4cd8f93cf0cb59e46ed80614f8a3a345315597d6d0be9ba9b194",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "communityday-feb22-hoppip",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/communityday-feb22-hoppip",
-        "title": "February 2022 Community Day: Hoppip’s Hop-Along Hangout — Pokémon GO",
-        "signature": "ff85058eb5f020833ba353f4e26432afc1f41e2421ac81f8687ae68e7cf30cf1",
-        "content_sha256": "1ac74cd3658ee9aa782a12411118e8e5d5632cac14d5c0bd4f98b647c0b318d3"
-      },
-      "payload_path": "monitor_payloads/communityday-feb22-hoppip.json",
-      "payload_sha256": "ab97f95c7374dbdf621ea916ccd2ba0b158de5ef33b190327717ceb0f1c33942",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "communityday-jan22",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/communityday-jan22",
-        "title": "January 2022 Community Day: Spheal’s spear-tastic sojourn — Pokémon GO",
-        "signature": "fa6be2729d44ba9f1f9a8df89040a4b7aa7a1e582dd181a0b74211b3dcc35f3d",
-        "content_sha256": "ae606732e947292b81b5dcf08569ce947f4491d00bb8eb639d39ce140615fb5e"
-      },
-      "payload_path": "monitor_payloads/communityday-jan22.json",
-      "payload_sha256": "73dc4938f40c4dfe4506abb846acd9a4a9fc476945104596385783f0f1375143",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "devdiary-dec2021-seasonofheritage",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/devdiary-dec2021-seasonofheritage",
-        "title": "Dev Diaries: The Season of Heritage — Pokémon GO",
-        "signature": "d100e4545aa5fa2efa00a71e7ee7158c32a88c710fc922856a3e3e449db058e4",
-        "content_sha256": "f4bd3901696388f442479f69ba14d17801a3eb8a9230366d3dcbe941ed6a1969"
-      },
-      "payload_path": "monitor_payloads/devdiary-dec2021-seasonofheritage.json",
-      "payload_sha256": "a5b93650e584a5ecd251c9b7cf57c7ceba9693828e5595de5165f9c85a00787d",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "february-2022-content-update",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/february-2022-content-update",
-        "title": "February Content Update: Pokémon GO Tour: Johto, a Hop-ful Community Day, the Valentine’s Day 2022 event, Extra Raid Passes, and more!",
-        "signature": "339019c5ca5aa8f8c271e319d8f470b3c91ed17aff14faeb50b9fa2d032c8df1",
-        "content_sha256": "3a36e178c1ecc0b8269b412694c78f322636c27d59dab7d60a421e2ffa8bc039"
-      },
-      "payload_path": "monitor_payloads/february-2022-content-update.json",
-      "payload_sha256": "9458c8d23b5e8ba6de7b12e5d1885f7f5e503d5167a85daa5f4e2b740d9e96ea",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "flying-pikachu-2022",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/flying-pikachu-2022",
-        "title": "Pokémon Air Adventures global collaboration event coming in May — Pokémon GO",
-        "signature": "2ab8cb151cc718fe185036c386e31e22a5c6678199ecb6e6222b252624c80365",
-        "content_sha256": "843908a2491aa2cd9b14ef1a31b23f60044699e34ba1b6360c5ed71946832a20"
-      },
-      "payload_path": "monitor_payloads/flying-pikachu-2022.json",
-      "payload_sha256": "e650f567ec9e6ba83f29d6957b0f9f4c5033c67aabe5736540f17ca118fdc2fc",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "gamescom2026",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "de"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/gamescom2026",
-        "title": "Pokémon GO auf der gamescom 2026!",
-        "signature": "2792d74032c59f40bf1318675f412cc92ea7f2250e529937577b0f512e79484a",
-        "content_sha256": "b0d7ad7df7a298cfdfc51d1de0b09e68e5d48c02d5af584126c24d4e1d95bd9a"
-      },
-      "payload_path": "monitor_payloads/gamescom2026.json",
-      "payload_sha256": "d1e2abe1609698df65ec698ff2e34cf5cb0ae7cbb2a4d84e13fd012d55c8a2a4",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "go-battle-league-next-season-update",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/go-battle-league-next-season-update",
-        "title": "GO Battle League: Regarding the next Season — Pokémon GO",
-        "signature": "982838090bd19569df598633d66f16f28cee5790d955cc2caebdc85584e290f0",
-        "content_sha256": "8db58e1b41fe4f3ba9d91e0563386c066196a321bf3290b6c427b91a1b22c949"
-      },
-      "payload_path": "monitor_payloads/go-battle-league-next-season-update.json",
-      "payload_sha256": "5cb655a9798412e9ebb0c1729e636443bb1e108cc3fbe828fa3d164bedc9dda1",
-      "payload_schema_version": 1
-    },
     {
       "slug": "go-fest-2024-community-meetups",
       "processed_state": null,
@@ -917,25 +515,7 @@
         "content_sha256": "8d53eaef5b96e82c6d2806e82b61bd89df1f12e0b4623bee7f1a6057c3962887"
       },
       "payload_path": "monitor_payloads/go-fest-2024-community-meetups.json",
-      "payload_sha256": "42473d0fa217f8d48a7eb37ce5d75b8df2829853c7312388734f67290c01a838",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "go-fest-2024-stadium-sights",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/go-fest-2024-stadium-sights",
-        "title": "Get out of the stands and explore during the Stadium Sights event, featuring Pokémon from Pokémon GO Fest 2024: Sendai!",
-        "signature": "b4af8925e765dad44d31b3593c66094fea5bb6814b2858928e96b1a6824bdb6d",
-        "content_sha256": "55d85cc86b8997de32aeef0fb5f755ad095ccd405d2375ed5fb7954ed09b7e55"
-      },
-      "payload_path": "monitor_payloads/go-fest-2024-stadium-sights.json",
-      "payload_sha256": "4163b177bb67e5e097bbed4c7d3ff5161b8397f65047329a81cccc04e1aefc1a",
+      "payload_sha256": "1c39b2ed13d278381cd888a14835824e06d43c80c7bb0124727ef5f82a39c023",
       "payload_schema_version": 1
     },
     {
@@ -953,336 +533,7 @@
         "content_sha256": "fc47e46957cacf006774ab1a4fd72c702d85f662d3687e4659c40bdf4bd0153b"
       },
       "payload_path": "monitor_payloads/go-fest-2024-ultra-unlock-challenges.json",
-      "payload_sha256": "c6d30366c1621d4d96bb0d481f24047ea682f7b8674ab955ea6ec4eb3fd35060",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "gofest-2022-berlin-recap",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/gofest-2022-berlin-recap",
-        "title": "Thank you for coming to Pokémon GO Fest: Berlin!",
-        "signature": "0d84c773514b15f1aa69f4cca5e986f0a16355be2f88dd33db301a1f25d49524",
-        "content_sha256": "d54dd0aab1cdac870f09f518378b98ea72b64eb3d5bdd801c6e6fbabcd4ee608"
-      },
-      "payload_path": "monitor_payloads/gofest-2022-berlin-recap.json",
-      "payload_sha256": "57415c1f814e364fdeca5ab59f08ff62b625b02f39d719e4a80859d771547933",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "gofest2022-finale-event",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/gofest2022-finale-event",
-        "title": "Pokémon GO Fest 2022: Finale event details revealed—Ultra Beasts, Sky Forme Shaymin, and much, much more!",
-        "signature": "eddf1be4f1ee33364813275f27069d95a5ee1dbef91cc4b09ee0262001475239",
-        "content_sha256": "9858f0ef71109622a7e25a0c38e1941322442de9f2761bf304400889e7d056a3"
-      },
-      "payload_path": "monitor_payloads/gofest2022-finale-event.json",
-      "payload_sha256": "521aed5b873c0e7889c6532612518e236981a30be4f49e92a2f41953053cd4bf",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "gofest2026-mega-finale-incoming",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "hi",
-        "id",
-        "th"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/gofest2026-mega-finale-incoming",
-        "title": "A Final Summer Surge of Mega Energy Is Approaching — Pokémon GO",
-        "signature": "93758fecdb3df2b5d32826ffc001e238673cd5484060735aceed67edc9e92b78",
-        "content_sha256": "a04040ae947864403f572c7756d48e28b2c80fd37980acf1db9113a04fc4d81a"
-      },
-      "payload_path": "monitor_payloads/gofest2026-mega-finale-incoming.json",
-      "payload_sha256": "118c454f9c6b4a857ba77b46304da6e098d0a2b8a74f1de872f8f4a6fb1ddeec",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "hisuiregion",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/hisuiregion",
-        "title": "Voltorb found in the Hisui region of the Pokémon Legends: Arceus game have appeared! — Pokémon GO",
-        "signature": "ec178fe358fe263aa3d7916e19a5571823d2858fa4ea4faafb02ce753b91eed4",
-        "content_sha256": "0d9f72a4c81bc00d0c3ab93515e4022efc991f64c0e5ef5cb79155df4bd91b05"
-      },
-      "payload_path": "monitor_payloads/hisuiregion.json",
-      "payload_sha256": "4d3dbdfc17a8beeb4f2eb02c39c154383d25a5471abfe5ae6a59ad98ba5faf73",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "jan-2022-events",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/jan-2022-events",
-        "title": "Coming in January: New Year’s, Mountains of Power, and more! — Pokémon GO",
-        "signature": "652afcaa27b2185b7157bd5e801479bc065b45073b8ef036546ebc8eb0ed5e3a",
-        "content_sha256": "25d6e0d267116c86d0bea9282396de757473472170460e32e3cdfbcb274c5ba9"
-      },
-      "payload_path": "monitor_payloads/jan-2022-events.json",
-      "payload_sha256": "c945cf556dd8e78d09be67b73e53f1a66bb31b581204d725b8f073e316c14f13",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "legends-arceus-outfit",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/legends-arceus-outfit",
-        "title": "New Avatar Items Inspired by <i>Pokémon Legends: Arceus</i> coming soon! — Pokémon GO",
-        "signature": "547439fa4eaa336e5b0428720be325ebf3db59d0237c7695490f91d9d6114028",
-        "content_sha256": "f815e40da9ed54979321d16e7b49bad008dcc4079c2587d4b1cade0fe73a0968"
-      },
-      "payload_path": "monitor_payloads/legends-arceus-outfit.json",
-      "payload_sha256": "bf6c24d57dd2db7dba520b48057e82e6b2fdb1363a6e1498c5a3490c0fc82fa7",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "lunar-new-year-event-2022",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/lunar-new-year-event-2022",
-        "title": "Celebrate Lunar New Year with Pokémon GO’s 2022 Lunar New Year event",
-        "signature": "ba5a9cbaeddd3f0e485b2d5d36a93b5ac054b9e39ae0554f45fcc400aa107df0",
-        "content_sha256": "751d1e7718a218f4c923c908ae715d2aa4d7d533bce8ad433c8f6f960bd46d9a"
-      },
-      "payload_path": "monitor_payloads/lunar-new-year-event-2022.json",
-      "payload_sha256": "faf2ae91e7a35c1658348054f3a66d6734481f19aa9f0c7c76f79d1ccf74b8fe",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "more-mega-updates-2026",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "en",
-        "de",
-        "es",
-        "fr",
-        "hi",
-        "id",
-        "it",
-        "pl",
-        "ja",
-        "ko",
-        "th",
-        "tr"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/more-mega-updates-2026",
-        "title": "More mega moments! Additional Charged Attacks and Mega Mewtwo Adventure Effects debut during Mega Finale! — Pokémon GO",
-        "signature": "0b8bff33d1754f4e2dff863dbae4ac16218b3b7e238e10451c4aec7077a9c732",
-        "content_sha256": "e6a4c20190f209f4936e80cadcddc4db4aa1790a762d3b85b863d8947d144746"
-      },
-      "payload_path": "monitor_payloads/more-mega-updates-2026.json",
-      "payload_sha256": "ee2807a2e4283ec000984f207e595870172c03cfcff6d7d3a48388cf370540fe",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "new-year-2022",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/new-year-2022",
-        "title": "Ring in 2022 with a New Year’s event! — Pokémon GO",
-        "signature": "41020930417c7c7f5c3523969b53c189b8cc5e63b61b99773f47412f108b9ea2",
-        "content_sha256": "8db0e77b03399e243f793ec100ea8ff085090101f9cfd18715b106a32a111412"
-      },
-      "payload_path": "monitor_payloads/new-year-2022.json",
-      "payload_sha256": "be959f8fcdc19d7fdb674f93b748e0cf7ac8cde58b5085ddd922591a9b0a7a81",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "notable-trainer-meet-greet-go-fest-2024",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/notable-trainer-meet-greet-go-fest-2024",
-        "title": "Meet notable Trainers during Pokémon GO Fest 2024 in Madrid and New York City",
-        "signature": "33f3dd96c96f0c370dcbd09745f2033047fad59f0c92ef3e2a033ad27986c940",
-        "content_sha256": "01b0313881f89abdff84ce45bc92c62dfcd54ae54da751e01ae6bb0228829f68"
-      },
-      "payload_path": "monitor_payloads/notable-trainer-meet-greet-go-fest-2024.json",
-      "payload_sha256": "350fb6506bee0e4cdf171092bb677fddd9cfcd566ccb20c330276a6f9226f1cf",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "pgo-explorer-gadget-2026",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "de",
-        "es",
-        "fr",
-        "hi",
-        "id",
-        "it",
-        "pl",
-        "ja",
-        "ko",
-        "th",
-        "tr"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/pgo-explorer-gadget-2026",
-        "title": "The Explorer Gadget Debuts! — Pokémon GO",
-        "signature": "3812b7fa54b60f26ce3b0b8cd48d0f56af6efd6c8917e6bf17da82fb05e26743",
-        "content_sha256": "7e883a84d76533d11317cbf8ef46dbb66c78c349ed80ee8232b177c79ff5a607"
-      },
-      "payload_path": "monitor_payloads/pgo-explorer-gadget-2026.json",
-      "payload_sha256": "700e299469d58f6007d13e7a632359f84b69fc78c881c11811a5144c00af7807",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "pokeball-prep-go-tour-prep-event",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/pokeball-prep-go-tour-prep-event",
-        "title": "Load up on items during the GO Tour Poké Ball Prep Rally event — Pokémon GO",
-        "signature": "ce258be31d6e09e13c4360835a8e0f7125c577b4e3a82d564f4ee9881d89acd2",
-        "content_sha256": "f80cd093a8ffbdd52b4f30c7ef2498cbda327dc1900efe7779491e6e79423fe3"
-      },
-      "payload_path": "monitor_payloads/pokeball-prep-go-tour-prep-event.json",
-      "payload_sha256": "be684c1d7f5a5121ad2355cd9a6a74d67f1f545c2e4c7db8dac5aaec5389a932",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "pokemongotour-johto-research",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/pokemongotour-johto-research",
-        "title": "Pokémon GO Tour: Johto — Special Research and More To Come!",
-        "signature": "b4ac108f051fdf557f33bca098847d057e56c4a0985c7a33ce1e4620e9a2365b",
-        "content_sha256": "344e91435e6603657e9f7d765f3455e7dc20fca3603c283f4f16662a94b3d39e"
-      },
-      "payload_path": "monitor_payloads/pokemongotour-johto-research.json",
-      "payload_sha256": "f9af8884dd153d5206b7df2205919e7a95de4e2ad8499c6a30b6f79f0fb454c4",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "pokemongotour-live-details",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/pokemongotour-live-details",
-        "title": "Pokémon GO Tour: Live – Celebrate the Kanto region in-person at the Monterrey and Kaohsiung live events",
-        "signature": "16d8d979db3478bebba27b0c6125152ec225e808d4156bb4cafa62500bcecdd0",
-        "content_sha256": "473370c283d5e71ddad749d562ee931624bc411bbeda198d5d21e3f3b43d6d03"
-      },
-      "payload_path": "monitor_payloads/pokemongotour-live-details.json",
-      "payload_sha256": "4fe91b6c5341b2010bdda442ef11b0d5d2560697e0847828d2b2d8e3f5fa4d5e",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "season-of-heritage-mountains-of-power-event",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/season-of-heritage-mountains-of-power-event",
-        "title": "Get ready to rock and roll during the Season of Heritage’s Mountains of Power event — Pokémon GO",
-        "signature": "60efabaae461422ffd80121ef96e01aefc6381a06d2cc6b4cd0efba3241d6cde",
-        "content_sha256": "42ec8210d624f729a05733dde198061a380e19a0e346f0b9603fc9725cd423a4"
-      },
-      "payload_path": "monitor_payloads/season-of-heritage-mountains-of-power-event.json",
-      "payload_sha256": "47d9e9f59fedc5d2819595338f33943feff854ccbfdbe7e92f8ba8ea16024c8f",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "season-of-heritage-power-plant-event",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/season-of-heritage-power-plant-event",
-        "title": "Unlock the last part of the door as Helioptile makes its debut in the electrifying Power Plant event — Pokémon GO",
-        "signature": "467d8e911d42fdc674b0fbd9e98bc6886c384bdf62fe11cd8129cdacbbd3a786",
-        "content_sha256": "453c6b8043f8f01ad22e37fbbc4cd6a269996ba1237679b5829d20a3e573baea"
-      },
-      "payload_path": "monitor_payloads/season-of-heritage-power-plant-event.json",
-      "payload_sha256": "3d6a647d673e6ab708d8a95b1c418e68bb37d7a233a39add74e324c7e792f17a",
-      "payload_schema_version": 1
-    },
-    {
-      "slug": "valentines-day-event-2022",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article": {
-        "preferred_locale": "en",
-        "preferred_url": "https://pokemongo.com/en/news/valentines-day-event-2022",
-        "title": "Pokémon GO Valentine’s Day 2022 Event: Flabébé appearing, Valentine’s Day–themed Collection Challenges, and more!",
-        "signature": "e6b8d520c0e1b35dd3e135ff070e12eafc4b1008c680873b4dbca639a3913ed3",
-        "content_sha256": "601cc93b4db137b992c148f105493fbc2d09a436c42828bea40dcc1fd2c0af4f"
-      },
-      "payload_path": "monitor_payloads/valentines-day-event-2022.json",
-      "payload_sha256": "143ee29d864fbda6d1d7fb6ec040ce4c0ffae9ff0d08f7be323a85af2ccb27da",
+      "payload_sha256": "fac6869db948247604428e3c461a9812ad4aaf14e8ebf08ce81441b72214076a",
       "payload_schema_version": 1
     }
   ],
@@ -1303,20 +554,6 @@
       }
     },
     {
-      "slug": "partyplay",
-      "processed_state": null,
-      "canonical_matches": [],
-      "discovery_locales": [
-        "ru"
-      ],
-      "article_failure": {
-        "en": "redirected to https://pokemongo.com/en/partyplay",
-        "ja": "redirected to https://pokemongo.com/ja/partyplay",
-        "zh-Hant": "redirected to https://pokemongo.com/zh-Hant/partyplay",
-        "ru": "redirected to https://pokemongo.com/ru/partyplay"
-      }
-    },
-    {
       "slug": "welcome-to-tales-of-transformation",
       "processed_state": null,
       "canonical_matches": [],
@@ -1331,18 +568,7 @@
       }
     }
   ],
-  "blocked_by_canonical": [
-    {
-      "slug": "city-safari-brisbane-know-before-you-go",
-      "processed_state": null,
-      "canonical_matches": [
-        "city-safari-brisbane-2026"
-      ],
-      "discovery_locales": [
-        "en"
-      ]
-    }
-  ],
+  "blocked_by_canonical": [],
   "article_fingerprints": {
     "202609partnerresearch-jp": {
       "signature": "6139cced2c0480e02cc62bfac13986fcc5471df4a5176667c63457feaf6e3a63",
@@ -1350,7 +576,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/202609partnerresearch-jp",
       "title": "「『Pokémon GO』パートナーリサーチ」を開催します！",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "2026_ana_green": {
       "signature": "db404ed4acdd0962d61c83de8f9eb6472d6315cc08adcb075b9cb346630d38f3",
@@ -1358,7 +584,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/2026_ana_green",
       "title": "Celebrate the launch of the Green Pokémon Jet: Take flight on a new adventure through the ANA and Pokémon GO partnership!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "apac-mall-exploration-2026": {
       "signature": "e0e3022d34254e41ced8154486df3f434bea9e2abec9aa3ce8ca1679c1611b4d",
@@ -1366,15 +592,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/apac-mall-exploration-2026",
       "title": "Pokémon GO joins Pokémon 30th Anniversary Mall Exploration!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "apex-reveal": {
-      "signature": "0f86c6aa358a25ff64726cfe59075af82790b5e9ebc24a872355e21864048372",
-      "content_sha256": "e726137aa61eb37d8c53d3b14fe94dc270ee192dd11a6cdbf53fdeaa24699029",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/apex-reveal",
-      "title": "Apex Shadow Lugia and Apex Shadow Ho-Oh Revealed! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "catch-mastery-phantump-2026": {
       "signature": "8f7aa61cbc49371ce03eecb1871d0c99529e66e198b4da443b05cd4c430d9d32",
@@ -1382,15 +600,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/catch-mastery-phantump-2026",
       "title": "Get ready for a Catch Mastery event featuring Phantump, the Stump Pokémon! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "cd-savethedate-mar-may": {
-      "signature": "773f0f1009e88288da0628d64c2b0d5fcb76774222985582baa27765f34f02a5",
-      "content_sha256": "0074d18622f752e2e129cabfd837e48a44d88083273cf223e76f5f826ff6da05",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/cd-savethedate-mar-may",
-      "title": "Save the dates: Next Season’s Community Day events! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "choose-your-path-twilight-trails-2026": {
       "signature": "cd793e6ec40e37216d8b5d0bad50b64d3d329812222d762b5958a63a6a0c999f",
@@ -1398,7 +608,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/choose-your-path-twilight-trails-2026",
       "title": "Blaze your own trail with new Timed Research during Twilight Trails! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "city-safari-boston-update": {
       "signature": "5eed4b3e11e4cdf5ea8b583f63631ad859ebe8e5569e4c76d93037345a9156b2",
@@ -1406,7 +616,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/city-safari-boston-update",
       "title": "Event Update: City Safari Boston — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "comic-con-malaga-2026": {
       "signature": "3d9cc1ed1494bedccee8c13e518db1949478b234c70b3b5f0f2b39bb6a8cb0b0",
@@ -1414,31 +624,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/comic-con-malaga-2026",
       "title": "Pokémon GO en la Comic-Con Málaga 2026: bonus exclusivos, horarios y dónde jugar",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "community-day-classic-bulbasaur-jan22": {
-      "signature": "84f0519c988368dcebf2e49607729a0698bb1f8e845ad3c25a347204a3ecec78",
-      "content_sha256": "38ffff96138c938747ea9836d1f710ac6b3285fe88d38ae0d5193d6062df0de0",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/community-day-classic-bulbasaur-jan22",
-      "title": "Community Day Classic: Back to Bulbasaur — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "communityday-feb22-hoppip": {
-      "signature": "ff85058eb5f020833ba353f4e26432afc1f41e2421ac81f8687ae68e7cf30cf1",
-      "content_sha256": "1ac74cd3658ee9aa782a12411118e8e5d5632cac14d5c0bd4f98b647c0b318d3",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/communityday-feb22-hoppip",
-      "title": "February 2022 Community Day: Hoppip’s Hop-Along Hangout — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "communityday-jan22": {
-      "signature": "fa6be2729d44ba9f1f9a8df89040a4b7aa7a1e582dd181a0b74211b3dcc35f3d",
-      "content_sha256": "ae606732e947292b81b5dcf08569ce947f4491d00bb8eb639d39ce140615fb5e",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/communityday-jan22",
-      "title": "January 2022 Community Day: Spheal’s spear-tastic sojourn — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "communityday-october-2026-zorua": {
       "signature": "3ca0279e07ec82e00b32f12ec1976099fa104f12e392e15315521245c2bde559",
@@ -1446,7 +632,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/communityday-october-2026-zorua",
       "title": "October 2026 Community Day: Zorua — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "communitydayclassic-gible-september-2026": {
       "signature": "0d73d67ee98e1d32878e1fdacb813be925f8ffe74bfb95bba637185d3b358ccb",
@@ -1454,7 +640,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/communitydayclassic-gible-september-2026",
       "title": "September 2026 Community Day Classic: Gible — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "dancing-in-the-moonlight-2026": {
       "signature": "aa54a32acded2372f6fca8963bfdf77dbeaac002140617112b42768e45941cc5",
@@ -1462,15 +648,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/dancing-in-the-moonlight-2026",
       "title": "Dance Under the Moon with Clefairy — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "devdiary-dec2021-seasonofheritage": {
-      "signature": "d100e4545aa5fa2efa00a71e7ee7158c32a88c710fc922856a3e3e449db058e4",
-      "content_sha256": "f4bd3901696388f442479f69ba14d17801a3eb8a9230366d3dcbe941ed6a1969",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/devdiary-dec2021-seasonofheritage",
-      "title": "Dev Diaries: The Season of Heritage — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "european-space-agency-event": {
       "signature": "852d8e370971bedb48463841c05c6c09428a389f2a436acd0fc0abc92bf532d3",
@@ -1478,7 +656,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/european-space-agency-event",
       "title": "Pokémon GO partners with the European Space Agency",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "event-apac-30th-anniversary-2026": {
       "signature": "7b5663a3d8ed544944bffebc882efa352b94986c6853fc31d0dfe717192981f2",
@@ -1486,7 +664,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026",
       "title": "Pokémon’s 30th anniversary celebration, PokéXciting!, is the most exciting Pokémon party ever!! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "event-apac-stamp-rally-2026": {
       "signature": "526a0187019d99dc45c063b47c40d1ef219957b1df7e88636790842bedcfb03d",
@@ -1494,7 +672,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/event-apac-stamp-rally-2026",
       "title": "PokéXciting! cross-region GO Stamp Rally—get ready to explore the Asia-Pacific region! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "fall-marathon-buddy-trek-2026": {
       "signature": "00c3efb979f56850ba6b9eec5f23220bef3c29b889529fc08694b90c830a7d41",
@@ -1502,31 +680,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/fall-marathon-buddy-trek-2026",
       "title": "Fall Marathon: Buddy Trek will bring Bramblin’s Pokémon GO debut!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "february-2022-content-update": {
-      "signature": "339019c5ca5aa8f8c271e319d8f470b3c91ed17aff14faeb50b9fa2d032c8df1",
-      "content_sha256": "3a36e178c1ecc0b8269b412694c78f322636c27d59dab7d60a421e2ffa8bc039",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/february-2022-content-update",
-      "title": "February Content Update: Pokémon GO Tour: Johto, a Hop-ful Community Day, the Valentine’s Day 2022 event, Extra Raid Passes, and more!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "flying-pikachu-2022": {
-      "signature": "2ab8cb151cc718fe185036c386e31e22a5c6678199ecb6e6222b252624c80365",
-      "content_sha256": "843908a2491aa2cd9b14ef1a31b23f60044699e34ba1b6360c5ed71946832a20",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/flying-pikachu-2022",
-      "title": "Pokémon Air Adventures global collaboration event coming in May — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "gamescom2026": {
-      "signature": "2792d74032c59f40bf1318675f412cc92ea7f2250e529937577b0f512e79484a",
-      "content_sha256": "b0d7ad7df7a298cfdfc51d1de0b09e68e5d48c02d5af584126c24d4e1d95bd9a",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/gamescom2026",
-      "title": "Pokémon GO auf der gamescom 2026!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "gigantamax-cinderace-max-battle-day-2026": {
       "signature": "9efd5933f81d0b00e34071f0f304ca456c85535e001c32e0c879e90efba8ac55",
@@ -1534,15 +688,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/gigantamax-cinderace-max-battle-day-2026",
       "title": "Fireball of fury as Gigantamax Cinderace storms into Max Battle Day! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "go-battle-league-next-season-update": {
-      "signature": "982838090bd19569df598633d66f16f28cee5790d955cc2caebdc85584e290f0",
-      "content_sha256": "8db58e1b41fe4f3ba9d91e0563386c066196a321bf3290b6c427b91a1b22c949",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/go-battle-league-next-season-update",
-      "title": "GO Battle League: Regarding the next Season — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "go-battle-league-twilight-trails": {
       "signature": "b2f82c5a06535c0e9ccd114d8124e360d5785ec5ef5c5958a79801f690c3ee70",
@@ -1550,7 +696,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/go-battle-league-twilight-trails",
       "title": "GO Battle League: Twilight Trails Update — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "go-fest-2024-community-meetups": {
       "signature": "2921c9141f08d3c07b797d0ed3b62b511822a70d3a0188093da5404bf3937fea",
@@ -1558,15 +704,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/go-fest-2024-community-meetups",
       "title": "Join Pokémon GO Community Meetups for Pokémon GO Fest 2024: Global!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "go-fest-2024-stadium-sights": {
-      "signature": "b4af8925e765dad44d31b3593c66094fea5bb6814b2858928e96b1a6824bdb6d",
-      "content_sha256": "55d85cc86b8997de32aeef0fb5f755ad095ccd405d2375ed5fb7954ed09b7e55",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/go-fest-2024-stadium-sights",
-      "title": "Get out of the stands and explore during the Stadium Sights event, featuring Pokémon from Pokémon GO Fest 2024: Sendai!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "go-fest-2024-ultra-unlock-challenges": {
       "signature": "9b5ca4c99c5e97d083db8c752e248950116279b0400f314e639346c0922ddad9",
@@ -1574,7 +712,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/go-fest-2024-ultra-unlock-challenges",
       "title": "Pokémon GO Fest 2024 details revealed: Ultra Unlock, habitat times, and more!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "go-pass-october-2026": {
       "signature": "05c03d67834348e2f3331430e8f6d4bf0ae8326f287058f911d111f22d10d64b",
@@ -1582,7 +720,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/go-pass-october-2026",
       "title": "Kyogre makes waves and the Lucky Trinket returns in GO Pass: October! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "go-pass-september-2026": {
       "signature": "21dc926ae9b3a17b1e1b9540c6b635661fb685ec71f07b7d3063ee667c24899b",
@@ -1590,31 +728,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/go-pass-september-2026",
       "title": "Latios soars in faster than a jet for GO Pass: September! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "gofest-2022-berlin-recap": {
-      "signature": "0d84c773514b15f1aa69f4cca5e986f0a16355be2f88dd33db301a1f25d49524",
-      "content_sha256": "d54dd0aab1cdac870f09f518378b98ea72b64eb3d5bdd801c6e6fbabcd4ee608",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/gofest-2022-berlin-recap",
-      "title": "Thank you for coming to Pokémon GO Fest: Berlin!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "gofest2022-finale-event": {
-      "signature": "eddf1be4f1ee33364813275f27069d95a5ee1dbef91cc4b09ee0262001475239",
-      "content_sha256": "9858f0ef71109622a7e25a0c38e1941322442de9f2761bf304400889e7d056a3",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/gofest2022-finale-event",
-      "title": "Pokémon GO Fest 2022: Finale event details revealed—Ultra Beasts, Sky Forme Shaymin, and much, much more!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "gofest2026-mega-finale-incoming": {
-      "signature": "93758fecdb3df2b5d32826ffc001e238673cd5484060735aceed67edc9e92b78",
-      "content_sha256": "a04040ae947864403f572c7756d48e28b2c80fd37980acf1db9113a04fc4d81a",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/gofest2026-mega-finale-incoming",
-      "title": "A Final Summer Surge of Mega Energy Is Approaching — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "hangul-nal-2026": {
       "signature": "7804a9548baff95f5c09bfa975efbb4d771ddf3c46bbf534319ffdc9c1f20469",
@@ -1622,7 +736,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/hangul-nal-2026",
       "title": "“2026 한글날 이벤트”가 대한민국 전역에서 개최됩니다! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "harvest-festival-2026": {
       "signature": "4b58a8e4d4bf0865537e5e90f7e0aec3c06e8a609286639c8f89e3830d688efd",
@@ -1630,7 +744,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/harvest-festival-2026",
       "title": "Enjoy a bountiful Harvest Festival event with Shiny Applin’s Pokémon GO debut!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "harvest-festival-tgr-2026": {
       "signature": "ce8ed101a6ec61c6cdd2f25ebdb6b34e2d76fa9eec0b49b6b997d40e77813887",
@@ -1638,39 +752,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/harvest-festival-tgr-2026",
       "title": "Rescue Shadow Zekrom during Harvest Festival: Taken Over! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "hisuiregion": {
-      "signature": "ec178fe358fe263aa3d7916e19a5571823d2858fa4ea4faafb02ce753b91eed4",
-      "content_sha256": "0d9f72a4c81bc00d0c3ab93515e4022efc991f64c0e5ef5cb79155df4bd91b05",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/hisuiregion",
-      "title": "Voltorb found in the Hisui region of the Pokémon Legends: Arceus game have appeared! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "jan-2022-events": {
-      "signature": "652afcaa27b2185b7157bd5e801479bc065b45073b8ef036546ebc8eb0ed5e3a",
-      "content_sha256": "25d6e0d267116c86d0bea9282396de757473472170460e32e3cdfbcb274c5ba9",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/jan-2022-events",
-      "title": "Coming in January: New Year’s, Mountains of Power, and more! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "legends-arceus-outfit": {
-      "signature": "547439fa4eaa336e5b0428720be325ebf3db59d0237c7695490f91d9d6114028",
-      "content_sha256": "f815e40da9ed54979321d16e7b49bad008dcc4079c2587d4b1cade0fe73a0968",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/legends-arceus-outfit",
-      "title": "New Avatar Items Inspired by <i>Pokémon Legends: Arceus</i> coming soon! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "lunar-new-year-event-2022": {
-      "signature": "ba5a9cbaeddd3f0e485b2d5d36a93b5ac054b9e39ae0554f45fcc400aa107df0",
-      "content_sha256": "751d1e7718a218f4c923c908ae715d2aa4d7d533bce8ad433c8f6f960bd46d9a",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/lunar-new-year-event-2022",
-      "title": "Celebrate Lunar New Year with Pokémon GO’s 2022 Lunar New Year event",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "mega-finale-2026-community": {
       "signature": "470023ce98e22cf5eb72cd3c54f8f503e0bdb233101ebdefa1bfbf7290a6201f",
@@ -1678,7 +760,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/mega-finale-2026-community",
       "title": "#PokemonGOFest2026: Mega Finale Global Challenge — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "mega-squads-2026": {
       "signature": "cecb742d1bbb4b4b43f1b1405ad19279640d8f2d65312ccd0e052e192a36cd91",
@@ -1686,31 +768,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/mega-squads-2026",
       "title": "Pick up where Mega Finale leaves off, and get energized for the Mega Squads event! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "more-mega-updates-2026": {
-      "signature": "0b8bff33d1754f4e2dff863dbae4ac16218b3b7e238e10451c4aec7077a9c732",
-      "content_sha256": "e6a4c20190f209f4936e80cadcddc4db4aa1790a762d3b85b863d8947d144746",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/more-mega-updates-2026",
-      "title": "More mega moments! Additional Charged Attacks and Mega Mewtwo Adventure Effects debut during Mega Finale! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "new-year-2022": {
-      "signature": "41020930417c7c7f5c3523969b53c189b8cc5e63b61b99773f47412f108b9ea2",
-      "content_sha256": "8db0e77b03399e243f793ec100ea8ff085090101f9cfd18715b106a32a111412",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/new-year-2022",
-      "title": "Ring in 2022 with a New Year’s event! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "notable-trainer-meet-greet-go-fest-2024": {
-      "signature": "33f3dd96c96f0c370dcbd09745f2033047fad59f0c92ef3e2a033ad27986c940",
-      "content_sha256": "01b0313881f89abdff84ce45bc92c62dfcd54ae54da751e01ae6bb0228829f68",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/notable-trainer-meet-greet-go-fest-2024",
-      "title": "Meet notable Trainers during Pokémon GO Fest 2024 in Madrid and New York City",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "patterns-of-the-wild-2026": {
       "signature": "b627cb123c4a94ed09cc10f739b118dfea9d0b0b1a73e465484e924f6068e048",
@@ -1718,15 +776,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/patterns-of-the-wild-2026",
       "title": "Patterns of the Wild brings Pikachu wearing a batik shirt with a Special Background! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "pgo-explorer-gadget-2026": {
-      "signature": "3812b7fa54b60f26ce3b0b8cd48d0f56af6efd6c8917e6bf17da82fb05e26743",
-      "content_sha256": "7e883a84d76533d11317cbf8ef46dbb66c78c349ed80ee8232b177c79ff5a607",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/pgo-explorer-gadget-2026",
-      "title": "The Explorer Gadget Debuts! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "pikachu-autumn-picnic-korea-2026": {
       "signature": "99a1ae8cdba20ae84536492e60b231b2f0ccd13526a7139cfecaf76bc07a0ba9",
@@ -1734,15 +784,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/pikachu-autumn-picnic-korea-2026",
       "title": "“Pokémon GO”에서 “2026 피카츄의 가을 소풍\" 이벤트 및 “2026 피카츄의 한국 나들이\" 이벤트와 함께 특별한 가을을 맞이하세요!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "pokeball-prep-go-tour-prep-event": {
-      "signature": "ce258be31d6e09e13c4360835a8e0f7125c577b4e3a82d564f4ee9881d89acd2",
-      "content_sha256": "f80cd093a8ffbdd52b4f30c7ef2498cbda327dc1900efe7779491e6e79423fe3",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/pokeball-prep-go-tour-prep-event",
-      "title": "Load up on items during the GO Tour Poké Ball Prep Rally event — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "pokemon-horizons-celebration-event-2026": {
       "signature": "b0a56d57a5c3dd5259dbf53c0efa85638a00d3ef9de42923999bd9823de62e17",
@@ -1750,7 +792,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/pokemon-horizons-celebration-event-2026",
       "title": "The “Pokémon Horizons: The Series” Celebration Event returns! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "pokemon-x-adidas-2026": {
       "signature": "89f0fca721a4277278aa61192cabfd38c21563f0f086c84cbf11d89acf306291",
@@ -1758,7 +800,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/pokemon-x-adidas-2026",
       "title": "Avatar items from the adidas | Pokémon collection are coming to Pokémon GO!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "pokemongo-iitdelhi-2026": {
       "signature": "52fb642c3e5ad58059c15abf15a0446c0f8a7ae3d68587407d5f6fdd1884bb4d",
@@ -1766,23 +808,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/pokemongo-iitdelhi-2026",
       "title": "Pokémon GO is coming to IIT-Delhi for Rendezvous 2026!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "pokemongotour-johto-research": {
-      "signature": "b4ac108f051fdf557f33bca098847d057e56c4a0985c7a33ce1e4620e9a2365b",
-      "content_sha256": "344e91435e6603657e9f7d765f3455e7dc20fca3603c283f4f16662a94b3d39e",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/pokemongotour-johto-research",
-      "title": "Pokémon GO Tour: Johto — Special Research and More To Come!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "pokemongotour-live-details": {
-      "signature": "16d8d979db3478bebba27b0c6125152ec225e808d4156bb4cafa62500bcecdd0",
-      "content_sha256": "473370c283d5e71ddad749d562ee931624bc411bbeda198d5d21e3f3b43d6d03",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/pokemongotour-live-details",
-      "title": "Pokémon GO Tour: Live – Celebrate the Kanto region in-person at the Monterrey and Kaohsiung live events",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "sandile-hatch-day-2026": {
       "signature": "9bba1cff7c49cddba271fa620c4ce0026947a2113ea36d913d891756a5ad3f15",
@@ -1790,7 +816,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/sandile-hatch-day-2026",
       "title": "Dig in during Sandile Hatch Day! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "save-the-date-go-tour-2027": {
       "signature": "3e9ded3818e535e0adf663b442f765a03b6dd112d46a77aa54612f3e1ad33f0e",
@@ -1798,7 +824,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/save-the-date-go-tour-2027",
       "title": "Save the Date: Pokémon GO Tour 2027",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "save-the-date-go-wild-area-2026": {
       "signature": "c3884a76f5e156e88f068ef69a7ea5b177e83d9644c1ba8b8307852c317bf650",
@@ -1806,7 +832,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/save-the-date-go-wild-area-2026",
       "title": "Save the Date: Pokémon GO Wild Area 2026",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "save-the-date-s24": {
       "signature": "2b47cdc3796bb6e4c67bf3b660a7b9cb6bf01e6a4d131d539e69b46b857cea4d",
@@ -1814,23 +840,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/save-the-date-s24",
       "title": "Save the dates for next Season’s Community Days! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "season-of-heritage-mountains-of-power-event": {
-      "signature": "60efabaae461422ffd80121ef96e01aefc6381a06d2cc6b4cd0efba3241d6cde",
-      "content_sha256": "42ec8210d624f729a05733dde198061a380e19a0e346f0b9603fc9725cd423a4",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/season-of-heritage-mountains-of-power-event",
-      "title": "Get ready to rock and roll during the Season of Heritage’s Mountains of Power event — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "season-of-heritage-power-plant-event": {
-      "signature": "467d8e911d42fdc674b0fbd9e98bc6886c384bdf62fe11cd8129cdacbbd3a786",
-      "content_sha256": "453c6b8043f8f01ad22e37fbbc4cd6a269996ba1237679b5829d20a3e573baea",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/season-of-heritage-power-plant-event",
-      "title": "Unlock the last part of the door as Helioptile makes its debut in the electrifying Power Plant event — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "staraptor-super-mega-raid-day-2026": {
       "signature": "25c0853512d995c086a1a0b8e7b849daad004b77fb5d1e4964455afd50307574",
@@ -1838,15 +848,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/staraptor-super-mega-raid-day-2026",
       "title": "Ready yourself to courageously challenge Staraptor Super Mega Raid Day! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
-    },
-    "valentines-day-event-2022": {
-      "signature": "e6b8d520c0e1b35dd3e135ff070e12eafc4b1008c680873b4dbca639a3913ed3",
-      "content_sha256": "601cc93b4db137b992c148f105493fbc2d09a436c42828bea40dcc1fd2c0af4f",
-      "preferred_locale": "en",
-      "preferred_url": "https://pokemongo.com/en/news/valentines-day-event-2022",
-      "title": "Pokémon GO Valentine’s Day 2022 Event: Flabébé appearing, Valentine’s Day–themed Collection Challenges, and more!",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "weekly-branching-tr-korea-2026": {
       "signature": "2fb887484c029a76843a286417a6e9bc511764233556d72b298b056d622ec7c3",
@@ -1854,7 +856,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/weekly-branching-tr-korea-2026",
       "title": "주간 릴레이 시간제한 리서치가 찾아옵니다! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     },
     "world-space-week-2026": {
       "signature": "7aefba83dd8116f48d5914051b90b8aade53f1daed8eeb5f3254cfd896e35d50",
@@ -1862,7 +864,7 @@
       "preferred_locale": "en",
       "preferred_url": "https://pokemongo.com/en/news/world-space-week-2026",
       "title": "Blast off with Astronaut Pikachu during World Space Week! — Pokémon GO",
-      "checked_at": "2026-09-24T17:23:03.802919Z"
+      "checked_at": "2026-09-24T17:27:34.182981Z"
     }
   }
 }
