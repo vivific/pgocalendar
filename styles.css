@@ -453,7 +453,8 @@ main {
 .bar.code { background: var(--regional); }
 .bar.ticketed { background: var(--ticketed); }
 
-.bar.expired {
+.bar.expired,
+.bar.future {
   background: #a7b6b3;
   color: #fff;
   opacity: .66;
@@ -467,7 +468,8 @@ main {
   transform: translateY(-1px);
 }
 
-.bar.expired:hover {
+.bar.expired:hover,
+.bar.future:hover {
   filter: brightness(.95);
   opacity: .80;
 }
@@ -756,7 +758,8 @@ footer p { margin: 0; }
   .cell.weekend { background: rgba(19,35,34,.46); }
   .cell.today { background: rgba(90,217,166,.10); }
 
-  .bar.expired {
+  .bar.expired,
+  .bar.future {
     background: #5f706d;
     color: #e4f1ef;
     opacity: .67;

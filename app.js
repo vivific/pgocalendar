@@ -328,7 +328,8 @@ function render() {
       const span=daysBetween(e._start,e._end)+1;
       const ongoing=!e.end ? " ongoing" : "";
       const expired=e.end && e.end < today ? " expired" : "";
-      return `<button class="bar ${primaryAccess(e)}${ongoing}${expired}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(displayTitle(e))} — ${humanRange(e.start,e.end)}"><span class="bar-label">${escapeHtml(displayTitle(e))}</span></button>`;
+      const future=e.start > today ? " future" : "";
+      return `<button class="bar ${primaryAccess(e)}${ongoing}${expired}${future}" data-id="${escapeHtml(e.id||"")}" style="grid-column:${col}/span ${span}" title="${escapeHtml(displayTitle(e))} — ${humanRange(e.start,e.end)}"><span class="bar-label">${escapeHtml(displayTitle(e))}</span></button>`;
     }).join("");
     html += `<div class="event-row"><div class="row-grid">${cells}</div>${bars}</div>`;
   });
