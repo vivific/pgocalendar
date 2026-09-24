@@ -471,8 +471,8 @@ def main():
         isinstance(previous_manifest, dict) and previous_manifest.get("schema_version") == 2
     )
     index_delta = {
-        "added": sorted(index - previous_index) if have_previous_index else [],
-        "removed": sorted(previous_index - index) if have_previous_index else [],
+        "added": sorted(full_index - previous_index) if have_previous_index else [],
+        "removed": sorted(previous_index - full_index) if have_previous_index else [],
     }
 
     def item(slug, changed=None):
