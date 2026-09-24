@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-24T00:11:12Z",
+  "updated_at": "2026-09-24T16:03:00Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -9320,6 +9320,27 @@
       "status": "confirmed",
       "notes": "Ballpark-only one-star raids for Pikachu during the Boston Red Sox Pokémon GO Game Day on September 25, 2026. Pikachu can be shiny or have the ballpark Location Background. Ballpark admission/game access is required.",
       "regional_type": "local_raid"
+    },
+    {
+      "id": "pokemon-x-adidas-timed-research-2026",
+      "title": "adidas | Pokémon Timed Research",
+      "start": "2026-09-25",
+      "end": "2027-01-15",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Participating adidas stores and retail stores worldwide",
+      "access": [
+        "onsite"
+      ],
+      "source_url": "https://pokemongo.com/en/news/pokemon-x-adidas-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/pokemon-x-adidas-2026"
+      ],
+      "source_slug": "pokemon-x-adidas-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Visit a participating adidas store or retail store and open Pokémon GO to obtain event-themed Timed Research. Rewards include the adidas Pokémon Jacket and Cap avatar items, XP, Stardust, a Lucario encounter, Lucario Mega Energy, and more. Research can be obtained through January 15, 2027 at 8:00 p.m. local time; the February 13, 2027 completion/claim deadline is a grace period for already-obtained research and does not extend this calendar bar.",
+      "regional_type": "timed_research"
     },
     {
       "id": "catch-mastery-phantump-2026",

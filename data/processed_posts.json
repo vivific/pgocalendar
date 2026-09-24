@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "monitor_from": "2026-09-20",
-  "last_checked_at": "2026-09-22T22:19:00.016Z",
+  "last_checked_at": "2026-09-24T16:03:00Z",
   "posts": {
     "10th-anniversary-celebration": {
       "bootstrap": true,
@@ -1991,6 +1991,14 @@
       "locale_discovered": "en",
       "source_url": "https://pokemongo.com/en/news/save-the-date-go-tour-2027",
       "result": "event-added: three Pokémon GO Tour Alola 2027 save-the-date windows (Kaohsiung, Los Angeles, Global)"
+    },
+    "pokemon-x-adidas-2026": {
+      "first_seen": "2026-09-24T12:41:07.354953Z",
+      "last_checked": "2026-09-24T16:03:00Z",
+      "status": "processed",
+      "locale_discovered": "en",
+      "source_url": "https://pokemongo.com/en/news/pokemon-x-adidas-2026",
+      "result": "event-added: onsite adidas Timed Research at participating stores worldwide"
     }
   }
 }
