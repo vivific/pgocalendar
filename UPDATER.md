@@ -23,6 +23,8 @@ For article interpretation, try the same slug in this order:
 
 Accept a preferred-locale URL even when its body is copied from another language. Reject generic wrong-page fallbacks.
 
+The machine collector preserves the index's encountered order and records up to 30 recent slugs per locale as diagnostic state. NEW identity still comes from deterministic set subtraction over the complete parsed index snapshot, so a burst of more than five posts cannot silently skip a candidate.
+
 ## Canonical event rules
 
 Write only real gameplay/research/event windows to `data/calendar_events.json`.
@@ -265,26 +267,29 @@ The manifest is a source snapshot, not merely a list:
 - `locale_states` and `index_snapshot_sha256` record the exact index snapshot used for discovery.
 - `index_delta` is diagnostic evidence of index additions/removals relative to the previous schema-v2 manifest. It does not independently authorize semantic review outside `new` or `recheck`.
 - `article_fingerprints` persist normalized official-article content hashes on `monitor-state`. They are machine state, not canonical calendar data.
-- Article fingerprint failures are recorded per slug. They suppress change-based RECHECK for that slug but do not invalidate an otherwise complete locale-index snapshot or authorize model-side discovery.
+- `article_snapshots.json` persists normalized official article text for current NEW candidates and mechanically eligible recent/current/future sources so later edits can be diffed without depending on search-engine indexing.
+- Every admitted `new` or `recheck` item must name a `monitor_payloads/<slug>.json` payload and its SHA-256. The payload contains the full normalized current official article text. A `recheck` payload also contains the previous normalized snapshot plus machine-generated added/removed/unified diff data.
+- Article fetch failures are recorded per slug. A queue item without a complete, hash-valid payload is unusable for monitoring and must not be replaced with model-side discovery or web-search discovery.
 
 Candidate queues are strict:
-- `new`: deterministic set subtraction has established that the slug is neither processed/ignored nor represented by canonical `source_slug`. Article metadata attached to the item is supporting source state; NEW identity comes from the deterministic set calculation.
-- `recheck`: a processed/ignored source eligible for maintenance whose normalized official-article fingerprint **changed compared with the previous published manifest**. Every recheck item must have `article_changed: true`. The first schema-v2 fingerprint establishes a baseline and must not itself be treated as an edit.
+- `new`: deterministic set subtraction has established that the slug is neither processed/ignored nor represented by canonical `source_slug`. Article metadata attached to the item is supporting source state; NEW identity comes from the deterministic set calculation. Interpret the article from the item's verified payload rather than locating the article through search.
+- `recheck`: a processed/ignored source eligible for maintenance whose normalized official-article content hash **changed compared with the previous published article snapshot**. Every recheck item must have `article_changed: true`. The first persisted snapshot establishes a baseline and must not itself be treated as an edit. Interpret the current full text and the machine-generated diff from the verified payload.
 - `blocked_by_canonical`: diagnostic only; never NEW and never a substitute recheck queue.
-- `index_delta`, `article_fingerprints`, `article_failures`, and `locale_states` are diagnostic/state fields only. Never create a candidate from those fields.
+- `index_delta`, `article_fingerprints`, `article_failures`, `locale_states`, `article_snapshots.json`, and any unqueued snapshot/diff state are diagnostic/state only. Never create a candidate from those fields.
 
 Recheck fingerprint eligibility may include recently handled posts and source slugs backing current, upcoming, or recently ended canonical events. This eligibility is mechanical maintenance coverage only; it does not decide whether an article change is materially calendar-worthy.
 
 Before using the manifest:
 1. Fetch current `data/calendar_events.json` and `data/processed_posts.json` from `main` with their blob SHAs.
-2. Require manifest `schema_version: 2`, `complete: true`, and no `locale_failures`.
+2. Require manifest `schema_version: 2`, `payload_schema_version: 1`, `complete: true`, and no `locale_failures`.
 3. Require manifest `calendar_blob_sha` and `processed_blob_sha` to exactly match those current-main blob SHAs.
 4. Require a parseable `source_snapshot_at` no more than 60 minutes old at the start of the monitor run. A fresh `generated_at` does not rescue a stale source snapshot.
-5. If any requirement fails, stay silent for event monitoring and do not fall back to model-side index discovery. The latest GitHub Actions run may be inspected only to diagnose pipeline health; it cannot authorize a candidate.
+5. For every queue item being evaluated, fetch exactly the payload named by `payload_path`, verify its bytes against `payload_sha256`, require the payload slug/classification to match the manifest item, and verify the normalized current article text against its own `content_sha256`.
+6. If any requirement fails, stay silent for that monitoring path and do not fall back to model-side index discovery or search-engine discovery. The latest GitHub Actions run may be inspected only to diagnose pipeline health; it cannot authorize a candidate.
 
 Before notifying on any `manifest.new` item, re-check current `main`. If it has become processed/ignored or has any canonical match, suppress NEW and at most handle it through a valid material update path.
 
-For `manifest.recheck`, the fingerprint change only establishes that the official source changed. The AI must still compare the live official article against the exact current canonical record(s) and notify only for a concrete material delta. Cosmetic/template/hash-only changes are no-ops.
+For `manifest.recheck`, the content-hash change only establishes that the official source changed. The AI must use the verified payload's current official article text and diff, compare them against the exact current canonical record(s), and notify only for a concrete material delta. Cosmetic/template/hash-only changes are no-ops. Live browsing is optional for secondary corroboration or linked detail sources; it must not be required to recover the candidate article and must never create candidate identity.
 
 The `monitor-state` branch is machine state only. Routine editorial/updater work must not merge it into `main` or treat its commits as canonical calendar history. Editorial interpretation remains the AI's job; discovery identity and source-change detection do not.
 
