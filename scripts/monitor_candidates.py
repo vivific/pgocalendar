@@ -208,7 +208,8 @@ def main():
     parser.add_argument("--previous-manifest")
     parser.add_argument("--previous-snapshots")
     parser.add_argument("--recheck-days", type=int, default=14)
-    parser.add_argument("--recent-limit", type=int, default=30)
+    parser.add_argument("--recent-limit", type=int, default=5)
+    parser.add_argument("--burst-cap", type=int, default=30)
     parser.add_argument("--calendar-sha")
     parser.add_argument("--processed-sha")
     args = parser.parse_args()
@@ -239,9 +240,15 @@ def main():
             canonical.setdefault(slug, []).append(event.get("id"))
 
     by_locale = {}
+    discovery_by_locale = {}
     locale_states = {}
     locale_failures = {}
     started = now()
+    previous_locale_states = (
+        previous_manifest.get("locale_states", {})
+        if isinstance(previous_manifest, dict)
+        else {}
+    )
 
     for locale in LOCALES:
         url = f"{BASE}/{locale}/news"
@@ -249,6 +256,29 @@ def main():
             raw, final, headers = fetch(url)
             ordered = ordered_unique(HREF.findall(raw))
             by_locale[locale] = ordered
+
+            previous_recent = set()
+            previous_state = previous_locale_states.get(locale, {})
+            if isinstance(previous_state, dict):
+                previous_recent = set(previous_state.get("recent_slugs", []) or [])
+
+            window_len = min(len(ordered), args.recent_limit)
+            if previous_recent:
+                first_known = next(
+                    (
+                        index
+                        for index, slug in enumerate(ordered[: args.burst_cap])
+                        if slug in previous_recent
+                    ),
+                    None,
+                )
+                if first_known is None:
+                    window_len = min(len(ordered), args.burst_cap)
+                else:
+                    window_len = max(window_len, first_known + 1)
+
+            discovery_window = ordered[:window_len]
+            discovery_by_locale[locale] = discovery_window
             locale_states[locale] = {
                 "url": url,
                 "final_url": final,
@@ -256,6 +286,7 @@ def main():
                 "index_sha256": digest_text("\n".join(ordered)),
                 "slug_count": len(ordered),
                 "recent_slugs": ordered[: args.recent_limit],
+                "discovery_window_slugs": discovery_window,
                 "etag": headers.get("ETag"),
                 "last_modified": headers.get("Last-Modified"),
             }
@@ -263,10 +294,14 @@ def main():
             locale_failures[locale] = f"{type(exc).__name__}: {exc}"
 
     snapshot_time = now()
-    index = set()
+    full_index = set()
     for slugs in by_locale.values():
-        index.update(slugs)
-    index_slugs = sorted(index)
+        full_index.update(slugs)
+    discovery_index = set()
+    for slugs in discovery_by_locale.values():
+        discovery_index.update(slugs)
+    index_slugs = sorted(full_index)
+    discovery_index_slugs = sorted(discovery_index)
     discovered = {
         slug: [locale for locale in LOCALES if slug in by_locale.get(locale, [])]
         for slug in index_slugs
@@ -279,15 +314,23 @@ def main():
         )
     )
 
-    unseen = sorted(slug for slug in index if slug not in handled and not canonical.get(slug))
-    blocked = sorted(slug for slug in index if slug not in handled and canonical.get(slug))
+    unseen = sorted(
+        slug
+        for slug in discovery_index
+        if slug not in handled and not canonical.get(slug)
+    )
+    blocked = sorted(
+        slug
+        for slug in discovery_index
+        if slug not in handled and canonical.get(slug)
+    )
 
     current_time = now()
     cutoff = current_time - dt.timedelta(days=args.recheck_days)
     floor = cutoff.date()
     eligible = set()
 
-    for slug in index & handled:
+    for slug in full_index & handled:
         value = posts.get(slug, {})
         seen = parse_time(value.get("first_seen")) or parse_time(value.get("last_checked"))
         if seen and seen >= cutoff:
@@ -295,7 +338,7 @@ def main():
 
     for event in calendar.get("events", []):
         slug = event.get("source_slug")
-        if not slug or slug not in handled or slug not in index:
+        if not slug or slug not in handled or slug not in full_index:
             continue
         if event.get("end") is None:
             eligible.add(slug)
@@ -474,13 +517,15 @@ def main():
         "locale_states": locale_states,
         "index_snapshot_sha256": index_hash,
         "index_slugs": index_slugs,
+        "discovery_index_slugs": discovery_index_slugs,
         "index_delta": index_delta,
         "source_changed": bool(index_delta["added"] or index_delta["removed"]),
         "article_failures": article_failures,
         "article_snapshots_path": "article_snapshots.json",
         "article_snapshots_sha256": digest_bytes(snapshots_bytes),
         "counts": {
-            "index_slugs": len(index),
+            "index_slugs": len(full_index),
+            "discovery_index_slugs": len(discovery_index),
             "handled_slugs": len(handled),
             "canonical_source_slugs": len(canonical),
             "unseen": len(unseen),

@@ -23,7 +23,7 @@ For article interpretation, try the same slug in this order:
 
 Accept a preferred-locale URL even when its body is copied from another language. Reject generic wrong-page fallbacks.
 
-The machine collector preserves the index's encountered order and records up to 30 recent slugs per locale as diagnostic state. NEW identity still comes from deterministic set subtraction over the complete parsed index snapshot, so a burst of more than five posts cannot silently skip a candidate.
+The machine collector preserves each locale index's encountered order. Routine NEW discovery starts from the five most recent entries per locale. To avoid missing a burst of more than five posts between runs, it extends that locale's discovery window until it reaches a slug from the previous run's recent-five baseline, with a 30-entry safety cap. The complete parsed index is still retained for source-state hashing and recheck eligibility, but older entries outside the computed discovery window cannot enter `manifest.new`.
 
 ## Canonical event rules
 
@@ -264,7 +264,8 @@ The scheduled AI monitor must use `monitor_candidates.json` from the dedicated `
 
 The manifest is a source snapshot, not merely a list:
 - `source_snapshot_at` records when the required official locale indexes were actually fetched. This timestamp, not merely `generated_at`, is the freshness authority.
-- `locale_states` and `index_snapshot_sha256` record the exact index snapshot used for discovery.
+- `locale_states` and `index_snapshot_sha256` record the fetched locale-index state. Each locale also records `recent_slugs` (the newest five) and `discovery_window_slugs` (the recent-five window extended only as needed to reach the previous baseline, capped at 30).
+- `discovery_index_slugs` is the union of those per-locale discovery windows and is the only index-derived set eligible for NEW set subtraction. The full `index_slugs` remains source/recheck state and cannot independently authorize NEW.
 - `index_delta` is diagnostic evidence of index additions/removals relative to the previous schema-v2 manifest. It does not independently authorize semantic review outside `new` or `recheck`.
 - `article_fingerprints` persist normalized official-article content hashes on `monitor-state`. They are machine state, not canonical calendar data.
 - `article_snapshots.json` persists normalized official article text for current NEW candidates and mechanically eligible recent/current/future sources so later edits can be diffed without depending on search-engine indexing.
@@ -276,7 +277,7 @@ Candidate queues are strict:
 - `recheck`: a processed/ignored source eligible for maintenance whose normalized official-article content hash **changed compared with the previous published article snapshot**. Every recheck item must have `article_changed: true`. The first persisted snapshot establishes a baseline and must not itself be treated as an edit. Interpret the current full text and the machine-generated diff from the verified payload.
 - `blocked_by_canonical`: diagnostic only; never NEW and never a substitute recheck queue.
 - `unresolved_new` contains index slugs that pass unseen/canonical set subtraction but for which the collector could not fetch a valid same-slug News article payload (for example, a redirect to a non-News landing page). It is diagnostic only and is never NEW; retry it mechanically on later source runs and never replace the missing payload with web/model discovery.
-- `index_delta`, `article_fingerprints`, `article_failures`, `locale_states`, `article_snapshots.json`, `unresolved_new`, and any unqueued snapshot/diff state are diagnostic/state only. Never create a candidate from those fields.
+- `index_delta`, `index_slugs`, `discovery_index_slugs`, `article_fingerprints`, `article_failures`, `locale_states`, `article_snapshots.json`, `unresolved_new`, and any unqueued snapshot/diff state are diagnostic/state only. Never create a candidate from those fields.
 
 Recheck fingerprint eligibility may include recently handled posts and source slugs backing current, upcoming, or recently ended canonical events. This eligibility is mechanical maintenance coverage only; it does not decide whether an article change is materially calendar-worthy.
 
