@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "classification": "recheck",
+  "slug": "dancing-in-the-moonlight-2026",
+  "processed_state": "processed",
+  "canonical_matches": [
+    "dancing-in-the-moonlight-2026"
+  ],
+  "discovery_locales": [
+    "id",
+    "ja",
+    "ko"
+  ],
+  "article_changed": true,
+  "current_article": {
+    "slug": "dancing-in-the-moonlight-2026",
+    "preferred_locale": "en",
+    "preferred_url": "https://pokemongo.com/en/news/dancing-in-the-moonlight-2026",
+    "title": "Dance Under the Moon with Clefairy — Pokémon GO",
+    "content_sha256": "de7cc5709da5af1f346ff0515718fd7bd5b48b360768c6b654312ba7b0556554",
+    "signature": "35b552141804b0c02dbc0befacdcc8576187fcfe3be206e5ebe1c1105713060b",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-09-25T15:08:17.582237Z",
+    "text": "Updates\nDance Under the Moon with Clefairy\nDancing in The Moonlight\nThe event takes place from Wednesday, September 23, at 10:00 a.m. to Monday, September 28, 2026, at 11:59 p.m. local time in Japan, Korea, Taiwan, Indonesia, Singapore, Hong Kong, and Malaysia.\nFeatured Pokémon\nDuring the event, Clefairy* will appear in large numbers in the wild for five minutes at 12:00 p.m., 1:00 p.m., 7:00 p.m., and 8:00 p.m each day.\n*If you’re lucky, you may encounter a Shiny one!\nMoonlight O'Clock\nDuring the event, the following Pokémon might appear in large numbers in the wild for five minutes at 12:00 p.m., 1:00 p.m., 7:00 p.m., and 8:00 p.m.\nClefairy with a Special Background*\nJigglypuff*\nTeddiursa*\nSkitty*\nMunna*\nBunnelby*\n*If you’re lucky, you may encounter a Shiny one!\nTimed Research\nThis event features two consecutive Timed Research opportunities. Trainers must complete the first Timed Research before moving on to the second.\nFirst Timed Research\nComplete the tasks to earn the following rewards.\n1,000 XP\n1,000 Stardust\nEncounter with Teddiursa\nEncounter with Skitty\nEncounter with Lunatone\nEncounter with Bunnelby\nEncounter with Clefairy with a Special Background\nand more!\nThis Timed Research will expire on Tuesday, September 29, 2026.\nSecond Timed Research\nComplete the tasks to earn the following rewards.\nEncounter with Clefairy with a Special Background\nEncounters with Teddiursa, Skitty, or Bunnelby\nAnd more!\nBe sure to complete the Timed Research tasks and claim all rewards within three days of receiving them.\nBonuses\n2× Catch XP\nPlease be aware of your surroundings and follow guidelines from local health authorities when playing Pokémon GO. Upcoming events are subject to change. Be sure to follow us on social media, opt in to receiving push notifications, and subscribe to our emails to stay updated.\n—The Pokémon GO team"
+  },
+  "previous_article": {
+    "slug": "dancing-in-the-moonlight-2026",
+    "preferred_locale": "en",
+    "preferred_url": "https://pokemongo.com/en/news/dancing-in-the-moonlight-2026",
+    "title": "Dance Under the Moon with Clefairy — Pokémon GO",
+    "content_sha256": "b00014beb595a4dee653f24bb6bdf09ce5fab468575fcd6b7c69377c5fa11d30",
+    "signature": "aa54a32acded2372f6fca8963bfdf77dbeaac002140617112b42768e45941cc5",
+    "etag": null,
+    "last_modified": null,
+    "fetched_at": "2026-09-25T09:50:48.198971Z",
+    "text": "Updates\nDance Under the Moon with Clefairy\nDancing in The Moonlight\nThe event takes place from Wednesday, September 23, at 10:00 a.m. to Sunday, September 27, 2026, at 11:59 p.m. local time in Japan, Korea, Taiwan, Indonesia, Singapore, Hong Kong, and Malaysia.\nFeatured Pokémon\nDuring the event, Clefairy* will appear in large numbers in the wild for five minutes at 12:00 p.m., 1:00 p.m., 7:00 p.m., and 8:00 p.m each day.\n*If you’re lucky, you may encounter a Shiny one!\nMoonlight O'Clock\nDuring the event, the following Pokémon might appear in large numbers in the wild for five minutes at 12:00 p.m., 1:00 p.m., 7:00 p.m., and 8:00 p.m.\nClefairy with a Special Background*\nJigglypuff*\nTeddiursa*\nSkitty*\nMunna*\nBunnelby*\n*If you’re lucky, you may encounter a Shiny one!\nTimed Research\nThis event features two consecutive Timed Research opportunities. Trainers must complete the first Timed Research before moving on to the second.\nFirst Timed Research\nComplete the tasks to earn the following rewards.\n1,000 XP\n1,000 Stardust\nEncounter with Teddiursa\nEncounter with Skitty\nEncounter with Lunatone\nEncounter with Bunnelby\nEncounter with Clefairy with a Special Background\nand more!\nThis Timed Research will expire on Tuesday, September 29, 2026.\nSecond Timed Research\nComplete the tasks to earn the following rewards.\nEncounter with Clefairy with a Special Background\nEncounters with Teddiursa, Skitty, or Bunnelby\nAnd more!\nBe sure to complete the Timed Research tasks and claim all rewards within three days of receiving them.\nBonuses\n2× Catch XP\nPlease be aware of your surroundings and follow guidelines from local health authorities when playing Pokémon GO. Upcoming events are subject to change. Be sure to follow us on social media, opt in to receiving push notifications, and subscribe to our emails to stay updated.\n—The Pokémon GO team"
+  },
+  "diff": {
+    "removed": [
+      "The event takes place from Wednesday, September 23, at 10:00 a.m. to Sunday, September 27, 2026, at 11:59 p.m. local time in Japan, Korea, Taiwan, Indonesia, Singapore, Hong Kong, and Malaysia."
+    ],
+    "added": [
+      "The event takes place from Wednesday, September 23, at 10:00 a.m. to Monday, September 28, 2026, at 11:59 p.m. local time in Japan, Korea, Taiwan, Indonesia, Singapore, Hong Kong, and Malaysia."
+    ],
+    "unified": "--- previous\n+++ current\n@@ -2,5 +2,5 @@\n Dance Under the Moon with Clefairy\n Dancing in The Moonlight\n-The event takes place from Wednesday, September 23, at 10:00 a.m. to Sunday, September 27, 2026, at 11:59 p.m. local time in Japan, Korea, Taiwan, Indonesia, Singapore, Hong Kong, and Malaysia.\n+The event takes place from Wednesday, September 23, at 10:00 a.m. to Monday, September 28, 2026, at 11:59 p.m. local time in Japan, Korea, Taiwan, Indonesia, Singapore, Hong Kong, and Malaysia.\n Featured Pokémon\n During the event, Clefairy* will appear in large numbers in the wild for five minutes at 12:00 p.m., 1:00 p.m., 7:00 p.m., and 8:00 p.m each day."
+  }
+}
