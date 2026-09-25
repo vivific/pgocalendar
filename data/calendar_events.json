@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-24T17:05:00Z",
+  "updated_at": "2026-09-25T16:21:07.679Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -10700,6 +10700,27 @@
       "status": "confirmed",
       "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
       "regional_type": "timed_research"
+    },
+    {
+      "id": "festival-of-lights-2026",
+      "title": "Festival of Lights",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "category": "Event",
+      "scope": "Regional",
+      "location": "India",
+      "access": [
+        "regional"
+      ],
+      "regional_type": "other",
+      "source_url": "https://pokemongo.com/en/news/festival-of-lights-2026",
+      "source_urls": [
+        "https://pokemongo.com/en/news/festival-of-lights-2026"
+      ],
+      "source_slug": "festival-of-lights-2026",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "India-exclusive event with saree/kurta Pikachu raids, Sparkle O’Clock wild bursts, increased event-themed Lure Module encounters, Collection Challenges, and 3× Lure Module duration. Branched Timed Research becomes available November 1 at 6:00 a.m.; the official article does not state its end time, so its separate availability window is pending clarification rather than guessed."
     }
   ]
 }
