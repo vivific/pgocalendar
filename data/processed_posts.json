@@ -2015,6 +2015,15 @@
       "locale_discovered": "en",
       "source_url": "https://pokemongo.com/en/news/city-safari-boston-update",
       "result": "event-updated: Boston City Safari postponed; replacement dates pending"
+    },
+    "festival-of-lights-2026": {
+      "first_seen": "2026-09-25T15:43:35.488605Z",
+      "last_checked": "2026-09-25T16:21:12.364Z",
+      "status": "review",
+      "locale_discovered": "en",
+      "source_url": "https://pokemongo.com/en/news/festival-of-lights-2026",
+      "result": "event-added: India Festival of Lights main gameplay window; review pending exact end of Branched Timed Research that starts November 1 at 6:00 a.m.",
+      "note": "Official article gives the Timed Research start but no end time. Do not guess a separate research endpoint; add/split that window when an exact official or in-game cutoff is available."
     }
   }
 }
