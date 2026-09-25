@@ -1,0 +1,4 @@
+# ChatGPT monitor watchdog kick file.
+# Updating this file on main triggers Build monitor candidate manifest.
+# The scheduled watchdog only changes it when monitor-state source_snapshot_at is stale.
+initialized: 2026-09-25T15:45:00Z
