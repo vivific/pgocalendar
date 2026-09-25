@@ -2,3 +2,6 @@
 # Updating this file on main triggers Build monitor candidate manifest.
 # The scheduled watchdog only changes it when monitor-state source_snapshot_at is stale.
 initialized: 2026-09-25T15:45:00Z
+last_kick_at: 2026-09-25T18:59:20.542380Z
+observed_source_snapshot_at: 2026-09-25T16:22:07.824396Z
+staleness_reason: source_snapshot_at older than 40 minutes (age 157.2 minutes)
