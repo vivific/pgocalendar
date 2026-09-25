@@ -453,8 +453,7 @@ main {
 .bar.code { background: var(--regional); }
 .bar.ticketed { background: var(--ticketed); }
 
-.bar.expired,
-.bar.future {
+.bar.expired {
   background: #a7b6b3;
   color: #fff;
   opacity: .66;
@@ -463,15 +462,34 @@ main {
     0 1px 3px rgba(29,78,71,.08);
 }
 
+.bar.future {
+  background: #a7b6b3;
+  color: #fff;
+  opacity: .78;
+  border: 3px solid transparent;
+  box-shadow: 0 1px 3px rgba(29,78,71,.08);
+}
+
+.bar.future.global { border-color: var(--accent); }
+.bar.future.regional,
+.bar.future.partner,
+.bar.future.code { border-color: var(--regional); }
+.bar.future.onsite { border-color: var(--onsite); }
+.bar.future.ticketed { border-color: var(--ticketed); }
+
 .bar:hover {
   filter: brightness(.97);
   transform: translateY(-1px);
 }
 
-.bar.expired:hover,
-.bar.future:hover {
+.bar.expired:hover {
   filter: brightness(.95);
   opacity: .80;
+}
+
+.bar.future:hover {
+  filter: brightness(.97);
+  opacity: .92;
 }
 
 .access-badges,
@@ -758,11 +776,16 @@ footer p { margin: 0; }
   .cell.weekend { background: rgba(19,35,34,.46); }
   .cell.today { background: rgba(90,217,166,.10); }
 
-  .bar.expired,
-  .bar.future {
+  .bar.expired {
     background: #5f706d;
     color: #e4f1ef;
     opacity: .67;
+  }
+
+  .bar.future {
+    background: #5f706d;
+    color: #e4f1ef;
+    opacity: .80;
   }
 
   dialog {
