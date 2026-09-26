@@ -1,6 +1,6 @@
 # Pokémon GO Calendar Updater Policy
 
-This file is the editorial contract for automated updates to `vivific/pgocalendar`.
+This file is the editorial contract for maintaining `vivific/pgocalendar`.
 
 ## Goal
 
@@ -8,11 +8,13 @@ Maintain a canonical, source-backed calendar of Pokémon GO gameplay events anno
 
 ## Discovery
 
-Check all official Pokémon GO News locale indexes for newly visible slugs:
+The primary sources are the official Pokémon GO News locale indexes:
 
 `en, de, es, es-MX, fr, hi, id, it, pl, pt-BR, ja, ko, ru, th, tr, zh-Hant`.
 
-A slug discovered on any locale index is a candidate even if it never appears on the English index.
+An external watcher may notify the user that one of these official indexes changed. Treat that notification only as a prompt to review the official source; it does not establish that a new canonical event exists.
+
+A slug visible on any locale index is eligible for manual review even if it never appears on the English index.
 
 For article interpretation, try the same slug in this order:
 
@@ -23,7 +25,7 @@ For article interpretation, try the same slug in this order:
 
 Accept a preferred-locale URL even when its body is copied from another language. Reject generic wrong-page fallbacks.
 
-The machine collector preserves each locale index's encountered order. Routine NEW discovery compares the five most recent entries per locale against that locale's previous recent-five baseline. Only slugs that newly appear before the first overlapping baseline slug can be newly admitted. To avoid missing a burst of more than five posts between runs, the collector scans forward until it reaches a previous-baseline slug, with a 30-entry safety cap. If a locale has no prior baseline, the run establishes one and admits no NEW candidates from that locale. After admission, an unhandled NEW slug is carried forward from the previous manifest until processed/ignored or canonically represented; it does not need to remain in the recent-five delta. The complete parsed index remains source/recheck state only.
+Before calling anything new, consult both `data/processed_posts.json` and the complete current `data/calendar_events.json`. An index change by itself is never enough to create a new canonical event.
 
 ## Canonical event rules
 
@@ -50,9 +52,9 @@ An article may create multiple event entries when it contains genuinely distinct
 
 ### Canonical-shape gate
 
-Admission to `manifest.new` means only that a slug is eligible for semantic review. It does **not** mean a canonical calendar event is missing.
+A newly noticed News slug is only eligible for semantic review. It does **not** mean a canonical calendar event is missing.
 
-Before notifying on or adding a NEW candidate, verify that the article describes at least one **concrete player-facing gameplay window** of a kind this calendar tracks, such as research, raids, altered wild encounters, gameplay bonuses, stamp-rally participation, Collection Challenges, or another directly playable mechanic.
+Before adding a new canonical event, verify that the article describes at least one **concrete player-facing gameplay window** of a kind this calendar tracks, such as research, raids, altered wild encounters, gameplay bonuses, stamp-rally participation, Collection Challenges, or another directly playable mechanic.
 
 Do not create a canonical bar solely because an official page has a broad date range. In particular, treat these as non-calendar unless they themselves define a distinct gameplay window:
 - Season landing pages or season overview pages;
@@ -63,7 +65,7 @@ Do not create a canonical bar solely because an official page has a broad date r
 
 When an umbrella page contains or links to multiple concrete mechanics, evaluate those mechanics individually. If their actual gameplay windows are already represented by existing canonical records, the umbrella page itself should be marked `ignored` as a non-calendar/aggregate source rather than creating an overlapping parent bar.
 
-Routine monitoring must also avoid silently inventing a new canonical modeling convention. Before proposing a new top-level event shape, inspect the complete current calendar for comparable precedent. If there is no established precedent for that type of umbrella record, do not introduce it merely because the candidate is in `manifest.new`; either map its concrete mechanics to existing canonical shapes or treat the umbrella itself as non-calendar. A user-requested schema/modeling change may override this rule.
+Routine maintenance must also avoid silently inventing a new canonical modeling convention. Before proposing a new top-level event shape, inspect the complete current calendar for comparable precedent. If there is no established precedent for that type of umbrella record, either map its concrete mechanics to existing canonical shapes or treat the umbrella itself as non-calendar. A user-requested schema/modeling change may override this rule.
 
 ## Deduplication
 
@@ -214,39 +216,19 @@ Use:
 
 For a `postponed` event whose replacement dates are not yet known, preserve the existing stable event `id`, set `start` and `end` to `null`, keep the superseded dates in `notes`, and make the postponement/correction notice the primary source. This intentionally removes the stale bar from the rendered calendar without misclassifying the event as cancelled. Restore concrete dates and the appropriate normal status once an official replacement schedule is published.
 
-## Monitoring state
+## Review and processed-post state
 
-### Deterministic discovery gates
+`data/processed_posts.json` is the persistent review state. The slug-indexed dictionary is `root.posts`.
 
-Discovery classification must be computed **before article interpretation**. Do not reason from an index entry directly into a "new" candidate.
+Before treating a News slug/article as new:
 
-1. Parse `data/processed_posts.json` and construct `handledSlugs` from every `root.posts[slug]` whose `status` is `"processed"` or `"ignored"`. Other fields, including `bootstrap`, do not affect membership.
-2. Collect slugs from all required locale indexes as `indexSlugs`.
-3. Compute `unseenSlugs = indexSlugs - handledSlugs`. Only these slugs may enter the **new-post** pipeline. A `review` entry may enter review handling, but a processed/ignored slug can only enter the separate machine-detected source-change/recheck pipeline.
-4. Before any new-event notification, build/look up the complete canonical source-slug index. If one or more canonical events already have the candidate `source_slug`, classification as **new is prohibited**. Compare the article against those records and notify only if there is a concrete material delta.
-5. Apply the other canonical candidate-existence checks (ID, URL, title+dates, location/scope/mechanic) as additional dedupe gates.
+1. Read `root.posts[slug]`.
+2. If it exists with `status: "processed"` or `status: "ignored"`, do not treat the slug as new. It may still justify an update if the official article has materially changed relative to the current canonical state.
+3. Entries with `status: "review"` remain eligible for follow-up.
+4. Check the complete current calendar for canonical matches using the candidate-existence rules below.
+5. Only call the article new when it is not already handled and its gameplay is not already canonically represented.
 
-For every candidate, internally resolve at least: `slug → processed_state → canonical_match_count → classification → material_delta`.
-
-Hard invariants:
-- `classification == "new"` requires both (a) no processed/ignored state for the slug and (b) `canonical_match_count == 0`.
-- `classification == "update"` requires a concrete non-empty `material_delta`.
-- If either invariant fails, suppress the notification rather than trying to reinterpret the candidate as new.
-- A legacy entry such as `{"bootstrap": true, "status": "processed"}` is in `handledSlugs` exactly like any other processed entry.
-
-
-`data/processed_posts.json` is the discovery state.
-
-The slug-indexed monitoring dictionary is **`root.posts`** (that is, the top-level object's `posts` property). Do not look for slugs as top-level keys.
-
-Before treating any slug discovered on a locale index as unseen:
-- parse `data/processed_posts.json`;
-- read `root.posts[slug]`;
-- if that entry exists with `status: "processed"` or `status: "ignored"`, the slug is **not unseen** and must not be surfaced as a new candidate merely because it appeared on an index; this applies equally to legacy/bootstrap entries such as `{"bootstrap": true, "status": "processed"}`—`bootstrap: true` does not make a processed slug unseen or eligible for new-event discovery;
-- entries with `status: "review"` remain eligible for review;
-- a previously handled `processed` or `ignored` slug may still be re-read through the recent-edit/recheck path, but only a material article change relative to the current canonical state should trigger repository action or a monitor notification.
-
-The `root.posts` check is the first discovery gate. Canonical event deduplication is a second safety net, not a substitute for correctly consulting processed-post state.
+Legacy/bootstrap entries such as `{"bootstrap": true, "status": "processed"}` are handled exactly like any other processed entry.
 
 For newly handled posts, store useful state such as:
 - `first_seen`
@@ -256,57 +238,18 @@ For newly handled posts, store useful state such as:
 - `source_url`
 - a short `result` such as `event-added`, `event-updated`, `duplicate-source`, or `non-calendar-post`
 
-Historical bootstrap entries may remain minimal.
-
-### Machine-enforced monitor discovery
-
-The scheduled AI monitor must use `monitor_candidates.json` from the dedicated `monitor-state` branch, produced by `scripts/monitor_candidates.py` via the `Build monitor candidate manifest` GitHub Actions workflow, as its **only source of candidate identity**. It must not independently promote a News-index slug to NEW.
-
-The manifest is a source snapshot, not merely a list:
-- `source_snapshot_at` records when the required official locale indexes were actually fetched. This timestamp, not merely `generated_at`, is the freshness authority.
-- `locale_states` and `index_snapshot_sha256` record the fetched locale-index state. Each locale records `recent_slugs` (the newest five), `discovery_window_slugs` (the catch-up scan), and `newly_visible_slugs` (the ordered prefix that appeared before the first previous-baseline overlap).
-- `newly_visible_index_slugs`, the union of per-locale `newly_visible_slugs`, is the only index-derived set eligible for NEW set subtraction. `discovery_index_slugs` and the full `index_slugs` are diagnostic/source/recheck state and cannot independently authorize NEW.
-- `index_delta` is diagnostic evidence of index additions/removals relative to the previous schema-v2 manifest. It does not independently authorize semantic review outside `new` or `recheck`.
-- `article_fingerprints` persist normalized official-article content hashes on `monitor-state`. They are machine state, not canonical calendar data.
-- `article_snapshots.json` persists normalized official article text for current NEW candidates and mechanically eligible recent/current/future sources so later edits can be diffed without depending on search-engine indexing.
-- Every admitted `new` or `recheck` item must name a `monitor_payloads/<slug>.json` payload and its SHA-256. The payload contains the full normalized current official article text. A `recheck` payload also contains the previous normalized snapshot plus machine-generated added/removed/unified diff data.
-- Article fetch failures are recorded per slug. A queue item without a complete, hash-valid payload is unusable for monitoring and must not be replaced with model-side discovery or web-search discovery.
-
-Candidate queues are strict:
-- `new`: a slug enters NEW only after the per-locale recent-window delta admits it and deterministic set subtraction establishes that it is neither processed/ignored nor represented by canonical `source_slug`. Once admitted, it remains pending in `manifest.new` across later source runs until canonical/processed state handles it, so a missed AI monitor cycle cannot lose the candidate. Every run refreshes its verified payload. Article metadata attached to the item is supporting source state; NEW identity comes from the machine-maintained admission state. Interpret the article from the item's verified payload rather than locating the article through search.
-- `recheck`: a processed/ignored source eligible for maintenance whose normalized official-article content hash **changed compared with the previous published article snapshot**. Every recheck item must have `article_changed: true`. The first persisted snapshot establishes a baseline and must not itself be treated as an edit. Interpret the current full text and the machine-generated diff from the verified payload.
-- `blocked_by_canonical`: diagnostic only; never NEW and never a substitute recheck queue.
-- `unresolved_new` contains index slugs that pass unseen/canonical set subtraction but for which the collector could not fetch a valid same-slug News article payload (for example, a redirect to a non-News landing page). It is diagnostic only and is never NEW; retry it mechanically on later source runs and never replace the missing payload with web/model discovery.
-- `index_delta`, `index_slugs`, `discovery_index_slugs`, `newly_visible_index_slugs`, `article_fingerprints`, `article_failures`, `locale_states`, `article_snapshots.json`, `unresolved_new`, and any unqueued snapshot/diff state are diagnostic/state only. Never create a candidate from those fields.
-
-Recheck fingerprint eligibility may include recently handled posts and source slugs backing current, upcoming, or recently ended canonical events. This eligibility is mechanical maintenance coverage only; it does not decide whether an article change is materially calendar-worthy.
-
-Before using the manifest:
-1. Fetch current `data/calendar_events.json` and `data/processed_posts.json` from `main` with their blob SHAs.
-2. Require manifest `schema_version: 2`, `payload_schema_version: 1`, `complete: true`, and no `locale_failures`.
-3. Require manifest `calendar_blob_sha` and `processed_blob_sha` to exactly match those current-main blob SHAs.
-4. Require a parseable `source_snapshot_at` no more than 60 minutes old at the start of the monitor run. A fresh `generated_at` does not rescue a stale source snapshot.
-5. For every queue item being evaluated, fetch exactly the payload named by `payload_path`, verify its bytes against `payload_sha256`, require the payload slug/classification to match the manifest item, and verify the normalized current article text against its own `content_sha256`.
-6. If any requirement fails, stay silent for that monitoring path and do not fall back to model-side index discovery or search-engine discovery. The latest GitHub Actions run may be inspected only to diagnose pipeline health; it cannot authorize a candidate.
-
-Before notifying on any `manifest.new` item, re-check current `main`. If it has become processed/ignored or has any canonical match, suppress NEW and at most handle it through a valid material update path.
-
-For `manifest.recheck`, the content-hash change only establishes that the official source changed. The AI must use the verified payload's current official article text and diff, compare them against the exact current canonical record(s), and notify only for a concrete material delta. Cosmetic/template/hash-only changes are no-ops. Live browsing is optional for secondary corroboration or linked detail sources; it must not be required to recover the candidate article and must never create candidate identity.
-
-The `monitor-state` branch is machine state only. Routine editorial/updater work must not merge it into `main` or treat its commits as canonical calendar history. Editorial interpretation remains the AI's job; discovery identity and source-change detection do not.
-
-The separate `Monitor source freshness watchdog` workflow is health-only. It checks that the published schema-v2 source snapshot is complete and no more than 40 minutes old for the quarter-hour crawler cadence. A watchdog success or failure never authorizes candidate identity; only `manifest.new` and `manifest.recheck` do.
+External index-watch notifications, third-party notices, or local checker output are discovery hints only. Final event identity and editorial interpretation must come from the official Pokémon GO News source plus the current repository state.
 
 ### Historical-only discoveries
 
-Routine monitoring is for maintaining gameplay that is current or still upcoming, not for opportunistic backfilling of already-ended events.
+Routine maintenance is for gameplay that is current or still upcoming, not for opportunistic backfilling of already-ended events.
 
-- If a newly admitted `manifest.new` post describes only player-facing gameplay windows that had **fully ended before the post was first discovered by the monitor**, treat it as historical-only and do not add missing canonical event bars during routine monitoring.
-- Mark such a slug `ignored` in `data/processed_posts.json` with a concise `historical-only` result when performing a write-enabled maintenance/update run, so deterministic discovery stops resurfacing it as NEW.
+- If a newly discovered post describes only player-facing gameplay windows that had **fully ended before the post was first reviewed**, treat it as historical-only and do not add missing canonical event bars during routine maintenance.
+- Mark such a slug `ignored` in `data/processed_posts.json` with a concise `historical-only` result when performing a write-enabled maintenance/update run, so it does not keep resurfacing as new.
 - Do **not** apply this rule merely because the article itself is old. If any substantive gameplay described by the post is still active, ongoing with no known end, or future, evaluate and maintain that gameplay normally.
 - Do not delete or degrade historical canonical records that already exist. Historical-only suppression applies to newly discovered missing backfill, not to preservation of existing history.
 - A historical article may still justify action when it materially corrects or supplies a detail source for a canonical record whose current/future availability is affected.
-- Explicit historical audits or backfill projects requested by the user override this routine-monitoring suppression.
+- Explicit historical audits or backfill projects requested by the user override this routine-maintenance suppression.
 
 ## Recent edits
 
@@ -326,7 +269,7 @@ Commit only when repository data actually changes. Keep edits focused on:
 - `data/calendar_events.json`
 - `data/processed_posts.json`
 
-Do not rewrite the frontend during routine monitoring.
+Do not rewrite the frontend during routine maintenance.
 
 
 ## Candidate existence check
@@ -342,9 +285,9 @@ Check at least:
 
 A match on any one field is not automatically conclusive, but a candidate must not be called "new" until these checks have been performed. In particular, later localized articles, detail posts, corrections, "know before you GO" posts, and translated titles commonly describe an event already present under another source URL or canonical title.
 
-If the candidate maps to an existing canonical event, update that record or its source list as appropriate and record the post as `event-updated`, `duplicate-source`, or another accurate monitoring result. Do not create a duplicate.
+If the candidate maps to an existing canonical event, update that record or its source list as appropriate and record the post as `event-updated`, `duplicate-source`, or another accurate review result. Do not create a duplicate.
 
-When reporting updater results, verify the claimed add/update/no-op decision against the post-write (or unchanged) canonical state before stating that an event was missing, newly added, or already present.
+When reporting maintenance results, verify the claimed add/update/no-op decision against the post-write (or unchanged) canonical state before stating that an event was missing, newly added, or already present.
 
 
 ## Stable canonical IDs
