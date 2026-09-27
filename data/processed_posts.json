@@ -195,7 +195,10 @@
     },
     "communityday-october-2026-zorua": {
       "bootstrap": true,
-      "status": "processed"
+      "status": "processed",
+      "last_checked": "2026-09-27T17:29:11.331Z",
+      "source_url": "https://pokemongo.com/en/news/communityday-october-2026-zorua",
+      "result": "event-updated: added full Zorua Community Day hours, featured attack, extended lure/trade window, Special Background details, research, and gameplay bonuses"
     },
     "communitydayclassic-deino-may-2026": {
       "bootstrap": true,

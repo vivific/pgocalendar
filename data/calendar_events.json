@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-25T16:21:07.679Z",
+  "updated_at": "2026-09-27T17:29:11.331Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -9869,9 +9869,29 @@
       "source_slug": "communityday-october-2026-zorua",
       "source_locale": "en",
       "status": "confirmed",
-      "notes": "",
+      "notes": "Main Community Day hours are 2:00–5:00 p.m. local time. Zorua appears more frequently in the wild and may be Shiny or have a Special Background. Evolve Zorua during the event or up to four hours afterward (through 9:00 p.m. local time) to get Zoroark with the Fast Attack Sucker Punch. From 2:00–9:00 p.m. local time, regular Lure Modules have a very high chance to attract Zorua; one additional Special Trade is available (maximum two for the day); and trades require 50% less Stardust. Incense activated during the event lasts three hours, while Lure Modules last one hour. Community Day Field Research can award Zorua encounters, including possible Special Background encounters. Optional US$1.99 Special Research includes three Special Background Zorua encounters, additional Zorua encounters, one Premium Battle Pass, one Rare Candy XL, and other rewards. Community Ambassador event check-ins can award Timed Research with additional Special Background Zorua encounters and premium item rewards.",
       "access": [
         "global"
+      ],
+      "bonuses": [
+        {
+          "type": "xp",
+          "multiplier": 3,
+          "action": "catch",
+          "label": "3× Catch XP"
+        },
+        {
+          "type": "candy",
+          "multiplier": 2,
+          "action": "catch",
+          "label": "2× Catch Candy"
+        },
+        {
+          "type": "candy_xl",
+          "multiplier": 2,
+          "action": "catch_chance",
+          "label": "2× Catch Candy XL Chance"
+        }
       ]
     },
     {
