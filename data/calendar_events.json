@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-27T17:29:11.331Z",
+  "updated_at": "2026-09-27T21:22:57.472Z",
   "bootstrap_cutoff": "2026-09-20",
   "events": [
     {
@@ -10741,6 +10741,27 @@
       "source_locale": "en",
       "status": "confirmed",
       "notes": "India-exclusive event with saree/kurta Pikachu raids, Sparkle O’Clock wild bursts, increased event-themed Lure Module encounters, Collection Challenges, and 3× Lure Module duration. Branched Timed Research becomes available November 1 at 6:00 a.m.; the official article does not state its end time, so its separate availability window is pending clarification rather than guessed."
+    },
+    {
+      "id": "tcg-30th-celebration-event",
+      "title": "Pokémon TCG 30th Celebration Event",
+      "start": "2026-09-27",
+      "end": "2026-10-20",
+      "category": "Regional / Collaboration",
+      "scope": "Regional / In-person",
+      "location": "Participating Best Buy, GameStop & Target retail locations in the United States",
+      "access": [
+        "onsite"
+      ],
+      "regional_type": "local_raid",
+      "source_url": "https://pokemongo.com/news/tcg-30th-celebration-event",
+      "source_urls": [
+        "https://pokemongo.com/news/tcg-30th-celebration-event"
+      ],
+      "source_slug": "tcg-30th-celebration-event",
+      "source_locale": "en",
+      "status": "confirmed",
+      "notes": "Participating U.S. Best Buy, GameStop, and Target locations feature increased Mega Gengar appearances in Mega Raids; Gengar can be Shiny. Visiting a participating retail location and opening Pokémon GO also unlocks event-themed Timed Research with Poké Balls, event-themed Pokémon encounters, and other rewards. The research can be obtained through October 20, 2026 at 10:00 p.m. local time; the November 20 completion/claim deadline is a grace period for already-obtained research and does not extend this calendar bar. A separate purchase promotion awards the Gengar Knit Cap avatar item when redeeming qualifying Pokémon GO gift cards from these retailers between September 27 and October 31, 2026; that purchase-gated offer is noted here but not tracked as a separate gameplay bar."
     }
   ]
 }

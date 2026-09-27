@@ -2027,6 +2027,14 @@
       "source_url": "https://pokemongo.com/en/news/festival-of-lights-2026",
       "result": "event-added: India Festival of Lights main gameplay window; review pending exact end of Branched Timed Research that starts November 1 at 6:00 a.m.",
       "note": "Official article gives the Timed Research start but no end time. Do not guess a separate research endpoint; add/split that window when an exact official or in-game cutoff is available."
+    },
+    "tcg-30th-celebration-event": {
+      "first_seen": "2026-09-27T21:22:57.472Z",
+      "last_checked": "2026-09-27T21:22:57.472Z",
+      "status": "processed",
+      "locale_discovered": "en",
+      "source_url": "https://pokemongo.com/news/tcg-30th-celebration-event",
+      "result": "event-added"
     }
   }
 }
