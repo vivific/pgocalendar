@@ -835,7 +835,20 @@
           "url": "https://pokemongo.com/news/pokemongo-iitdelhi-2026"
         }
       ],
-      "notes": "See article for more details."
+      "notes": "Charizard evolved during the event learns Blast Burn. Other Kanto starter legacy moves remain unverified. See article for more details.",
+      "obtainable": [
+        {
+          "type": "move",
+          "pokemon": "Charizard",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Blast Burn",
+              "notes": "Player-confirmed during the event."
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Patterns of the Wild Timed Research (Indonesia)",
@@ -4372,5 +4385,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-29T01:22:16.000Z"
+  "updated_at": "2026-09-29T06:48:38Z"
 }
