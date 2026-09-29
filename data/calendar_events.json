@@ -816,40 +816,55 @@
       ]
     },
     {
-      "name": "IIT-Delhi Rendezvous 2026 (India)",
-      "identifier": "pokemongo-iitdelhi-2026",
-      "type": "collaboration",
-      "start": "2026-09-28",
-      "end": "2026-10-01",
-      "availability": {
-        "type": "onsite",
-        "regions": [
-          "India"
-        ],
-        "locations": [
-          "IIT-Delhi Campus"
-        ]
-      },
-      "sources": [
+  "name": "IIT-Delhi Rendezvous 2026 (India)",
+  "identifier": "pokemongo-iitdelhi-2026",
+  "type": "collaboration",
+  "start": "2026-09-28",
+  "end": "2026-10-01",
+  "availability": {
+    "type": "onsite",
+    "regions": ["India"],
+    "locations": ["IIT-Delhi Campus"]
+  },
+  "obtainable": [
+    {
+      "type": "move",
+      "pokemon": "Venusaur",
+      "methods": [
         {
-          "url": "https://pokemongo.com/news/pokemongo-iitdelhi-2026"
-        }
-      ],
-      "notes": "Charizard evolved during the event learns Blast Burn. Other Kanto starter legacy moves remain unverified. See article for more details.",
-      "obtainable": [
-        {
-          "type": "move",
-          "pokemon": "Charizard",
-          "methods": [
-            {
-              "method": "evolution",
-              "exclusive_move": "Blast Burn",
-              "notes": "Player-confirmed during the event."
-            }
-          ]
+          "method": "evolution",
+          "exclusive_move": "Frenzy Plant"
         }
       ]
     },
+    {
+      "type": "move",
+      "pokemon": "Charizard",
+      "methods": [
+        {
+          "method": "evolution",
+          "exclusive_move": "Blast Burn"
+        }
+      ]
+    },
+    {
+      "type": "move",
+      "pokemon": "Blastoise",
+      "methods": [
+        {
+          "method": "evolution",
+          "exclusive_move": "Hydro Cannon"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://pokemongo.com/news/pokemongo-iitdelhi-2026"
+    }
+  ],
+  "notes": "Kanto starter evolutions during the event can learn Frenzy Plant, Blast Burn, and Hydro Cannon. See article for more details."
+},
     {
       "name": "Patterns of the Wild Timed Research (Indonesia)",
       "identifier": "patterns-of-the-wild-2026-1",
