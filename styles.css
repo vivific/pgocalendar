@@ -1052,3 +1052,43 @@ main{width:min(100%,2100px)}
   .calendar-status .update-status{font-size:11px}
   .calendar-disclaimer{margin-left:4px;margin-right:4px}
 }
+
+/* Unified calendar toolbar */
+.calendar-toolbar{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:flex-end;
+  gap:8px 16px;
+  margin-bottom:10px;
+}
+.calendar-toolbar .controls{
+  flex:1 1 620px;
+  margin-bottom:0;
+}
+.calendar-toolbar .calendar-info{
+  flex:0 0 auto;
+  min-height:40px;
+  margin:0 0 0 auto;
+  padding:0;
+}
+.calendar-toolbar .calendar-status{
+  white-space:nowrap;
+}
+@media (max-width:760px){
+  .calendar-toolbar{
+    display:block;
+    margin-bottom:8px;
+  }
+  .calendar-toolbar .controls{
+    margin-bottom:6px;
+  }
+  .calendar-toolbar .calendar-info{
+    width:100%;
+    min-height:0;
+    padding:0 4px;
+  }
+  .calendar-toolbar .calendar-status{
+    justify-content:flex-end;
+    white-space:normal;
+  }
+}
