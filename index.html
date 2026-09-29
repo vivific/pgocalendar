@@ -21,11 +21,6 @@
       <label class="control category-control"><span>Type</span><select id="category"><option value="">All types</option></select></label>
       <label class="control zoom-control"><span>Zoom</span><input id="zoom" type="range" min="16" max="64" value="64"></label>
       <button id="today" type="button">Today</button>
-      <button id="toggle-long-rallies" type="button" aria-pressed="false" title="Hide Stamp Rallies with no end date or that continue beyond the selected year">Long rallies: shown</button>
-      <button id="hidden-events" type="button" title="Manage events hidden on this browser">Hidden (0)</button>
-    </section>
-
-    <div class="calendar-info">
       <details class="legend-panel">
         <summary>Legend</summary>
         <div class="legend-popover">
@@ -42,6 +37,12 @@
           </section>
         </div>
       </details>
+      <button id="toggle-long-rallies" type="button" aria-pressed="false" title="Hide Stamp Rallies with no end date or that continue beyond the selected year">Long rallies: shown</button>
+      <button id="hidden-events" type="button" title="Manage events hidden on this browser">Hidden (0)</button>
+    </section>
+
+    <div class="calendar-info">
+
       <span class="meta" id="meta"></span>
     </div>
 
