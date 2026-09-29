@@ -933,7 +933,7 @@ footer p { margin: 0; }
 }
 
 /* Schema v4 detail presentation */
-.bar.ticketed-event::after{content:"";position:absolute;top:5px;right:5px;width:7px;height:7px;border-radius:999px;background:var(--ticketed);box-shadow:0 0 0 2px rgba(255,255,255,.72)}
+.ticket-dot{display:inline-block;width:8px;height:8px;margin-right:6px;border-radius:999px;background:var(--ticketed);box-shadow:0 0 0 2px rgba(255,255,255,.72);vertical-align:1px}
 .access-badge.subtype{background:#edf4f0}
 .detail-section{margin-top:20px;padding-top:16px;border-top:1px solid #e7f0ea}
 .detail-section[hidden]{display:none}
