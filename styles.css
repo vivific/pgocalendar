@@ -953,3 +953,36 @@ footer p { margin: 0; }
 }
 @media (max-width:430px){.detail-card ul{padding-left:16px}}
 
+
+/* Active obtainable sidebar */
+main{width:min(100%,2100px)}
+.calendar-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:14px;align-items:start}
+.calendar-column{min-width:0}
+.obtainables-sidebar{position:sticky;top:18px;max-height:calc(100vh - 36px);overflow:auto;padding:16px;border:1px solid #dce9e0;border-radius:22px;background:rgba(255,255,255,.96);box-shadow:var(--shadow);scrollbar-color:#bdd8cc transparent}
+.obtainables-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.obtainables-head h2{margin:2px 0 0;font-size:18px;line-height:1.1}
+.obtainables-head .eyebrow{margin:0}
+.sidebar-action,.hide-obtainable,.restore-hidden-obtainable{min-height:32px;padding:5px 9px;border:1px solid #d6e5dd;border-radius:999px;background:#f6fbf7;color:#496c6d;font:inherit;font-size:11px;font-weight:780;cursor:pointer}
+.sidebar-action:hover,.hide-obtainable:hover,.restore-hidden-obtainable:hover{filter:brightness(.97)}
+.obtainables-help{margin:9px 0 3px;color:var(--muted);font-size:11px;line-height:1.4}
+.obtainables-meta{margin:0 0 10px;color:#607f80;font-size:10px;font-weight:800}
+.obtainables-list{display:grid;gap:8px}
+.obtainable-row{padding:10px;border:1px solid #dfeae4;border-radius:14px;background:#f7fbf8}
+.obtainable-row-head{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+.obtainable-row-head>div{min-width:0}
+.obtainable-row strong{display:block;margin-top:2px;font-size:12px;line-height:1.3;overflow-wrap:anywhere}
+.obtainable-kind{display:block;color:#819b9a;font-size:9px;font-weight:850;letter-spacing:.06em;text-transform:uppercase}
+.hide-obtainable{flex:none;min-height:26px;padding:3px 7px;font-size:9px}
+.obtainable-flags{margin:5px 0 0;color:#668181;font-size:10px}
+.obtainable-events{margin:7px 0 0;padding-left:17px;color:#6a8585;font-size:10px;line-height:1.45}
+.obtainables-empty{margin:12px 2px;color:var(--muted);font-size:11px;line-height:1.45}
+@media (prefers-color-scheme:dark){
+  .obtainables-sidebar{background:rgba(23,39,39,.97);border-color:#29413f}
+  .obtainable-row{background:#1b302e;border-color:#2b4542}
+  .sidebar-action,.hide-obtainable,.restore-hidden-obtainable{background:#1b302e;border-color:#2b4542;color:#dbece9}
+  .obtainable-flags,.obtainable-events{color:#aac1be}
+}
+@media (max-width:1100px){
+  .calendar-layout{grid-template-columns:1fr}
+  .obtainables-sidebar{position:static;max-height:none}
+}

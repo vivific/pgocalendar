@@ -10,6 +10,8 @@
 </head>
 <body>
   <main>
+    <div class="calendar-layout">
+      <div class="calendar-column">
     <section class="controls" aria-label="Calendar controls">
       <label class="control search" style="display:none;">
         <span class="sr-only">Search</span>
@@ -47,6 +49,21 @@
       <div id="empty" class="empty" hidden>No events have been published for this view yet.</div>
       <div id="timeline" class="timeline" aria-live="polite"></div>
     </section>
+      </div>
+
+      <aside class="obtainables-sidebar" aria-label="Active obtainable Pokémon and items">
+        <div class="obtainables-head">
+          <div>
+            <p class="eyebrow">Available now</p>
+            <h2>Obtainables</h2>
+          </div>
+          <button id="hidden-obtainables" class="sidebar-action" type="button" title="Manage hidden obtainables">Hidden (0)</button>
+        </div>
+        <p class="obtainables-help">Notable Pokémon and items from events active today.</p>
+        <div id="active-obtainables-meta" class="obtainables-meta"></div>
+        <div id="active-obtainables" class="obtainables-list" aria-live="polite"></div>
+      </aside>
+    </div>
   </main>
 
   <dialog id="details">
@@ -76,6 +93,14 @@
     <p class="dialog-help">These events are hidden only on this browser.</p>
     <div id="hidden-events-list" class="hidden-events-list"></div>
     <div class="dialog-actions"><button id="restore-all-hidden" class="secondary-action" type="button">Restore all</button></div>
+  </dialog>
+
+  <dialog id="hidden-obtainables-dialog">
+    <button class="close" type="button" aria-label="Close">×</button>
+    <h2>Hidden obtainables</h2>
+    <p class="dialog-help">These Pokémon and items are hidden only on this browser. Expired obtainables are removed automatically.</p>
+    <div id="hidden-obtainables-list" class="hidden-events-list"></div>
+    <div class="dialog-actions"><button id="restore-all-hidden-obtainables" class="secondary-action" type="button">Restore all</button></div>
   </dialog>
 
   <footer>
