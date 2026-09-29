@@ -41,14 +41,17 @@
     </section>
 
     <div class="calendar-info">
-
-      <span class="meta" id="meta"></span>
+      <div class="calendar-status">
+        <span class="meta" id="meta"></span>
+        <span class="update-status" id="footer-status">Last updated: loading…</span>
+      </div>
     </div>
 
     <section class="timeline-shell">
       <div id="empty" class="empty" hidden>No events have been published for this view yet.</div>
       <div id="timeline" class="timeline" aria-live="polite"></div>
     </section>
+    <p class="calendar-disclaimer">Unofficial calendar built from official Pokémon GO sources. Select an event for details and sources.</p>
       </div>
 
       <aside class="obtainables-sidebar" aria-label="Active obtainable Pokémon and items">
@@ -102,11 +105,6 @@
     <div id="hidden-obtainables-list" class="hidden-events-list"></div>
     <div class="dialog-actions"><button id="restore-all-hidden-obtainables" class="secondary-action" type="button">Restore all</button></div>
   </dialog>
-
-  <footer>
-    <p class="update-status" id="footer-status">Last updated: loading…</p>
-    <p class="disclaimer">Unofficial calendar built from official Pokémon GO sources. Select an event for details and sources.</p>
-  </footer>
   <script src="app.js"></script>
 </body>
 </html>

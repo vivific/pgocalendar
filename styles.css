@@ -1022,3 +1022,33 @@ main{width:min(100%,2100px)}
   .controls .legend-panel summary{width:100%;justify-content:center;font-size:16px}
   .controls .legend-popover{position:fixed;left:12px;right:12px;width:auto;top:auto;margin-top:7px}
 }
+
+/* Calendar status + disclaimer placement */
+.calendar-status{
+  margin-left:auto;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  align-items:center;
+  gap:6px 12px;
+  text-align:right;
+}
+.calendar-status .meta{margin-left:0}
+.calendar-status .update-status{
+  margin:0;
+  color:var(--muted);
+  font-weight:700;
+}
+.calendar-disclaimer{
+  margin:8px 4px 0;
+  color:var(--muted);
+  font-size:11px;
+  line-height:1.4;
+  text-align:left;
+}
+@media (max-width:760px){
+  .calendar-status{min-width:0;gap:4px 8px}
+  .calendar-status .meta,
+  .calendar-status .update-status{font-size:11px}
+  .calendar-disclaimer{margin-left:4px;margin-right:4px}
+}
