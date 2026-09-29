@@ -1,18 +1,20 @@
-# Pokémon GO Calendar Maintenance
+# Calendar maintenance
 
-This repository is maintained manually. An external watcher may flag changes to official Pokémon GO News indexes, but discovery is not an editorial decision: every calendar change must be verified against the official source and the current repository state before editing.
+This file documents the conventions used to maintain the Pokémon GO event calendar.
 
-## Files
+The calendar is updated manually. An external watcher may flag new or changed Pokémon GO News posts, but anything added here should still be checked against the official source before the data is changed.
 
-- `data/calendar_events.json` — canonical public calendar data.
-- `index.html`, `styles.css`, `app.js` — public frontend. Do not change these during routine event maintenance unless a frontend or schema change is explicitly intended.
-- `README.md` — short public repository description.
+## Repository layout
 
-The repo does not maintain a GitHub-side news monitor or processed-post state.
+- `data/calendar_events.json` — the public calendar data
+- `index.html`, `styles.css`, `app.js` — the frontend
+- `README.md` — short repository description
 
-## Schema v4
+There is no updater script or processed-post database in this repository anymore.
 
-`data/calendar_events.json` uses schema version 4:
+## Calendar data
+
+The calendar currently uses schema version 4.
 
 ```json
 {
@@ -43,72 +45,63 @@ The repo does not maintain a GitHub-side news monitor or processed-post state.
 }
 ```
 
-Dates are `YYYY-MM-DD` only. Do not add hour-level event timestamps. Use `end: null` only when a new player can still begin or access the tracked gameplay indefinitely and no end date is known.
+Event dates are stored as `YYYY-MM-DD`. Hour-level event timing is intentionally not represented.
 
-Whenever `data/calendar_events.json` changes, update top-level `updated_at` to the current UTC ISO 8601 timestamp. Frontend-only changes do not require a timestamp update.
+`end: null` is used for genuinely open-ended content where a new player can still begin or access it and no end date is known.
 
-## Stable identifiers
+Whenever `data/calendar_events.json` changes, `updated_at` should be updated to the current UTC time. Frontend-only changes do not need to touch it.
 
-`identifier` is the persistent event identity and browser cache key.
+## Event identifiers
 
-**Never rename an identifier for an event that has already been published.**
+Event identifiers are permanent once published.
 
-Existing identifiers were carried forward from the previous schema so browser-local hidden-event preferences and any downstream references continue to work. For a genuinely new event, create a concise stable identifier. Once published, leave it unchanged even if the event title, dates, type, location, sources, or details later change.
+They are also used by browser-side features such as hidden events, so renaming an existing identifier can break saved preferences. Older events kept their previous identifiers during the schema v4 migration for this reason.
 
-Change an existing identifier only when explicitly resolving a true duplicate, merge, or identity error.
+New events can use any concise, sensible identifier, but that identifier should stay unchanged after publication unless a real duplicate or identity mistake is being corrected.
 
-## Calendar philosophy
+## What belongs on the calendar
 
-Represent **player-facing gameplay availability**, not announcement timing.
+The calendar is meant to represent gameplay availability rather than announcement timing.
 
-Include gameplay windows such as events, research access, raids, codes, stamp rallies, local activations, and other mechanics a player can currently begin or participate in.
+In practice, that means tracking things a player can actually begin or participate in: events, research access, raids, codes, stamp rallies, local activations, and similar gameplay.
 
-Generally exclude:
-- announcement dates
-- registration periods that do not themselves grant gameplay
-- merchandise or ordinary sales
-- infrastructure or decorative PokéStops
-- completion grace periods after new access has closed
+Things that generally do not need their own calendar entry include announcement dates, merchandise, ordinary sales, decorative PokéStops, registration windows with no gameplay attached, and completion grace periods after new access has already closed.
 
-For active and future records, interpret availability from the perspective of a **new player who has not already claimed, unlocked, enrolled in, or started** the content.
+For current and future events, availability is considered from the point of view of a player who has not already claimed, unlocked, enrolled in, or started the content.
 
-Rules:
-- Completion or claim grace for already-unlocked research does not keep an event active.
-- Code promotions end when a new eligible player can no longer obtain/redeem the code or unlock the tracked content.
-- Stamp rallies remain active only while a new player can still begin them.
-- Split distinct mechanics into separate bars when their meaningful gameplay windows materially differ.
-- Do not split solely because an already-started player receives a later completion deadline.
-- If a parent event ends but a distinct mechanic continues, give that mechanic its own bar when the real availability window is known.
-- Routine maintenance is current/ongoing/future focused. Do not opportunistically backfill already-ended missing events unless explicitly requested.
-- Do not re-add records deliberately removed near expiry merely because they remain technically active for a short period before a planned public update.
+A few useful rules of thumb:
+
+- Research does not stay active just because someone who already started it can finish later.
+- A code promotion ends when a new eligible player can no longer obtain or redeem the code.
+- A stamp rally remains active only while a new player can still start it.
+- Different mechanics should be split into separate bars when their gameplay windows are meaningfully different.
+- A later completion deadline by itself is not a reason to split an event.
+- Routine maintenance focuses on current, ongoing, and future content rather than backfilling every historical event.
+- Events deliberately removed near expiry do not need to be re-added simply because they are technically still active for a few more days.
 
 ## Event fields
 
-### `name`
+### Name
 
-Human-facing title. Prefer the official title or a concise canonical title. Add country or region qualifiers when useful.
+`name` is the player-facing event title. Official wording is preferred where practical, with a country or region qualifier added when it helps distinguish local events.
 
-### `identifier`
+### Type
 
-Stable event identity. See **Stable identifiers** above.
+`type` is the general event classification.
 
-### `type`
-
-Human-facing event classification. Common values include:
+Common values include:
 
 `event`, `collaboration`, `community-day`, `community-day-classic`, `raid-day`, `research-day`, `hatch-day`, `spotlight-hour`, `raid-hour`, `max-monday`, `max-battle-day`, `go-pass`, `go-battle-league`, `go-fest`, `go-tour`, `wild-area`, `city-safari`, `stamp-rally`, `timed-research`, `special-research`, `collection-challenge`, `promotion`, and `other`.
 
-Use the best descriptive type. Do not distort `type` merely to obtain a display icon.
+The type should describe the event itself rather than being chosen just to get a particular icon.
 
-### `start` / `end`
+### Dates
 
-Calendar dates only.
+`start` is required for anything shown on the timeline.
 
-- `start` is required for rendered events.
-- `end` may be `null` only for truly ongoing/open-ended gameplay.
-- Never remove an `end: null` record without re-verifying that a new player can no longer begin/access it.
+`end` can be a date or `null` for genuinely ongoing content.
 
-### `availability`
+### Availability
 
 ```json
 "availability": {
@@ -119,16 +112,19 @@ Calendar dates only.
 }
 ```
 
-- `global` — generally worldwide.
-- `regional` — restricted to a country or region but not necessarily venue-bound.
-- `onsite` — requires physical presence at a city, venue, store, museum, event area, partner location, etc.
-- `ticketed: true` — the tracked gameplay itself requires a paid or registered ticket. Do not set it merely because an optional paid add-on exists.
+- `global` — generally available worldwide
+- `regional` — limited to a country or broader region
+- `onsite` — requires being at a specific city, venue, store, museum, event area, partner location, etc.
+- `ticketed: true` — the tracked gameplay itself requires a ticket or registration
 
-## Display subtype / icon
+An optional paid add-on is not enough on its own to make an event ticketed.
 
-`subtype` is optional and communicates a distinctive player-facing mechanic without changing `type`.
+## Display icons
 
-Supported display subtypes:
+`subtype` is optional and exists mainly for the small event icon shown in the frontend.
+
+Supported subtypes:
+
 - `timed-research` → ⏱
 - `local-raid` → 📍
 - `city-safari` → 🏙️
@@ -137,33 +133,30 @@ Supported display subtypes:
 - `paid-code` → 💲
 - `stamp-rally` → 💮
 
-Use `local-raid` only when location-bound raids are a principal reason to visit. Research-centric regional or onsite activations may use `timed-research`.
+`local-raid` is best reserved for events where location-bound raids are one of the main reasons to visit.
 
-For event types `timed-research`, `city-safari`, `wild-area`, and `stamp-rally`, the frontend can infer the same icon if `subtype` is omitted.
+For `timed-research`, `city-safari`, `wild-area`, and `stamp-rally`, the frontend can infer the same icon from the event type when `subtype` is omitted.
 
-## Notable obtainable content
+## Obtainable content
 
-`obtainable` is intentionally **not exhaustive**. Track content that is meaningfully event-specific.
+`obtainable` is meant for notable event-specific content rather than a complete list of every spawn or reward.
 
-Include when relevant:
-- Community Day featured Pokémon, even when otherwise ordinary
+Things worth tracking include:
+
+- Community Day featured Pokémon
 - new or event-exclusive Pokémon, forms, and costumes
 - region-breaking availability
-- location or special-background encounters
+- Location Background or Special Background encounters
 - event-exclusive moves
 - limited avatar items
 - medals, souvenirs, or similarly distinctive rewards
-- exceptional items only when they are genuinely notable enough to track
+- unusually notable items
 
-Generally omit:
-- ordinary boosted spawns
-- routine consumables
-- ordinary XP/Stardust/item rewards
-- common encounters that are not notably event-specific
+Ordinary boosted spawns, routine consumables, standard XP or Stardust rewards, and other filler generally do not need to be listed.
 
-Do not populate `obtainable` merely for symmetry. Sparse records are acceptable when details are not announced or nothing notable needs tracking.
+Sparse entries are fine when details have not been announced or there is simply nothing notable to record.
 
-### Pokémon example
+### Pokémon
 
 ```json
 {
@@ -184,7 +177,7 @@ Do not populate `obtainable` merely for symmetry. Sparse records are acceptable 
 }
 ```
 
-### Move example
+### Move
 
 ```json
 {
@@ -199,7 +192,7 @@ Do not populate `obtainable` merely for symmetry. Sparse records are acceptable 
 }
 ```
 
-### Avatar example
+### Avatar item
 
 ```json
 {
@@ -213,33 +206,27 @@ Do not populate `obtainable` merely for symmetry. Sparse records are acceptable 
 }
 ```
 
-Method fields may include:
-- `method`
-- `shiny`
-- `background`
-- `paid`
-- `requirement`
-- `notes`
-- `exclusive_move`
-- `active_months`
-- `start`
-- `end`
+Useful method fields include `method`, `shiny`, `background`, `paid`, `requirement`, `notes`, `exclusive_move`, `active_months`, `start`, and `end`.
 
-Use `background: true` for either a Location Background or Special Background; the schema does not distinguish them.
+The schema uses `background: true` for both Location Backgrounds and Special Backgrounds.
 
-Common methods include:
+Common method names include:
+
 `wild`, `raid`, `mega-raid`, `max-battle`, `egg`, `field-research`, `timed-research`, `special-research`, `stamp-rally-reward`, `lure`, `incense`, `go-pass`, `team-go-rocket`, `giovanni`, `evolution`, `elite-tm`, `capture`, `event`, `code`, `gift`, `shop`, `purchase`, and `other`.
 
-The Active Obtainables sidebar supports `avatar`, `move`, `pokemon`, and `item` objects, currently ordered in that sequence. Normal items are supported but are not expected to be exhaustively maintained.
+The Active Obtainables sidebar currently supports avatar items, moves, Pokémon, and normal items, in that order. Normal items are supported but are not expected to be maintained exhaustively.
 
-## Method-level obtainable availability
+## Rotating or narrower obtainable windows
 
-Some long-running events contain content that rotates or is available during a narrower window than the parent event. Keep the parent event intact and put the narrower availability on the relevant obtainable method when appropriate.
+Sometimes an event stays active continuously while one of its rewards rotates or is only obtainable during part of that event.
 
-Supported optional method fields:
-- `active_months` — recurring calendar month numbers, 1–12
-- `start` — optional `YYYY-MM-DD` method start date
-- `end` — optional `YYYY-MM-DD` method end date
+In those cases, the narrower window can be stored on the individual method rather than splitting the whole event.
+
+Supported fields:
+
+- `active_months` — recurring month numbers from 1 to 12
+- `start` — optional method-level start date
+- `end` — optional method-level end date
 
 Example:
 
@@ -258,23 +245,26 @@ Example:
 }
 ```
 
-The public Active Obtainables sidebar evaluates these windows against the current date. If an obtainable has methods but none are currently active, it does not appear in the sidebar. Event details may still show the complete rotation.
+The Active Obtainables sidebar checks these fields against the current date. If none of an obtainable's methods are currently active, that obtainable is left out of the sidebar.
 
-Use method-level availability for genuine recurring or sub-event rotations such as PokéPark KANTO's legendary-bird cycle. Do not use it to extend content beyond the parent event's own `start` / `end` dates.
+PokéPark KANTO's rotating legendary-bird raids are one example of where this is useful.
+
+Method-level availability should not extend an obtainable beyond the parent event's own start and end dates.
 
 ## Bonuses
 
-Record official player-facing bonuses in `bonuses`. The structure is intentionally flexible.
+Official gameplay bonuses can be stored in `bonuses`.
 
-Common fields:
+The structure is intentionally flexible. Common fields include:
+
 - `type`
 - `action`
-- `multiplier` — exact numeric multiplier only when explicitly stated
-- `amount` — exact numeric count or limit
+- `multiplier`
+- `amount`
 - `duration_minutes`
-- `label` — human-readable wording for unusual or non-numeric bonuses
-- `requirement` — rank, subwindow, location, ticket/add-on, etc.
-- `paid: true` — requires a paid ticket or add-on
+- `label`
+- `requirement`
+- `paid`
 
 Examples:
 
@@ -285,13 +275,13 @@ Examples:
 {"type":"frustration-removal","label":"Charged TMs can be used to make Shadow Pokémon forget Frustration"}
 ```
 
-Do not invent numeric values for vague wording such as “increased” or “boosted”; use `label`.
+Exact numbers should only be used when the official source gives an exact number. Wording such as “increased” or “boosted” is better preserved in `label` rather than turned into a guessed multiplier.
 
-If a bonus applies only to a narrower phase, encode the constraint in `requirement` when clear. Create a separate event bar when the narrower window is itself a meaningful distinct gameplay phase.
+If a bonus only applies during part of an event, `requirement` can describe that narrower window. A separate event bar is preferable when that narrower period is itself a distinct gameplay phase.
 
 ## Sources
 
-Use official Pokémon GO sources whenever possible.
+Official Pokémon GO sources are preferred.
 
 ```json
 "sources": [
@@ -306,62 +296,52 @@ Use official Pokémon GO sources whenever possible.
 ]
 ```
 
-Preferred interpretation order:
+When localized posts differ, the usual interpretation preference is:
+
 1. English
 2. Japanese
 3. Traditional Chinese
-4. discovery locale
+4. the locale where the post was originally discovered
 
-Supplemental official partner or local-government pages are acceptable when they directly establish lifecycle, location, or eligibility details absent from Pokémon GO News.
+Official partner or local-government pages are also useful when they clarify timing, location, or eligibility that the Pokémon GO article does not.
 
-Do not duplicate URLs.
+Duplicate source URLs should be avoided.
 
 ## Notes
 
-Use `notes` for lifecycle clarification, split-window explanations, unusual requirements, rotations, or concise details that do not justify another structured field.
+`notes` is for lifecycle details, split-window explanations, unusual requirements, rotations, or other context that does not need its own structured field.
 
-`"See article for more details."` is acceptable for an intentionally sparse event.
+`"See article for more details."` is fine for an intentionally sparse event.
 
-Do not copy entire articles into the calendar.
+There is no need to copy large sections of official articles into the data.
 
-## Manual maintenance workflow
+## Typical update flow
 
-When the external watcher flags a possible new or changed News post:
+A normal calendar update is fairly simple:
 
-1. Read the current `MAINTENANCE.md`.
-2. Fetch the latest `data/calendar_events.json` from `main`.
-3. Open and verify the official source. Check relevant localized versions when wording or regional scope is ambiguous.
-4. Determine whether the post represents:
-   - a genuinely new calendar event,
-   - an update to an existing event,
-   - an additional source for an existing event,
-   - a non-calendar announcement,
-   - or historical/expired information that should not be added.
-5. Check the complete current calendar using identifier, source URL, normalized title/dates, location, and distinctive mechanic before creating anything new.
-6. Merge localized/detail/correction posts into the existing event rather than duplicating it.
-7. Apply only the intended semantic change.
-8. Update `updated_at` whenever calendar data changes.
-9. Immediately before writing, re-fetch current `main` HEAD/files.
-10. Validate the full file, then commit atomically with a non-forced fast-forward.
-11. If `main` moved, reapply the semantic delta to the new HEAD. Never force-push over concurrent changes.
+1. Check the current calendar data and the official source.
+2. Decide whether the post is a new event, an update to an existing event, an extra source, or something that does not belong on the calendar.
+3. Check for an existing matching event before adding a new one.
+4. Merge localized or corrective posts into the existing event when appropriate.
+5. Make the smallest data change needed.
+6. Update `updated_at`.
+7. Validate the JSON and identifiers before committing.
 
-Frontend files should change only for an explicit frontend or schema task.
+When writing directly to GitHub, changes should be based on the latest `main` branch. If `main` changes during an edit, the change should be reapplied on top of the newer version rather than force-pushed.
 
-## Validation checklist
+## Quick validation
 
-Before committing calendar data:
+Before committing a calendar-data change, it is worth checking that:
 
-- `schema_version === 4`
-- `events` is an array
-- every event has a non-empty unique `identifier`
-- previously published identifiers did not change unexpectedly
-- every renderable event has a valid `start`
-- every `end` is a valid date or `null`
+- `schema_version` is still 4
+- event identifiers are present and unique
+- published identifiers have not changed accidentally
+- dates are valid
 - `availability.type` is `global`, `regional`, or `onsite`
-- obtainable entries and methods use supported shapes
-- method-level dates/month rotations are internally consistent
-- bonuses do not claim unsupported numeric values
-- source URLs are present and deduplicated where appropriate
-- event-count changes match the intended operation
-- `updated_at` changed whenever calendar data changed
-- JSON parses successfully
+- obtainable entries and methods use expected shapes
+- method-level rotations make sense
+- bonus values are supported by the source
+- source URLs are not duplicated
+- the event-count change matches the intended edit
+- `updated_at` changed when the calendar data changed
+- the JSON parses successfully
