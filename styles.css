@@ -174,7 +174,6 @@ main {
   margin-bottom: 8px;
   color: var(--muted);
   font-size: 12px;
-  z-index:20;
 }
 
 .meta {
@@ -224,6 +223,7 @@ main {
   border-radius: 18px;
   background: rgba(255,255,255,.97);
   box-shadow: var(--shadow);
+  z-index:20;
 }
 
 .legend,
