@@ -142,7 +142,13 @@
               "method": "raid",
               "shiny": true,
               "background": true,
-              "requirement": "February through May."
+              "requirement": "February through May.",
+              "active_months": [
+                2,
+                3,
+                4,
+                5
+              ]
             }
           ]
         },
@@ -154,7 +160,13 @@
               "method": "raid",
               "shiny": true,
               "background": true,
-              "requirement": "June through September."
+              "requirement": "June through September.",
+              "active_months": [
+                6,
+                7,
+                8,
+                9
+              ]
             }
           ]
         },
@@ -166,7 +178,13 @@
               "method": "raid",
               "shiny": true,
               "background": true,
-              "requirement": "October through January."
+              "requirement": "October through January.",
+              "active_months": [
+                10,
+                11,
+                12,
+                1
+              ]
             }
           ]
         }
@@ -4354,5 +4372,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-29T00:14:10Z"
+  "updated_at": "2026-09-29T01:22:16.000Z"
 }

@@ -37,6 +37,16 @@ function where(e){let a=av(e),p=[];if(a.regions&&a.regions.length)p.push(a.regio
 function hiddenCount(y){let a=y+"-01-01",b=y+"-12-31";return events.filter(e=>e.identifier&&hiddenIds.has(e.identifier)&&e.start&&end(e,y)>=a&&e.start<=b).length}
 
 function activeToday(e,today){return !!(e.start&&e.start<=today&&(!e.end||e.end>=today))}
+function methodActive(m,today){
+  if(!m||typeof m!=="object")return true;
+  if(Array.isArray(m.active_months)&&m.active_months.length){
+    let month=Number(today.slice(5,7));
+    if(!m.active_months.map(Number).includes(month))return false;
+  }
+  if(m.start&&m.start>today)return false;
+  if(m.end&&m.end<today)return false;
+  return true;
+}
 function keyPart(v){return String(v||"").normalize("NFKC").trim().toLowerCase().replace(/\s+/g," ")}
 function obtainableKey(o){
   if(o.type==="pokemon")return ["pokemon",o.pokemon,o.form,o.costume].map(keyPart).join("|");
@@ -52,6 +62,8 @@ function activeObtainables(today=iso(new Date())){
   events.filter(e=>activeToday(e,today)).forEach(e=>{
     (Array.isArray(e.obtainable)?e.obtainable:[]).forEach(o=>{
       if(!o||!["pokemon","item","avatar","move"].includes(o.type))return;
+      let methods=Array.isArray(o.methods)?o.methods:[],liveMethods=methods.filter(m=>methodActive(m,today));
+      if(methods.length&&!liveMethods.length)return;
       let key=obtainableKey(o);if(!key)return;
       let entry=map.get(key);
       if(!entry){
@@ -59,7 +71,7 @@ function activeObtainables(today=iso(new Date())){
         map.set(key,entry);
       }
       if(e.identifier&&!entry.events.has(e.identifier))entry.events.set(e.identifier,e);
-      (Array.isArray(o.methods)?o.methods:[]).forEach(m=>{
+      liveMethods.forEach(m=>{
         if(m.shiny)entry.shiny=true;
         if(m.background)entry.background=true;
         if(m.paid)entry.paid=true;

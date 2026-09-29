@@ -242,3 +242,35 @@ Routine maintenance normally touches only \`data/calendar_events.json\` and \`da
 - source URLs are present/deduplicated where appropriate
 - event-count changes match the intended operation
 - \`updated_at\` changed whenever calendar data changed
+
+## Method-level obtainable availability
+
+Some long-running events contain obtainable content that rotates or is only available during a narrower recurring window than the parent event. Keep the parent event intact, and put the narrower availability on the relevant obtainable method instead of splitting the whole event when the parent event itself remains continuously active.
+
+Supported optional method fields:
+
+- `active_months`: an array of calendar month numbers (1–12) during which that method is active each year.
+- `start`: optional `YYYY-MM-DD` method start date.
+- `end`: optional `YYYY-MM-DD` method end date.
+
+Example:
+
+```json
+{
+  "type": "pokemon",
+  "pokemon": "Moltres",
+  "methods": [
+    {
+      "method": "raid",
+      "shiny": true,
+      "background": true,
+      "active_months": [6, 7, 8, 9]
+    }
+  ]
+}
+```
+
+The public Active Obtainables sidebar evaluates these method-level windows against the current date. If an obtainable has methods but none are currently active, it must not appear in the sidebar. Event detail views may still show the full rotation.
+
+Use method-level availability for genuine recurring/sub-event rotations such as PokéPark KANTO's four-month legendary-bird cycle. Do not use it to extend an event beyond the parent event's own `start` / `end` dates.
+
