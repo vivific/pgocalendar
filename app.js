@@ -66,7 +66,7 @@ function activeObtainables(today=iso(new Date())){
       });
     });
   });
-  return [...map.values()].sort((a,b)=>(a.type==="avatar"?0:a.type==="pokemon"?1:a.type==="move"?2:3)-(b.type==="avatar"?0:b.type==="pokemon"?1:b.type==="move"?2:3)||a.title.localeCompare(b.title));
+  return [...map.values()].sort((a,b)=>(a.type==="avatar"?0:a.type==="move"?1:a.type==="pokemon"?2:3)-(b.type==="avatar"?0:b.type==="move"?1:b.type==="pokemon"?2:3)||a.title.localeCompare(b.title));
 }
 function pruneHiddenObtainables(active){
   let keys=new Set(active.map(o=>o.key)),changed=false;
