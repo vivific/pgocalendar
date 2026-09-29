@@ -88,14 +88,14 @@ function renderObtainables(){
     let flags=obtainableFlags(o),ev=[...o.events.values()].sort((a,b)=>a.start.localeCompare(b.start)||a.name.localeCompare(b.name));
     return '<article class="obtainable-row"><div class="obtainable-row-head"><div><span class="obtainable-kind">'+(o.type==="pokemon"?"Pokémon":"Item")+'</span><strong>'+esc(o.title)+'</strong></div><button type="button" class="hide-obtainable" data-key="'+esc(o.key)+'" aria-label="Hide '+esc(o.title)+'">Hide</button></div>'+(flags.length?'<p class="obtainable-flags">'+esc(flags.join(" · "))+"</p>":"")+'<ul class="obtainable-events">'+ev.map(e=>"<li>"+esc(title(e))+"</li>").join("")+"</ul></article>";
   }).join("");
-  $(".hide-obtainable",el.olist).forEach(b=>b.addEventListener("click",()=>{hiddenObtainableIds.add(b.dataset.key);saveHiddenObtainables();renderObtainables()}));
+  $$(".hide-obtainable",el.olist).forEach(b=>b.addEventListener("click",()=>{hiddenObtainableIds.add(b.dataset.key);saveHiddenObtainables();renderObtainables()}));
 }
 function hiddenObtainablesManager(){
   let all=activeObtainables();pruneHiddenObtainables(all);
   let hidden=all.filter(o=>hiddenObtainableIds.has(o.key));
   el.ohlist.innerHTML=hidden.length?hidden.map(o=>'<div class="hidden-event-row"><div class="hidden-event-info"><strong>'+esc(o.title)+'</strong><span>'+esc(o.type==="pokemon"?"Pokémon":"Item")+'</span></div><button type="button" class="restore-hidden-obtainable" data-key="'+esc(o.key)+'">Restore</button></div>').join(""):'<p class="hidden-empty">No active obtainables are hidden.</p>';
   el.orestore.disabled=hidden.length===0;
-  $(".restore-hidden-obtainable",el.ohlist).forEach(b=>b.addEventListener("click",()=>{hiddenObtainableIds.delete(b.dataset.key);saveHiddenObtainables();hiddenObtainablesManager();renderObtainables()}));
+  $$(".restore-hidden-obtainable",el.ohlist).forEach(b=>b.addEventListener("click",()=>{hiddenObtainableIds.delete(b.dataset.key);saveHiddenObtainables();hiddenObtainablesManager();renderObtainables()}));
 }
 async function load(){let r=await fetch(DATA_URL,{cache:"no-store"});if(!r.ok)throw Error("Could not load "+DATA_URL+": "+r.status);payload=await r.json();events=Array.isArray(payload.events)?payload.events:[];controls();el.zoom.value=el.zoom.max;let y=String(new Date().getFullYear());if([...el.year.options].some(o=>o.value===y))el.year.value=y;render();renderObtainables();setInterval(renderObtainables,60000);requestAnimationFrame(()=>requestAnimationFrame(center))}
 function controls(){let ys=new Set([String(new Date().getFullYear())]);events.forEach(e=>{if(!e.start)return;let a=+e.start.slice(0,4),b=e.end?+e.end.slice(0,4):Math.max(a,new Date().getFullYear());for(let y=a;y<=b;y++)ys.add(String(y))});el.year.innerHTML=[...ys].sort().map(y=>"<option>"+y+"</option>").join("");let ts=[...new Set(events.map(e=>e.type).filter(Boolean))].sort();el.type.innerHTML='<option value="">All types</option>'+ts.map(t=>'<option value="'+esc(t)+'">'+esc(pretty(t))+"</option>").join("")}
