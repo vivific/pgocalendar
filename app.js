@@ -41,13 +41,17 @@ function keyPart(v){return String(v||"").normalize("NFKC").trim().toLowerCase().
 function obtainableKey(o){
   if(o.type==="pokemon")return ["pokemon",o.pokemon,o.form,o.costume].map(keyPart).join("|");
   if(o.type==="item"||o.type==="avatar")return [o.type,o.name].map(keyPart).join("|");
+  if(o.type==="move"){
+    let moves=(Array.isArray(o.methods)?o.methods:[]).map(m=>m&&m.exclusive_move).filter(Boolean).map(keyPart).sort();
+    return moves.length?["move",o.pokemon,moves.join("+")].map(keyPart).join("|"):"";
+  }
   return "";
 }
 function activeObtainables(today=iso(new Date())){
   let map=new Map();
   events.filter(e=>activeToday(e,today)).forEach(e=>{
     (Array.isArray(e.obtainable)?e.obtainable:[]).forEach(o=>{
-      if(!o||!["pokemon","item","avatar"].includes(o.type))return;
+      if(!o||!["pokemon","item","avatar","move"].includes(o.type))return;
       let key=obtainableKey(o);if(!key)return;
       let entry=map.get(key);
       if(!entry){
@@ -62,7 +66,7 @@ function activeObtainables(today=iso(new Date())){
       });
     });
   });
-  return [...map.values()].sort((a,b)=>(a.type==="pokemon"?0:a.type==="avatar"?1:2)-(b.type==="pokemon"?0:b.type==="avatar"?1:2)||a.title.localeCompare(b.title));
+  return [...map.values()].sort((a,b)=>(a.type==="pokemon"?0:a.type==="avatar"?1:a.type==="move"?2:3)-(b.type==="pokemon"?0:b.type==="avatar"?1:b.type==="move"?2:3)||a.title.localeCompare(b.title));
 }
 function pruneHiddenObtainables(active){
   let keys=new Set(active.map(o=>o.key)),changed=false;
@@ -84,14 +88,14 @@ function renderObtainables(){
   }
   el.olist.innerHTML=visible.map(o=>{
     let flags=obtainableFlags(o),ev=[...o.events.values()].sort((a,b)=>a.start.localeCompare(b.start)||a.name.localeCompare(b.name));
-    return '<article class="obtainable-row"><div class="obtainable-row-head"><div><span class="obtainable-kind">'+(o.type==="pokemon"?"Pokémon":o.type==="avatar"?"Avatar item":"Item")+'</span><strong>'+esc(o.title)+'</strong></div><button type="button" class="hide-obtainable" data-key="'+esc(o.key)+'" aria-label="Hide '+esc(o.title)+'">Hide</button></div>'+(flags.length?'<p class="obtainable-flags">'+esc(flags.join(" · "))+"</p>":"")+'<ul class="obtainable-events">'+ev.map(e=>"<li>"+esc(title(e))+"</li>").join("")+"</ul></article>";
+    return '<article class="obtainable-row"><div class="obtainable-row-head"><div><span class="obtainable-kind">'+(o.type==="pokemon"?"Pokémon":o.type==="avatar"?"Avatar item":o.type==="move"?"Move":"Item")+'</span><strong>'+esc(o.title)+'</strong></div><button type="button" class="hide-obtainable" data-key="'+esc(o.key)+'" aria-label="Hide '+esc(o.title)+'">Hide</button></div>'+(flags.length?'<p class="obtainable-flags">'+esc(flags.join(" · "))+"</p>":"")+'<ul class="obtainable-events">'+ev.map(e=>"<li>"+esc(title(e))+"</li>").join("")+"</ul></article>";
   }).join("");
   $$(".hide-obtainable",el.olist).forEach(b=>b.addEventListener("click",()=>{hiddenObtainableIds.add(b.dataset.key);saveHiddenObtainables();renderObtainables()}));
 }
 function hiddenObtainablesManager(){
   let all=activeObtainables();pruneHiddenObtainables(all);
   let hidden=all.filter(o=>hiddenObtainableIds.has(o.key));
-  el.ohlist.innerHTML=hidden.length?hidden.map(o=>'<div class="hidden-event-row"><div class="hidden-event-info"><strong>'+esc(o.title)+'</strong><span>'+esc(o.type==="pokemon"?"Pokémon":o.type==="avatar"?"Avatar item":"Item")+'</span></div><button type="button" class="restore-hidden-obtainable" data-key="'+esc(o.key)+'">Restore</button></div>').join(""):'<p class="hidden-empty">No active obtainables are hidden.</p>';
+  el.ohlist.innerHTML=hidden.length?hidden.map(o=>'<div class="hidden-event-row"><div class="hidden-event-info"><strong>'+esc(o.title)+'</strong><span>'+esc(o.type==="pokemon"?"Pokémon":o.type==="avatar"?"Avatar item":o.type==="move"?"Move":"Item")+'</span></div><button type="button" class="restore-hidden-obtainable" data-key="'+esc(o.key)+'">Restore</button></div>').join(""):'<p class="hidden-empty">No active obtainables are hidden.</p>';
   el.orestore.disabled=hidden.length===0;
   $$(".restore-hidden-obtainable",el.ohlist).forEach(b=>b.addEventListener("click",()=>{hiddenObtainableIds.delete(b.dataset.key);saveHiddenObtainables();hiddenObtainablesManager();renderObtainables()}));
 }
