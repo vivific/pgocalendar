@@ -162,11 +162,6 @@ main {
   background: transparent;
 }
 
-#toggle-long-rallies[aria-pressed="true"] {
-  background: #dce9e4;
-  border-color: #d0e0da;
-  color: #607a7b;
-}
 
 .calendar-info {
   position: relative;
@@ -739,12 +734,7 @@ footer p { margin: 0; }
     color: #c9f1df;
   }
 
-  #toggle-long-rallies[aria-pressed="true"] {
-    background: #263837;
-    border-color: #304846;
-    color: #a9bfbc;
-  }
-
+  
   .legend-popover {
     background: rgba(23,39,39,.98);
     border-color: #29413f;
