@@ -931,3 +931,25 @@ footer p { margin: 0; }
     padding: 6px 10px;
   }
 }
+
+/* Schema v4 detail presentation */
+.bar.ticketed-event::after{content:"";position:absolute;top:5px;right:5px;width:7px;height:7px;border-radius:999px;background:var(--ticketed);box-shadow:0 0 0 2px rgba(255,255,255,.72)}
+.access-badge.subtype{background:#edf4f0}
+.detail-section{margin-top:20px;padding-top:16px;border-top:1px solid #e7f0ea}
+.detail-section[hidden]{display:none}
+.detail-section h3{margin:0 0 10px;color:#557274;font-size:12px;letter-spacing:.035em;text-transform:uppercase}
+.detail-section>p{margin:0;line-height:1.55;font-size:14px}
+.detail-list{display:grid;gap:8px}
+.detail-card{padding:10px 12px;border:1px solid #dfeae4;border-radius:14px;background:#f7fbf8}
+.detail-card strong{display:block;font-size:13px}
+.detail-card ul{margin:6px 0 0;padding-left:18px;color:#607d7d;font-size:12px;line-height:1.45}
+.detail-card p{margin:5px 0 0;color:#6f8b8c;font-size:11px;line-height:1.45}
+.source-list{display:flex;flex-wrap:wrap;gap:8px}
+.source-list .source-link{display:inline-flex;align-items:center;min-height:34px;padding:7px 10px;border-radius:999px;background:#edf8f3;font-size:12px}
+@media (prefers-color-scheme:dark){
+  .detail-section{border-top-color:#29413f}.detail-section h3{color:#c6dcda}
+  .detail-card{background:#1b302e;border-color:#2b4542}.detail-card ul,.detail-card p{color:#aac1be}
+  .source-list .source-link{background:#1c3833}
+}
+@media (max-width:430px){.detail-card ul{padding-left:16px}}
+

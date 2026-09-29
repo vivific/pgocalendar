@@ -15,22 +15,9 @@
         <span class="sr-only">Search</span>
         <input id="search" type="search" placeholder="Search events, locations, notes…">
       </label>
-
-      <label class="control">
-        <span>Year</span>
-        <select id="year"></select>
-      </label>
-
-      <label class="control category-control">
-        <span>Category</span>
-        <select id="category"><option value="">All categories</option></select>
-      </label>
-
-      <label class="control zoom-control">
-        <span>Zoom</span>
-        <input id="zoom" type="range" min="16" max="64" value="64">
-      </label>
-
+      <label class="control"><span>Year</span><select id="year"></select></label>
+      <label class="control category-control"><span>Type</span><select id="category"><option value="">All types</option></select></label>
+      <label class="control zoom-control"><span>Zoom</span><input id="zoom" type="range" min="16" max="64" value="64"></label>
       <button id="today" type="button">Today</button>
       <button id="toggle-long-rallies" type="button" aria-pressed="false" title="Hide Stamp Rallies with no end date or that continue beyond the selected year">Long rallies: shown</button>
       <button id="hidden-events" type="button" title="Manage events hidden on this browser">Hidden (0)</button>
@@ -46,16 +33,10 @@
             <span><i class="swatch onsite"></i>On-site</span>
             <span><i class="swatch ticketed"></i>Ticketed</span>
           </section>
-
-          <section class="subtype-legend" id="subtype-legend" aria-label="Regional event type legend" hidden>
+          <section class="subtype-legend" id="subtype-legend" aria-label="Event type icon legend" hidden>
             <span class="legend-title">Event icons</span>
-            <span>⏱ Timed Research</span>
-            <span>📍 Local Raid</span>
-            <span>🏙️ City Safari</span>
-            <span>🥾 GO Wild Area</span>
-            <span>🆓 Free code</span>
-            <span>💲 Paid code</span>
-            <span>💮 Stamp rally</span>
+            <span>⏱ Timed Research</span><span>📍 Local Raid</span><span>🏙️ City Safari</span>
+            <span>🥾 GO Wild Area</span><span>🆓 Free code</span><span>💲 Paid code</span><span>💮 Stamp rally</span>
           </section>
         </div>
       </details>
@@ -63,9 +44,7 @@
     </div>
 
     <section class="timeline-shell">
-      <div id="empty" class="empty" hidden>
-        No canonical events have been published for this view yet.
-      </div>
+      <div id="empty" class="empty" hidden>No events have been published for this view yet.</div>
       <div id="timeline" class="timeline" aria-live="polite"></div>
     </section>
   </main>
@@ -74,12 +53,21 @@
     <button class="close" type="button" aria-label="Close">×</button>
     <p class="eyebrow" id="detail-category"></p>
     <h2 id="detail-title"></h2>
+    <div class="access-badges" id="detail-badges"></div>
     <dl id="detail-fields"></dl>
-    <p id="detail-notes"></p>
-    <p><a id="detail-source" class="source-link" target="_blank" rel="noreferrer">Official Pokémon GO News source ↗</a></p>
-    <div class="dialog-actions">
-      <button id="hide-event" class="secondary-action" type="button">Hide this event</button>
-    </div>
+    <section class="detail-section" id="obtainable-section" hidden>
+      <h3>Notable obtainable content</h3><div id="detail-obtainable" class="detail-list"></div>
+    </section>
+    <section class="detail-section" id="bonuses-section" hidden>
+      <h3>Bonuses</h3><div id="detail-bonuses" class="detail-list"></div>
+    </section>
+    <section class="detail-section" id="notes-section" hidden>
+      <h3>Notes</h3><p id="detail-notes"></p>
+    </section>
+    <section class="detail-section" id="sources-section" hidden>
+      <h3>Sources</h3><div id="detail-sources" class="source-list"></div>
+    </section>
+    <div class="dialog-actions"><button id="hide-event" class="secondary-action" type="button">Hide this event</button></div>
   </dialog>
 
   <dialog id="hidden-events-dialog">
@@ -87,16 +75,13 @@
     <h2>Hidden events</h2>
     <p class="dialog-help">These events are hidden only on this browser.</p>
     <div id="hidden-events-list" class="hidden-events-list"></div>
-    <div class="dialog-actions">
-      <button id="restore-all-hidden" class="secondary-action" type="button">Restore all</button>
-    </div>
+    <div class="dialog-actions"><button id="restore-all-hidden" class="secondary-action" type="button">Restore all</button></div>
   </dialog>
 
   <footer>
-    <p class="update-status" id="footer-status">Checks for updates every hour. Last updated: loading…</p>
-    <p class="disclaimer">Unofficial calendar built from official Pokémon GO News posts. Select an event for its source.</p>
+    <p class="update-status" id="footer-status">Last updated: loading…</p>
+    <p class="disclaimer">Unofficial calendar built from official Pokémon GO sources. Select an event for details and sources.</p>
   </footer>
-
   <script src="app.js"></script>
 </body>
 </html>
