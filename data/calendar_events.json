@@ -816,55 +816,59 @@
       ]
     },
     {
-  "name": "IIT-Delhi Rendezvous 2026 (India)",
-  "identifier": "pokemongo-iitdelhi-2026",
-  "type": "collaboration",
-  "start": "2026-09-28",
-  "end": "2026-10-01",
-  "availability": {
-    "type": "onsite",
-    "regions": ["India"],
-    "locations": ["IIT-Delhi Campus"]
-  },
-  "obtainable": [
-    {
-      "type": "move",
-      "pokemon": "Venusaur",
-      "methods": [
+      "name": "IIT-Delhi Rendezvous 2026 (India)",
+      "identifier": "pokemongo-iitdelhi-2026",
+      "type": "collaboration",
+      "start": "2026-09-28",
+      "end": "2026-10-01",
+      "availability": {
+        "type": "onsite",
+        "regions": [
+          "India"
+        ],
+        "locations": [
+          "IIT-Delhi Campus"
+        ]
+      },
+      "obtainable": [
         {
-          "method": "evolution",
-          "exclusive_move": "Frenzy Plant"
+          "type": "move",
+          "pokemon": "Venusaur",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Frenzy Plant"
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Charizard",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Blast Burn"
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Blastoise",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Hydro Cannon"
+            }
+          ]
         }
-      ]
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/pokemongo-iitdelhi-2026"
+        }
+      ],
+      "notes": "Kanto starter evolutions during the event can learn Frenzy Plant, Blast Burn, and Hydro Cannon. See article for more details."
     },
-    {
-      "type": "move",
-      "pokemon": "Charizard",
-      "methods": [
-        {
-          "method": "evolution",
-          "exclusive_move": "Blast Burn"
-        }
-      ]
-    },
-    {
-      "type": "move",
-      "pokemon": "Blastoise",
-      "methods": [
-        {
-          "method": "evolution",
-          "exclusive_move": "Hydro Cannon"
-        }
-      ]
-    }
-  ],
-  "sources": [
-    {
-      "url": "https://pokemongo.com/news/pokemongo-iitdelhi-2026"
-    }
-  ],
-  "notes": "Kanto starter evolutions during the event can learn Frenzy Plant, Blast Burn, and Hydro Cannon. See article for more details."
-},
     {
       "name": "Patterns of the Wild Timed Research (Indonesia)",
       "identifier": "patterns-of-the-wild-2026-1",
@@ -4398,7 +4402,36 @@
           ]
         }
       ]
+    },
+    {
+      "name": "adidas Avatar Shoes Offer Code",
+      "identifier": "pokemon-x-adidas-code-2026",
+      "type": "collaboration",
+      "start": "2026-09-29",
+      "end": "2027-01-15",
+      "availability": {
+        "type": "global"
+      },
+      "subtype": "free-code",
+      "obtainable": [
+        {
+          "type": "avatar",
+          "name": "adidas Shoes",
+          "methods": [
+            {
+              "method": "code",
+              "requirement": "Redeem offer code ADIDASxPOKEMON in the Pokémon GO Web Store."
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/en/news/pokemon-x-adidas-2026"
+        }
+      ],
+      "notes": "Use offer code ADIDASxPOKEMON in the Pokémon GO Web Store to receive a pair of adidas shoes for your avatar. The code is available through January 15, 2027."
     }
   ],
-  "updated_at": "2026-09-29T06:48:38Z"
+  "updated_at": "2026-09-30T03:03:29Z"
 }
