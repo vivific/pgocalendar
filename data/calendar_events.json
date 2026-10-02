@@ -2025,7 +2025,7 @@
       ]
     },
     {
-      "name": "Max Battle Day",
+      "name": "Dynamax Uxie, Mesprit, and Azelf Max Battle Day",
       "identifier": "max-battle-day-2026-10-24",
       "type": "max-battle-day",
       "start": "2026-10-24",
@@ -2035,10 +2035,106 @@
       },
       "sources": [
         {
+          "url": "https://pokemongo.com/news/dynamax-uxie-mesprit-azelf-max-battle-day-2026"
+        },
+        {
           "url": "https://pokemongo.com/news/save-the-date-s24"
         }
       ],
-      "notes": "Date and event type are officially announced; featured Pokémon/details have not yet been published."
+      "notes": "Event runs from 2:00 p.m. to 5:00 p.m. local time. Dynamax Uxie appears in Asia-Pacific, Dynamax Mesprit in Europe, the Middle East, Africa, and India, and Dynamax Azelf in the Americas and Greenland. An optional paid ticket grants event-exclusive Timed Research and 2× XP from Max Battles.",
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Uxie",
+          "form": "Dynamax",
+          "methods": [
+            {
+              "method": "max-battle",
+              "shiny": true,
+              "requirement": "Asia-Pacific region"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Mesprit",
+          "form": "Dynamax",
+          "methods": [
+            {
+              "method": "max-battle",
+              "shiny": true,
+              "requirement": "Europe, the Middle East, Africa, and India"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Azelf",
+          "form": "Dynamax",
+          "methods": [
+            {
+              "method": "max-battle",
+              "shiny": true,
+              "requirement": "Americas and Greenland"
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "max-particle-limit",
+          "amount": 1600,
+          "label": "Max Particle collection limit increased to 1,600"
+        },
+        {
+          "type": "power-spot",
+          "label": "All Power Spots host Dynamax Battles"
+        },
+        {
+          "type": "power-spot-refresh",
+          "label": "Power Spots refresh more frequently"
+        },
+        {
+          "type": "power-spot-count",
+          "label": "Additional Power Spots are active"
+        },
+        {
+          "type": "max-particles",
+          "action": "power-spot",
+          "multiplier": 8
+        },
+        {
+          "type": "special-trade",
+          "amount": 3,
+          "label": "Up to 3 Special Trades for the day"
+        },
+        {
+          "type": "remote-raid-limit",
+          "amount": 20,
+          "label": "Daily Remote Raid Pass limit increased to 20",
+          "requirement": "October 23 at 5:00 p.m. to October 24 at 8:00 p.m. PDT (GMT −7)"
+        },
+        {
+          "type": "max-particles",
+          "action": "explore",
+          "multiplier": 2,
+          "requirement": "October 24, 12:00 a.m.–5:00 p.m. local time"
+        },
+        {
+          "type": "adventuring-distance",
+          "action": "max-particles",
+          "multiplier": 0.25,
+          "label": "1/4 adventuring distance to receive Max Particles",
+          "requirement": "October 24, 12:00 a.m.–5:00 p.m. local time"
+        },
+        {
+          "type": "xp",
+          "action": "max-battle",
+          "multiplier": 2,
+          "requirement": "Event ticket",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "Super Mega Raid Day",
@@ -4677,7 +4773,175 @@
         }
       ],
       "notes": "The shower runs from 5:00 p.m. local time on the start date through 11:59 p.m. local time on the end date. Shooting stars appear in the in-game sky from 5:00 p.m. to 9:00 p.m. each day. Pokémon GO announced these Minior showers as recurring annually."
+    },
+    {
+      "name": "Pokémon GO City Safari: Boston (Rescheduled)",
+      "identifier": "boston-city-safari-know-before-you-go",
+      "type": "city-safari",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "availability": {
+        "type": "global",
+        "ticketed": true
+      },
+      "subtype": "city-safari",
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Eevee",
+          "costume": "Explorer Hat",
+          "methods": [
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Supplementary Special Research for current Boston ticket holders; tasks require spinning PokéStops in Boston. Up to nine encounters per ticketed day."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Flabébé",
+          "form": "Orange Flower",
+          "methods": [
+            {
+              "method": "wild"
+            },
+            {
+              "method": "timed-research"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Hawlucha",
+          "methods": [
+            {
+              "method": "wild"
+            },
+            {
+              "method": "timed-research"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Mudbray",
+          "methods": [
+            {
+              "method": "wild"
+            },
+            {
+              "method": "timed-research"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Komala",
+          "methods": [
+            {
+              "method": "wild"
+            },
+            {
+              "method": "timed-research"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Flamigo",
+          "methods": [
+            {
+              "method": "wild"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Unown",
+          "form": "B",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Unown",
+          "form": "L",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Unown",
+          "form": "M",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Unown",
+          "form": "R",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "shiny-chance",
+          "label": "Increased chance of encountering Shiny Pokémon"
+        },
+        {
+          "type": "lure-duration",
+          "duration_minutes": 240,
+          "requirement": "Excludes Golden Lure Modules"
+        },
+        {
+          "type": "special-trade",
+          "amount": 5,
+          "label": "Up to 5 Special Trades per event day"
+        },
+        {
+          "type": "trade-stardust",
+          "multiplier": 0.5,
+          "label": "50% less Stardust required for trades"
+        },
+        {
+          "type": "buddy-souvenir",
+          "label": "Buddy Pokémon can find the City Safari–exclusive Tiny Compass souvenir"
+        },
+        {
+          "type": "party-play-duration",
+          "duration_minutes": 480,
+          "label": "Party Play duration extended to eight hours"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/city-safari-boston-rescheduled"
+        },
+        {
+          "url": "https://pokemongo.com/en/news/boston-city-safari-know-before-you-go"
+        }
+      ],
+      "notes": "Rescheduled from September 26–27 after severe weather. The replacement event runs globally from 10:00 a.m. to 6:00 p.m. local time on October 24 and 25, exclusively for current ticket holders; no additional tickets will be sold. The original wild encounters and event bonuses apply globally. The original Eevee-focused Special Research is replaced by Timed Research featuring Flabébé (Orange Flower), Hawlucha, Mudbray, and Komala, plus branching weekend bonuses. There is no Boston GO Stamp Rally. Qualifying ticket holders can log in from October 24, 2026 through October 23, 2028 to obtain supplementary Special Research for Boston Location Background Eevee encounters, but that is a grace window for existing ticket holders and does not extend this calendar bar."
     }
   ],
-  "updated_at": "2026-10-01T17:56:38Z"
+  "updated_at": "2026-10-02T00:29:16Z"
 }
