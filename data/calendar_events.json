@@ -4941,7 +4941,26 @@
         }
       ],
       "notes": "Rescheduled from September 26–27 after severe weather. The replacement event runs globally from 10:00 a.m. to 6:00 p.m. local time on October 24 and 25, exclusively for current ticket holders; no additional tickets will be sold. The original wild encounters and event bonuses apply globally. The original Eevee-focused Special Research is replaced by Timed Research featuring Flabébé (Orange Flower), Hawlucha, Mudbray, and Komala, plus branching weekend bonuses. There is no Boston GO Stamp Rally. Qualifying ticket holders can log in from October 24, 2026 through October 23, 2028 to obtain supplementary Special Research for Boston Location Background Eevee encounters, but that is a grace window for existing ticket holders and does not extend this calendar bar."
+    },
+    {
+      "name": "Pokémon Night Out Twitch Drops",
+      "identifier": "pokemon-night-out-twitch-drops-2026",
+      "type": "promotion",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "availability": {
+        "type": "global"
+      },
+      "sources": [
+        {
+          "url": "https://pokemongolive.com/news/pokemon-night-out-twitch-drops2026"
+        },
+        {
+          "url": "https://30.pokemon.com/en-us/night-out"
+        }
+      ],
+      "notes": "Twitch Drops promotion tied to the Pokémon Night Out Los Angeles livestream. The show begins October 24, 2026 at 7:30 p.m. PT. Reward and redemption details are intentionally left sparse until the Pokémon GO article body is available for verification."
     }
   ],
-  "updated_at": "2026-10-02T00:29:16Z"
+  "updated_at": "2026-10-02T14:08:04Z"
 }
