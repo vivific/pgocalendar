@@ -3138,7 +3138,7 @@
           "url": "https://sg.portal-pokemon.com/30th/topics/pokexciting_news0/"
         }
       ],
-      "notes": "PokéXciting! Pikachu (Blue) remains available as a wild encounter in Singapore for one month after the November 7–8 event concludes. This extended wild-encounter window is separate from the two-day main event.",
+      "notes": "PokéXciting! Pikachu (Blue) remains available as a wild encounter in Singapore for one month after the November 7–8 event concludes (through December 8). The separate five-stamp Regional GO Stamp Rally at Changi Airport and Jewel lasts one month after the November 7 event start (through approximately December 7; exact cutoff time not specified), so its reward method has a narrower end date. The long-running Cross-Region rally and its Blue Pikachu Location Background reward are tracked separately through September 11, 2029.",
       "obtainable": [
         {
           "type": "pokemon",
@@ -3152,7 +3152,9 @@
             {
               "method": "stamp-rally-reward",
               "shiny": true,
-              "background": true
+              "background": true,
+              "end": "2026-12-07",
+              "requirement": "Regional five-stamp GO Stamp Rally at Changi Airport and Jewel; announced to remain available for one month after the November 7 start. Distinct from the Cross-Region rally, which is tracked separately through September 2029."
             }
           ]
         }
@@ -5016,7 +5018,7 @@
           "url": "https://pokemongo.com/en/news/boston-city-safari-know-before-you-go"
         }
       ],
-      "notes": "Rescheduled from September 26–27 after severe weather. The replacement event runs globally from 10:00 a.m. to 6:00 p.m. local time on October 24 and 25, exclusively for current ticket holders; no additional tickets will be sold. The original wild encounters and event bonuses apply globally. The original Eevee-focused Special Research is replaced by Timed Research featuring Flabébé (Orange Flower), Hawlucha, Mudbray, and Komala, plus branching weekend bonuses. There is no Boston GO Stamp Rally. Qualifying ticket holders can log in from October 24, 2026 through October 23, 2028 to obtain supplementary Special Research for Boston Location Background Eevee encounters, but that is a grace window for existing ticket holders and does not extend this calendar bar."
+      "notes": "Rescheduled from September 26–27 after severe weather. The replacement event runs globally from 10:00 a.m. to 6:00 p.m. local time on October 24 and 25, exclusively for current ticket holders; no additional tickets will be sold. The original wild encounters and event bonuses apply globally. The original Eevee-focused Special Research is replaced by Timed Research featuring Flabébé (Orange Flower), Hawlucha, Mudbray, and Komala, plus branching weekend bonuses. There is no Boston GO Stamp Rally. Qualifying ticket holders can log in from October 24, 2026 through October 23, 2028 to obtain supplementary Special Research for Boston Location Background Eevee encounters, which is an extended research-acquisition window for previously eligible ticket holders, not merely a completion grace period. No additional tickets are being sold; the calendar bar covers the October 24–25 rescheduled event gameplay."
     },
     {
       "name": "Pokémon Night Out Twitch Drops",
@@ -5035,7 +5037,19 @@
           "url": "https://30.pokemon.com/en-us/night-out"
         }
       ],
-      "notes": "Twitch Drops promotion tied to the Pokémon Night Out Los Angeles livestream. The show begins October 24, 2026 at 7:30 p.m. PT. Reward and redemption details are intentionally left sparse until the Pokémon GO article body is available for verification."
+      "notes": "Global Twitch Drops promotion for the Pokémon Night Out Los Angeles livestream, beginning October 24, 2026 at 7:30 p.m. PDT. Watch 30 minutes of the official Pokémon Twitch broadcast with a linked Pokémon Trainer Central account, claim the Twitch Drop, retrieve the code from rewards.pokemon.com, and redeem it in the Pokémon GO Web Store for Timed Research rewarding an exclusive Pokémon Night Out baseball jersey avatar item. The official post does not specify a separate code-redemption or research-completion deadline.",
+      "obtainable": [
+        {
+          "type": "avatar",
+          "name": "Pokémon Night Out Baseball Jersey",
+          "methods": [
+            {
+              "method": "timed-research",
+              "requirement": "Watch 30 minutes of the October 24 Pokémon Twitch livestream with a linked Pokémon Trainer Central account; claim the Twitch Drop, reveal its code, and redeem it for exclusive Timed Research (one code per Trainer)."
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Halloween 2026 Part I",
@@ -5254,7 +5268,8 @@
             {
               "method": "raid",
               "shiny": true,
-              "background": true
+              "background": true,
+              "requirement": "Onsite only at Seoul World Cup Stadium; Remote Raid Passes cannot be used for these raids."
             }
           ]
         },
@@ -5291,7 +5306,7 @@
           "locale": "ko"
         }
       ],
-      "notes": "Runs October 24, 2026 from 9:00 a.m. to 8:00 p.m. Korea time around Seoul World Cup Stadium. One-star raids feature Charmander that can have an event-themed Location Background. Free onsite Timed Research awards XP, Stardust, Charmander Candy, a Premium Battle Pass, and an encounter with Charizard that can have the event-themed Location Background. The Timed Research can be completed through November 7 at 8:00 p.m. Korea time; that later deadline is a completion grace period and does not extend this calendar bar. A Pokémon GO onsite booth operates from 9:00 a.m. to 2:00 p.m."
+      "notes": "Runs October 24, 2026 from 9:00 a.m. to 8:00 p.m. Korea time around Seoul World Cup Stadium. One-star raids feature Charmander that can have an event-themed Location Background; these raids cannot be joined using Remote Raid Passes. Free onsite Timed Research awards XP, Stardust, Charmander Candy, a Premium Battle Pass, and an encounter with Charizard that can have the event-themed Location Background. The Timed Research can be completed through November 7 at 8:00 p.m. Korea time; that later deadline is a completion grace period and does not extend this calendar bar. A Pokémon GO onsite booth operates from 9:00 a.m. to 2:00 p.m."
     },
     {
       "name": "Halloween 2026 Part II",
@@ -5364,17 +5379,6 @@
               "shiny": true
             }
           ]
-        },
-        {
-          "type": "move",
-          "pokemon": "Sableye",
-          "methods": [
-            {
-              "method": "event",
-              "exclusive_move": "Night Shade+",
-              "requirement": "Available as an additional Charged Attack while Mega Evolved after Mega Sableye reaches Super Max Level."
-            }
-          ]
         }
       ],
       "sources": [
@@ -5385,5 +5389,5 @@
       "notes": "Runs from November 1 at 10:00 a.m. to November 5 at 8:00 p.m. local time. Shiny Greavard makes its Pokémon GO debut. Starting with this event, Mega Sableye can be powered beyond Max to Super Max Level and can use the additional Charged Attack Night Shade+ while Mega Evolved. Event-themed Field Research is available. The shared GO Pass: Halloween 2026 continues through November 5 and is tracked separately."
     }
   ],
-  "updated_at": "2026-10-11T18:07:50Z"
+  "updated_at": "2026-10-11T18:33:02.919Z"
 }
