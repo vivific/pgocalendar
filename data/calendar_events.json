@@ -4960,7 +4960,148 @@
         }
       ],
       "notes": "Twitch Drops promotion tied to the Pokémon Night Out Los Angeles livestream. The show begins October 24, 2026 at 7:30 p.m. PT. Reward and redemption details are intentionally left sparse until the Pokémon GO article body is available for verification."
+    },
+    {
+      "name": "Halloween 2026 Part I",
+      "identifier": "halloween-part-1-2026",
+      "type": "event",
+      "start": "2026-10-27",
+      "end": "2026-11-01",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Pikachu",
+          "costume": "Hat and Capelet",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Zubat",
+          "costume": "Top Hat",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Sinistea",
+          "costume": "Bow",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Piplup",
+          "costume": "Halloween Mischief",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Drifblim",
+          "costume": "Halloween Mischief",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "candy",
+          "action": "catch",
+          "multiplier": 2,
+          "requirement": "GO Pass: Halloween 2026 Rank 10"
+        },
+        {
+          "type": "candy",
+          "action": "catch",
+          "multiplier": 3,
+          "requirement": "GO Pass Deluxe: Halloween 2026 Rank 10",
+          "paid": true
+        },
+        {
+          "type": "stardust",
+          "action": "catch",
+          "multiplier": 2,
+          "requirement": "GO Pass: Halloween 2026 Rank 20"
+        },
+        {
+          "type": "stardust",
+          "action": "catch",
+          "multiplier": 3,
+          "requirement": "GO Pass Deluxe: Halloween 2026 Rank 20",
+          "paid": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/halloween-part-1-2026"
+        }
+      ],
+      "notes": "Runs from October 27 at 10:00 a.m. to November 1 at 10:00 a.m. local time. New costumed Pikachu, Zubat, and Sinistea debut. Wild encounters also include returning Halloween-costumed Pokémon. Event-themed Field Research and interactive 'Trick or Treat' surprises in the wild are available during the event."
+    },
+    {
+      "name": "GO Pass: Halloween 2026",
+      "identifier": "go-pass-halloween-2026",
+      "type": "go-pass",
+      "start": "2026-10-27",
+      "end": "2026-11-05",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "avatar",
+          "name": "Patissier Top",
+          "methods": [
+            {
+              "method": "go-pass",
+              "paid": true,
+              "requirement": "GO Pass Deluxe"
+            }
+          ]
+        },
+        {
+          "type": "avatar",
+          "name": "Patissier Pants",
+          "methods": [
+            {
+              "method": "go-pass",
+              "paid": true,
+              "requirement": "GO Pass Deluxe"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/halloween-part-1-2026"
+        }
+      ],
+      "notes": "GO Pass and GO Pass Deluxe are available from October 27 at 10:00 a.m. to November 5 at 8:00 p.m. local time. Rewards unlocked in the pass can be claimed through November 7 at 8:00 p.m. local time, but that later claim deadline is a grace period and does not extend this calendar bar."
     }
   ],
-  "updated_at": "2026-10-02T14:08:04Z"
+  "updated_at": "2026-10-11T17:54:35Z"
 }
