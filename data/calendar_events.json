@@ -5225,7 +5225,70 @@
         }
       ],
       "notes": "Special Halloween event at participating AEON Malls across Japan. Timed Research is distributed in two acquisition windows: Part 1 from October 19–25 and Part 2 from October 26–November 1. Completing either research awards an encounter with Pikachu wearing a witch hat. Part 1 can be completed through November 8 at 8:00 p.m. and Part 2 through November 15 at 8:00 p.m.; those later deadlines are completion grace periods and do not extend this calendar bar. A separate AEON Mall campaign during the event can award Pokémon GO in-game items."
+    },
+    {
+      "name": "FC Seoul 2026 Event (Korea)",
+      "identifier": "fc-seoul-2026",
+      "type": "collaboration",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "availability": {
+        "type": "onsite",
+        "regions": [
+          "South Korea"
+        ],
+        "locations": [
+          "Seoul World Cup Stadium area, Seoul"
+        ]
+      },
+      "subtype": "local-raid",
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Charmander",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Charizard",
+          "methods": [
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "lure-duration",
+          "duration_minutes": 120
+        },
+        {
+          "type": "candy",
+          "action": "nice-throw-or-better-catch",
+          "label": "Increased Candy for catching Pokémon with Nice Throws or better"
+        },
+        {
+          "type": "map-effect",
+          "label": "Event-themed pollen appears on the in-game map"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/ko/news/fc-seoul-2026",
+          "locale": "ko"
+        }
+      ],
+      "notes": "Runs October 24, 2026 from 9:00 a.m. to 8:00 p.m. Korea time around Seoul World Cup Stadium. One-star raids feature Charmander that can have an event-themed Location Background. Free onsite Timed Research awards XP, Stardust, Charmander Candy, a Premium Battle Pass, and an encounter with Charizard that can have the event-themed Location Background. The Timed Research can be completed through November 7 at 8:00 p.m. Korea time; that later deadline is a completion grace period and does not extend this calendar bar. A Pokémon GO onsite booth operates from 9:00 a.m. to 2:00 p.m."
     }
   ],
-  "updated_at": "2026-10-11T17:57:35Z"
+  "updated_at": "2026-10-11T17:59:33Z"
 }
