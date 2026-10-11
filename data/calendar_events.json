@@ -2909,15 +2909,18 @@
       "availability": {
         "type": "onsite",
         "locations": [
-          "Singapore"
+          "Singapore (citywide)"
         ]
       },
       "sources": [
         {
+          "url": "https://pokemongo.com/news/event-singapore-30th-anniversary-2026"
+        },
+        {
           "url": "https://pokemongo.com/en/news/event-apac-30th-anniversary-2026"
         }
       ],
-      "notes": "Two-day main PokéXciting! Singapore event window. Blue PokéXciting! Pikachu remains available in the wild for one month after the event and is tracked separately. A local five-stamp GO Stamp Rally is also announced to continue after the event.",
+      "notes": "PokéXciting! Singapore runs November 7–8 from 10:00 a.m. to 10:00 p.m. local time, with event gameplay available citywide. Changi Airport and Jewel host a dedicated five-stamp Regional GO Stamp Rally, while the Cross-Region GO Stamp Rally stamp at Changi Airport Terminal 3 awards PokéXciting! Pikachu (Blue) with a local Location Background. Two free Timed Research tracks, event-themed Field Research, boosted wild encounters, Lure and Incense encounters, and Gigantamax Venusaur, Charizard, and Blastoise are available during the event. The extended Blue Pikachu wild/stamp-rally availability after the weekend is tracked separately.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -2928,6 +2931,12 @@
             {
               "method": "timed-research",
               "shiny": true
+            },
+            {
+              "method": "stamp-rally-reward",
+              "shiny": true,
+              "background": true,
+              "requirement": "Regional GO Stamp Rally at Changi Airport and Jewel"
             }
           ]
         },
@@ -2952,9 +2961,72 @@
               "shiny": true
             }
           ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Venusaur",
+          "form": "Gigantamax",
+          "methods": [
+            {
+              "method": "max-battle",
+              "shiny": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Charizard",
+          "form": "Gigantamax",
+          "methods": [
+            {
+              "method": "max-battle",
+              "shiny": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Blastoise",
+          "form": "Gigantamax",
+          "methods": [
+            {
+              "method": "max-battle",
+              "shiny": true
+            }
+          ]
         }
       ],
       "bonuses": [
+        {
+          "type": "xp",
+          "action": "pokestop-spin",
+          "multiplier": 2
+        },
+        {
+          "type": "trade-stardust",
+          "multiplier": 0.5,
+          "label": "50% less Stardust required for trades"
+        },
+        {
+          "type": "special-trade",
+          "amount": 2,
+          "label": "2 additional Special Trades"
+        },
+        {
+          "type": "lure-duration",
+          "duration_minutes": 60
+        },
+        {
+          "type": "xp",
+          "action": "nice-throw-or-better-catch",
+          "multiplier": 2,
+          "label": "2× XP for catching Pokémon with Nice Throws or better"
+        },
+        {
+          "type": "candy",
+          "action": "nice-throw-or-better-catch",
+          "label": "Increased Candy for catching Pokémon with Nice Throws or better"
+        },
         {
           "type": "snapshot",
           "amount": 5,
@@ -2963,6 +3035,10 @@
         {
           "type": "bonus-balloon",
           "label": "Bonus balloons appear once an hour during the event"
+        },
+        {
+          "type": "map-effect",
+          "label": "Special in-game map effect"
         }
       ]
     },
@@ -5151,5 +5227,5 @@
       "notes": "Special Halloween event at participating AEON Malls across Japan. Timed Research is distributed in two acquisition windows: Part 1 from October 19–25 and Part 2 from October 26–November 1. Completing either research awards an encounter with Pikachu wearing a witch hat. Part 1 can be completed through November 8 at 8:00 p.m. and Part 2 through November 15 at 8:00 p.m.; those later deadlines are completion grace periods and do not extend this calendar bar. A separate AEON Mall campaign during the event can award Pokémon GO in-game items."
     }
   ],
-  "updated_at": "2026-10-11T17:55:52Z"
+  "updated_at": "2026-10-11T17:57:35Z"
 }
