@@ -5103,34 +5103,7 @@
           ]
         }
       ],
-      "bonuses": [
-        {
-          "type": "candy",
-          "action": "catch",
-          "multiplier": 2,
-          "requirement": "GO Pass: Halloween 2026 Rank 10"
-        },
-        {
-          "type": "candy",
-          "action": "catch",
-          "multiplier": 3,
-          "requirement": "GO Pass Deluxe: Halloween 2026 Rank 10",
-          "paid": true
-        },
-        {
-          "type": "stardust",
-          "action": "catch",
-          "multiplier": 2,
-          "requirement": "GO Pass: Halloween 2026 Rank 20"
-        },
-        {
-          "type": "stardust",
-          "action": "catch",
-          "multiplier": 3,
-          "requirement": "GO Pass Deluxe: Halloween 2026 Rank 20",
-          "paid": true
-        }
-      ],
+      "bonuses": [],
       "sources": [
         {
           "url": "https://pokemongo.com/news/halloween-part-1-2026"
@@ -5174,9 +5147,40 @@
       "sources": [
         {
           "url": "https://pokemongo.com/news/halloween-part-1-2026"
+        },
+        {
+          "url": "https://pokemongo.com/news/halloween-part-2-2026"
         }
       ],
-      "notes": "GO Pass and GO Pass Deluxe are available from October 27 at 10:00 a.m. to November 5 at 8:00 p.m. local time. Rewards unlocked in the pass can be claimed through November 7 at 8:00 p.m. local time, but that later claim deadline is a grace period and does not extend this calendar bar."
+      "notes": "GO Pass and GO Pass Deluxe are available from October 27 at 10:00 a.m. to November 5 at 8:00 p.m. local time. Rewards unlocked in the pass can be claimed through November 7 at 8:00 p.m. local time, but that later claim deadline is a grace period and does not extend this calendar bar.",
+      "bonuses": [
+        {
+          "type": "candy",
+          "action": "catch",
+          "multiplier": 2,
+          "requirement": "GO Pass: Halloween 2026 Rank 10"
+        },
+        {
+          "type": "candy",
+          "action": "catch",
+          "multiplier": 3,
+          "requirement": "GO Pass Deluxe: Halloween 2026 Rank 10",
+          "paid": true
+        },
+        {
+          "type": "stardust",
+          "action": "catch",
+          "multiplier": 2,
+          "requirement": "GO Pass: Halloween 2026 Rank 20"
+        },
+        {
+          "type": "stardust",
+          "action": "catch",
+          "multiplier": 3,
+          "requirement": "GO Pass Deluxe: Halloween 2026 Rank 20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "AEON Mall Halloween 2026 (Japan)",
@@ -5288,7 +5292,98 @@
         }
       ],
       "notes": "Runs October 24, 2026 from 9:00 a.m. to 8:00 p.m. Korea time around Seoul World Cup Stadium. One-star raids feature Charmander that can have an event-themed Location Background. Free onsite Timed Research awards XP, Stardust, Charmander Candy, a Premium Battle Pass, and an encounter with Charizard that can have the event-themed Location Background. The Timed Research can be completed through November 7 at 8:00 p.m. Korea time; that later deadline is a completion grace period and does not extend this calendar bar. A Pokémon GO onsite booth operates from 9:00 a.m. to 2:00 p.m."
+    },
+    {
+      "name": "Halloween 2026 Part II",
+      "identifier": "halloween-part-2-2026",
+      "type": "event",
+      "start": "2026-11-01",
+      "end": "2026-11-05",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Greavard",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true
+            },
+            {
+              "method": "field-research",
+              "shiny": true
+            },
+            {
+              "method": "go-pass",
+              "shiny": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Rowlet",
+          "costume": "Halloween Costume",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Gengar",
+          "costume": "Spooky Festival",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Pikachu",
+          "costume": "Hat and Capelet",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Sinistea",
+          "costume": "Bow",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Sableye",
+          "methods": [
+            {
+              "method": "event",
+              "exclusive_move": "Night Shade+",
+              "requirement": "Available as an additional Charged Attack while Mega Evolved after Mega Sableye reaches Super Max Level."
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/halloween-part-2-2026"
+        }
+      ],
+      "notes": "Runs from November 1 at 10:00 a.m. to November 5 at 8:00 p.m. local time. Shiny Greavard makes its Pokémon GO debut. Starting with this event, Mega Sableye can be powered beyond Max to Super Max Level and can use the additional Charged Attack Night Shade+ while Mega Evolved. Event-themed Field Research is available. The shared GO Pass: Halloween 2026 continues through November 5 and is tracked separately."
     }
   ],
-  "updated_at": "2026-10-11T17:59:33Z"
+  "updated_at": "2026-10-11T18:07:50Z"
 }
