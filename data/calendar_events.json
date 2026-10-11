@@ -5101,7 +5101,55 @@
         }
       ],
       "notes": "GO Pass and GO Pass Deluxe are available from October 27 at 10:00 a.m. to November 5 at 8:00 p.m. local time. Rewards unlocked in the pass can be claimed through November 7 at 8:00 p.m. local time, but that later claim deadline is a grace period and does not extend this calendar bar."
+    },
+    {
+      "name": "AEON Mall Halloween 2026 (Japan)",
+      "identifier": "aeon-mall-halloween-2026",
+      "type": "collaboration",
+      "start": "2026-10-19",
+      "end": "2026-11-01",
+      "availability": {
+        "type": "onsite",
+        "regions": [
+          "Japan"
+        ],
+        "locations": [
+          "Participating AEON Malls across Japan"
+        ]
+      },
+      "subtype": "timed-research",
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Pikachu",
+          "costume": "Witch Hat",
+          "methods": [
+            {
+              "method": "timed-research",
+              "requirement": "Part 1 can be obtained October 19–25 at participating AEON Malls; Part 2 can be obtained October 26–November 1. Each part can be played once per account."
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "lure-duration",
+          "duration_minutes": 120,
+          "requirement": "Use a Lure Module at a PokéStop inside a participating AEON Mall"
+        },
+        {
+          "type": "lure-effect",
+          "label": "Lure Module effects are strengthened at participating AEON Malls"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/ja/news/202610aeonmall-halloween",
+          "locale": "ja"
+        }
+      ],
+      "notes": "Special Halloween event at participating AEON Malls across Japan. Timed Research is distributed in two acquisition windows: Part 1 from October 19–25 and Part 2 from October 26–November 1. Completing either research awards an encounter with Pikachu wearing a witch hat. Part 1 can be completed through November 8 at 8:00 p.m. and Part 2 through November 15 at 8:00 p.m.; those later deadlines are completion grace periods and do not extend this calendar bar. A separate AEON Mall campaign during the event can award Pokémon GO in-game items."
     }
   ],
-  "updated_at": "2026-10-11T17:54:35Z"
+  "updated_at": "2026-10-11T17:55:52Z"
 }
