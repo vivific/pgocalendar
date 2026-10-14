@@ -2137,7 +2137,7 @@
       ]
     },
     {
-      "name": "Super Mega Raid Day",
+      "name": "Chandelure Super Mega Raid Day",
       "identifier": "super-mega-raid-day-2026-10-31",
       "type": "raid-day",
       "start": "2026-10-31",
@@ -2148,9 +2148,106 @@
       "sources": [
         {
           "url": "https://pokemongo.com/news/save-the-date-s24"
+        },
+        {
+          "url": "https://pokemongo.com/news/chandelure-super-mega-raid-day-2026"
         }
       ],
-      "notes": "Date and event type are officially announced; featured Pokémon/details have not yet been published."
+      "notes": "October 31, 2026, 2:00–5:00 p.m. local time. Mega Chandelure makes its Pokémon GO debut in Super Mega Raids; Chandelure caught from these raids already have Mega Level 1 unlocked. Mega Chandelure can reach Super Max Level and, while Mega Evolved, use the additional Charged Attack Ominous Wind+ (50 power in Trainer Battles, with a chance to raise Attack and Defense; 145 power in Gyms/Raids). Ominous Wind+ is an ongoing Mega Evolution mechanic, not an event-exclusive move acquisition window. Free event Timed Research awards a Premium Battle Pass and a Tyranitar encounter; complete and claim it before it expires. A global raid-completion challenge runs October 30 at 5:00 p.m. PDT through October 31 at 8:00 p.m. PDT. Its separate, conditional Mega Chandelure boosts run November 2–15 and are tracked in another event. Optional US$4.99 ticket bonuses apply only from 2:00–5:00 p.m. local time October 31.",
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Chandelure",
+          "form": "Mega",
+          "methods": [
+            {
+              "method": "mega-raid",
+              "shiny": true,
+              "requirement": "Super Mega Raids; captured Chandelure already have Mega Level 1 unlocked."
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "remote-raid-limit",
+          "amount": 20,
+          "label": "Daily Remote Raid Pass limit increased to 20",
+          "requirement": "October 30, 5:00 p.m. PDT–October 31, 8:00 p.m. PDT"
+        },
+        {
+          "type": "raid-passes",
+          "amount": 6,
+          "label": "Up to six free Raid Passes from spinning Gym Photo Discs"
+        },
+        {
+          "type": "mega-level",
+          "label": "Chandelure caught from Super Mega Raids start with Mega Level 1 unlocked"
+        },
+        {
+          "type": "shiny-chance",
+          "action": "super-mega-raid",
+          "label": "Increased chance of Shiny Chandelure in Super Mega Raids"
+        },
+        {
+          "type": "raid-passes",
+          "amount": 14,
+          "label": "Up to 14 Raid Passes from spinning Gym Photo Discs",
+          "paid": true,
+          "requirement": "US$4.99 event ticket, October 31, 2:00–5:00 p.m. local time"
+        },
+        {
+          "type": "rare-candy-xl",
+          "action": "raid",
+          "label": "Increased chance to receive Rare Candy XL from Raid Battles",
+          "paid": true,
+          "requirement": "Event ticket, October 31, 2:00–5:00 p.m. local time"
+        },
+        {
+          "type": "xp",
+          "action": "super-mega-raid",
+          "amount": 5000,
+          "label": "Additional 5,000 XP from Super Mega Raid Battles",
+          "paid": true,
+          "requirement": "Event ticket, October 31, 2:00–5:00 p.m. local time"
+        },
+        {
+          "type": "stardust",
+          "action": "super-mega-raid",
+          "amount": 5000,
+          "label": "Additional 5,000 Stardust from Super Mega Raid Battles",
+          "paid": true,
+          "requirement": "Event ticket, October 31, 2:00–5:00 p.m. local time"
+        }
+      ]
+    },
+    {
+      "name": "Mega Chandelure Global Challenge Rewards",
+      "identifier": "mega-chandelure-global-challenge-rewards-2026",
+      "type": "event",
+      "start": "2026-11-02",
+      "end": "2026-11-15",
+      "availability": {
+        "type": "global"
+      },
+      "bonuses": [
+        {
+          "type": "move-power",
+          "label": "Ominous Wind+ base-power boost for Mega Chandelure at Mega Level 1 or higher (not active in GO Battle League)",
+          "requirement": "November 2, 12:00 p.m. PST–November 15, 12:00 p.m. PST; strength determined by completed Global Challenge tiers"
+        },
+        {
+          "type": "mega-cp",
+          "label": "Mega Chandelure CP boost at Super Max Level",
+          "requirement": "November 2, 12:00 p.m. PST–November 15, 12:00 p.m. PST; strength determined by completed Global Challenge tiers"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/chandelure-super-mega-raid-day-2026"
+        }
+      ],
+      "notes": "Conditional reward period following the October 30–31 global raid-completion challenge during Chandelure Super Mega Raid Day. Boosts run November 2 at 12:00 p.m. PST until November 15 at 12:00 p.m. PST and depend on the number of Global Challenge tiers achieved; final bonus magnitudes have not been announced. Ominous Wind+ itself remains a permanent Mega Chandelure mechanic. These are temporary boosts to that mechanic, not an opportunity to obtain an exclusive move."
     },
     {
       "name": "Pokémon RUN 30 – Kaohsiung (Taiwan)",
@@ -5389,5 +5486,5 @@
       "notes": "Runs from November 1 at 10:00 a.m. to November 5 at 8:00 p.m. local time. Shiny Greavard makes its Pokémon GO debut. Starting with this event, Mega Sableye can be powered beyond Max to Super Max Level and can use the additional Charged Attack Night Shade+ while Mega Evolved. Event-themed Field Research is available. The shared GO Pass: Halloween 2026 continues through November 5 and is tracked separately."
     }
   ],
-  "updated_at": "2026-10-11T18:33:02.919Z"
+  "updated_at": "2026-10-14T03:53:12.150Z"
 }
