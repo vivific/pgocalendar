@@ -2347,9 +2347,12 @@
         },
         {
           "url": "https://pokemongo.com/gowildarea/mexico-city/gameplay"
+        },
+        {
+          "url": "https://pokemongo.com/news/go-wild-area-stamp-rally-details-2026"
         }
       ],
-      "notes": "Ticketed live event. Event gameplay is available only at the date, time, and location on the ticket.",
+      "notes": "Ticketed live event. Event gameplay is available only at the date, time, and location on the ticket. GO Stamp Rally clarification: the seven-stop rally is only available from 10:00 a.m. to 8:00 p.m. local time on the Trainer's main ticketed event day; the Extra Day gameplay add-on does not grant another rally. Stamp locations: Monumento a la Revolución; Jardín Pushkin; Parque México; Centro de Cultura Digital / Estela de Luz; Parque América; Liverpool Polanco; Mexicráneo + Ángel de la Independencia.",
       "subtype": "wild-area",
       "obtainable": [
         {
@@ -2683,9 +2686,12 @@
         },
         {
           "url": "https://pokemongo.com/gowildarea/sendai/gameplay"
+        },
+        {
+          "url": "https://pokemongo.com/news/go-wild-area-stamp-rally-details-2026"
         }
       ],
-      "notes": "Ticketed live event. A ticket covers one day of gameplay; extra-day add-ons are available.",
+      "notes": "Ticketed live event. A ticket covers one day of gameplay; extra-day add-ons are available. GO Stamp Rally clarification: the seven-stop rally is only available from 10:00 a.m. to 8:00 p.m. local time on the Trainer's main ticketed event day; the Extra Day gameplay add-on does not grant another rally. Stamp locations: Tsutsujigaoka Park; Daterium; Jyukyo Park Sendai Station West; Sendai City Museum; Nishi Park; Nishikicho Park; AEON Mall Sendai Kamisugi.",
       "subtype": "wild-area",
       "obtainable": [
         {
@@ -3428,6 +3434,9 @@
         },
         {
           "url": "https://pokemongo.com/gowildarea/global"
+        },
+        {
+          "url": "https://pokemongo.com/news/into-the-wild-2026"
         }
       ],
       "subtype": "wild-area",
@@ -3735,6 +3744,11 @@
           "label": "GO Safari Ball Supply Balloon appears hourly during event hours",
           "requirement": "Global event ticket",
           "paid": true
+        },
+        {
+          "type": "remote-raid-limit",
+          "label": "No daily Remote Raid limit during GO Wild Area: Global",
+          "requirement": "November 14–15, 2026"
         }
       ]
     },
@@ -5484,7 +5498,839 @@
         }
       ],
       "notes": "Runs from November 1 at 10:00 a.m. to November 5 at 8:00 p.m. local time. Shiny Greavard makes its Pokémon GO debut. Starting with this event, Mega Sableye can be powered beyond Max to Super Max Level and can use the additional Charged Attack Night Shade+ while Mega Evolved. Event-themed Field Research is available. The shared GO Pass: Halloween 2026 continues through November 5 and is tracked separately."
+    },
+    {
+      "name": "Pokémon Night Out – Los Angeles",
+      "identifier": "pokemon-night-out-los-angeles-2026",
+      "type": "collaboration",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "availability": {
+        "type": "onsite",
+        "locations": [
+          "Intuit Dome, Inglewood (Los Angeles), California, USA"
+        ]
+      },
+      "subtype": "timed-research",
+      "obtainable": [
+        {
+          "type": "avatar",
+          "name": "Pokémon Night Out Baseball Jersey",
+          "methods": [
+            {
+              "method": "timed-research",
+              "requirement": "Open Pokémon GO at the event venue. Trainers who previously received this avatar-item research from the October 24 Twitch livestream cannot receive it again."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Pikachu",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Gengar",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Toxtricity",
+          "form": "Amped Form",
+          "methods": [
+            {
+              "method": "timed-research",
+              "requirement": "Chance from onsite Timed Research"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Toxtricity",
+          "form": "Low Key Form",
+          "methods": [
+            {
+              "method": "timed-research",
+              "requirement": "Chance from onsite Timed Research"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Unown",
+          "form": "P",
+          "methods": [
+            {
+              "method": "wild",
+              "requirement": "Rare event-area encounter; Shiny availability not specified"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Unown",
+          "form": "N",
+          "methods": [
+            {
+              "method": "wild",
+              "requirement": "Rare event-area encounter; Shiny availability not specified"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Unown",
+          "form": "O",
+          "methods": [
+            {
+              "method": "wild",
+              "requirement": "Rare event-area encounter; Shiny availability not specified"
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "lure-duration",
+          "duration_minutes": 60,
+          "requirement": "Lure Modules activated by attendees at the venue; excludes Golden Lure Modules"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/pokemon-night-out-irl-details2026"
+        }
+      ],
+      "notes": "Onsite celebration at Intuit Dome on October 24, 2026. One-star Pikachu and three-star Gengar raids can award a Los Angeles Location Background. Up to two venue-activated Timed Research opportunities offer themed Pokémon and the exclusive baseball jersey; the jersey research cannot be received a second time by Trainers who already claimed it through the Los Angeles Twitch Drops. Event-area wild encounters include rare Unown P, N, and O. Exact in-game start/end hours are not specified in the Pokémon GO announcement."
+    },
+    {
+      "name": "Día de Muertos 2026 (Mexico)",
+      "identifier": "dia-de-muertos-mexico-2026",
+      "type": "event",
+      "start": "2026-10-27",
+      "end": "2026-11-05",
+      "availability": {
+        "type": "regional",
+        "regions": [
+          "Mexico"
+        ]
+      },
+      "subtype": "timed-research",
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Cubone",
+          "costume": "Cempasúchil Crown",
+          "methods": [
+            {
+              "method": "incense",
+              "shiny": true,
+              "background": true,
+              "requirement": "Possible Special Background"
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Timed Research encounter with Special Background"
+            },
+            {
+              "method": "party-play",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event-themed Party Challenges; possible Special Background"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Marowak",
+          "costume": "Cempasúchil Crown",
+          "methods": [
+            {
+              "method": "evolution",
+              "requirement": "Evolve Cubone wearing a Cempasúchil Crown"
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "poffin-duration",
+          "multiplier": 2,
+          "label": "2× Poffin duration"
+        },
+        {
+          "type": "incense-duration",
+          "multiplier": 2,
+          "label": "2× Incense duration"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/es_MX/news/dia-de-muertos-2026",
+          "locale": "es_MX"
+        }
+      ],
+      "notes": "Mexico-only Día de Muertos celebration, October 27 at 10:00 a.m. to November 5 at 8:00 p.m. local time. Cempasúchil Crown Cubone appears from Incense, Timed Research, and event-themed Party Challenges, with Shiny and Special Background opportunities. The Timed Research also awards themed stickers and ordinary items. Event stickers can be found at PokéStops and Gyms. Cubone can evolve into Cempasúchil Crown Marowak. A different onsite Paseo de la Reforma celebration, starting October 31, is tracked separately."
+    },
+    {
+      "name": "Día de Muertos – Paseo de la Reforma Stamp Rally",
+      "identifier": "dia-de-muertos-paseo-de-la-reforma-2026",
+      "type": "stamp-rally",
+      "start": "2026-10-31",
+      "end": "2026-11-05",
+      "availability": {
+        "type": "onsite",
+        "regions": [
+          "Mexico"
+        ],
+        "locations": [
+          "Paseo de la Reforma, Mexico City, Mexico"
+        ]
+      },
+      "subtype": "stamp-rally",
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Duskull",
+          "costume": "Cempasúchil Crown",
+          "methods": [
+            {
+              "method": "stamp-rally-reward",
+              "shiny": true,
+              "background": true,
+              "requirement": "Complete the local GO Stamp Rally; Location Background"
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Onsite Timed Research; Location Background"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Dusclops",
+          "costume": "Cempasúchil Crown",
+          "methods": [
+            {
+              "method": "evolution",
+              "requirement": "Evolve costumed Duskull"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Dusknoir",
+          "costume": "Cempasúchil Crown",
+          "methods": [
+            {
+              "method": "evolution",
+              "requirement": "Evolve costumed Dusclops"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Gengar",
+          "form": "Gigantamax",
+          "methods": [
+            {
+              "method": "max-battle",
+              "shiny": true,
+              "background": true,
+              "requirement": "Onsite six-star Gigantamax Max Battles; possible Location Background"
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "trade-stardust-cost",
+          "multiplier": 0.5,
+          "label": "50% less Stardust required for trades in event area"
+        },
+        {
+          "type": "lure-duration",
+          "duration_minutes": 180
+        },
+        {
+          "type": "buddy-catch-assist",
+          "label": "Increased chance of Buddy catch assist at Great Buddy or higher"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/es_MX/news/dia-de-muertos-2026",
+          "locale": "es_MX"
+        }
+      ],
+      "notes": "Onsite Paseo de la Reforma event, October 31–November 5, ending 8:00 p.m. local time. Spin designated PokéStops and Gyms to collect GO Stamp Rally stamps and earn Cempasúchil Crown Duskull with a Mexico City Location Background. Event-area Timed Research also awards location-background Duskull and other featured Pokémon, including Sunflora, Drifloon, Litwick, Flabébé, Phantump, Fuecoco, and Fidough. Six-star Gigantamax Gengar Max Battles can award Location Backgrounds. The Mexicráneo physical-art exhibit continues October 17–November 16, but that is not the Stamp Rally's gameplay window."
+    },
+    {
+      "name": "Into the Wild 2026",
+      "identifier": "into-the-wild-2026",
+      "type": "event",
+      "start": "2026-11-09",
+      "end": "2026-11-13",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Regidrago",
+          "form": "Dynamax",
+          "methods": [
+            {
+              "method": "max-battle",
+              "shiny": true,
+              "background": true,
+              "start": "2026-11-12",
+              "end": "2026-11-12",
+              "requirement": "Dynamax debut; five-star Max Battles and 6:00–7:00 p.m. local-time Max Battle hour"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Registeel",
+          "form": "Dynamax",
+          "methods": [
+            {
+              "method": "max-battle",
+              "shiny": true,
+              "background": true,
+              "start": "2026-11-11",
+              "end": "2026-11-11",
+              "requirement": "Five-star Max Battles; 6:00–7:00 p.m. local-time Max Battle hour"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Latias",
+          "form": "Dynamax",
+          "methods": [
+            {
+              "method": "max-battle",
+              "shiny": true,
+              "background": true,
+              "start": "2026-11-13",
+              "end": "2026-11-13",
+              "requirement": "Five-star Max Battles; 6:00–7:00 p.m. local-time Max Battle hour"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Latios",
+          "form": "Dynamax",
+          "methods": [
+            {
+              "method": "max-battle",
+              "shiny": true,
+              "background": true,
+              "start": "2026-11-13",
+              "end": "2026-11-13",
+              "requirement": "Five-star Max Battles; 6:00–7:00 p.m. local-time Max Battle hour"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Zacian",
+          "form": "Crowned Sword",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "requirement": "Five-star raids; special Raid Hour November 9, 6:00–7:00 p.m. local time"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Zamazenta",
+          "form": "Crowned Shield",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "requirement": "Five-star raids; special Raid Hour November 10, 6:00–7:00 p.m. local time"
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Registeel",
+          "methods": [
+            {
+              "method": "capture",
+              "requirement": "Registeel caught during the event",
+              "exclusive_move": "Metal Claw"
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Regidrago",
+          "methods": [
+            {
+              "method": "capture",
+              "requirement": "Regidrago caught during the event",
+              "exclusive_move": "Dragon Breath"
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Latias",
+          "methods": [
+            {
+              "method": "capture",
+              "requirement": "Latias caught during the event",
+              "exclusive_move": "Mist Ball"
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Latios",
+          "methods": [
+            {
+              "method": "capture",
+              "requirement": "Latios caught during the event",
+              "exclusive_move": "Luster Purge"
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "remote-raid-limit",
+          "amount": 30,
+          "label": "Remote Raid Pass daily limit increased to 30",
+          "requirement": "November 9–13"
+        },
+        {
+          "type": "special-background",
+          "label": "Chance of new commemorative Special Background from caught five-star raid and five-star Max Battle Pokémon"
+        },
+        {
+          "type": "global-challenge",
+          "label": "Complete raids and Max Battles globally to unlock boosted Crowned Zacian/Zamazenta Adventure Effects and faster Max Battle energy collection",
+          "requirement": "Conditional on Global Challenge completion"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/into-the-wild-2026"
+        }
+      ],
+      "notes": "Main event November 9 at 10:00 a.m.–November 13 at 8:00 p.m. local time. Steel- and Dragon-themed encounters. Dynamax Regidrago debuts November 12. Five-star Max Battle schedule: Registeel November 11, Regidrago November 12, Latias and Latios November 13 (featured 6:00–7:00 p.m. local time each day). Crowned Sword Zacian and Crowned Shield Zamazenta headline five-star raids, with Raid Hours November 9 and 10 respectively; defeating them awards matching Crowned Sword/Shield Energy. Caught five-star raid and Max Battle Pokémon can have a new Special Background. Ralts and Machop also appear in lower-tier Max Battles, and Druddigon and Orthworm in three-star raids. Daily Discoveries are paused November 9–15. GO Pass and Shiny Mystery Box/Coin Bag opportunities run through November 15 and are separately tracked."
+    },
+    {
+      "name": "GO Pass: Into the Wild 2026",
+      "identifier": "go-pass-into-the-wild-2026",
+      "type": "go-pass",
+      "start": "2026-11-09",
+      "end": "2026-11-15",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "avatar",
+          "name": "GO Wild Area 2026 Tee (Purple)",
+          "methods": [
+            {
+              "method": "go-pass",
+              "requirement": "Free GO Pass: Into the Wild"
+            }
+          ]
+        },
+        {
+          "type": "avatar",
+          "name": "Duraludon Pants",
+          "methods": [
+            {
+              "method": "go-pass",
+              "paid": true,
+              "requirement": "GO Pass Deluxe: Into the Wild"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Meltan",
+          "form": "Dynamax",
+          "methods": [
+            {
+              "method": "go-pass",
+              "shiny": true,
+              "requirement": "Dynamax Meltan debut from GO Pass rewards; additional encounters in Deluxe"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Silver Bottle Cap",
+          "methods": [
+            {
+              "method": "go-pass",
+              "paid": true,
+              "requirement": "GO Pass Deluxe reward; item must be used by November 22, 2026 at 11:59 p.m. local time"
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "hatch-distance",
+          "multiplier": 0.5,
+          "requirement": "Free GO Pass Rank 25"
+        },
+        {
+          "type": "xp",
+          "action": "raid-completion",
+          "amount": 5000,
+          "label": "Additional 5,000 XP from completed raids",
+          "paid": true,
+          "requirement": "Deluxe Rank 1"
+        },
+        {
+          "type": "xp",
+          "action": "max-battle",
+          "amount": 5000,
+          "label": "Additional 5,000 XP from completed Max Battles",
+          "paid": true,
+          "requirement": "Deluxe Rank 1"
+        },
+        {
+          "type": "max-move-cost",
+          "multiplier": 0.75,
+          "paid": true,
+          "requirement": "Deluxe Rank 2"
+        },
+        {
+          "type": "candy",
+          "action": "raid-and-max-battle",
+          "amount": 1,
+          "label": "One additional Candy from raids and Max Battles",
+          "paid": true,
+          "requirement": "Deluxe Rank 3"
+        },
+        {
+          "type": "candy-xl",
+          "action": "raid-and-max-battle",
+          "amount": 1,
+          "label": "One additional Candy XL from raids and Max Battles (level 31+)",
+          "paid": true,
+          "requirement": "Deluxe Rank 3"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/into-the-wild-2026"
+        }
+      ],
+      "notes": "Free GO Pass and optional paid Deluxe progression are available November 9 at 10:00 a.m.–November 15 at 6:00 p.m. local time. Free rewards include the Dynamax Meltan debut and purple GO Wild Area 2026 Tee; paid Deluxe adds more Dynamax Meltan encounters, Duraludon Pants, and a Silver Bottle Cap for Hyper Training one stat. GO Pass rank-up closes November 15. Rewards already earned can be claimed until November 17 at 11:59 p.m.; this claim grace period does not extend the calendar event. Silver Bottle Cap expires November 22 at 11:59 p.m. regardless of when claimed; after use there are 365 days to finish Hyper Training."
+    },
+    {
+      "name": "Into the Wild – Shiny Meltan and Gimmighoul",
+      "identifier": "into-the-wild-shiny-boxes-2026",
+      "type": "event",
+      "start": "2026-11-09",
+      "end": "2026-11-15",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Meltan",
+          "methods": [
+            {
+              "method": "mystery-box",
+              "shiny": true,
+              "requirement": "Use the Mystery Box November 9 at 10:00 a.m.–November 15 at 6:00 p.m. local time; reduced cooldown"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Gimmighoul",
+          "form": "Roaming Form",
+          "methods": [
+            {
+              "method": "coin-bag",
+              "shiny": true,
+              "requirement": "Use a Coin Bag November 9 at 10:00 a.m.–November 15 at 6:00 p.m. local time"
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "mystery-box-cooldown",
+          "label": "Reduced wait time before reopening Mystery Box",
+          "requirement": "November 9 at 10:00 a.m.–November 15 at 6:00 p.m. local time"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/into-the-wild-2026"
+        }
+      ],
+      "notes": "These two Shiny-eligible box encounter windows run November 9 at 10:00 a.m.–November 15 at 6:00 p.m. local time, two days longer than the main Into the Wild event. Gimmighoul from Coin Bags can be Shiny; Meltan from Mystery Boxes can be Shiny and Mystery Boxes have a shorter reopening cooldown. This entry is separate from Dynamax Meltan obtained through the GO Pass."
+    },
+    {
+      "name": "Pokémon Night Out – London",
+      "identifier": "pokemon-night-out-london-2026",
+      "type": "collaboration",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "availability": {
+        "type": "onsite",
+        "locations": [
+          "The O2 Arena, London, England, UK"
+        ]
+      },
+      "subtype": "timed-research",
+      "obtainable": [
+        {
+          "type": "avatar",
+          "name": "Pokémon Night Out Baseball Jersey",
+          "methods": [
+            {
+              "method": "timed-research",
+              "requirement": "Open Pokémon GO at the London venue; avatar-item research is not awarded again if already claimed from the October 24 Twitch livestream."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Pikachu",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Gengar",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Toxtricity",
+          "form": "Amped Form",
+          "methods": [
+            {
+              "method": "timed-research",
+              "requirement": "Chance from onsite Timed Research"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Toxtricity",
+          "form": "Low Key Form",
+          "methods": [
+            {
+              "method": "timed-research",
+              "requirement": "Chance from onsite Timed Research"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Unown",
+          "form": "P",
+          "methods": [
+            {
+              "method": "wild",
+              "requirement": "Rare event-area encounter; Shiny availability not specified"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Unown",
+          "form": "N",
+          "methods": [
+            {
+              "method": "wild",
+              "requirement": "Rare event-area encounter; Shiny availability not specified"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Unown",
+          "form": "O",
+          "methods": [
+            {
+              "method": "wild",
+              "requirement": "Rare event-area encounter; Shiny availability not specified"
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "lure-duration",
+          "duration_minutes": 60,
+          "requirement": "Lure Modules activated by attendees at the venue; excludes Golden Lure Modules"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/pokemon-night-out-irl-details2026"
+        }
+      ],
+      "notes": "Onsite celebration at The O2 Arena, London, on November 10, 2026. Pikachu (one-star raids) and Gengar (three-star raids) can have a London Location Background; Timed Research includes opportunities for Amped/Low Key Toxtricity and the exclusive baseball jersey avatar item. Trainers who already claimed the jersey research via the Los Angeles Twitch Drops cannot claim it twice. Rare Unown P, N, and O may appear in the event area. Exact in-game hours are not specified."
+    },
+    {
+      "name": "November 2026 Community Day: Pawniard",
+      "identifier": "communityday-november-2026-pawniard",
+      "type": "community-day",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "move",
+          "pokemon": "Kingambit",
+          "methods": [
+            {
+              "method": "evolution",
+              "requirement": "Evolve Bisharp to Kingambit November 21, 2:00–9:00 p.m. local time (four-hour grace period)",
+              "exclusive_move": "Kowtow Cleave"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Pawniard",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "requirement": "Community Day wild encounters (possible Special Background)"
+            },
+            {
+              "method": "lure",
+              "shiny": true,
+              "background": true,
+              "requirement": "Regular Lures, November 21, 2:00–9:00 p.m. local time"
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Some event-themed Field Research encounters can have a Special Background"
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$1.99 Community Day research; three encounters with Special Background"
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador meetup"
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "hatch-distance",
+          "multiplier": 0.25,
+          "requirement": "Eggs placed in incubators during 2:00–5:00 p.m. event"
+        },
+        {
+          "type": "candy",
+          "action": "catch",
+          "multiplier": 2
+        },
+        {
+          "type": "candy-xl-chance",
+          "action": "catch",
+          "multiplier": 2,
+          "requirement": "Trainer level 31+"
+        },
+        {
+          "type": "incense-duration",
+          "duration_minutes": 180,
+          "requirement": "Non-Daily Adventure Incense activated during event"
+        },
+        {
+          "type": "lure-duration",
+          "duration_minutes": 60
+        },
+        {
+          "type": "special-trade",
+          "amount": 2,
+          "label": "Up to two Special Trades on November 21, 2:00–9:00 p.m. local time",
+          "requirement": "November 21, 2:00–9:00 p.m."
+        },
+        {
+          "type": "trade-stardust-cost",
+          "multiplier": 0.5,
+          "requirement": "November 21, 2:00–9:00 p.m."
+        },
+        {
+          "type": "evolution-requirement",
+          "label": "Temporary Kingambit evolution requirement: defeat 1 Dark- or Steel-type Raid Boss with Bisharp instead of usual requirement",
+          "requirement": "November 21, 2:00–9:00 p.m.; applies to all Bisharp"
+        },
+        {
+          "type": "lure-encounter",
+          "label": "High chance of Pawniard from regular Lure Modules",
+          "requirement": "November 21, 2:00–9:00 p.m."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/communityday-november-2026-pawniard"
+        }
+      ],
+      "notes": "November 21, 2:00–5:00 p.m. local time. Featured Pawniard can be Shiny or have a Special Background. Evolve Bisharp through 9:00 p.m. for Kingambit with Kowtow Cleave (75 power in Trainer Battles; 85 in Gyms/Raids). Until 9:00 p.m., Bisharp can evolve after defeating one Dark- or Steel-type Raid Boss; boosted Pawniard regular-Lure encounters, reduced trade costs, and two Special Trades also last until 9:00 p.m. Optional US$1.99 Special Research includes three guaranteed Pawniard Special Background encounters. Community Ambassador check-in research can also award background Pawniard."
     }
   ],
-  "updated_at": "2026-10-14T03:53:12.150Z"
+  "updated_at": "2026-10-23T20:02:40.355Z"
 }
