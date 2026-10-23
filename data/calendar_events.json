@@ -5574,7 +5574,8 @@
           "methods": [
             {
               "method": "wild",
-              "requirement": "Rare event-area encounter; Shiny availability not specified"
+              "requirement": "Rare wild encounter within the event venue",
+              "shiny": true
             }
           ]
         },
@@ -5585,7 +5586,8 @@
           "methods": [
             {
               "method": "wild",
-              "requirement": "Rare event-area encounter; Shiny availability not specified"
+              "requirement": "Rare wild encounter within the event venue",
+              "shiny": true
             }
           ]
         },
@@ -5596,7 +5598,8 @@
           "methods": [
             {
               "method": "wild",
-              "requirement": "Rare event-area encounter; Shiny availability not specified"
+              "requirement": "Rare wild encounter within the event venue",
+              "shiny": true
             }
           ]
         }
@@ -5779,7 +5782,7 @@
           "locale": "es_MX"
         }
       ],
-      "notes": "Onsite Paseo de la Reforma event, October 31–November 5, ending 8:00 p.m. local time. Spin designated PokéStops and Gyms to collect GO Stamp Rally stamps and earn Cempasúchil Crown Duskull with a Mexico City Location Background. Event-area Timed Research also awards location-background Duskull and other featured Pokémon, including Sunflora, Drifloon, Litwick, Flabébé, Phantump, Fuecoco, and Fidough. Six-star Gigantamax Gengar Max Battles can award Location Backgrounds. The Mexicráneo physical-art exhibit continues October 17–November 16, but that is not the Stamp Rally's gameplay window."
+      "notes": "Onsite Paseo de la Reforma event, October 31–November 5, ending 8:00 p.m. local time. Spin designated PokéStops and Gyms to collect GO Stamp Rally stamps and earn Cempasúchil Crown Duskull with a Mexico City Location Background. Event-area Timed Research also awards location-background Duskull and other featured Pokémon, including Sunflora, Drifloon, Litwick, Flabébé, Phantump, Fuecoco, and Fidough. Six-star Gigantamax Gengar Max Battles can award Location Backgrounds. The separate interactive Mexicráneo QR-code Pokémon encounter runs October 17–November 16 and is tracked in its own event entry."
     },
     {
       "name": "Into the Wild 2026",
@@ -6176,7 +6179,8 @@
           "methods": [
             {
               "method": "wild",
-              "requirement": "Rare event-area encounter; Shiny availability not specified"
+              "requirement": "Rare wild encounter within the event venue",
+              "shiny": true
             }
           ]
         },
@@ -6187,7 +6191,8 @@
           "methods": [
             {
               "method": "wild",
-              "requirement": "Rare event-area encounter; Shiny availability not specified"
+              "requirement": "Rare wild encounter within the event venue",
+              "shiny": true
             }
           ]
         },
@@ -6198,7 +6203,8 @@
           "methods": [
             {
               "method": "wild",
-              "requirement": "Rare event-area encounter; Shiny availability not specified"
+              "requirement": "Rare wild encounter within the event venue",
+              "shiny": true
             }
           ]
         }
@@ -6315,8 +6321,8 @@
         },
         {
           "type": "evolution-requirement",
-          "label": "Temporary Kingambit evolution requirement: defeat 1 Dark- or Steel-type Raid Boss with Bisharp instead of usual requirement",
-          "requirement": "November 21, 2:00–9:00 p.m.; applies to all Bisharp"
+          "label": "Temporary Kingambit evolution requirement: defeat 1 Dark- or Steel-type Raid Boss; applies to all Bisharp, whether or not they are your Buddy Pokémon",
+          "requirement": "November 21, 2026, 2:00–9:00 p.m. local time; normal evolution requirements return at 9:00 p.m."
         },
         {
           "type": "lure-encounter",
@@ -6329,8 +6335,35 @@
           "url": "https://pokemongo.com/news/communityday-november-2026-pawniard"
         }
       ],
-      "notes": "November 21, 2:00–5:00 p.m. local time. Featured Pawniard can be Shiny or have a Special Background. Evolve Bisharp through 9:00 p.m. for Kingambit with Kowtow Cleave (75 power in Trainer Battles; 85 in Gyms/Raids). Until 9:00 p.m., Bisharp can evolve after defeating one Dark- or Steel-type Raid Boss; boosted Pawniard regular-Lure encounters, reduced trade costs, and two Special Trades also last until 9:00 p.m. Optional US$1.99 Special Research includes three guaranteed Pawniard Special Background encounters. Community Ambassador check-in research can also award background Pawniard."
+      "notes": "November 21, 2:00–5:00 p.m. local time. Featured Pawniard can be Shiny or have a Special Background. Evolve Bisharp through 9:00 p.m. for Kingambit with Kowtow Cleave (75 power in Trainer Battles; 85 in Gyms/Raids). Until 9:00 p.m., all Bisharp can use the one Dark- or Steel-type Raid Boss evolution requirement without needing to be your Buddy; boosted Pawniard regular-Lure encounters, reduced trade costs, and two Special Trades also last until 9:00 p.m. Optional US$1.99 Special Research includes three guaranteed Pawniard Special Background encounters. Community Ambassador check-in research can also award background Pawniard."
+    },
+    {
+      "name": "Mexicráneo – Discover Your Día de Muertos Spirit",
+      "identifier": "mexicraneo-dia-de-muertos-2026",
+      "type": "collaboration",
+      "start": "2026-10-17",
+      "end": "2026-11-16",
+      "availability": {
+        "type": "onsite",
+        "regions": [
+          "Mexico"
+        ],
+        "locations": [
+          "Pokémon GO-themed Mexicráneo installation, Paseo de la Reforma, Mexico City, Mexico"
+        ]
+      },
+      "subtype": "timed-research",
+      "sources": [
+        {
+          "url": "https://pokemongo.com/es_MX/news/dia-de-muertos-2026",
+          "locale": "es_MX"
+        },
+        {
+          "url": "https://www.merca20.com/pokemon-go-celebra-dia-de-muertos-con-actividades-especiales-en-mexico/"
+        }
+      ],
+      "notes": "Interactive Pokémon GO-themed Mexicráneo installation on Paseo de la Reforma, accessible October 17–November 16, 2026. Press the installation's button and scan the displayed 2D/QR code to discover which Día de Muertos event Pokémon represents your spirit and receive an in-game encounter. Contemporary coverage describes the encounter as a Timed Research reward; the official announcement does not specify a fixed species list or research deadline. The October 31–November 5 GO Stamp Rally is a separate activity, tracked in its own entry."
     }
   ],
-  "updated_at": "2026-10-23T20:02:40.355Z"
+  "updated_at": "2026-10-23T20:22:10.890Z"
 }
