@@ -3793,22 +3793,6 @@
       ]
     },
     {
-      "name": "November 2026 Community Day",
-      "identifier": "community-day-november-21-2026",
-      "type": "community-day",
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "availability": {
-        "type": "global"
-      },
-      "sources": [
-        {
-          "url": "https://pokemongo.com/en/news/save-the-date-s24"
-        }
-      ],
-      "notes": "Date announced in the Season save-the-date post; featured Pokémon had not yet been specified in the bootstrap data."
-    },
-    {
       "name": "Pokémon RUN 30 × Pokémon GO – Malaysia",
       "identifier": "pokemon-run-30-2026-3",
       "type": "collaboration",
@@ -6363,7 +6347,169 @@
         }
       ],
       "notes": "Interactive Pokémon GO-themed Mexicráneo installation on Paseo de la Reforma, accessible October 17–November 16, 2026. Press the installation's button and scan the displayed 2D/QR code to discover which Día de Muertos event Pokémon represents your spirit and receive an in-game encounter. Contemporary coverage describes the encounter as a Timed Research reward; the official announcement does not specify a fixed species list or research deadline. The October 31–November 5 GO Stamp Rally is a separate activity, tracked in its own entry."
+    },
+    {
+      "name": "Dynamax Trails",
+      "identifier": "dynamax-trails-2026",
+      "type": "event",
+      "start": "2026-11-16",
+      "end": "2026-11-23",
+      "availability": {
+        "type": "global"
+      },
+      "bonuses": [
+        {
+          "type": "max-particles",
+          "label": "Chance to receive Max Particles from catching event-themed Pokémon in the wild or after Max Battles; auto-catches via Explorer Gadget or Pokémon GO Plus + do not qualify"
+        },
+        {
+          "type": "power-spot-count",
+          "label": "More Power Spots than usual"
+        },
+        {
+          "type": "special-background",
+          "label": "Chance of a commemorative Special Background when catching a Dynamax Pokémon from a Max Battle"
+        },
+        {
+          "type": "candy",
+          "action": "catch",
+          "multiplier": 2,
+          "requirement": "November 19, 6:00–7:00 p.m. local time, Grookey / Scorbunny / Sobble Spotlight Hour"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/dynamax-trails-eternamax-eternatus-2026"
+        }
+      ],
+      "notes": "Main Dynamax Trails event runs November 16, 2026 at 10:00 a.m. through November 23 at 8:00 p.m. local time. All previously released non-Legendary, non-Mythical Dynamax Pokémon can return to Max Battles, with a chance of a commemorative Special Background on a successful Max Battle catch. The same non-Legendary/non-Mythical Dynamax-debut species can also appear in the wild. Event Field Research awards Stardust, Eternatus Candy, and themed encounters. The November 19 Spotlight Hour (6:00–7:00 p.m. local time) features Grookey, Scorbunny, and Sobble, each Shiny-eligible, with 2× Catch Candy. GO Pass: Dynamax Trails begins as early as November 14 for qualifying players; November 21 Eternamax Eternatus battles have their own separate entries."
+    },
+    {
+      "name": "GO Pass: Dynamax Trails",
+      "identifier": "go-pass-dynamax-trails-2026",
+      "type": "go-pass",
+      "start": "2026-11-14",
+      "end": "2026-11-23",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Eternatus",
+          "methods": [
+            {
+              "method": "go-pass",
+              "requirement": "One Eternatus encounter from GO Pass: Dynamax Trails. Trainers who have already caught Eternatus receive 100 Eternatus Candy instead; Eternamax Eternatus cannot be caught from Max Battles."
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "stardust",
+          "action": "catch",
+          "multiplier": 2,
+          "requirement": "GO Pass Rank 15 milestone"
+        },
+        {
+          "type": "adventure-effect-cost",
+          "multiplier": 0.5,
+          "label": "Half the Candy and Stardust cost to activate Dynamax Cannon Adventure Effect",
+          "requirement": "GO Pass Rank 35 milestone"
+        },
+        {
+          "type": "candy",
+          "action": "max-battle",
+          "label": "Additional Candy and Candy XL from Max Battles",
+          "requirement": "GO Pass Rank 55 milestone"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/dynamax-trails-eternamax-eternatus-2026"
+        }
+      ],
+      "notes": "GO Pass and optional US$4.99 Deluxe progression last through November 23, 2026 at 8:00 p.m. local time. Early access starts November 14 at 10:00 a.m. local time only for players who claimed Tier 1 rewards on GO Pass: Into the Wild; those players also receive a free Deluxe upgrade. General GO Pass access starts November 16 at 10:00 a.m. local time. Earn an Eternatus encounter once, or 100 Eternatus Candy if Eternatus has already been caught. Other rewards include Eternatus Candy/Candy XL and event-themed Dynamax Pokémon encounters with Special Backgrounds; Deluxe grants extra Pokémon, Candy/Candy XL and items. Earn GO Points until November 23 at 8:00 p.m. local time; already unlocked rewards expire November 25 at 8:00 p.m. local time (claim grace period only)."
+    },
+    {
+      "name": "Eternamax Eternatus Max Battles",
+      "identifier": "eternamax-eternatus-max-battles-2026",
+      "type": "max-battle-day",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "availability": {
+        "type": "global"
+      },
+      "bonuses": [
+        {
+          "type": "power-spot-refresh",
+          "label": "Power Spots refresh more frequently"
+        },
+        {
+          "type": "power-spot",
+          "label": "Eternamax Eternatus appears at most Power Spots, 11:00 a.m.–2:00 p.m. local time"
+        },
+        {
+          "type": "max-particle-limit",
+          "amount": 2400,
+          "label": "Max Particle collection limit increased to 2,400"
+        },
+        {
+          "type": "max-particles",
+          "action": "power-spot",
+          "multiplier": 8
+        },
+        {
+          "type": "remote-raid-limit",
+          "amount": 30,
+          "label": "Daily Remote Raid Pass limit increased to 30",
+          "requirement": "November 20 at 1:00 p.m.–November 21 at 6:00 p.m. PST (GMT−8)"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/dynamax-trails-eternamax-eternatus-2026"
+        }
+      ],
+      "notes": "November 21, 2026, 11:00 a.m.–2:00 p.m. local time. Eternamax Eternatus takes over most Power Spots in worldwide Max Battles. Eternamax Eternatus cannot be caught from these Max Battles; victories award large amounts of Eternatus Candy and Eternatus Candy XL. The catchable Eternatus is instead a one-time reward from GO Pass: Dynamax Trails (or 100 Eternatus Candy if previously caught), which is tracked separately. The increased Remote Raid limit runs across the separate November 20–21 PST window."
+    },
+    {
+      "name": "Pokémon Center BANGKOK Grand Opening (Thailand)",
+      "identifier": "pokemon-center-bangkok-opening-2026",
+      "type": "collaboration",
+      "start": "2026-12-01",
+      "end": "2026-12-10",
+      "availability": {
+        "type": "regional",
+        "regions": [
+          "Thailand"
+        ]
+      },
+      "subtype": "timed-research",
+      "obtainable": [
+        {
+          "type": "item",
+          "name": "Pokémon Center BANGKOK Opening Stickers",
+          "methods": [
+            {
+              "method": "timed-research",
+              "requirement": "Thailand-wide event Timed Research"
+            },
+            {
+              "method": "pokestop-spin",
+              "requirement": "Event-themed stickers from PokéStops across Thailand"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/pokemon-center-bangkok-opens-2026"
+        }
+      ],
+      "notes": "Special nationwide Pokémon GO event celebrating the opening of Pokémon Center BANGKOK, accessible anywhere in Thailand from December 1, 2026 at 6:00 a.m. to December 10 at 11:59 p.m. local time. Event-themed Timed Research rewards opening-themed stickers, Stardust, and other items. Additional event-themed stickers can be obtained by spinning PokéStops. Timed Research expires December 30, 2026; this later completion deadline does not extend the calendar bar."
     }
   ],
-  "updated_at": "2026-10-23T20:22:10.890Z"
+  "updated_at": "2026-11-01T05:08:53.498Z"
 }
