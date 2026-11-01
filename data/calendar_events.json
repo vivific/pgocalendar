@@ -3449,7 +3449,10 @@
             {
               "method": "max-battle",
               "shiny": true,
-              "requirement": "November 14 only."
+              "requirement": "Saturday, November 14 only; possible commemorative Special Background after a successful Max Battle catch.",
+              "start": "2026-11-14",
+              "end": "2026-11-14",
+              "background": true
             }
           ]
         },
@@ -3461,7 +3464,10 @@
             {
               "method": "max-battle",
               "shiny": true,
-              "requirement": "November 15 only."
+              "requirement": "Sunday, November 15 only; possible commemorative Special Background after a successful Max Battle catch.",
+              "start": "2026-11-15",
+              "end": "2026-11-15",
+              "background": true
             }
           ]
         },
@@ -3472,7 +3478,28 @@
           "methods": [
             {
               "method": "raid",
-              "shiny": true
+              "shiny": true,
+              "background": true
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Duraludon",
+          "form": "Gigantamax",
+          "methods": [
+            {
+              "method": "max-battle",
+              "shiny": true,
+              "background": true,
+              "requirement": "Six-star Gigantamax Max Battles, November 14–15; chance of a commemorative Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "Global event ticket; event-exclusive Special Research rewards Gigantamax Duraludon with a Special Background."
             }
           ]
         },
@@ -6400,7 +6427,7 @@
           "methods": [
             {
               "method": "go-pass",
-              "requirement": "One Eternatus encounter from GO Pass: Dynamax Trails. Trainers who have already caught Eternatus receive 100 Eternatus Candy instead; Eternamax Eternatus cannot be caught from Max Battles."
+              "requirement": "GO Pass: Dynamax Trails, available November 14–15 only to players who claimed Tier 1 rewards on GO Pass: Into the Wild; available to all Trainers starting November 16. One Eternatus encounter (or 100 Eternatus Candy if already caught). Eternamax Eternatus cannot be caught from Max Battles."
             }
           ]
         }
@@ -6511,5 +6538,5 @@
       "notes": "Special nationwide Pokémon GO event celebrating the opening of Pokémon Center BANGKOK, accessible anywhere in Thailand from December 1, 2026 at 6:00 a.m. to December 10 at 11:59 p.m. local time. Event-themed Timed Research rewards opening-themed stickers, Stardust, and other items. Additional event-themed stickers can be obtained by spinning PokéStops. Timed Research expires December 30, 2026; this later completion deadline does not extend the calendar bar."
     }
   ],
-  "updated_at": "2026-11-01T05:08:53.498Z"
+  "updated_at": "2026-11-01T05:23:29.040Z"
 }
