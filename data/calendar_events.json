@@ -2350,9 +2350,12 @@
         },
         {
           "url": "https://pokemongo.com/news/go-wild-area-stamp-rally-details-2026"
+        },
+        {
+          "url": "https://pokemongo.com/news/get-ready-for-gowildarea-2026"
         }
       ],
-      "notes": "Ticketed live event. Event gameplay is available only at the date, time, and location on the ticket. GO Stamp Rally clarification: the seven-stop rally is only available from 10:00 a.m. to 8:00 p.m. local time on the Trainer's main ticketed event day; the Extra Day gameplay add-on does not grant another rally. Stamp locations: Monumento a la Revolución; Jardín Pushkin; Parque México; Centro de Cultura Digital / Estela de Luz; Parque América; Liverpool Polanco; Mexicráneo + Ángel de la Independencia.",
+      "notes": "Ticketed live event. Event gameplay is available only at the date, time, and location on the ticket. GO Stamp Rally clarification: the seven-stop rally is only available from 10:00 a.m. to 8:00 p.m. local time on the Trainer's main ticketed event day; the Extra Day gameplay add-on does not grant another rally. Stamp locations: Monumento a la Revolución; Jardín Pushkin; Parque México; Centro de Cultura Digital / Estela de Luz; Parque América; Liverpool Polanco; Mexicráneo + Ángel de la Independencia. The NEW, separate ticket-free ongoing eight-stamp sightseeing rally for Mexico City is tracked in its own calendar entry; it does not replace or extend the ticket-only seven-stop event rally. Ticket holders at this onsite event can obtain both Steel Scholar and Dragon Defender medals through event Special Research. Each medal's mighty-Pokémon type bonus begins when claimed: +1 Candy XL (Trainer level 31+) and +1,000 Stardust per matching Steel/Dragon-type mighty Pokémon caught. These acquired bonuses last until November 15 at 6:00 p.m. local time, beyond the onsite event. Completing the ticketed event Special Research also awards the GO Wild Area 2026 event avatar pose. Ticket holders have early access to Adventure Effects in Raid and Max Battle lobbies; this becomes generally available with Into the Wild. The Mexico City Location Background becomes displayable on Trainer profiles from November 6 at 10:00 a.m. local time (friends see it from 10:00 a.m. in their own timezone).",
       "subtype": "wild-area",
       "obtainable": [
         {
@@ -2508,6 +2511,39 @@
               "shiny": true
             }
           ]
+        },
+        {
+          "type": "avatar",
+          "name": "GO Wild Area 2026 Event Pose",
+          "methods": [
+            {
+              "method": "special-research",
+              "paid": true,
+              "requirement": "Complete the event Special Research while holding the event ticket; pose is available at GO Wild Area: Global and the Sendai/Mexico City in-person events."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Steel Scholar Medal",
+          "methods": [
+            {
+              "method": "special-research",
+              "paid": true,
+              "requirement": "Ticketed onsite event Special Research; both medals can be earned."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Dragon Defender Medal",
+          "methods": [
+            {
+              "method": "special-research",
+              "paid": true,
+              "requirement": "Ticketed onsite event Special Research; both medals can be earned."
+            }
+          ]
         }
       ],
       "bonuses": [
@@ -2661,6 +2697,38 @@
           "multiplier": 3,
           "requirement": "Egg-thusiast add-on",
           "paid": true
+        },
+        {
+          "type": "candy-xl",
+          "action": "catch-mighty-steel",
+          "amount": 1,
+          "label": "+1 Candy XL for catching Steel-type mighty Pokémon (Trainer level 31+)",
+          "requirement": "Steel Scholar Medal. Bonuses activate when the corresponding medal is claimed at the onsite event and continue through November 15 at 6:00 p.m. local time, even after the onsite event ends.",
+          "paid": true
+        },
+        {
+          "type": "stardust",
+          "action": "catch-mighty-steel",
+          "amount": 1000,
+          "label": "+1,000 Stardust for catching Steel-type mighty Pokémon",
+          "requirement": "Steel Scholar Medal. Bonuses activate when the corresponding medal is claimed at the onsite event and continue through November 15 at 6:00 p.m. local time, even after the onsite event ends.",
+          "paid": true
+        },
+        {
+          "type": "candy-xl",
+          "action": "catch-mighty-dragon",
+          "amount": 1,
+          "label": "+1 Candy XL for catching Dragon-type mighty Pokémon (Trainer level 31+)",
+          "requirement": "Dragon Defender Medal. Bonuses activate when the corresponding medal is claimed at the onsite event and continue through November 15 at 6:00 p.m. local time, even after the onsite event ends.",
+          "paid": true
+        },
+        {
+          "type": "stardust",
+          "action": "catch-mighty-dragon",
+          "amount": 1000,
+          "label": "+1,000 Stardust for catching Dragon-type mighty Pokémon",
+          "requirement": "Dragon Defender Medal. Bonuses activate when the corresponding medal is claimed at the onsite event and continue through November 15 at 6:00 p.m. local time, even after the onsite event ends.",
+          "paid": true
         }
       ]
     },
@@ -2689,9 +2757,12 @@
         },
         {
           "url": "https://pokemongo.com/news/go-wild-area-stamp-rally-details-2026"
+        },
+        {
+          "url": "https://pokemongo.com/news/get-ready-for-gowildarea-2026"
         }
       ],
-      "notes": "Ticketed live event. A ticket covers one day of gameplay; extra-day add-ons are available. GO Stamp Rally clarification: the seven-stop rally is only available from 10:00 a.m. to 8:00 p.m. local time on the Trainer's main ticketed event day; the Extra Day gameplay add-on does not grant another rally. Stamp locations: Tsutsujigaoka Park; Daterium; Jyukyo Park Sendai Station West; Sendai City Museum; Nishi Park; Nishikicho Park; AEON Mall Sendai Kamisugi.",
+      "notes": "Ticketed live event. A ticket covers one day of gameplay; extra-day add-ons are available. GO Stamp Rally clarification: the seven-stop rally is only available from 10:00 a.m. to 8:00 p.m. local time on the Trainer's main ticketed event day; the Extra Day gameplay add-on does not grant another rally. Stamp locations: Tsutsujigaoka Park; Daterium; Jyukyo Park Sendai Station West; Sendai City Museum; Nishi Park; Nishikicho Park; AEON Mall Sendai Kamisugi. The NEW, separate ticket-free ongoing eight-stamp sightseeing rally for Sendai • Tohoku is tracked in its own calendar entry; it does not replace or extend the ticket-only seven-stop event rally. Ticket holders at this onsite event can obtain both Steel Scholar and Dragon Defender medals through event Special Research. Each medal's mighty-Pokémon type bonus begins when claimed: +1 Candy XL (Trainer level 31+) and +1,000 Stardust per matching Steel/Dragon-type mighty Pokémon caught. These acquired bonuses last until November 15 at 6:00 p.m. local time, beyond the onsite event. Completing the ticketed event Special Research also awards the GO Wild Area 2026 event avatar pose. Ticket holders have early access to Adventure Effects in Raid and Max Battle lobbies; this becomes generally available with Into the Wild. The Sendai • Tohoku Location Background becomes displayable on Trainer profiles from November 6 at 10:00 a.m. local time (friends see it from 10:00 a.m. in their own timezone).",
       "subtype": "wild-area",
       "obtainable": [
         {
@@ -2847,6 +2918,39 @@
               "shiny": true
             }
           ]
+        },
+        {
+          "type": "avatar",
+          "name": "GO Wild Area 2026 Event Pose",
+          "methods": [
+            {
+              "method": "special-research",
+              "paid": true,
+              "requirement": "Complete the event Special Research while holding the event ticket; pose is available at GO Wild Area: Global and the Sendai/Mexico City in-person events."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Steel Scholar Medal",
+          "methods": [
+            {
+              "method": "special-research",
+              "paid": true,
+              "requirement": "Ticketed onsite event Special Research; both medals can be earned."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Dragon Defender Medal",
+          "methods": [
+            {
+              "method": "special-research",
+              "paid": true,
+              "requirement": "Ticketed onsite event Special Research; both medals can be earned."
+            }
+          ]
         }
       ],
       "bonuses": [
@@ -2999,6 +3103,38 @@
           "action": "hatch",
           "multiplier": 3,
           "requirement": "Egg-thusiast add-on",
+          "paid": true
+        },
+        {
+          "type": "candy-xl",
+          "action": "catch-mighty-steel",
+          "amount": 1,
+          "label": "+1 Candy XL for catching Steel-type mighty Pokémon (Trainer level 31+)",
+          "requirement": "Steel Scholar Medal. Bonuses activate when the corresponding medal is claimed at the onsite event and continue through November 15 at 6:00 p.m. local time, even after the onsite event ends.",
+          "paid": true
+        },
+        {
+          "type": "stardust",
+          "action": "catch-mighty-steel",
+          "amount": 1000,
+          "label": "+1,000 Stardust for catching Steel-type mighty Pokémon",
+          "requirement": "Steel Scholar Medal. Bonuses activate when the corresponding medal is claimed at the onsite event and continue through November 15 at 6:00 p.m. local time, even after the onsite event ends.",
+          "paid": true
+        },
+        {
+          "type": "candy-xl",
+          "action": "catch-mighty-dragon",
+          "amount": 1,
+          "label": "+1 Candy XL for catching Dragon-type mighty Pokémon (Trainer level 31+)",
+          "requirement": "Dragon Defender Medal. Bonuses activate when the corresponding medal is claimed at the onsite event and continue through November 15 at 6:00 p.m. local time, even after the onsite event ends.",
+          "paid": true
+        },
+        {
+          "type": "stardust",
+          "action": "catch-mighty-dragon",
+          "amount": 1000,
+          "label": "+1,000 Stardust for catching Dragon-type mighty Pokémon",
+          "requirement": "Dragon Defender Medal. Bonuses activate when the corresponding medal is claimed at the onsite event and continue through November 15 at 6:00 p.m. local time, even after the onsite event ends.",
           "paid": true
         }
       ]
@@ -3437,6 +3573,9 @@
         },
         {
           "url": "https://pokemongo.com/news/into-the-wild-2026"
+        },
+        {
+          "url": "https://pokemongo.com/news/get-ready-for-gowildarea-2026"
         }
       ],
       "subtype": "wild-area",
@@ -3665,6 +3804,39 @@
               "notes": "Certain Pokémon encountered or evolved during the event know this move."
             }
           ]
+        },
+        {
+          "type": "avatar",
+          "name": "GO Wild Area 2026 Event Pose",
+          "methods": [
+            {
+              "method": "special-research",
+              "paid": true,
+              "requirement": "Complete the event Special Research while holding the event ticket; pose is available at GO Wild Area: Global and the Sendai/Mexico City in-person events."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Steel Scholar Medal",
+          "methods": [
+            {
+              "method": "special-research",
+              "paid": true,
+              "requirement": "Global event ticket and branching Special Research; choose this path and earn its medal. Only one type-path medal can be earned from Global research."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Dragon Defender Medal",
+          "methods": [
+            {
+              "method": "special-research",
+              "paid": true,
+              "requirement": "Global event ticket and branching Special Research; choose this path and earn its medal. Only one type-path medal can be earned from Global research."
+            }
+          ]
         }
       ],
       "bonuses": [
@@ -3776,8 +3948,41 @@
           "type": "remote-raid-limit",
           "label": "No daily Remote Raid limit during GO Wild Area: Global",
           "requirement": "November 14–15, 2026"
+        },
+        {
+          "type": "candy-xl",
+          "action": "catch-mighty-steel",
+          "amount": 1,
+          "label": "+1 Candy XL for catching Steel-type mighty Pokémon (Trainer level 31+)",
+          "requirement": "Steel Scholar Medal. Bonuses begin on claiming the chosen path medal and end November 15 at 6:00 p.m. local time. Global Special Research opens November 14 at 10:00 a.m. local time.",
+          "paid": true
+        },
+        {
+          "type": "stardust",
+          "action": "catch-mighty-steel",
+          "amount": 1000,
+          "label": "+1,000 Stardust for catching Steel-type mighty Pokémon",
+          "requirement": "Steel Scholar Medal. Bonuses begin on claiming the chosen path medal and end November 15 at 6:00 p.m. local time. Global Special Research opens November 14 at 10:00 a.m. local time.",
+          "paid": true
+        },
+        {
+          "type": "candy-xl",
+          "action": "catch-mighty-dragon",
+          "amount": 1,
+          "label": "+1 Candy XL for catching Dragon-type mighty Pokémon (Trainer level 31+)",
+          "requirement": "Dragon Defender Medal. Bonuses begin on claiming the chosen path medal and end November 15 at 6:00 p.m. local time. Global Special Research opens November 14 at 10:00 a.m. local time.",
+          "paid": true
+        },
+        {
+          "type": "stardust",
+          "action": "catch-mighty-dragon",
+          "amount": 1000,
+          "label": "+1,000 Stardust for catching Dragon-type mighty Pokémon",
+          "requirement": "Dragon Defender Medal. Bonuses begin on claiming the chosen path medal and end November 15 at 6:00 p.m. local time. Global Special Research opens November 14 at 10:00 a.m. local time.",
+          "paid": true
         }
-      ]
+      ],
+      "notes": "Ticketed Global GO Wild Area Special Research becomes available November 14, 2026 at 10:00 a.m. local time. Choose either the Steel Scholar or Dragon Defender path (not both at the Global event) to earn the corresponding medal. Upon claiming the medal, matching mighty-Pokémon catch bonuses activate: +1 Candy XL per catch for Trainers level 31+ and +1,000 Stardust per catch. Bonuses end November 15 at 6:00 p.m. local time. Ticketed Trainers who complete the event Special Research also receive an event-themed avatar pose. Pokémon background display expands November 9 at 10:00 a.m. local time to GO Wild Area Special Backgrounds and previously released Location Backgrounds; this is a permanent feature rollout, not a separate event bar."
     },
     {
       "name": "Pokémon 30th Anniversary Mall Exploration – SM Southmall",
@@ -6536,7 +6741,266 @@
         }
       ],
       "notes": "Special nationwide Pokémon GO event celebrating the opening of Pokémon Center BANGKOK, accessible anywhere in Thailand from December 1, 2026 at 6:00 a.m. to December 10 at 11:59 p.m. local time. Event-themed Timed Research rewards opening-themed stickers, Stardust, and other items. Additional event-themed stickers can be obtained by spinning PokéStops. Timed Research expires December 30, 2026; this later completion deadline does not extend the calendar bar."
+    },
+    {
+      "name": "Sendai • Tohoku – Lapras GO Stamp Rally",
+      "identifier": "sendai-tohoku-lapras-stamp-rally-2026",
+      "type": "stamp-rally",
+      "start": "2026-11-03",
+      "end": null,
+      "availability": {
+        "type": "onsite",
+        "locations": [
+          "Sendai • Tohoku, Miyagi Prefecture, Japan"
+        ]
+      },
+      "subtype": "stamp-rally",
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Lapras",
+          "methods": [
+            {
+              "method": "stamp-rally-reward",
+              "shiny": true,
+              "background": true,
+              "requirement": "Complete the eight-stamp, ticket-free ongoing Sendai • Tohoku GO Stamp Rally to encounter Lapras with a Sendai • Tohoku Location Background."
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/forever-stamp-rally-go-wild-area-2026"
+        }
+      ],
+      "notes": "Ongoing free-for-all-Trainers, onsite eight-stamp sightseeing rally with no planned end date. Launched simultaneously worldwide November 2, 2026 at 4:00 p.m. PST, which is November 3 in Japan. Enter the gameplay area and approach a participating PokéStop to receive the stamp sheet. Visit eight PokéStops in any order; stamps cannot be redone. Shiny-eligible Lapras reward has a Sendai • Tohoku Location Background. Participating locations: Site of Sendai Castle; Sendai Mediatheque; Sendai Asaichi (Morning Market); Akiu Onsen; Tagajo Castle Ruins; Kadonowaki Elementary School Ruins; Shiroishi Castle; Matsushima Park. This is NOT the seven-stamp ticket-restricted November 6–8 GO Wild Area event rally; no ticket is required for this ongoing rally."
+    },
+    {
+      "name": "Mexico City – Hawlucha GO Stamp Rally",
+      "identifier": "mexico-city-hawlucha-stamp-rally-2026",
+      "type": "stamp-rally",
+      "start": "2026-11-02",
+      "end": null,
+      "availability": {
+        "type": "onsite",
+        "locations": [
+          "Mexico City, Mexico"
+        ]
+      },
+      "subtype": "stamp-rally",
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Hawlucha",
+          "methods": [
+            {
+              "method": "stamp-rally-reward",
+              "shiny": true,
+              "background": true,
+              "requirement": "Complete the eight-stamp, ticket-free ongoing Mexico City GO Stamp Rally to encounter Hawlucha with a Mexico City Location Background."
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/forever-stamp-rally-go-wild-area-2026"
+        }
+      ],
+      "notes": "Ongoing free-for-all-Trainers, onsite eight-stamp sightseeing rally with no planned end date. Launched simultaneously worldwide November 2, 2026 at 4:00 p.m. PST, which is November 2 in Mexico City. Enter the gameplay area and approach a participating PokéStop to receive the stamp sheet. Visit eight PokéStops in any order; stamps cannot be redone. Shiny-eligible Hawlucha reward has a Mexico City Location Background. Participating locations: Palacio de Bellas Artes; Palacio Nacional; Columna “El Paraguas”; Diana Cazadora; Fuente de los Coyotes Coyoacán; Aztlán 360; Reloj y Fuente de Parque Hundido; Museo Soumaya. This is NOT the seven-stamp ticket-restricted November 6–8 GO Wild Area event rally; no ticket is required for this ongoing rally."
+    },
+    {
+      "name": "Twilight Wishes",
+      "identifier": "twilight-wishes-2026",
+      "type": "event",
+      "start": "2026-11-24",
+      "end": "2026-11-30",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Pikachu",
+          "costume": "Sun Crown",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "requirement": "One-star raids"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Pikachu",
+          "costume": "Moon Crown",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "requirement": "One-star raids"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Espeon",
+          "costume": "Sun Scarf",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "requirement": "Three-star raids"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Umbreon",
+          "costume": "Moon Scarf",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "requirement": "Three-star raids"
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Applin",
+          "methods": [
+            {
+              "method": "field-research",
+              "shiny": true,
+              "start": "2026-11-24",
+              "end": "2026-11-26",
+              "requirement": "First Field Research phase: November 24 at 10:00 a.m. to November 26 at 10:00 a.m. local time; the date-only sidebar will show both phases on November 26."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Maschiff",
+          "methods": [
+            {
+              "method": "field-research",
+              "start": "2026-11-24",
+              "end": "2026-11-26",
+              "requirement": "First Field Research phase: November 24 at 10:00 a.m. to November 26 at 10:00 a.m. local time; Shiny eligibility not announced."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Gengar",
+          "costume": "Spooky Festival",
+          "methods": [
+            {
+              "method": "field-research",
+              "shiny": true,
+              "start": "2026-11-26",
+              "end": "2026-11-30",
+              "requirement": "Second Field Research phase: November 26 at 10:00 a.m. to November 30 at 8:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Drifblim",
+          "costume": "Halloween Mischief",
+          "methods": [
+            {
+              "method": "field-research",
+              "shiny": true,
+              "start": "2026-11-26",
+              "end": "2026-11-30",
+              "requirement": "Second Field Research phase: November 26 at 10:00 a.m. to November 30 at 8:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Bramblin",
+          "methods": [
+            {
+              "method": "field-research",
+              "start": "2026-11-26",
+              "end": "2026-11-30",
+              "requirement": "Second Field Research phase: November 26 at 10:00 a.m. to November 30 at 8:00 p.m. local time; Shiny eligibility not announced."
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "shiny-chance",
+          "label": "Increased chance of Shiny Staryu and Shiny Elgyem encounters"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/twilight-wishes-2026"
+        }
+      ],
+      "notes": "November 24, 2026 at 10:00 a.m.–November 30 at 8:00 p.m. local time. Starry-sky event decorations. Event wild encounters include Shiny-eligible Clefairy, Staryu, Elgyem, and rare Rockruff; Staryu and Elgyem have increased Shiny chances. One-star raids feature Sun Crown/Moon Crown Pikachu and three-star raids Sun Scarf Espeon/Moon Scarf Umbreon. Mega Raids feature Beedrill, Houndoom, Sableye, and Manectric; Field Research and GO Pass rewards provide Mega Energy for those four species. Field Research rotates precisely at 10:00 a.m. local time on November 26: Applin and Maschiff from November 24 at 10:00 a.m. to November 26 at 10:00 a.m., then Spooky Festival Gengar, Halloween Mischief Drifblim, and Bramblin through November 30 at 8:00 p.m. Because calendar dates are day-granular, both research phases appear in the Active Obtainables sidebar on November 26; actual field-task availability changes at 10:00 a.m. GO Pass: Twilight Wishes is tracked separately."
+    },
+    {
+      "name": "GO Pass: Twilight Wishes",
+      "identifier": "go-pass-twilight-wishes-2026",
+      "type": "go-pass",
+      "start": "2026-11-24",
+      "end": "2026-11-30",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "avatar",
+          "name": "Twilight Wishes Event Pose",
+          "methods": [
+            {
+              "method": "go-pass",
+              "paid": true,
+              "requirement": "Reward from GO Pass Deluxe: Twilight Wishes; exact pose name not published."
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "lucky-pokemon-chance",
+          "label": "Increased chance to get Lucky Pokémon in trades",
+          "requirement": "Tier 1 (Rank 1) GO Pass milestone"
+        },
+        {
+          "type": "lucky-friends-chance",
+          "label": "Increased chance to become Lucky Friends",
+          "requirement": "Tier 1 (Rank 1) GO Pass milestone"
+        },
+        {
+          "type": "stardust",
+          "action": "catch",
+          "multiplier": 2,
+          "requirement": "Tier 2 (Rank 10) GO Pass milestone"
+        },
+        {
+          "type": "stardust",
+          "action": "catch",
+          "multiplier": 3,
+          "paid": true,
+          "requirement": "GO Pass Deluxe Tier 2 (Rank 10) milestone; replaces free-track 2×"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/twilight-wishes-2026"
+        }
+      ],
+      "notes": "November 24 at 10:00 a.m. to November 30, 2026 at 8:00 p.m. local time. Free GO Pass is assigned automatically; optional GO Pass Deluxe costs US$4.99, or US$6.99 for Deluxe + 6 Ranks (starts at Rank 7). Rank 1 increases Lucky Pokémon trade and Lucky Friends chances; Rank 10 gives 2× Catch Stardust, or 3× with Deluxe. Free rewards include event Pokémon encounters, Star Pieces, Rare Candy, and Mega Energy for Beedrill, Houndoom, Sableye, and Manectric. Deluxe offers additional event encounters, an event-themed avatar pose, and ordinary items. Already unlocked rewards can be claimed only until December 2 at 8:00 p.m. local time; this claim grace period is not an additional period for new progression."
     }
   ],
-  "updated_at": "2026-11-01T05:23:29.040Z"
+  "updated_at": "2026-11-03T20:31:24.995Z"
 }
