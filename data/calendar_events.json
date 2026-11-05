@@ -4101,7 +4101,7 @@
       ]
     },
     {
-      "name": "November 28, 2026 Super Mega Raid Day",
+      "name": "Clefable Super Mega Raid Day",
       "identifier": "super-mega-raid-day-2026-11-28",
       "type": "raid-day",
       "start": "2026-11-28",
@@ -4112,9 +4112,106 @@
       "sources": [
         {
           "url": "https://pokemongo.com/news/save-the-date-s24"
+        },
+        {
+          "url": "https://pokemongo.com/news/clefable-super-mega-raid-day-2026"
         }
       ],
-      "notes": "Date and event type are officially announced; featured Pokémon/details have not yet been published."
+      "notes": "November 28, 2026, 2:00–5:00 p.m. local time. Mega Clefable debuts in Super Mega Raids; Clefable caught after these raids have Mega Level 1 unlocked. Mega Clefable can reach Super Max Level after reaching Max and using additional Mega Energy, and while Mega Evolved can use the additional Charged Attack Moonblast+ (80 power in Trainer Battles, chance to lower the opponent's Attack by one stage; 160 power in Raid Battles, increasing with Mega Level). Moonblast+ is an ongoing Mega Evolution mechanic, not an event-exclusive move acquisition window. Free event Timed Research rewards a Premium Battle Pass and a Metagross encounter, and must be completed and claimed before it expires. The raid-completion Global Challenge runs November 27, 5:00 p.m. PST–November 28, 8:00 p.m. PST; its separately tracked conditional rewards run November 30–December 13. Optional US$4.99 ticket bonuses apply only November 28, 2:00–5:00 p.m. local time. Super Mega Raids appear only at certain Gyms; the event map can help locate them.",
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Clefable",
+          "form": "Mega",
+          "methods": [
+            {
+              "method": "mega-raid",
+              "shiny": true,
+              "requirement": "Super Mega Raids; caught Clefable already have Mega Level 1 unlocked."
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "remote-raid-limit",
+          "amount": 20,
+          "label": "Daily Remote Raid Pass limit increased to 20",
+          "requirement": "November 27, 5:00 p.m. PST–November 28, 8:00 p.m. PST"
+        },
+        {
+          "type": "raid-passes",
+          "amount": 6,
+          "label": "Up to six free Raid Passes from spinning Gym Photo Discs"
+        },
+        {
+          "type": "mega-level",
+          "label": "Clefable caught from Super Mega Raids start with Mega Level 1 unlocked"
+        },
+        {
+          "type": "shiny-chance",
+          "action": "super-mega-raid",
+          "label": "Increased chance of Shiny Clefable in Super Mega Raids"
+        },
+        {
+          "type": "raid-passes",
+          "amount": 14,
+          "label": "Up to 14 Raid Passes from spinning Gym Photo Discs",
+          "paid": true,
+          "requirement": "US$4.99 event ticket, November 28, 2:00–5:00 p.m. local time"
+        },
+        {
+          "type": "rare-candy-xl",
+          "action": "raid",
+          "label": "Increased chance to receive Rare Candy XL from Raid Battles",
+          "paid": true,
+          "requirement": "Event ticket, November 28, 2:00–5:00 p.m. local time"
+        },
+        {
+          "type": "xp",
+          "action": "super-mega-raid",
+          "amount": 5000,
+          "label": "Additional 5,000 XP from Super Mega Raids",
+          "paid": true,
+          "requirement": "Event ticket, November 28, 2:00–5:00 p.m. local time"
+        },
+        {
+          "type": "stardust",
+          "action": "super-mega-raid",
+          "amount": 5000,
+          "label": "Additional 5,000 Stardust from Super Mega Raids",
+          "paid": true,
+          "requirement": "Event ticket, November 28, 2:00–5:00 p.m. local time"
+        }
+      ]
+    },
+    {
+      "name": "Mega Clefable Global Challenge Rewards",
+      "identifier": "mega-clefable-global-challenge-rewards-2026",
+      "type": "event",
+      "start": "2026-11-30",
+      "end": "2026-12-13",
+      "availability": {
+        "type": "global"
+      },
+      "bonuses": [
+        {
+          "type": "move-power",
+          "label": "Moonblast+ base-power boost for Mega Clefable at Mega Level 1 or higher (not active in GO Battle League)",
+          "requirement": "November 30, 12:00 p.m. PST–December 13, 12:00 p.m. PST; strength determined by completed Global Challenge tiers"
+        },
+        {
+          "type": "mega-cp",
+          "label": "Mega Clefable CP boost at Super Max Level",
+          "requirement": "November 30, 12:00 p.m. PST–December 13, 12:00 p.m. PST; strength determined by completed Global Challenge tiers"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/clefable-super-mega-raid-day-2026"
+        }
+      ],
+      "notes": "Conditional reward period following Clefable Super Mega Raid Day's worldwide raid-completion Global Challenge, which runs November 27 at 5:00 p.m. PST–November 28 at 8:00 p.m. PST. Bonuses run November 30 at 12:00 p.m. PST until December 13 at 12:00 p.m. PST. The Moonblast+ power boost applies to Mega Clefable at Mega Level 1 or higher but not in GO Battle League; the CP boost applies to Mega Clefable at Super Max Level. Magnitudes depend on the number of Global Challenge tiers completed and are not yet confirmed. Moonblast+ is an ongoing mechanic, not a temporarily obtainable exclusive move."
     },
     {
       "name": "Pokémon 30th Anniversary Mall Exploration – SM North EDSA",
@@ -7002,5 +7099,5 @@
       "notes": "November 24 at 10:00 a.m. to November 30, 2026 at 8:00 p.m. local time. Free GO Pass is assigned automatically; optional GO Pass Deluxe costs US$4.99, or US$6.99 for Deluxe + 6 Ranks (starts at Rank 7). Rank 1 increases Lucky Pokémon trade and Lucky Friends chances; Rank 10 gives 2× Catch Stardust, or 3× with Deluxe. Free rewards include event Pokémon encounters, Star Pieces, Rare Candy, and Mega Energy for Beedrill, Houndoom, Sableye, and Manectric. Deluxe offers additional event encounters, an event-themed avatar pose, and ordinary items. Already unlocked rewards can be claimed only until December 2 at 8:00 p.m. local time; this claim grace period is not an additional period for new progression."
     }
   ],
-  "updated_at": "2026-11-03T20:31:24.995Z"
+  "updated_at": "2026-11-05T20:53:22.450Z"
 }
