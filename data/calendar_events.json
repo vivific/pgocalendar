@@ -7097,7 +7097,37 @@
         }
       ],
       "notes": "November 24 at 10:00 a.m. to November 30, 2026 at 8:00 p.m. local time. Free GO Pass is assigned automatically; optional GO Pass Deluxe costs US$4.99, or US$6.99 for Deluxe + 6 Ranks (starts at Rank 7). Rank 1 increases Lucky Pokémon trade and Lucky Friends chances; Rank 10 gives 2× Catch Stardust, or 3× with Deluxe. Free rewards include event Pokémon encounters, Star Pieces, Rare Candy, and Mega Energy for Beedrill, Houndoom, Sableye, and Manectric. Deluxe offers additional event encounters, an event-themed avatar pose, and ordinary items. Already unlocked rewards can be claimed only until December 2 at 8:00 p.m. local time; this claim grace period is not an additional period for new progression."
+    },
+    {
+      "name": "GO Wild Area: Gigantamax Machamp Power Up Timed Research",
+      "identifier": "go-wild-area-gigantamax-machamp-timed-research-2026",
+      "type": "timed-research",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Machamp",
+          "form": "Gigantamax",
+          "methods": [
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "requirement": "Free research received by logging in November 6 at 10:00 a.m.–November 8 at 11:59 p.m. local time. Finish tasks and claim the encounter before November 15 at 11:59 p.m. local time."
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/gowildarea-2026-timed-research"
+        }
+      ],
+      "notes": "Free for all Trainers; no GO Wild Area event ticket required. Log in between Friday, November 6, 2026 at 10:00 a.m. and Sunday, November 8 at 11:59 p.m. local time to acquire this Gigantamax Machamp Power Up Timed Research. Rewards include a Shiny-eligible Gigantamax Machamp encounter, Machop Candy, Machop Candy XL, and Max Particles. Already-acquired Timed Research must be completed and rewards claimed by Sunday, November 15 at 11:59 p.m. local time. That later completion grace period does not extend the calendar's acquisition window."
     }
   ],
-  "updated_at": "2026-11-05T20:53:22.450Z"
+  "updated_at": "2026-11-07T02:07:22.882Z"
 }
