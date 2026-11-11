@@ -7127,7 +7127,293 @@
         }
       ],
       "notes": "Free for all Trainers; no GO Wild Area event ticket required. Log in between Friday, November 6, 2026 at 10:00 a.m. and Sunday, November 8 at 11:59 p.m. local time to acquire this Gigantamax Machamp Power Up Timed Research. Rewards include a Shiny-eligible Gigantamax Machamp encounter, Machop Candy, Machop Candy XL, and Max Particles. Already-acquired Timed Research must be completed and rewards claimed by Sunday, November 15 at 11:59 p.m. local time. That later completion grace period does not extend the calendar's acquisition window."
+    },
+    {
+      "name": "Pokémon GO × McDonald's Hong Kong 2026",
+      "identifier": "mcdonalds-hong-kong-collaboration-2026",
+      "type": "collaboration",
+      "start": "2026-11-12",
+      "end": "2026-12-20",
+      "availability": {
+        "type": "onsite",
+        "regions": [
+          "Hong Kong"
+        ],
+        "locations": [
+          "Participating McDonald's restaurants across Hong Kong"
+        ]
+      },
+      "subtype": "timed-research",
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Pikachu",
+          "costume": "Purple Party Hat",
+          "methods": [
+            {
+              "method": "field-research",
+              "start": "2026-11-12",
+              "end": "2026-11-22",
+              "requirement": "Wave 1, 2026-11-12–2026-11-22 Hong Kong time; obtain the themed task by spinning the PokéStop at any participating Hong Kong McDonald's restaurant."
+            },
+            {
+              "method": "timed-research",
+              "requirement": "Obtain a promotional QR code onsite at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the limited-time research. The announcement lists all five costumed Pokémon as possible research encounters; individual encounter rates and Shiny eligibility are not specified."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Bulbasaur",
+          "costume": "Party Hat",
+          "methods": [
+            {
+              "method": "field-research",
+              "start": "2026-11-23",
+              "end": "2026-11-29",
+              "requirement": "Wave 2, 2026-11-23–2026-11-29 Hong Kong time; obtain the themed task by spinning the PokéStop at any participating Hong Kong McDonald's restaurant."
+            },
+            {
+              "method": "timed-research",
+              "requirement": "Obtain a promotional QR code onsite at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the limited-time research. The announcement lists all five costumed Pokémon as possible research encounters; individual encounter rates and Shiny eligibility are not specified."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Charmander",
+          "costume": "Party Hat",
+          "methods": [
+            {
+              "method": "field-research",
+              "start": "2026-11-30",
+              "end": "2026-12-06",
+              "requirement": "Wave 3, 2026-11-30–2026-12-06 Hong Kong time; obtain the themed task by spinning the PokéStop at any participating Hong Kong McDonald's restaurant."
+            },
+            {
+              "method": "timed-research",
+              "requirement": "Obtain a promotional QR code onsite at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the limited-time research. The announcement lists all five costumed Pokémon as possible research encounters; individual encounter rates and Shiny eligibility are not specified."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Squirtle",
+          "costume": "Party Hat",
+          "methods": [
+            {
+              "method": "field-research",
+              "start": "2026-12-07",
+              "end": "2026-12-13",
+              "requirement": "Wave 4, 2026-12-07–2026-12-13 Hong Kong time; obtain the themed task by spinning the PokéStop at any participating Hong Kong McDonald's restaurant."
+            },
+            {
+              "method": "timed-research",
+              "requirement": "Obtain a promotional QR code onsite at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the limited-time research. The announcement lists all five costumed Pokémon as possible research encounters; individual encounter rates and Shiny eligibility are not specified."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Eevee",
+          "costume": "Party Hat",
+          "methods": [
+            {
+              "method": "field-research",
+              "start": "2026-12-14",
+              "end": "2026-12-20",
+              "requirement": "Wave 5, 2026-12-14–2026-12-20 Hong Kong time; obtain the themed task by spinning the PokéStop at any participating Hong Kong McDonald's restaurant."
+            },
+            {
+              "method": "timed-research",
+              "requirement": "Obtain a promotional QR code onsite at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the limited-time research. The announcement lists all five costumed Pokémon as possible research encounters; individual encounter rates and Shiny eligibility are not specified."
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/zh_Hant/news/202611mcdhk"
+        }
+      ],
+      "notes": "Onsite Hong Kong McDonald's collaboration, November 12, 2026 at 9:00 a.m.–December 20 at 11:59 p.m. Hong Kong time. Spinning event PokéStops at McDonald's restaurants throughout Hong Kong awards themed Field Research. Encounter rewards rotate by wave: Purple Party Hat Pikachu November 12 (9:00 a.m.)–22; Party Hat Bulbasaur November 23–29; Party Hat Charmander November 30–December 6; Party Hat Squirtle December 7–13; Party Hat Eevee December 14–20. Separately, 30 designated McDonald's restaurants offer an onsite QR code for promotional Timed Research, which must be redeemed in the Pokémon GO Web Store and can reward the same five costumed Pokémon. The official announcement does not specify Shiny eligibility or a separate, exact redemption/claim deadline; Timed Research expires at the deadline shown in-game. Do not assume every McDonald's provides QR codes: Field Research PokéStops have broader coverage than the 30 QR-code locations."
+    },
+    {
+      "name": "December 2026 Community Day",
+      "identifier": "community-day-december-2026",
+      "type": "community-day",
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "availability": {
+        "type": "global"
+      },
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/save-the-date-s25"
+        }
+      ],
+      "notes": "Two-day December 2026 Community Day weekend; dates officially announced for the next Season. Featured Pokémon, bonuses and precise hours have not yet been announced. This is one two-day event, not separate Saturday/Sunday placeholders."
+    },
+    {
+      "name": "January 2027 Community Day Classic",
+      "identifier": "community-day-classic-2027-01-02",
+      "type": "community-day-classic",
+      "start": "2027-01-02",
+      "end": "2027-01-02",
+      "availability": {
+        "type": "global"
+      },
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/save-the-date-s25"
+        }
+      ],
+      "notes": "Official Season 25 save-the-date for January 2027 Community Day Classic on 2027-01-02. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+    },
+    {
+      "name": "January 2027 Community Day",
+      "identifier": "community-day-2027-01-16",
+      "type": "community-day",
+      "start": "2027-01-16",
+      "end": "2027-01-16",
+      "availability": {
+        "type": "global"
+      },
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/save-the-date-s25"
+        }
+      ],
+      "notes": "Official Season 25 save-the-date for January 2027 Community Day on 2027-01-16. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+    },
+    {
+      "name": "February 2027 Community Day",
+      "identifier": "community-day-2027-02-06",
+      "type": "community-day",
+      "start": "2027-02-06",
+      "end": "2027-02-06",
+      "availability": {
+        "type": "global"
+      },
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/save-the-date-s25"
+        }
+      ],
+      "notes": "Official Season 25 save-the-date for February 2027 Community Day on 2027-02-06. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+    },
+    {
+      "name": "December 2026 Max Battle Day",
+      "identifier": "max-battle-day-2026-12-05",
+      "type": "max-battle-day",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "availability": {
+        "type": "global"
+      },
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/save-the-date-s25"
+        }
+      ],
+      "notes": "Official Season 25 save-the-date for December 2026 Max Battle Day on 2026-12-05. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+    },
+    {
+      "name": "December 2026 Raid Day",
+      "identifier": "raid-day-2026-12-19",
+      "type": "raid-day",
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "availability": {
+        "type": "global"
+      },
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/save-the-date-s25"
+        }
+      ],
+      "notes": "Official Season 25 save-the-date for December 2026 Raid Day on 2026-12-19. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+    },
+    {
+      "name": "December 2026 Hatch Day",
+      "identifier": "hatch-day-2026-12-26",
+      "type": "hatch-day",
+      "start": "2026-12-26",
+      "end": "2026-12-26",
+      "availability": {
+        "type": "global"
+      },
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/save-the-date-s25"
+        }
+      ],
+      "notes": "Official Season 25 save-the-date for December 2026 Hatch Day on 2026-12-26. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+    },
+    {
+      "name": "January 2027 Super Mega Raid Day",
+      "identifier": "super-mega-raid-day-2027-01-09",
+      "type": "raid-day",
+      "start": "2027-01-09",
+      "end": "2027-01-09",
+      "availability": {
+        "type": "global"
+      },
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/save-the-date-s25"
+        }
+      ],
+      "notes": "Official Season 25 save-the-date for January 2027 Super Mega Raid Day on 2027-01-09. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+    },
+    {
+      "name": "January 2027 Max Battle Day",
+      "identifier": "max-battle-day-2027-01-23",
+      "type": "max-battle-day",
+      "start": "2027-01-23",
+      "end": "2027-01-23",
+      "availability": {
+        "type": "global"
+      },
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/save-the-date-s25"
+        }
+      ],
+      "notes": "Official Season 25 save-the-date for January 2027 Max Battle Day on 2027-01-23. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+    },
+    {
+      "name": "January 2027 Super Mega Raid Day (January 30)",
+      "identifier": "super-mega-raid-day-2027-01-30",
+      "type": "raid-day",
+      "start": "2027-01-30",
+      "end": "2027-01-30",
+      "availability": {
+        "type": "global"
+      },
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/save-the-date-s25"
+        }
+      ],
+      "notes": "Official Season 25 save-the-date for January 2027 Super Mega Raid Day (January 30) on 2027-01-30. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+    },
+    {
+      "name": "February 2027 Raid Day",
+      "identifier": "raid-day-2027-02-13",
+      "type": "raid-day",
+      "start": "2027-02-13",
+      "end": "2027-02-13",
+      "availability": {
+        "type": "global"
+      },
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/save-the-date-s25"
+        }
+      ],
+      "notes": "Official Season 25 save-the-date for February 2027 Raid Day on 2027-02-13. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
     }
   ],
-  "updated_at": "2026-11-07T02:07:22.882Z"
+  "updated_at": "2026-11-11T23:21:44.285Z"
 }
