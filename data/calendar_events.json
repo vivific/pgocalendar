@@ -7413,7 +7413,49 @@
         }
       ],
       "notes": "Official Season 25 save-the-date for February 2027 Raid Day on 2027-02-13. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+    },
+    {
+      "name": "Pokémon GO × Apple Store Japan – Applin Encounters",
+      "identifier": "apple-store-japan-applin-2026",
+      "type": "collaboration",
+      "start": "2026-11-16",
+      "end": "2026-11-30",
+      "availability": {
+        "type": "onsite",
+        "regions": [
+          "Japan"
+        ],
+        "locations": [
+          "All 11 Apple Store retail locations in Japan"
+        ]
+      },
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Applin",
+          "methods": [
+            {
+              "method": "lure",
+              "shiny": true,
+              "requirement": "Tap apples near the continuously active Mossy Lure Module at an Apple Store PokéStop during store hours (10:00 a.m.–9:00 p.m. Japan time); an Applin encounter is possible, not guaranteed. Shiny Applin debuted in September 2026."
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "mossy-lure",
+          "label": "Mossy Lure Modules continuously active at special Apple Store PokéStops during store hours (10:00 a.m.–9:00 p.m. Japan time)",
+          "requirement": "Visit an Apple Store in Japan, November 16–30, 2026"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/ja/news/apple_store_japan"
+        }
+      ],
+      "notes": "November 16–30, 2026. All eleven Apple Stores in Japan are added as special Pokémon GO PokéStops. During store hours, 10:00 a.m.–9:00 p.m. Japan time, they have continuously active Mossy Lure Modules (Japanese: ハーブルアーモジュール). Apples appear around the lures; tapping them can give a chance to encounter Applin, which is Shiny-eligible following its September 2026 debut. Stores: Apple Ginza; Apple Marunouchi; Apple Shinjuku; Apple Shibuya; Apple Omotesando; Apple Kawasaki; Apple Nagoya Sakae; Apple Kyoto; Apple Shinsaibashi; Apple Osaka; Apple Fukuoka. Specially designed Apple Gift Cards are also sold at all eleven stores, but are merchandise rather than in-game obtainable rewards."
     }
   ],
-  "updated_at": "2026-11-11T23:21:44.285Z"
+  "updated_at": "2026-11-13T07:47:46.683Z"
 }
