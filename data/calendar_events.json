@@ -7455,7 +7455,58 @@
         }
       ],
       "notes": "November 16–30, 2026. All eleven Apple Stores in Japan are added as special Pokémon GO PokéStops. During store hours, 10:00 a.m.–9:00 p.m. Japan time, they have continuously active Mossy Lure Modules (Japanese: ハーブルアーモジュール). Apples appear around the lures; tapping them can give a chance to encounter Applin, which is Shiny-eligible following its September 2026 debut. Stores: Apple Ginza; Apple Marunouchi; Apple Shinjuku; Apple Shibuya; Apple Omotesando; Apple Kawasaki; Apple Nagoya Sakae; Apple Kyoto; Apple Shinsaibashi; Apple Osaka; Apple Fukuoka. Specially designed Apple Gift Cards are also sold at all eleven stores, but are merchandise rather than in-game obtainable rewards."
+    },
+    {
+      "name": "Pokémon GO × Crocs Avatar Items",
+      "identifier": "pokemon-crocs-avatar-items-2026",
+      "type": "promotion",
+      "subtype": "free-code",
+      "start": "2026-11-16",
+      "end": "2027-12-31",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "avatar",
+          "name": "Pokémon Pikachu Classic Clog",
+          "methods": [
+            {
+              "method": "code",
+              "requirement": "Free global Pokémon GO Web Store offer code: POKEMONGOxCROCSxELECTRIFYING. Redeem by December 31, 2027."
+            }
+          ]
+        },
+        {
+          "type": "avatar",
+          "name": "Pokémon Gengar Classic Clog",
+          "methods": [
+            {
+              "method": "code",
+              "paid": true,
+              "requirement": "Individual Pokémon GO Web Store code supplied with purchase of physical Pokémon Gengar Crocs Classic Clog footwear; redeem by December 31, 2027."
+            }
+          ]
+        },
+        {
+          "type": "avatar",
+          "name": "Pokémon Jigglypuff Classic Platform Clog",
+          "methods": [
+            {
+              "method": "code",
+              "paid": true,
+              "requirement": "Individual Pokémon GO Web Store code supplied with purchase of physical Pokémon Jigglypuff Crocs Classic Platform Clog footwear; redeem by December 31, 2027."
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/pokemon-crocs-2026"
+        }
+      ],
+      "notes": "Worldwide Pokémon GO avatar-item collaboration announced November 16, 2026. All three are cosmetic footwear avatar items (not Pokémon encounters or wild event bonuses). The Pikachu Classic Clog avatar shoes are available freely with offer code POKEMONGOxCROCSxELECTRIFYING entered at the Pokémon GO Web Store. The Gengar Classic Clog and Jigglypuff Classic Platform Clog avatar shoes instead require the unique offer code supplied after purchasing the corresponding physical Crocs shoes; the article does not publish universal codes for these. Offer codes can be redeemed until December 31, 2027. No separate purchase-promotion end date is announced, so the calendar represents the documented code-redemption deadline, not a guarantee that physical footwear will remain in stock until then."
     }
   ],
-  "updated_at": "2026-11-13T07:47:46.683Z"
+  "updated_at": "2026-11-16T21:00:24.708Z"
 }
