@@ -7506,7 +7506,46 @@
         }
       ],
       "notes": "Worldwide Pokémon GO avatar-item collaboration announced November 16, 2026. All three are cosmetic footwear avatar items (not Pokémon encounters or wild event bonuses). The Pikachu Classic Clog avatar shoes are available freely with offer code POKEMONGOxCROCSxELECTRIFYING entered at the Pokémon GO Web Store. The Gengar Classic Clog and Jigglypuff Classic Platform Clog avatar shoes instead require the unique offer code supplied after purchasing the corresponding physical Crocs shoes; the article does not publish universal codes for these. Offer codes can be redeemed until December 31, 2027. No separate purchase-promotion end date is announced, so the calendar represents the documented code-redemption deadline, not a guarantee that physical footwear will remain in stock until then."
+    },
+    {
+      "name": "2027 Latin America International Championships – Twitch Viewing Rewards",
+      "identifier": "laic-2027-twitch-viewing-rewards-2026",
+      "type": "promotion",
+      "subtype": "timed-research",
+      "start": "2026-11-20",
+      "end": "2026-11-22",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Samurott",
+          "methods": [
+            {
+              "method": "timed-research",
+              "requirement": "Watch 30 minutes of the 2027 LAIC Pokémon GO broadcast November 20–22 to earn championship-inspired Timed Research. The official announcement specifies Samurott, not Shadow Samurott. Complete the research and claim rewards before December 4, 2026 at 12:00 p.m. PST."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Elite Charged TM",
+          "methods": [
+            {
+              "method": "twitch-drop",
+              "requirement": "Watch 45 minutes of the 2027 LAIC Pokémon GO broadcast to earn the LAIC Battle Bundle: one Elite Charged TM, one Rare Candy XL, 25 Charged TMs, and 25 Fast TMs."
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/latin-america-international-championships-2026"
+        }
+      ],
+      "notes": "Global watch-and-earn rewards for the 2027 Pokémon Latin America International Championships (LAIC), despite the official article URL ending in '-2026'. Broadcast and viewing opportunities run Friday November 20, 2026 at 4:00 a.m. through Sunday November 22 at 3:00 p.m. PST. On November 20–21, watch the official Twitch.tv/PokemonGO channel; on November 22, watch Twitch.tv/Pokemon. Watching 30 minutes unlocks Timed Research featuring a Samurott inspired by PsyRhino's 2026 NAIC-winning team, plus Oshawott Candy XL and Charged/Fast TMs. The winning team used Shadow Samurott, but this article promises only a Samurott encounter, with no confirmed Shadow or Shiny eligibility. Timed Research must be completed and claimed before Friday December 4, 2026 at 12:00 p.m. PST (completion grace, not part of new Twitch viewing availability). Watching 45 minutes yields the separate LAIC Battle Bundle with an Elite Charged TM, Rare Candy XL, 25 Charged TMs and 25 Fast TMs. No separate redemption deadline is stated for the Battle Bundle."
     }
   ],
-  "updated_at": "2026-11-16T21:00:24.708Z"
+  "updated_at": "2026-11-16T21:07:41.223Z"
 }
