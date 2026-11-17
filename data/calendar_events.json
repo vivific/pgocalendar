@@ -7545,7 +7545,73 @@
         }
       ],
       "notes": "Global watch-and-earn rewards for the 2027 Pokémon Latin America International Championships (LAIC), despite the official article URL ending in '-2026'. Broadcast and viewing opportunities run Friday November 20, 2026 at 4:00 a.m. through Sunday November 22 at 3:00 p.m. PST. On November 20–21, watch the official Twitch.tv/PokemonGO channel; on November 22, watch Twitch.tv/Pokemon. Watching 30 minutes unlocks Timed Research featuring a Samurott inspired by PsyRhino's 2026 NAIC-winning team, plus Oshawott Candy XL and Charged/Fast TMs. The winning team used Shadow Samurott, but this article promises only a Samurott encounter, with no confirmed Shadow or Shiny eligibility. Timed Research must be completed and claimed before Friday December 4, 2026 at 12:00 p.m. PST (completion grace, not part of new Twitch viewing availability). Watching 45 minutes yields the separate LAIC Battle Bundle with an Elite Charged TM, Rare Candy XL, 25 Charged TMs and 25 Fast TMs. No separate redemption deadline is stated for the Battle Bundle."
+    },
+    {
+      "name": "Pokémon GO × Duolingo – Catch a New Language",
+      "identifier": "pokemon-go-duolingo-language-research-2026",
+      "type": "timed-research",
+      "start": "2026-11-17",
+      "end": "2026-12-21",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Pikachu",
+          "methods": [
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Earn a personalized offer code after completing at least one Duolingo lesson on seven different days in Duo's Pokémon Party, redeem the code in the Pokémon GO Web Store, and complete the resulting Timed Research by December 31, 2026 at 11:59 p.m. local time. Quest enrollment closes December 21; seven-day progress and code acquisition remain possible until December 29 for those already enrolled."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Meowth",
+          "methods": [
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Earn a personalized offer code after completing at least one Duolingo lesson on seven different days in Duo's Pokémon Party, redeem the code in the Pokémon GO Web Store, and complete the resulting Timed Research by December 31, 2026 at 11:59 p.m. local time. Quest enrollment closes December 21; seven-day progress and code acquisition remain possible until December 29 for those already enrolled."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Chatot",
+          "methods": [
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Earn a personalized offer code after completing at least one Duolingo lesson on seven different days in Duo's Pokémon Party, redeem the code in the Pokémon GO Web Store, and complete the resulting Timed Research by December 31, 2026 at 11:59 p.m. local time. Quest enrollment closes December 21; seven-day progress and code acquisition remain possible until December 29 for those already enrolled."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Lucario",
+          "methods": [
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Earn a personalized offer code after completing at least one Duolingo lesson on seven different days in Duo's Pokémon Party, redeem the code in the Pokémon GO Web Store, and complete the resulting Timed Research by December 31, 2026 at 11:59 p.m. local time. Quest enrollment closes December 21; seven-day progress and code acquisition remain possible until December 29 for those already enrolled."
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/duolingo-2026"
+        }
+      ],
+      "notes": "Global cross-app collaboration. Duo's Pokémon Party starts November 17, 2026 at 10:00 a.m. JST (November 16 in some western time zones) on the latest Duolingo app. New players must join the Duolingo quest by December 21 at 11:59 p.m. local time, which is the calendar end date for new participation. Do at least one lesson on seven different days in any Duolingo course to receive a Pokémon GO Web Store offer code. Already enrolled participants can continue the quest and claim the code through December 29 at 11:59 p.m. local time. Complete the redeemed Pokémon GO Timed Research and claim its rewards by December 31 at 11:59 p.m. local time; neither later deadline extends new enrollment. Players choose a language for the in-game research tasks and can use Professor Willow's hints. Research rewards include XP, Stardust, and Shiny-eligible Pikachu, Meowth, Chatot, and Lucario encounters with event-specific Special Backgrounds. Certain rewarded Pokémon display a new language tag on their summary screens; tapping it reveals the Pokémon's names in different languages. Duolingo's four Pokémon-themed avatar outfits belong to the Duolingo app, not Pokémon GO avatar customization, so they are not listed as Pokémon GO Obtainables. Offer codes are earned individually rather than a single publicly shared universal redemption code."
     }
   ],
-  "updated_at": "2026-11-16T21:07:41.223Z"
+  "updated_at": "2026-11-17T02:36:17.474Z"
 }
