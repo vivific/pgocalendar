@@ -19,7 +19,7 @@
           "url": "https://pokemongo.com/news/suita_rally?hl=ja"
         }
       ],
-      "notes": "Official Pokémon GO source states that the Suita City Stamp Rally has no end-period restriction.",
+      "notes": "",
       "subtype": "stamp-rally"
     },
     {
@@ -42,7 +42,7 @@
           "url": "https://pokemongo.com/ja/news/pokelid_full"
         }
       ],
-      "notes": "Poké Lid Stamp Rally launched first in Kyushu & Okinawa on November 7, 2025 and later expanded nationwide. The official nationwide update confirms no fixed end; newly installed Poké Lids are added to the stamp sheet. In-game rally id: POKELID_COLLECTION.",
+      "notes": "Collect stamps at Poké Lids across Japan. Newly installed Poké Lids are added to the stamp sheet.",
       "subtype": "stamp-rally",
       "obtainable": [
         {
@@ -75,7 +75,7 @@
           "url": "https://pokemongo.com/news/stamp-rally-nagasaki"
         }
       ],
-      "notes": "Ongoing eight-stop city stamp rally. Completing all eight stamps awards an encounter with Ampharos featuring a Nagasaki Location Background. The official article gives no end date.",
+      "notes": "Collect all eight stamps for an Ampharos encounter with a Nagasaki Location Background.",
       "subtype": "stamp-rally",
       "obtainable": [
         {
@@ -109,7 +109,7 @@
           "url": "https://pokemongo.com/en/news/ppk_launch"
         }
       ],
-      "notes": "Local-only raids at PokéPark KANTO rotate among Moltres, Articuno, and Zapdos on a four-month schedule. Raid catches can have the PokéPark KANTO Location Background. Ongoing daily PokéPark KANTO–exclusive Pokémon GO content beginning February 5, 2026; admission requires a ticket.",
+      "notes": "Admission ticket required. Local raids rotate Moltres, Articuno, and Zapdos every four months; catches may have a PokéPark KANTO Location Background.",
       "subtype": "local-raid",
       "obtainable": [
         {
@@ -207,7 +207,7 @@
           "url": "https://pokemongo.com/en/news/pgo-pokemon-fossil-musuem-chicago-2026"
         }
       ],
-      "notes": "Local-only raids for Excavator Pikachu and Mega Aerodactyl at the Field Museum. Both can be shiny. Pokémon GO gameplay follows the Pokémon Fossil Museum exhibition window from May 22, 2026 through April 11, 2027.",
+      "notes": "Field Museum raids feature Shiny-eligible Excavator Pikachu and Mega Aerodactyl.",
       "subtype": "local-raid",
       "obtainable": [
         {
@@ -261,7 +261,7 @@
           "url": "https://www.city.koto.lg.jp/103000/pokemongo/fest2026-event.html"
         }
       ],
-      "notes": "Persistent Tokyo ward GO Stamp Rally launched May 25, 2026 alongside GO Fest Tokyo and explicitly continued after GO Fest ended. Current in-game data still lists it as active with no end field. Required stamps: 4.",
+      "notes": "Collect four stamps at participating PokéStops in Tokyo's Koto ward.",
       "subtype": "stamp-rally"
     },
     {
@@ -287,7 +287,7 @@
           "url": "https://www.city.minato.tokyo.jp/kankouseisaku/event/pokemongo.html"
         }
       ],
-      "notes": "Persistent Tokyo ward GO Stamp Rally launched May 25, 2026 alongside GO Fest Tokyo and explicitly continued after GO Fest ended. Current in-game data still lists it as active with no end field. Required stamps: 5. In-game rally id: STAMP_RALLY_TOKYO_MINATO_2026.",
+      "notes": "Collect five stamps at participating PokéStops in Tokyo's Minato ward.",
       "subtype": "stamp-rally"
     },
     {
@@ -313,7 +313,7 @@
           "url": "https://shinagawa-kanko.or.jp/event/pokemongo2026/"
         }
       ],
-      "notes": "Persistent Tokyo ward GO Stamp Rally launched May 25, 2026 alongside GO Fest Tokyo and explicitly continued after GO Fest ended. Current in-game data still lists it as active with no end field. Required stamps: 4. In-game rally id: STAMP_RALLY_TOKYO_SHINAGAWA_2026.",
+      "notes": "Collect four stamps at participating PokéStops in Tokyo's Shinagawa ward.",
       "subtype": "stamp-rally"
     },
     {
@@ -336,7 +336,7 @@
           "url": "https://shop.pokemon.co.jp/ja/shop/common/events/202606/000336.html"
         }
       ],
-      "notes": "18-location Pokémon Center / Pokémon GO Lab. stamp rally. In-game rally id: STAMP_RALLY_JAPAN_POKRMONCENTER_2026.",
+      "notes": "Collect stamps at 18 Pokémon Center and Pokémon GO Lab locations in Japan.",
       "subtype": "stamp-rally",
       "obtainable": [
         {
@@ -373,7 +373,7 @@
           "url": "https://pokemongo.com/en/news/nationaltrust-2026"
         }
       ],
-      "notes": "Local-only raids vary by National Trust region: Hoppip in London & South East, Sewaddle in Midlands & East of England, Pineco in North of England & Northern Ireland, and Seedot in South West England & Wales. Raid catches can have the visited National Trust site's Location Background. Activities run through December 31, 2026.",
+      "notes": "Regional raids feature Hoppip (London and South East), Sewaddle (Midlands and East), Pineco (North of England and Northern Ireland), and Seedot (South West England and Wales). Catches may have the visited National Trust site's Location Background.",
       "subtype": "local-raid",
       "obtainable": [
         {
@@ -480,7 +480,7 @@
           "url": "https://pokemongo.com/en/news/2026_ana_red"
         }
       ],
-      "notes": "Local-only raids for Charmander at Phase 1 participating ANA Red Pokémon Jet airports from July 28, 2026 through August 31, 2027. Charmander can be Shiny, and raid catches have the Red Pokémon Jet Location Background. Each Trainer can participate in one raid per day at each Gym. Phase 1 airports: New Chitose, Hakodate, Akita, Sendai, Haneda (Terminals 2 and 3), and Narita (Terminal 1). Airport visitors can also claim the Phase 1 Timed Research once; it expires three days after receipt.",
+      "notes": "Shiny-eligible Charmander raids at participating airports may award a Red Pokémon Jet Location Background. One raid per Gym per day. Airport visitors can also claim Timed Research once; it expires three days after receipt. Airports: New Chitose, Hakodate, Akita, Sendai, Haneda (Terminals 2 and 3), and Narita (Terminal 1).",
       "subtype": "local-raid",
       "obtainable": [
         {
@@ -568,7 +568,7 @@
           "url": "https://pokemongo.com/en/news/event-apac-stamp-rally-2026"
         }
       ],
-      "notes": "Cross-region stamp series. Kuala Lumpur, Taipei, Singapore, and Manila stamp locations are scheduled through September 11, 2029; Bangkok details are to be announced.",
+      "notes": "Collect stamps in Kuala Lumpur, Taipei, Singapore, and Manila. Bangkok stamp locations have not yet been announced.",
       "subtype": "stamp-rally",
       "obtainable": [
         {
@@ -801,7 +801,7 @@
           "url": "https://pokemongo.com/en/news/pokemon-x-adidas-2026"
         }
       ],
-      "notes": "Visit a participating adidas store or retail store and open Pokémon GO to obtain event-themed Timed Research. Rewards include the adidas Pokémon Jacket and Cap avatar items, XP, Stardust, a Lucario encounter, Lucario Mega Energy, and more. Research can be obtained through January 15, 2027 at 8:00 p.m. local time; the February 13, 2027 completion/claim deadline is a grace period for already-obtained research and does not extend this calendar bar.",
+      "notes": "Visit a participating adidas retailer to receive Timed Research for the adidas Pokémon Jacket and Cap, a Lucario encounter, Lucario Mega Energy, XP, and Stardust. Receive the research by January 15, 2027 at 8:00 p.m. local time; complete and claim it by February 13.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -1050,7 +1050,7 @@
           "url": "https://pokemongo.com/en/news/apac-mall-exploration-2026"
         }
       ],
-      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "notes": "Receive Timed Research once across participating Pokémon 30th Anniversary Mall Exploration locations; complete it within 10 days of acquisition. Lure Modules last four hours in designated areas.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -1090,7 +1090,7 @@
           "url": "https://pokemongo.com/en/news/apac-mall-exploration-2026"
         }
       ],
-      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "notes": "Receive Timed Research once across participating Pokémon 30th Anniversary Mall Exploration locations; complete it within 10 days of acquisition. Lure Modules last four hours in designated areas.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -1509,7 +1509,7 @@
           "url": "https://pokemongo.com/en/news/european-space-agency-event"
         }
       ],
-      "notes": "This is separate from the event running October 4–10th.",
+      "notes": "",
       "subtype": "local-raid",
       "obtainable": [
         {
@@ -3377,7 +3377,7 @@
           "url": "https://sg.portal-pokemon.com/30th/topics/pokexciting_news0/"
         }
       ],
-      "notes": "PokéXciting! Pikachu (Blue) remains available as a wild encounter in Singapore for one month after the November 7–8 event concludes (through December 8). The separate five-stamp Regional GO Stamp Rally at Changi Airport and Jewel lasts one month after the November 7 event start (through approximately December 7; exact cutoff time not specified), so its reward method has a narrower end date. The long-running Cross-Region rally and its Blue Pikachu Location Background reward are tracked separately through September 11, 2029.",
+      "notes": "Blue PokéXciting! Pikachu is available in the wild through December 8. The five-stamp rally at Changi Airport and Jewel runs through approximately December 7; the cross-region rally offers a Blue Pikachu Location Background reward through September 11, 2029.",
       "obtainable": [
         {
           "type": "pokemon",
@@ -3393,7 +3393,7 @@
               "shiny": true,
               "background": true,
               "end": "2026-12-07",
-              "requirement": "Regional five-stamp GO Stamp Rally at Changi Airport and Jewel; announced to remain available for one month after the November 7 start. Distinct from the Cross-Region rally, which is tracked separately through September 2029."
+              "requirement": "Complete the five-stamp Changi Airport and Jewel rally, available until approximately December 7, 2026. The cross-region rally offers another reward through September 2029."
             }
           ]
         }
@@ -3416,7 +3416,7 @@
           "url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
         }
       ],
-      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "notes": "Receive Timed Research once across participating Pokémon 30th Anniversary Mall Exploration locations; complete it within 10 days of acquisition. Lure Modules last four hours in designated areas.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -3456,7 +3456,7 @@
           "url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
         }
       ],
-      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "notes": "Receive Timed Research once across participating Pokémon 30th Anniversary Mall Exploration locations; complete it within 10 days of acquisition. Lure Modules last four hours in designated areas.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -4001,7 +4001,7 @@
           "url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
         }
       ],
-      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "notes": "Receive Timed Research once across participating Pokémon 30th Anniversary Mall Exploration locations; complete it within 10 days of acquisition. Lure Modules last four hours in designated areas.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -4041,7 +4041,7 @@
           "url": "https://pokemongo.com/news/pokemon-run-30-2026"
         }
       ],
-      "notes": "Event-area wild encounters and Incense encounters include first-partner Pokémon and Unown N, R, and U. Bonuses: 2× Incense duration (excluding Daily Adventure Incense), 10× XP for spinning new PokéStops, 2× XP for spinning PokéStops, and 1/2 Hatch Distance. Two free event-exclusive Timed Research opportunities can be obtained in the event area; their later completion/claim grace periods do not extend this calendar bar.",
+      "notes": "Wild and Incense encounters include first-partner Pokémon and Unown N, R, and U. Bonuses include 2× Incense duration (except Daily Adventure Incense), 10× XP for new PokéStops, 2× XP for PokéStop spins, and half Hatch Distance. Two free Timed Research opportunities are available onsite.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -4117,7 +4117,7 @@
           "url": "https://pokemongo.com/news/clefable-super-mega-raid-day-2026"
         }
       ],
-      "notes": "November 28, 2026, 2:00–5:00 p.m. local time. Mega Clefable debuts in Super Mega Raids; Clefable caught after these raids have Mega Level 1 unlocked. Mega Clefable can reach Super Max Level after reaching Max and using additional Mega Energy, and while Mega Evolved can use the additional Charged Attack Moonblast+ (80 power in Trainer Battles, chance to lower the opponent's Attack by one stage; 160 power in Raid Battles, increasing with Mega Level). Moonblast+ is an ongoing Mega Evolution mechanic, not an event-exclusive move acquisition window. Free event Timed Research rewards a Premium Battle Pass and a Metagross encounter, and must be completed and claimed before it expires. The raid-completion Global Challenge runs November 27, 5:00 p.m. PST–November 28, 8:00 p.m. PST; its separately tracked conditional rewards run November 30–December 13. Optional US$4.99 ticket bonuses apply only November 28, 2:00–5:00 p.m. local time. Super Mega Raids appear only at certain Gyms; the event map can help locate them.",
+      "notes": "November 28, 2:00–5:00 p.m. local time. Mega Clefable debuts in Super Mega Raids; caught Clefable have Mega Level 1 unlocked. Mega Clefable can reach Super Max Level and use Moonblast+ (80 power in Trainer Battles, with a chance to lower Attack; 160 power in raids, increasing with Mega Level). Free Timed Research awards a Premium Battle Pass and a Metagross encounter. A raid-completion Global Challenge runs November 27 at 5:00 p.m.–November 28 at 8:00 p.m. PST, with potential reward boosts from November 30 to December 13. Optional US$4.99 ticket bonuses apply during the three-hour event. Super Mega Raids appear only at certain Gyms.",
       "obtainable": [
         {
           "type": "pokemon",
@@ -4211,7 +4211,7 @@
           "url": "https://pokemongo.com/news/clefable-super-mega-raid-day-2026"
         }
       ],
-      "notes": "Conditional reward period following Clefable Super Mega Raid Day's worldwide raid-completion Global Challenge, which runs November 27 at 5:00 p.m. PST–November 28 at 8:00 p.m. PST. Bonuses run November 30 at 12:00 p.m. PST until December 13 at 12:00 p.m. PST. The Moonblast+ power boost applies to Mega Clefable at Mega Level 1 or higher but not in GO Battle League; the CP boost applies to Mega Clefable at Super Max Level. Magnitudes depend on the number of Global Challenge tiers completed and are not yet confirmed. Moonblast+ is an ongoing mechanic, not a temporarily obtainable exclusive move."
+      "notes": "Conditional bonuses unlocked by the November 27–28 Global Challenge. From November 30 at noon PST to December 13 at noon PST, Mega Clefable may receive a Moonblast+ power boost (outside GO Battle League) at Mega Level 1 or higher and a CP boost at Super Max Level. Bonus strength depends on completed challenge tiers."
     },
     {
       "name": "Pokémon 30th Anniversary Mall Exploration – SM North EDSA",
@@ -4230,7 +4230,7 @@
           "url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
         }
       ],
-      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "notes": "Receive Timed Research once across participating Pokémon 30th Anniversary Mall Exploration locations; complete it within 10 days of acquisition. Lure Modules last four hours in designated areas.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -4270,7 +4270,7 @@
           "url": "https://pokemongo.com/news/pokemon-run-30-2026"
         }
       ],
-      "notes": "Event-area wild encounters and Incense encounters include first-partner Pokémon and Unown N, R, and U. Bonuses: 2× Incense duration (excluding Daily Adventure Incense), 10× XP for spinning new PokéStops, 2× XP for spinning PokéStops, and 1/2 Hatch Distance. Two free event-exclusive Timed Research opportunities can be obtained in the event area; their later completion/claim grace periods do not extend this calendar bar.",
+      "notes": "Wild and Incense encounters include first-partner Pokémon and Unown N, R, and U. Bonuses include 2× Incense duration (except Daily Adventure Incense), 10× XP for new PokéStops, 2× XP for PokéStop spins, and half Hatch Distance. Two free Timed Research opportunities are available onsite.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -4346,7 +4346,7 @@
           "url": "https://pokemongo.com/news/pokemon-run-30-2026"
         }
       ],
-      "notes": "Event-area wild encounters and Incense encounters include first-partner Pokémon and Unown N, R, and U. Bonuses: 2× Incense duration (excluding Daily Adventure Incense), 10× XP for spinning new PokéStops, 2× XP for spinning PokéStops, and 1/2 Hatch Distance. Two free event-exclusive Timed Research opportunities can be obtained in the event area; their later completion/claim grace periods do not extend this calendar bar.",
+      "notes": "Wild and Incense encounters include first-partner Pokémon and Unown N, R, and U. Bonuses include 2× Incense duration (except Daily Adventure Incense), 10× XP for new PokéStops, 2× XP for PokéStop spins, and half Hatch Distance. Two free Timed Research opportunities are available onsite.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -4422,7 +4422,7 @@
           "url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
         }
       ],
-      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "notes": "Receive Timed Research once across participating Pokémon 30th Anniversary Mall Exploration locations; complete it within 10 days of acquisition. Lure Modules last four hours in designated areas.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -4462,7 +4462,7 @@
           "url": "https://pokemongo.com/news/pokemon-run-30-2026"
         }
       ],
-      "notes": "Event-area wild encounters and Incense encounters include first-partner Pokémon and Unown N, R, and U. Bonuses: 2× Incense duration (excluding Daily Adventure Incense), 10× XP for spinning new PokéStops, 2× XP for spinning PokéStops, and 1/2 Hatch Distance. Two free event-exclusive Timed Research opportunities can be obtained in the event area; their later completion/claim grace periods do not extend this calendar bar.",
+      "notes": "Wild and Incense encounters include first-partner Pokémon and Unown N, R, and U. Bonuses include 2× Incense duration (except Daily Adventure Incense), 10× XP for new PokéStops, 2× XP for PokéStop spins, and half Hatch Distance. Two free Timed Research opportunities are available onsite.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -4538,7 +4538,7 @@
           "url": "https://pokemongo.com/news/event-apac-30th-anniversary-2026"
         }
       ],
-      "notes": "Two-day main PokéXciting! Manila event window. Red PokéXciting! Pikachu remains available in the wild for one month after the event and is tracked separately. A local five-stamp GO Stamp Rally is also announced to continue after the event; its exact cutoff is awaiting a city-specific source or in-game timestamp.",
+      "notes": "Red PokéXciting! Pikachu remains available in the wild for one month after the event. A five-stamp GO Stamp Rally also continues afterward; its end date is not yet announced.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -4607,7 +4607,7 @@
           "url": "https://ph.portal-pokemon.com/30th/topics/pokexciting_news0/"
         }
       ],
-      "notes": "PokéXciting! Pikachu (Red) remains available as a wild encounter in Manila for one month after the January 23–24 event concludes. This extended wild-encounter window is separate from the two-day main event.",
+      "notes": "Red PokéXciting! Pikachu remains available as a wild encounter in Manila through February 24.",
       "obtainable": [
         {
           "type": "pokemon",
@@ -4644,7 +4644,7 @@
           "url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
         }
       ],
-      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "notes": "Receive Timed Research once across participating Pokémon 30th Anniversary Mall Exploration locations; complete it within 10 days of acquisition. Lure Modules last four hours in designated areas.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -4684,7 +4684,7 @@
           "url": "https://pokemongo.com/news/event-apac-30th-anniversary-2026"
         }
       ],
-      "notes": "Two-day main PokéXciting! Bangkok event window. The city's PokéXciting! Pikachu remains available in the wild for one month after the event and is tracked separately. A local five-stamp GO Stamp Rally is also announced to continue after the event; its exact cutoff is awaiting detailed official information.",
+      "notes": "PokéXciting! Pikachu remains available in the wild for one month after the event. A five-stamp GO Stamp Rally also continues afterward; its end date is not yet announced.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -4742,7 +4742,7 @@
           "url": "https://th.portal-pokemon.com/30th/topics/pokexciting_news0/"
         }
       ],
-      "notes": "Bangkok's region-exclusive PokéXciting! Pikachu remains available as a wild encounter for one month after the February 13–14 event concludes. The costume color and final event gameplay area have not yet been announced. This extended wild-encounter window is separate from the two-day main event."
+      "notes": "PokéXciting! Pikachu remains available in the wild in Bangkok through March 14; its costume details have not yet been announced."
     },
     {
       "name": "Pokémon GO Tour: Alola – Kaohsiung",
@@ -4762,7 +4762,7 @@
           "url": "https://pokemongo.com/en/news/save-the-date-go-tour-2027"
         }
       ],
-      "notes": "Official save-the-date for the Kaohsiung in-person Pokémon GO Tour: Alola event. Tickets and detailed gameplay information are scheduled to be announced next Season."
+      "notes": "In-person Pokémon GO Tour: Alola in Kaohsiung. Ticket and gameplay details to be announced."
     },
     {
       "name": "Pokémon GO Tour: Alola – Los Angeles",
@@ -4782,7 +4782,7 @@
           "url": "https://pokemongo.com/en/news/save-the-date-go-tour-2027"
         }
       ],
-      "notes": "Official save-the-date for the Los Angeles in-person Pokémon GO Tour: Alola event. Tickets and detailed gameplay information are scheduled to be announced next Season."
+      "notes": "In-person Pokémon GO Tour: Alola in Los Angeles. Ticket and gameplay details to be announced."
     },
     {
       "name": "Pokémon 30th Anniversary Mall Exploration – SM Davao",
@@ -4801,7 +4801,7 @@
           "url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
         }
       ],
-      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "notes": "Receive Timed Research once across participating Pokémon 30th Anniversary Mall Exploration locations; complete it within 10 days of acquisition. Lure Modules last four hours in designated areas.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -4838,7 +4838,7 @@
           "url": "https://pokemongo.com/en/news/save-the-date-go-tour-2027"
         }
       ],
-      "notes": "Official save-the-date for the worldwide Pokémon GO Tour: Alola finale. The announcement says tickets and detailed gameplay information will be available next Season; the base global event remains classified as global until the source establishes that paid access is required."
+      "notes": "Worldwide Pokémon GO Tour: Alola. Gameplay details to be announced."
     },
     {
       "name": "Pokémon 30th Anniversary Mall Exploration – SM CDO Downtown",
@@ -4857,7 +4857,7 @@
           "url": "https://pokemongo.com/zh-Hant/news/apac-mall-exploration-2026"
         }
       ],
-      "notes": "Onsite Timed Research can be obtained once total across participating Pokémon 30th Anniversary Mall Exploration locations and expires 10 days after acquisition; that later completion period does not extend this calendar bar. Lure Modules used in designated areas last four hours during this venue window.",
+      "notes": "Receive Timed Research once across participating Pokémon 30th Anniversary Mall Exploration locations; complete it within 10 days of acquisition. Lure Modules last four hours in designated areas.",
       "subtype": "timed-research",
       "obtainable": [
         {
@@ -5028,7 +5028,7 @@
           "url": "https://pokemongo.com/en/news/pokemon-x-adidas-2026"
         }
       ],
-      "notes": "Use offer code ADIDASxPOKEMON in the Pokémon GO Web Store to receive a pair of adidas shoes for your avatar. The code is available through January 15, 2027."
+      "notes": "Redeem code ADIDASxPOKEMON in the Pokémon GO Web Store for adidas avatar shoes through January 15, 2027."
     },
     {
       "name": "Minior Shower: Orionids",
@@ -5110,7 +5110,7 @@
           "url": "https://pokemongo.com/news/minior-meteor-showers-2026"
         }
       ],
-      "notes": "The shower runs from 5:00 p.m. local time on the start date through 11:59 p.m. local time on the end date. Shooting stars appear in the in-game sky from 5:00 p.m. to 9:00 p.m. each day. Pokémon GO announced these Minior showers as recurring annually."
+      "notes": "Shooting stars appear in the in-game sky from 5:00–9:00 p.m. local time daily. The shower begins at 5:00 p.m. on its first date and ends at 11:59 p.m. on its last date."
     },
     {
       "name": "Minior Shower: Geminids",
@@ -5151,7 +5151,7 @@
           "url": "https://pokemongo.com/news/minior-meteor-showers-2026"
         }
       ],
-      "notes": "The shower runs from 5:00 p.m. local time on the start date through 11:59 p.m. local time on the end date. Shooting stars appear in the in-game sky from 5:00 p.m. to 9:00 p.m. each day. Pokémon GO announced these Minior showers as recurring annually."
+      "notes": "Shooting stars appear in the in-game sky from 5:00–9:00 p.m. local time daily. The shower begins at 5:00 p.m. on its first date and ends at 11:59 p.m. on its last date."
     },
     {
       "name": "Minior Shower: Eta Aquariids",
@@ -5192,7 +5192,7 @@
           "url": "https://pokemongo.com/news/minior-meteor-showers-2026"
         }
       ],
-      "notes": "The shower runs from 5:00 p.m. local time on the start date through 11:59 p.m. local time on the end date. Shooting stars appear in the in-game sky from 5:00 p.m. to 9:00 p.m. each day. Pokémon GO announced these Minior showers as recurring annually."
+      "notes": "Shooting stars appear in the in-game sky from 5:00–9:00 p.m. local time daily. The shower begins at 5:00 p.m. on its first date and ends at 11:59 p.m. on its last date."
     },
     {
       "name": "Minior Shower: Southern Delta Aquariids",
@@ -5233,7 +5233,7 @@
           "url": "https://pokemongo.com/news/minior-meteor-showers-2026"
         }
       ],
-      "notes": "The shower runs from 5:00 p.m. local time on the start date through 11:59 p.m. local time on the end date. Shooting stars appear in the in-game sky from 5:00 p.m. to 9:00 p.m. each day. Pokémon GO announced these Minior showers as recurring annually."
+      "notes": "Shooting stars appear in the in-game sky from 5:00–9:00 p.m. local time daily. The shower begins at 5:00 p.m. on its first date and ends at 11:59 p.m. on its last date."
     },
     {
       "name": "Minior Shower: Perseids",
@@ -5274,7 +5274,7 @@
           "url": "https://pokemongo.com/news/minior-meteor-showers-2026"
         }
       ],
-      "notes": "The shower runs from 5:00 p.m. local time on the start date through 11:59 p.m. local time on the end date. Shooting stars appear in the in-game sky from 5:00 p.m. to 9:00 p.m. each day. Pokémon GO announced these Minior showers as recurring annually."
+      "notes": "Shooting stars appear in the in-game sky from 5:00–9:00 p.m. local time daily. The shower begins at 5:00 p.m. on its first date and ends at 11:59 p.m. on its last date."
     },
     {
       "name": "Pokémon GO City Safari: Boston (Rescheduled)",
@@ -6552,7 +6552,7 @@
           "methods": [
             {
               "method": "evolution",
-              "requirement": "Evolve Bisharp to Kingambit November 21, 2:00–9:00 p.m. local time (four-hour grace period)",
+              "requirement": "Evolve Bisharp to Kingambit on November 21, 2:00–9:00 p.m. local time.",
               "exclusive_move": "Kowtow Cleave"
             }
           ]
@@ -6648,7 +6648,7 @@
           "url": "https://pokemongo.com/news/communityday-november-2026-pawniard"
         }
       ],
-      "notes": "November 21, 2:00–5:00 p.m. local time. Featured Pawniard can be Shiny or have a Special Background. Evolve Bisharp through 9:00 p.m. for Kingambit with Kowtow Cleave (75 power in Trainer Battles; 85 in Gyms/Raids). Until 9:00 p.m., all Bisharp can use the one Dark- or Steel-type Raid Boss evolution requirement without needing to be your Buddy; boosted Pawniard regular-Lure encounters, reduced trade costs, and two Special Trades also last until 9:00 p.m. Optional US$1.99 Special Research includes three guaranteed Pawniard Special Background encounters. Community Ambassador check-in research can also award background Pawniard."
+      "notes": "November 21, 2:00–5:00 p.m. local time. Shiny-eligible Pawniard can have a Special Background. Evolve Bisharp by 9:00 p.m. for Kingambit with Kowtow Cleave (75 power in Trainer Battles; 85 in raids). Until 9:00 p.m., any Bisharp can evolve after defeating one Dark- or Steel-type Raid Boss, without needing to be your Buddy. Regular Lures can attract Pawniard; reduced trade costs and two Special Trades also last until 9:00 p.m. Optional US$1.99 research grants three Pawniard encounters with Special Backgrounds. Community Ambassador check-in research can also award background Pawniard."
     },
     {
       "name": "Mexicráneo – Discover Your Día de Muertos Spirit",
@@ -6675,7 +6675,7 @@
           "url": "https://www.merca20.com/pokemon-go-celebra-dia-de-muertos-con-actividades-especiales-en-mexico/"
         }
       ],
-      "notes": "Interactive Pokémon GO-themed Mexicráneo installation on Paseo de la Reforma, accessible October 17–November 16, 2026. Press the installation's button and scan the displayed 2D/QR code to discover which Día de Muertos event Pokémon represents your spirit and receive an in-game encounter. Contemporary coverage describes the encounter as a Timed Research reward; the official announcement does not specify a fixed species list or research deadline. The October 31–November 5 GO Stamp Rally is a separate activity, tracked in its own entry."
+      "notes": "At the Pokémon GO-themed Mexicráneo installation on Paseo de la Reforma, press the button and scan the displayed QR code to receive a Día de Muertos Pokémon encounter."
     },
     {
       "name": "Dynamax Trails",
@@ -6711,7 +6711,7 @@
           "url": "https://pokemongo.com/news/dynamax-trails-eternamax-eternatus-2026"
         }
       ],
-      "notes": "Main Dynamax Trails event runs November 16, 2026 at 10:00 a.m. through November 23 at 8:00 p.m. local time. All previously released non-Legendary, non-Mythical Dynamax Pokémon can return to Max Battles, with a chance of a commemorative Special Background on a successful Max Battle catch. The same non-Legendary/non-Mythical Dynamax-debut species can also appear in the wild. Event Field Research awards Stardust, Eternatus Candy, and themed encounters. The November 19 Spotlight Hour (6:00–7:00 p.m. local time) features Grookey, Scorbunny, and Sobble, each Shiny-eligible, with 2× Catch Candy. GO Pass: Dynamax Trails begins as early as November 14 for qualifying players; November 21 Eternamax Eternatus battles have their own separate entries."
+      "notes": "November 16 at 10:00 a.m.–November 23 at 8:00 p.m. local time. Previously released non-Legendary, non-Mythical Dynamax Pokémon return to Max Battles, with a chance of commemorative Special Backgrounds; some can also appear in the wild. Field Research rewards include Stardust, Eternatus Candy, and themed encounters. On November 19, 6:00–7:00 p.m., Grookey, Scorbunny, and Sobble feature in a Shiny-eligible Spotlight Hour with 2× Catch Candy."
     },
     {
       "name": "GO Pass: Dynamax Trails",
@@ -6759,7 +6759,7 @@
           "url": "https://pokemongo.com/news/dynamax-trails-eternamax-eternatus-2026"
         }
       ],
-      "notes": "GO Pass and optional US$4.99 Deluxe progression last through November 23, 2026 at 8:00 p.m. local time. Early access starts November 14 at 10:00 a.m. local time only for players who claimed Tier 1 rewards on GO Pass: Into the Wild; those players also receive a free Deluxe upgrade. General GO Pass access starts November 16 at 10:00 a.m. local time. Earn an Eternatus encounter once, or 100 Eternatus Candy if Eternatus has already been caught. Other rewards include Eternatus Candy/Candy XL and event-themed Dynamax Pokémon encounters with Special Backgrounds; Deluxe grants extra Pokémon, Candy/Candy XL and items. Earn GO Points until November 23 at 8:00 p.m. local time; already unlocked rewards expire November 25 at 8:00 p.m. local time (claim grace period only)."
+      "notes": "General access starts November 16 at 10:00 a.m. local time. Players who claimed Tier 1 of GO Pass: Into the Wild can start November 14 and receive a free Deluxe upgrade. The pass offers an Eternatus encounter (or 100 Eternatus Candy if already caught), Eternatus Candy/Candy XL, and Dynamax Pokémon encounters with Special Backgrounds. Optional Deluxe costs US$4.99. Earn GO Points through November 23 at 8:00 p.m.; claim unlocked rewards by November 25 at 8:00 p.m. local time."
     },
     {
       "name": "Eternamax Eternatus Max Battles",
@@ -6801,7 +6801,7 @@
           "url": "https://pokemongo.com/news/dynamax-trails-eternamax-eternatus-2026"
         }
       ],
-      "notes": "November 21, 2026, 11:00 a.m.–2:00 p.m. local time. Eternamax Eternatus takes over most Power Spots in worldwide Max Battles. Eternamax Eternatus cannot be caught from these Max Battles; victories award large amounts of Eternatus Candy and Eternatus Candy XL. The catchable Eternatus is instead a one-time reward from GO Pass: Dynamax Trails (or 100 Eternatus Candy if previously caught), which is tracked separately. The increased Remote Raid limit runs across the separate November 20–21 PST window."
+      "notes": "November 21, 11:00 a.m.–2:00 p.m. local time. Eternamax Eternatus appears at most Power Spots. It cannot be caught from Max Battles; victories award Eternatus Candy and Candy XL. An Eternatus encounter is available through GO Pass: Dynamax Trails. The increased Remote Raid limit applies across the November 20–21 PST window."
     },
     {
       "name": "Pokémon Center BANGKOK Grand Opening (Thailand)",
@@ -6837,7 +6837,7 @@
           "url": "https://pokemongo.com/news/pokemon-center-bangkok-opens-2026"
         }
       ],
-      "notes": "Special nationwide Pokémon GO event celebrating the opening of Pokémon Center BANGKOK, accessible anywhere in Thailand from December 1, 2026 at 6:00 a.m. to December 10 at 11:59 p.m. local time. Event-themed Timed Research rewards opening-themed stickers, Stardust, and other items. Additional event-themed stickers can be obtained by spinning PokéStops. Timed Research expires December 30, 2026; this later completion deadline does not extend the calendar bar."
+      "notes": "Throughout Thailand, receive opening-themed Timed Research from December 1 at 6:00 a.m. to December 10 at 11:59 p.m. local time. Rewards include commemorative stickers and Stardust; additional stickers are available from PokéStops. Complete the research by December 30."
     },
     {
       "name": "Sendai • Tohoku – Lapras GO Stamp Rally",
@@ -6871,7 +6871,7 @@
           "url": "https://pokemongo.com/news/forever-stamp-rally-go-wild-area-2026"
         }
       ],
-      "notes": "Ongoing free-for-all-Trainers, onsite eight-stamp sightseeing rally with no planned end date. Launched simultaneously worldwide November 2, 2026 at 4:00 p.m. PST, which is November 3 in Japan. Enter the gameplay area and approach a participating PokéStop to receive the stamp sheet. Visit eight PokéStops in any order; stamps cannot be redone. Shiny-eligible Lapras reward has a Sendai • Tohoku Location Background. Participating locations: Site of Sendai Castle; Sendai Mediatheque; Sendai Asaichi (Morning Market); Akiu Onsen; Tagajo Castle Ruins; Kadonowaki Elementary School Ruins; Shiroishi Castle; Matsushima Park. This is NOT the seven-stamp ticket-restricted November 6–8 GO Wild Area event rally; no ticket is required for this ongoing rally."
+      "notes": "Free, ongoing eight-stamp rally. Approach a participating PokéStop to get the stamp sheet, then visit the eight locations in any order. Stamps cannot be redone. Complete the rally for a Shiny-eligible Lapras with a Sendai • Tohoku Location Background. Locations: Site of Sendai Castle; Sendai Mediatheque; Sendai Asaichi (Morning Market); Akiu Onsen; Tagajo Castle Ruins; Kadonowaki Elementary School Ruins; Shiroishi Castle; Matsushima Park."
     },
     {
       "name": "Mexico City – Hawlucha GO Stamp Rally",
@@ -6905,7 +6905,7 @@
           "url": "https://pokemongo.com/news/forever-stamp-rally-go-wild-area-2026"
         }
       ],
-      "notes": "Ongoing free-for-all-Trainers, onsite eight-stamp sightseeing rally with no planned end date. Launched simultaneously worldwide November 2, 2026 at 4:00 p.m. PST, which is November 2 in Mexico City. Enter the gameplay area and approach a participating PokéStop to receive the stamp sheet. Visit eight PokéStops in any order; stamps cannot be redone. Shiny-eligible Hawlucha reward has a Mexico City Location Background. Participating locations: Palacio de Bellas Artes; Palacio Nacional; Columna “El Paraguas”; Diana Cazadora; Fuente de los Coyotes Coyoacán; Aztlán 360; Reloj y Fuente de Parque Hundido; Museo Soumaya. This is NOT the seven-stamp ticket-restricted November 6–8 GO Wild Area event rally; no ticket is required for this ongoing rally."
+      "notes": "Free, ongoing eight-stamp rally. Approach a participating PokéStop to get the stamp sheet, then visit the eight locations in any order. Stamps cannot be redone. Complete the rally for a Shiny-eligible Hawlucha with a Mexico City Location Background. Locations: Palacio de Bellas Artes; Palacio Nacional; Columna “El Paraguas”; Diana Cazadora; Fuente de los Coyotes Coyoacán; Aztlán 360; Reloj y Fuente de Parque Hundido; Museo Soumaya."
     },
     {
       "name": "Twilight Wishes",
@@ -6974,7 +6974,7 @@
               "shiny": true,
               "start": "2026-11-24",
               "end": "2026-11-26",
-              "requirement": "First Field Research phase: November 24 at 10:00 a.m. to November 26 at 10:00 a.m. local time; the date-only sidebar will show both phases on November 26."
+              "requirement": "First Field Research phase: November 24 at 10:00 a.m.–November 26 at 10:00 a.m. local time."
             }
           ]
         },
@@ -6986,7 +6986,7 @@
               "method": "field-research",
               "start": "2026-11-24",
               "end": "2026-11-26",
-              "requirement": "First Field Research phase: November 24 at 10:00 a.m. to November 26 at 10:00 a.m. local time; Shiny eligibility not announced."
+              "requirement": "First Field Research phase: November 24 at 10:00 a.m.–November 26 at 10:00 a.m. local time."
             }
           ]
         },
@@ -7026,7 +7026,7 @@
               "method": "field-research",
               "start": "2026-11-26",
               "end": "2026-11-30",
-              "requirement": "Second Field Research phase: November 26 at 10:00 a.m. to November 30 at 8:00 p.m. local time; Shiny eligibility not announced."
+              "requirement": "Second Field Research phase: November 26 at 10:00 a.m.–November 30 at 8:00 p.m. local time."
             }
           ]
         }
@@ -7042,7 +7042,7 @@
           "url": "https://pokemongo.com/news/twilight-wishes-2026"
         }
       ],
-      "notes": "November 24, 2026 at 10:00 a.m.–November 30 at 8:00 p.m. local time. Starry-sky event decorations. Event wild encounters include Shiny-eligible Clefairy, Staryu, Elgyem, and rare Rockruff; Staryu and Elgyem have increased Shiny chances. One-star raids feature Sun Crown/Moon Crown Pikachu and three-star raids Sun Scarf Espeon/Moon Scarf Umbreon. Mega Raids feature Beedrill, Houndoom, Sableye, and Manectric; Field Research and GO Pass rewards provide Mega Energy for those four species. Field Research rotates precisely at 10:00 a.m. local time on November 26: Applin and Maschiff from November 24 at 10:00 a.m. to November 26 at 10:00 a.m., then Spooky Festival Gengar, Halloween Mischief Drifblim, and Bramblin through November 30 at 8:00 p.m. Because calendar dates are day-granular, both research phases appear in the Active Obtainables sidebar on November 26; actual field-task availability changes at 10:00 a.m. GO Pass: Twilight Wishes is tracked separately."
+      "notes": "November 24 at 10:00 a.m.–November 30 at 8:00 p.m. local time. Wild encounters include Clefairy, Staryu, Elgyem, and rare Rockruff, with boosted Shiny chances for Staryu and Elgyem. Raids feature Sun Crown/Moon Crown Pikachu, Sun Scarf Espeon, Moon Scarf Umbreon, and Mega Beedrill, Houndoom, Sableye, and Manectric. Field Research awards Mega Energy and changes at 10:00 a.m. on November 26: Applin and Maschiff before the switch, then Spooky Festival Gengar, Halloween Mischief Drifblim, and Bramblin afterward."
     },
     {
       "name": "GO Pass: Twilight Wishes",
@@ -7096,7 +7096,7 @@
           "url": "https://pokemongo.com/news/twilight-wishes-2026"
         }
       ],
-      "notes": "November 24 at 10:00 a.m. to November 30, 2026 at 8:00 p.m. local time. Free GO Pass is assigned automatically; optional GO Pass Deluxe costs US$4.99, or US$6.99 for Deluxe + 6 Ranks (starts at Rank 7). Rank 1 increases Lucky Pokémon trade and Lucky Friends chances; Rank 10 gives 2× Catch Stardust, or 3× with Deluxe. Free rewards include event Pokémon encounters, Star Pieces, Rare Candy, and Mega Energy for Beedrill, Houndoom, Sableye, and Manectric. Deluxe offers additional event encounters, an event-themed avatar pose, and ordinary items. Already unlocked rewards can be claimed only until December 2 at 8:00 p.m. local time; this claim grace period is not an additional period for new progression."
+      "notes": "November 24 at 10:00 a.m.–November 30 at 8:00 p.m. local time. Free GO Pass rewards include Pokémon encounters, Star Pieces, Rare Candy, and Mega Energy for Beedrill, Houndoom, Sableye, and Manectric. Milestones boost Lucky Pokémon and Lucky Friends chances and grant 2× Catch Stardust (3× with Deluxe). Deluxe costs US$4.99, or US$6.99 with six extra ranks, and includes an event-themed avatar pose. Claim unlocked rewards by December 2 at 8:00 p.m. local time."
     },
     {
       "name": "GO Wild Area: Gigantamax Machamp Power Up Timed Research",
@@ -7158,7 +7158,7 @@
             },
             {
               "method": "timed-research",
-              "requirement": "Obtain a promotional QR code onsite at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the limited-time research. The announcement lists all five costumed Pokémon as possible research encounters; individual encounter rates and Shiny eligibility are not specified."
+              "requirement": "Scan a promotional QR code at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the Timed Research for a chance at this costumed Pokémon."
             }
           ]
         },
@@ -7175,7 +7175,7 @@
             },
             {
               "method": "timed-research",
-              "requirement": "Obtain a promotional QR code onsite at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the limited-time research. The announcement lists all five costumed Pokémon as possible research encounters; individual encounter rates and Shiny eligibility are not specified."
+              "requirement": "Scan a promotional QR code at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the Timed Research for a chance at this costumed Pokémon."
             }
           ]
         },
@@ -7192,7 +7192,7 @@
             },
             {
               "method": "timed-research",
-              "requirement": "Obtain a promotional QR code onsite at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the limited-time research. The announcement lists all five costumed Pokémon as possible research encounters; individual encounter rates and Shiny eligibility are not specified."
+              "requirement": "Scan a promotional QR code at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the Timed Research for a chance at this costumed Pokémon."
             }
           ]
         },
@@ -7209,7 +7209,7 @@
             },
             {
               "method": "timed-research",
-              "requirement": "Obtain a promotional QR code onsite at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the limited-time research. The announcement lists all five costumed Pokémon as possible research encounters; individual encounter rates and Shiny eligibility are not specified."
+              "requirement": "Scan a promotional QR code at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the Timed Research for a chance at this costumed Pokémon."
             }
           ]
         },
@@ -7226,7 +7226,7 @@
             },
             {
               "method": "timed-research",
-              "requirement": "Obtain a promotional QR code onsite at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the limited-time research. The announcement lists all five costumed Pokémon as possible research encounters; individual encounter rates and Shiny eligibility are not specified."
+              "requirement": "Scan a promotional QR code at one of 30 designated Hong Kong McDonald's restaurants, redeem it in the Pokémon GO Web Store, and complete the Timed Research for a chance at this costumed Pokémon."
             }
           ]
         }
@@ -7236,7 +7236,7 @@
           "url": "https://pokemongo.com/zh_Hant/news/202611mcdhk"
         }
       ],
-      "notes": "Onsite Hong Kong McDonald's collaboration, November 12, 2026 at 9:00 a.m.–December 20 at 11:59 p.m. Hong Kong time. Spinning event PokéStops at McDonald's restaurants throughout Hong Kong awards themed Field Research. Encounter rewards rotate by wave: Purple Party Hat Pikachu November 12 (9:00 a.m.)–22; Party Hat Bulbasaur November 23–29; Party Hat Charmander November 30–December 6; Party Hat Squirtle December 7–13; Party Hat Eevee December 14–20. Separately, 30 designated McDonald's restaurants offer an onsite QR code for promotional Timed Research, which must be redeemed in the Pokémon GO Web Store and can reward the same five costumed Pokémon. The official announcement does not specify Shiny eligibility or a separate, exact redemption/claim deadline; Timed Research expires at the deadline shown in-game. Do not assume every McDonald's provides QR codes: Field Research PokéStops have broader coverage than the 30 QR-code locations."
+      "notes": "Participating Hong Kong McDonald's PokéStops award rotating Field Research encounters: Purple Party Hat Pikachu (Nov 12–22), Party Hat Bulbasaur (Nov 23–29), Charmander (Nov 30–Dec 6), Squirtle (Dec 7–13), and Eevee (Dec 14–20). Thirty selected restaurants also offer QR codes redeemable for Timed Research featuring the five costumed Pokémon; check the in-game research deadline."
     },
     {
       "name": "December 2026 Community Day",
@@ -7252,7 +7252,7 @@
           "url": "https://pokemongo.com/news/save-the-date-s25"
         }
       ],
-      "notes": "Two-day December 2026 Community Day weekend; dates officially announced for the next Season. Featured Pokémon, bonuses and precise hours have not yet been announced. This is one two-day event, not separate Saturday/Sunday placeholders."
+      "notes": "Two-day Community Day weekend. Featured Pokémon, event hours, and bonuses to be announced."
     },
     {
       "name": "January 2027 Community Day Classic",
@@ -7268,7 +7268,7 @@
           "url": "https://pokemongo.com/news/save-the-date-s25"
         }
       ],
-      "notes": "Official Season 25 save-the-date for January 2027 Community Day Classic on 2027-01-02. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+      "notes": "Featured Pokémon, event hours, and bonuses to be announced."
     },
     {
       "name": "January 2027 Community Day",
@@ -7284,7 +7284,7 @@
           "url": "https://pokemongo.com/news/save-the-date-s25"
         }
       ],
-      "notes": "Official Season 25 save-the-date for January 2027 Community Day on 2027-01-16. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+      "notes": "Featured Pokémon, event hours, and bonuses to be announced."
     },
     {
       "name": "February 2027 Community Day",
@@ -7300,7 +7300,7 @@
           "url": "https://pokemongo.com/news/save-the-date-s25"
         }
       ],
-      "notes": "Official Season 25 save-the-date for February 2027 Community Day on 2027-02-06. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+      "notes": "Featured Pokémon, event hours, and bonuses to be announced."
     },
     {
       "name": "December 2026 Max Battle Day",
@@ -7316,7 +7316,7 @@
           "url": "https://pokemongo.com/news/save-the-date-s25"
         }
       ],
-      "notes": "Official Season 25 save-the-date for December 2026 Max Battle Day on 2026-12-05. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+      "notes": "Featured Pokémon, event hours, and bonuses to be announced."
     },
     {
       "name": "December 2026 Raid Day",
@@ -7332,7 +7332,7 @@
           "url": "https://pokemongo.com/news/save-the-date-s25"
         }
       ],
-      "notes": "Official Season 25 save-the-date for December 2026 Raid Day on 2026-12-19. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+      "notes": "Featured Pokémon, event hours, and bonuses to be announced."
     },
     {
       "name": "December 2026 Hatch Day",
@@ -7348,7 +7348,7 @@
           "url": "https://pokemongo.com/news/save-the-date-s25"
         }
       ],
-      "notes": "Official Season 25 save-the-date for December 2026 Hatch Day on 2026-12-26. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+      "notes": "Featured Pokémon, event hours, and bonuses to be announced."
     },
     {
       "name": "January 2027 Super Mega Raid Day",
@@ -7364,7 +7364,7 @@
           "url": "https://pokemongo.com/news/save-the-date-s25"
         }
       ],
-      "notes": "Official Season 25 save-the-date for January 2027 Super Mega Raid Day on 2027-01-09. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+      "notes": "Featured Pokémon, event hours, and bonuses to be announced."
     },
     {
       "name": "January 2027 Max Battle Day",
@@ -7380,7 +7380,7 @@
           "url": "https://pokemongo.com/news/save-the-date-s25"
         }
       ],
-      "notes": "Official Season 25 save-the-date for January 2027 Max Battle Day on 2027-01-23. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+      "notes": "Featured Pokémon, event hours, and bonuses to be announced."
     },
     {
       "name": "January 2027 Super Mega Raid Day (January 30)",
@@ -7396,7 +7396,7 @@
           "url": "https://pokemongo.com/news/save-the-date-s25"
         }
       ],
-      "notes": "Official Season 25 save-the-date for January 2027 Super Mega Raid Day (January 30) on 2027-01-30. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+      "notes": "Featured Pokémon, event hours, and bonuses to be announced."
     },
     {
       "name": "February 2027 Raid Day",
@@ -7412,7 +7412,7 @@
           "url": "https://pokemongo.com/news/save-the-date-s25"
         }
       ],
-      "notes": "Official Season 25 save-the-date for February 2027 Raid Day on 2027-02-13. Featured Pokémon, exact local hours, bonuses, and other gameplay details have not yet been announced; update this existing identifier when the full event announcement is released."
+      "notes": "Featured Pokémon, event hours, and bonuses to be announced."
     },
     {
       "name": "Pokémon GO × Apple Store Japan – Applin Encounters",
@@ -7437,7 +7437,7 @@
             {
               "method": "lure",
               "shiny": true,
-              "requirement": "Tap apples near the continuously active Mossy Lure Module at an Apple Store PokéStop during store hours (10:00 a.m.–9:00 p.m. Japan time); an Applin encounter is possible, not guaranteed. Shiny Applin debuted in September 2026."
+              "requirement": "Tap apples near Mossy Lures at Apple Store PokéStops during store hours (10:00 a.m.–9:00 p.m. Japan time) for a chance to encounter Applin."
             }
           ]
         }
@@ -7454,7 +7454,7 @@
           "url": "https://pokemongo.com/ja/news/apple_store_japan"
         }
       ],
-      "notes": "November 16–30, 2026. All eleven Apple Stores in Japan are added as special Pokémon GO PokéStops. During store hours, 10:00 a.m.–9:00 p.m. Japan time, they have continuously active Mossy Lure Modules (Japanese: ハーブルアーモジュール). Apples appear around the lures; tapping them can give a chance to encounter Applin, which is Shiny-eligible following its September 2026 debut. Stores: Apple Ginza; Apple Marunouchi; Apple Shinjuku; Apple Shibuya; Apple Omotesando; Apple Kawasaki; Apple Nagoya Sakae; Apple Kyoto; Apple Shinsaibashi; Apple Osaka; Apple Fukuoka. Specially designed Apple Gift Cards are also sold at all eleven stores, but are merchandise rather than in-game obtainable rewards."
+      "notes": "From November 16–30, special PokéStops at all 11 Apple Stores in Japan feature continuously active Mossy Lures during store hours (10:00 a.m.–9:00 p.m. Japan time). Tap nearby apples for a chance to encounter Shiny-eligible Applin. Stores: Ginza; Marunouchi; Shinjuku; Shibuya; Omotesando; Kawasaki; Nagoya Sakae; Kyoto; Shinsaibashi; Osaka; Fukuoka."
     },
     {
       "name": "Pokémon GO × Crocs Avatar Items",
@@ -7505,7 +7505,7 @@
           "url": "https://pokemongo.com/news/pokemon-crocs-2026"
         }
       ],
-      "notes": "Worldwide Pokémon GO avatar-item collaboration announced November 16, 2026. All three are cosmetic footwear avatar items (not Pokémon encounters or wild event bonuses). The Pikachu Classic Clog avatar shoes are available freely with offer code POKEMONGOxCROCSxELECTRIFYING entered at the Pokémon GO Web Store. The Gengar Classic Clog and Jigglypuff Classic Platform Clog avatar shoes instead require the unique offer code supplied after purchasing the corresponding physical Crocs shoes; the article does not publish universal codes for these. Offer codes can be redeemed until December 31, 2027. No separate purchase-promotion end date is announced, so the calendar represents the documented code-redemption deadline, not a guarantee that physical footwear will remain in stock until then."
+      "notes": "Redeem free code POKEMONGOxCROCSxELECTRIFYING in the Pokémon GO Web Store for Pikachu Classic Clog avatar shoes. Purchase the corresponding physical Gengar or Jigglypuff Crocs to receive a unique code for those avatar shoes. Codes can be redeemed through December 31, 2027."
     },
     {
       "name": "2027 Latin America International Championships – Twitch Viewing Rewards",
@@ -7524,7 +7524,7 @@
           "methods": [
             {
               "method": "timed-research",
-              "requirement": "Watch 30 minutes of the 2027 LAIC Pokémon GO broadcast November 20–22 to earn championship-inspired Timed Research. The official announcement specifies Samurott, not Shadow Samurott. Complete the research and claim rewards before December 4, 2026 at 12:00 p.m. PST."
+              "requirement": "Watch 30 minutes of the LAIC Pokémon GO broadcast November 20–22 to receive Samurott Timed Research. Complete and claim rewards by December 4, 2026 at noon PST."
             }
           ]
         },
@@ -7544,7 +7544,7 @@
           "url": "https://pokemongo.com/news/latin-america-international-championships-2026"
         }
       ],
-      "notes": "Global watch-and-earn rewards for the 2027 Pokémon Latin America International Championships (LAIC), despite the official article URL ending in '-2026'. Broadcast and viewing opportunities run Friday November 20, 2026 at 4:00 a.m. through Sunday November 22 at 3:00 p.m. PST. On November 20–21, watch the official Twitch.tv/PokemonGO channel; on November 22, watch Twitch.tv/Pokemon. Watching 30 minutes unlocks Timed Research featuring a Samurott inspired by PsyRhino's 2026 NAIC-winning team, plus Oshawott Candy XL and Charged/Fast TMs. The winning team used Shadow Samurott, but this article promises only a Samurott encounter, with no confirmed Shadow or Shiny eligibility. Timed Research must be completed and claimed before Friday December 4, 2026 at 12:00 p.m. PST (completion grace, not part of new Twitch viewing availability). Watching 45 minutes yields the separate LAIC Battle Bundle with an Elite Charged TM, Rare Candy XL, 25 Charged TMs and 25 Fast TMs. No separate redemption deadline is stated for the Battle Bundle."
+      "notes": "Watch the Latin America International Championships broadcast November 20 at 4:00 a.m.–November 22 at 3:00 p.m. PST. Tune in to Twitch.tv/PokemonGO on November 20–21 or Twitch.tv/Pokemon on November 22. Watch 30 minutes for Timed Research with a Samurott encounter, Oshawott Candy XL, and TMs; complete it by December 4 at noon PST. Watch 45 minutes for an Elite Charged TM, Rare Candy XL, 25 Charged TMs, and 25 Fast TMs."
     },
     {
       "name": "Pokémon GO × Duolingo – Catch a New Language",
@@ -7564,7 +7564,7 @@
               "method": "timed-research",
               "shiny": true,
               "background": true,
-              "requirement": "Earn a personalized offer code after completing at least one Duolingo lesson on seven different days in Duo's Pokémon Party, redeem the code in the Pokémon GO Web Store, and complete the resulting Timed Research by December 31, 2026 at 11:59 p.m. local time. Quest enrollment closes December 21; seven-day progress and code acquisition remain possible until December 29 for those already enrolled."
+              "requirement": "Complete a Duolingo lesson on seven different days, redeem the resulting code for Pokémon GO Timed Research, and claim rewards by December 31, 2026."
             }
           ]
         },
@@ -7576,7 +7576,7 @@
               "method": "timed-research",
               "shiny": true,
               "background": true,
-              "requirement": "Earn a personalized offer code after completing at least one Duolingo lesson on seven different days in Duo's Pokémon Party, redeem the code in the Pokémon GO Web Store, and complete the resulting Timed Research by December 31, 2026 at 11:59 p.m. local time. Quest enrollment closes December 21; seven-day progress and code acquisition remain possible until December 29 for those already enrolled."
+              "requirement": "Complete a Duolingo lesson on seven different days, redeem the resulting code for Pokémon GO Timed Research, and claim rewards by December 31, 2026."
             }
           ]
         },
@@ -7588,7 +7588,7 @@
               "method": "timed-research",
               "shiny": true,
               "background": true,
-              "requirement": "Earn a personalized offer code after completing at least one Duolingo lesson on seven different days in Duo's Pokémon Party, redeem the code in the Pokémon GO Web Store, and complete the resulting Timed Research by December 31, 2026 at 11:59 p.m. local time. Quest enrollment closes December 21; seven-day progress and code acquisition remain possible until December 29 for those already enrolled."
+              "requirement": "Complete a Duolingo lesson on seven different days, redeem the resulting code for Pokémon GO Timed Research, and claim rewards by December 31, 2026."
             }
           ]
         },
@@ -7600,7 +7600,7 @@
               "method": "timed-research",
               "shiny": true,
               "background": true,
-              "requirement": "Earn a personalized offer code after completing at least one Duolingo lesson on seven different days in Duo's Pokémon Party, redeem the code in the Pokémon GO Web Store, and complete the resulting Timed Research by December 31, 2026 at 11:59 p.m. local time. Quest enrollment closes December 21; seven-day progress and code acquisition remain possible until December 29 for those already enrolled."
+              "requirement": "Complete a Duolingo lesson on seven different days, redeem the resulting code for Pokémon GO Timed Research, and claim rewards by December 31, 2026."
             }
           ]
         }
@@ -7610,8 +7610,8 @@
           "url": "https://pokemongo.com/news/duolingo-2026"
         }
       ],
-      "notes": "Global cross-app collaboration. Duo's Pokémon Party starts November 17, 2026 at 10:00 a.m. JST (November 16 in some western time zones) on the latest Duolingo app. New players must join the Duolingo quest by December 21 at 11:59 p.m. local time, which is the calendar end date for new participation. Do at least one lesson on seven different days in any Duolingo course to receive a Pokémon GO Web Store offer code. Already enrolled participants can continue the quest and claim the code through December 29 at 11:59 p.m. local time. Complete the redeemed Pokémon GO Timed Research and claim its rewards by December 31 at 11:59 p.m. local time; neither later deadline extends new enrollment. Players choose a language for the in-game research tasks and can use Professor Willow's hints. Research rewards include XP, Stardust, and Shiny-eligible Pikachu, Meowth, Chatot, and Lucario encounters with event-specific Special Backgrounds. Certain rewarded Pokémon display a new language tag on their summary screens; tapping it reveals the Pokémon's names in different languages. Duolingo's four Pokémon-themed avatar outfits belong to the Duolingo app, not Pokémon GO avatar customization, so they are not listed as Pokémon GO Obtainables. Offer codes are earned individually rather than a single publicly shared universal redemption code."
+      "notes": "Join Duo's Pokémon Party in Duolingo by December 21 at 11:59 p.m. local time. Complete at least one lesson on seven different days to earn a personal Pokémon GO Web Store code; enrolled players can finish and claim their code through December 29. The code unlocks Pokémon GO Timed Research with Shiny-eligible Pikachu, Meowth, Chatot, and Lucario encounters featuring Special Backgrounds. Choose a language for the tasks and use Professor Willow's hints. Some rewarded Pokémon have a Language Tag that reveals their names in other languages. Complete the research and claim rewards by December 31 at 11:59 p.m. local time."
     }
   ],
-  "updated_at": "2026-11-17T02:36:17.474Z"
+  "updated_at": "2026-11-17T02:42:26.847Z"
 }
