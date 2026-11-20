@@ -7250,9 +7250,815 @@
       "sources": [
         {
           "url": "https://pokemongo.com/news/save-the-date-s25"
+        },
+        {
+          "url": "https://pokemongo.com/news/community-day-december-2026"
         }
       ],
-      "notes": "Two-day Community Day weekend. Featured Pokémon, event hours, and bonuses to be announced."
+      "notes": "December 12–13, 2:00–5:00 p.m. local time each day. Saturday features Vulpix, Alolan Vulpix, Grookey, Scorbunny, Lechonk, and Tinkatink, with rare Piplup; Sunday features Zorua, Pawniard, Sobble, Nickit, and Frigibax, with rare Gible and Deino. These hours offer original Community Day Shiny rates and a chance of Special Backgrounds. All featured Pokémon may also appear 9:00 a.m.–9:00 p.m. on either day. Featured evolution moves are available December 12 at 9:00 a.m.–December 13 at 9:00 p.m. Most bonuses run 2:00–5:00 p.m. both days; one-hour Lures, up to two Special Trades per day, reduced trade costs, and the temporary Kingambit evolution requirement run across the entire 9:00 a.m. Saturday–9:00 p.m. Sunday window. Event Field Research and Community Ambassador check-in Timed Research may give Special Background Pokémon. Optional US$4.99 Special Research offers Special Background encounters, an Elite Charged TM, Elite Fast TM, Rocket Radar, and more.",
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Vulpix",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-12",
+              "end": "2026-12-12",
+              "requirement": "Saturday, December 12, 2:00–5:00 p.m. local time: featured encounter with original Community Day Shiny rates and a chance of a Special Background."
+            },
+            {
+              "method": "wild",
+              "shiny": true,
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Also possible 9:00 a.m.–9:00 p.m. local time on either day; Community Day Shiny rates and Special Backgrounds are specified for the 2:00–5:00 p.m. daily featured hours."
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event Field Research can award Vulpix encounters, potentially with a Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$4.99 December Community Day Special Research may reward Vulpix with a Special Background."
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador event for Timed Research rewarding featured Pokémon encounters with possible Special Backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Vulpix",
+          "form": "Alolan",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-12",
+              "end": "2026-12-12",
+              "requirement": "Saturday, December 12, 2:00–5:00 p.m. local time: featured encounter with original Community Day Shiny rates and a chance of a Special Background."
+            },
+            {
+              "method": "wild",
+              "shiny": true,
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Also possible 9:00 a.m.–9:00 p.m. local time on either day; Community Day Shiny rates and Special Backgrounds are specified for the 2:00–5:00 p.m. daily featured hours."
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event Field Research can award Alolan Vulpix encounters, potentially with a Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$4.99 December Community Day Special Research may reward Alolan Vulpix with a Special Background."
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador event for Timed Research rewarding featured Pokémon encounters with possible Special Backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Grookey",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-12",
+              "end": "2026-12-12",
+              "requirement": "Saturday, December 12, 2:00–5:00 p.m. local time: featured encounter with original Community Day Shiny rates and a chance of a Special Background."
+            },
+            {
+              "method": "wild",
+              "shiny": true,
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Also possible 9:00 a.m.–9:00 p.m. local time on either day; Community Day Shiny rates and Special Backgrounds are specified for the 2:00–5:00 p.m. daily featured hours."
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event Field Research can award Grookey encounters, potentially with a Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$4.99 December Community Day Special Research may reward Grookey with a Special Background."
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador event for Timed Research rewarding featured Pokémon encounters with possible Special Backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Scorbunny",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-12",
+              "end": "2026-12-12",
+              "requirement": "Saturday, December 12, 2:00–5:00 p.m. local time: featured encounter with original Community Day Shiny rates and a chance of a Special Background."
+            },
+            {
+              "method": "wild",
+              "shiny": true,
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Also possible 9:00 a.m.–9:00 p.m. local time on either day; Community Day Shiny rates and Special Backgrounds are specified for the 2:00–5:00 p.m. daily featured hours."
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event Field Research can award Scorbunny encounters, potentially with a Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$4.99 December Community Day Special Research may reward Scorbunny with a Special Background."
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador event for Timed Research rewarding featured Pokémon encounters with possible Special Backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Lechonk",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-12",
+              "end": "2026-12-12",
+              "requirement": "Saturday, December 12, 2:00–5:00 p.m. local time: featured encounter with original Community Day Shiny rates and a chance of a Special Background."
+            },
+            {
+              "method": "wild",
+              "shiny": true,
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Also possible 9:00 a.m.–9:00 p.m. local time on either day; Community Day Shiny rates and Special Backgrounds are specified for the 2:00–5:00 p.m. daily featured hours."
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event Field Research can award Lechonk encounters, potentially with a Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$4.99 December Community Day Special Research may reward Lechonk with a Special Background."
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador event for Timed Research rewarding featured Pokémon encounters with possible Special Backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Tinkatink",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-12",
+              "end": "2026-12-12",
+              "requirement": "Saturday, December 12, 2:00–5:00 p.m. local time: featured encounter with original Community Day Shiny rates and a chance of a Special Background."
+            },
+            {
+              "method": "wild",
+              "shiny": true,
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Also possible 9:00 a.m.–9:00 p.m. local time on either day; Community Day Shiny rates and Special Backgrounds are specified for the 2:00–5:00 p.m. daily featured hours."
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event Field Research can award Tinkatink encounters, potentially with a Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$4.99 December Community Day Special Research may reward Tinkatink with a Special Background."
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador event for Timed Research rewarding featured Pokémon encounters with possible Special Backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Piplup",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-12",
+              "end": "2026-12-12",
+              "requirement": "Saturday, December 12, 2:00–5:00 p.m. local time: rare featured encounter with original Community Day Shiny rates and a chance of a Special Background."
+            },
+            {
+              "method": "wild",
+              "shiny": true,
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Also possible 9:00 a.m.–9:00 p.m. local time on either day; Community Day Shiny rates and Special Backgrounds are specified for the 2:00–5:00 p.m. daily featured hours."
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event Field Research can award Piplup encounters, potentially with a Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$4.99 December Community Day Special Research may reward Piplup with a Special Background."
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador event for Timed Research rewarding featured Pokémon encounters with possible Special Backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Zorua",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-13",
+              "end": "2026-12-13",
+              "requirement": "Sunday, December 13, 2:00–5:00 p.m. local time: featured encounter with original Community Day Shiny rates and a chance of a Special Background."
+            },
+            {
+              "method": "wild",
+              "shiny": true,
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Also possible 9:00 a.m.–9:00 p.m. local time on either day; Community Day Shiny rates and Special Backgrounds are specified for the 2:00–5:00 p.m. daily featured hours."
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event Field Research can award Zorua encounters, potentially with a Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$4.99 December Community Day Special Research may reward Zorua with a Special Background."
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador event for Timed Research rewarding featured Pokémon encounters with possible Special Backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Pawniard",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-13",
+              "end": "2026-12-13",
+              "requirement": "Sunday, December 13, 2:00–5:00 p.m. local time: featured encounter with original Community Day Shiny rates and a chance of a Special Background."
+            },
+            {
+              "method": "wild",
+              "shiny": true,
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Also possible 9:00 a.m.–9:00 p.m. local time on either day; Community Day Shiny rates and Special Backgrounds are specified for the 2:00–5:00 p.m. daily featured hours."
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event Field Research can award Pawniard encounters, potentially with a Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$4.99 December Community Day Special Research may reward Pawniard with a Special Background."
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador event for Timed Research rewarding featured Pokémon encounters with possible Special Backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Sobble",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-13",
+              "end": "2026-12-13",
+              "requirement": "Sunday, December 13, 2:00–5:00 p.m. local time: featured encounter with original Community Day Shiny rates and a chance of a Special Background."
+            },
+            {
+              "method": "wild",
+              "shiny": true,
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Also possible 9:00 a.m.–9:00 p.m. local time on either day; Community Day Shiny rates and Special Backgrounds are specified for the 2:00–5:00 p.m. daily featured hours."
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event Field Research can award Sobble encounters, potentially with a Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$4.99 December Community Day Special Research may reward Sobble with a Special Background."
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador event for Timed Research rewarding featured Pokémon encounters with possible Special Backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Nickit",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-13",
+              "end": "2026-12-13",
+              "requirement": "Sunday, December 13, 2:00–5:00 p.m. local time: featured encounter with original Community Day Shiny rates and a chance of a Special Background."
+            },
+            {
+              "method": "wild",
+              "shiny": true,
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Also possible 9:00 a.m.–9:00 p.m. local time on either day; Community Day Shiny rates and Special Backgrounds are specified for the 2:00–5:00 p.m. daily featured hours."
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event Field Research can award Nickit encounters, potentially with a Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$4.99 December Community Day Special Research may reward Nickit with a Special Background."
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador event for Timed Research rewarding featured Pokémon encounters with possible Special Backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Frigibax",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-13",
+              "end": "2026-12-13",
+              "requirement": "Sunday, December 13, 2:00–5:00 p.m. local time: featured encounter with original Community Day Shiny rates and a chance of a Special Background."
+            },
+            {
+              "method": "wild",
+              "shiny": true,
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Also possible 9:00 a.m.–9:00 p.m. local time on either day; Community Day Shiny rates and Special Backgrounds are specified for the 2:00–5:00 p.m. daily featured hours."
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event Field Research can award Frigibax encounters, potentially with a Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$4.99 December Community Day Special Research may reward Frigibax with a Special Background."
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador event for Timed Research rewarding featured Pokémon encounters with possible Special Backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Gible",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-13",
+              "end": "2026-12-13",
+              "requirement": "Sunday, December 13, 2:00–5:00 p.m. local time: rare featured encounter with original Community Day Shiny rates and a chance of a Special Background."
+            },
+            {
+              "method": "wild",
+              "shiny": true,
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Also possible 9:00 a.m.–9:00 p.m. local time on either day; Community Day Shiny rates and Special Backgrounds are specified for the 2:00–5:00 p.m. daily featured hours."
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event Field Research can award Gible encounters, potentially with a Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$4.99 December Community Day Special Research may reward Gible with a Special Background."
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador event for Timed Research rewarding featured Pokémon encounters with possible Special Backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Deino",
+          "methods": [
+            {
+              "method": "wild",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-13",
+              "end": "2026-12-13",
+              "requirement": "Sunday, December 13, 2:00–5:00 p.m. local time: rare featured encounter with original Community Day Shiny rates and a chance of a Special Background."
+            },
+            {
+              "method": "wild",
+              "shiny": true,
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Also possible 9:00 a.m.–9:00 p.m. local time on either day; Community Day Shiny rates and Special Backgrounds are specified for the 2:00–5:00 p.m. daily featured hours."
+            },
+            {
+              "method": "field-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Event Field Research can award Deino encounters, potentially with a Special Background."
+            },
+            {
+              "method": "special-research",
+              "shiny": true,
+              "background": true,
+              "paid": true,
+              "requirement": "US$4.99 December Community Day Special Research may reward Deino with a Special Background."
+            },
+            {
+              "method": "timed-research",
+              "shiny": true,
+              "background": true,
+              "requirement": "Check in at a Community Ambassador event for Timed Research rewarding featured Pokémon encounters with possible Special Backgrounds."
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Ninetales",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Energy Ball",
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Evolve into Ninetales from December 12 at 9:00 a.m. to December 13 at 9:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Ninetales",
+          "form": "Alolan",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Chilling Water",
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Evolve into Alolan Ninetales from December 12 at 9:00 a.m. to December 13 at 9:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Rillaboom",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Frenzy Plant",
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Evolve into Rillaboom from December 12 at 9:00 a.m. to December 13 at 9:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Cinderace",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Blast Burn",
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Evolve into Cinderace from December 12 at 9:00 a.m. to December 13 at 9:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Oinkologne",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Mud Slap",
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Evolve into Oinkologne from December 12 at 9:00 a.m. to December 13 at 9:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Tinkaton",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Gigaton Hammer",
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Evolve into Tinkaton from December 12 at 9:00 a.m. to December 13 at 9:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Empoleon",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Hydro Cannon",
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Evolve into Empoleon from December 12 at 9:00 a.m. to December 13 at 9:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Zoroark",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Sucker Punch",
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Evolve into Zoroark from December 12 at 9:00 a.m. to December 13 at 9:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Kingambit",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Kowtow Cleave",
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Evolve into Kingambit from December 12 at 9:00 a.m. to December 13 at 9:00 p.m. local time; the temporary Bisharp evolution requirement ends at 9:00 p.m. December 13."
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Inteleon",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Hydro Cannon",
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Evolve into Inteleon from December 12 at 9:00 a.m. to December 13 at 9:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Thievul",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Icy Wind",
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Evolve into Thievul from December 12 at 9:00 a.m. to December 13 at 9:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Baxcalibur",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Glaive Rush",
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Evolve into Baxcalibur from December 12 at 9:00 a.m. to December 13 at 9:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Garchomp",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Earth Power",
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Evolve into Garchomp from December 12 at 9:00 a.m. to December 13 at 9:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "move",
+          "pokemon": "Hydreigon",
+          "methods": [
+            {
+              "method": "evolution",
+              "exclusive_move": "Brutal Swing",
+              "start": "2026-12-12",
+              "end": "2026-12-13",
+              "requirement": "Evolve into Hydreigon from December 12 at 9:00 a.m. to December 13 at 9:00 p.m. local time."
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "xp",
+          "action": "catch",
+          "multiplier": 2,
+          "requirement": "December 12–13, 2:00–5:00 p.m. local time"
+        },
+        {
+          "type": "stardust",
+          "action": "catch",
+          "multiplier": 2,
+          "requirement": "December 12–13, 2:00–5:00 p.m. local time"
+        },
+        {
+          "type": "hatch-distance",
+          "multiplier": 0.5,
+          "requirement": "Eggs placed in Incubators December 12–13, 2:00–5:00 p.m. local time"
+        },
+        {
+          "type": "candy",
+          "action": "catch",
+          "multiplier": 2,
+          "requirement": "December 12–13, 2:00–5:00 p.m. local time"
+        },
+        {
+          "type": "candy-xl-chance",
+          "action": "catch",
+          "multiplier": 2,
+          "requirement": "Trainer level 31+; December 12–13, 2:00–5:00 p.m. local time"
+        },
+        {
+          "type": "incense-duration",
+          "duration_minutes": 180,
+          "requirement": "Non-Daily Adventure Incense activated December 12–13, 2:00–5:00 p.m. local time"
+        },
+        {
+          "type": "lure-duration",
+          "duration_minutes": 60,
+          "requirement": "December 12 at 9:00 a.m.–December 13 at 9:00 p.m. local time"
+        },
+        {
+          "type": "special-trade",
+          "amount": 2,
+          "label": "Up to two Special Trades per day",
+          "requirement": "December 12 at 9:00 a.m.–December 13 at 9:00 p.m. local time"
+        },
+        {
+          "type": "trade-stardust-cost",
+          "multiplier": 0.5,
+          "requirement": "December 12 at 9:00 a.m.–December 13 at 9:00 p.m. local time"
+        },
+        {
+          "type": "evolution-requirement",
+          "label": "Evolve Bisharp into Kingambit after defeating one Dark- or Steel-type Raid Boss with Bisharp as your Buddy",
+          "requirement": "December 12 at 9:00 a.m.–December 13 at 9:00 p.m. local time"
+        }
+      ]
     },
     {
       "name": "January 2027 Community Day Classic",
@@ -7655,5 +8461,5 @@
       ]
     }
   ],
-  "updated_at": "2026-11-20T05:48:15.831Z"
+  "updated_at": "2026-11-20T19:28:47.530Z"
 }
