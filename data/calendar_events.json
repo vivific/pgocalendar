@@ -7611,7 +7611,49 @@
         }
       ],
       "notes": "Join Duo's Pokémon Party in Duolingo by December 21 at 11:59 p.m. local time. Complete at least one lesson on seven different days to earn a personal Pokémon GO Web Store code; enrolled players can finish and claim their code through December 29. The code unlocks Pokémon GO Timed Research with Shiny-eligible Pikachu, Meowth, Chatot, and Lucario encounters featuring Special Backgrounds. Choose a language for the tasks and use Professor Willow's hints. Some rewarded Pokémon have a Language Tag that reveals their names in other languages. Complete the research and claim rewards by December 31 at 11:59 p.m. local time."
+    },
+    {
+      "name": "ANA Blue Pokémon Jet (Japan)",
+      "identifier": "2026-ana-blue",
+      "type": "collaboration",
+      "start": "2026-12-11",
+      "end": "2027-08-31",
+      "availability": {
+        "type": "onsite",
+        "regions": [
+          "Japan"
+        ],
+        "locations": [
+          "Chubu Centrair International Airport",
+          "Noto Airport",
+          "Hiroshima Airport",
+          "Okayama Airport",
+          "Osaka International Airport",
+          "Kansai Airport",
+          "Kobe Airport"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/2026_ana_blue"
+        }
+      ],
+      "notes": "Shiny-eligible Squirtle raids at participating airports can award a Blue Pokémon Jet Location Background. One special raid per Gym per day. Raids begin December 11 at 1:00 p.m. Japan time and then follow regular raid hours through August 31, 2027 at 8:00 p.m. Airport visitors can claim Phase 3 Timed Research once, including those who participated in earlier ANA phases; it expires three days after receipt.",
+      "subtype": "local-raid",
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Squirtle",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true
+            }
+          ]
+        }
+      ]
     }
   ],
-  "updated_at": "2026-11-17T02:42:26.847Z"
+  "updated_at": "2026-11-20T05:48:15.831Z"
 }
