@@ -8459,7 +8459,79 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Tropical Paradise",
+      "identifier": "tropical-paradise-2026",
+      "type": "event",
+      "start": "2026-12-01",
+      "end": "2026-12-07",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Pyukumuku",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "requirement": "Three-star raids"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/tropical-paradise-2026"
+        }
+      ],
+      "notes": "December 1 at 10:00 a.m.–December 7 at 8:00 p.m. local time. Pyukumuku debuts in three-star raids and can learn the Fast Attack Soak (6 power in Trainer Battles and raids). Mega Slowbro gains Super Max Level and Chilling Water+ (45 power and guaranteed opponent Attack reduction in Trainer Battles; 160 power in raids, increasing with Mega Level). Wild encounters include Slowpoke, Shellder, Wingull, Slakoth, and rare Snorlax. From December 4 at 10:00 a.m., Hoppip, Lotad, Shroomish, and rare Alolan Exeggutor also appear. One-star raids feature Alolan Diglett, both Frillish forms, and Sandygast. Field Research includes Psyduck, Tentacool, Shellder, and Slowbro Mega Energy."
+    },
+    {
+      "name": "GO Pass: Tropical Paradise",
+      "identifier": "go-pass-tropical-paradise-2026",
+      "type": "go-pass",
+      "start": "2026-12-01",
+      "end": "2026-12-07",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Pyukumuku",
+          "methods": [
+            {
+              "method": "go-pass",
+              "shiny": true
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "xp",
+          "action": "raid",
+          "multiplier": 2,
+          "requirement": "GO Pass Rank 10 milestone"
+        },
+        {
+          "type": "mega-energy",
+          "action": "buddy-walk",
+          "multiplier": 5,
+          "label": "5× Mega Energy from exploring with Slowpoke, Slowbro, or Slowking as your buddy",
+          "requirement": "GO Pass Rank 20 milestone; Mega Evolve Slowbro at least once"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/tropical-paradise-2026"
+        }
+      ],
+      "notes": "December 1 at 10:00 a.m.–December 7 at 8:00 p.m. local time. Rewards include Pyukumuku, event Pokémon encounters, a Lucky Egg, Rare Candy, and Slowbro Mega Energy. Deluxe costs US$4.99, or US$6.99 with six additional ranks, and offers extra encounters, Incense, Mega Energy, and Premium Battle Passes. Claim unlocked rewards by December 9 at 8:00 p.m. local time."
     }
   ],
-  "updated_at": "2026-11-20T19:28:47.530Z"
+  "updated_at": "2026-11-25T20:11:39.821Z"
 }
