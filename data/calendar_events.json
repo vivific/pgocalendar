@@ -8109,7 +8109,7 @@
       "notes": "Featured Pokémon, event hours, and bonuses to be announced."
     },
     {
-      "name": "December 2026 Max Battle Day",
+      "name": "Gigantamax Inteleon Max Battle Day",
       "identifier": "max-battle-day-2026-12-05",
       "type": "max-battle-day",
       "start": "2026-12-05",
@@ -8120,9 +8120,81 @@
       "sources": [
         {
           "url": "https://pokemongo.com/news/save-the-date-s25"
+        },
+        {
+          "url": "https://pokemongo.com/news/gigantamax-inteleon-max-battle-day-2026"
         }
       ],
-      "notes": "Featured Pokémon, event hours, and bonuses to be announced."
+      "notes": "December 5, 2:00–5:00 p.m. local time. Shiny Gigantamax Inteleon debuts in six-star Max Battles. Walking bonuses begin at midnight; collect available Max Particles in Nearby first. Optional US$4.99 ticket grants double Max Battle XP and Timed Research for a Max Mushroom, 25,000 XP, and 6,400 Max Particles. Complete the research by 5:00 p.m. local time. The Web Store ticket includes 800 additional Max Particles.",
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Inteleon",
+          "form": "Gigantamax",
+          "methods": [
+            {
+              "method": "max-battle",
+              "shiny": true,
+              "requirement": "Six-star Max Battles; Shiny Gigantamax Inteleon debut."
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "max-particle-limit",
+          "amount": 1600,
+          "label": "Daily Max Particle collection limit: 1,600"
+        },
+        {
+          "type": "power-spot",
+          "label": "Gigantamax Battles at every Power Spot"
+        },
+        {
+          "type": "power-spot-refresh",
+          "label": "Faster Power Spot refreshes"
+        },
+        {
+          "type": "power-spot-count",
+          "label": "More active Power Spots"
+        },
+        {
+          "type": "max-particles",
+          "action": "power-spot",
+          "multiplier": 8
+        },
+        {
+          "type": "special-trade",
+          "amount": 3,
+          "label": "Up to three Special Trades for the day"
+        },
+        {
+          "type": "remote-raid-limit",
+          "amount": 20,
+          "label": "Daily Remote Raid limit increased to 20",
+          "requirement": "December 4 at 4:00 p.m.–December 5 at 8:00 p.m. PST"
+        },
+        {
+          "type": "max-particles",
+          "action": "explore",
+          "multiplier": 2,
+          "requirement": "December 5, midnight–5:00 p.m. local time; first collect available Max Particles in Nearby"
+        },
+        {
+          "type": "adventuring-distance",
+          "action": "max-particles",
+          "multiplier": 0.25,
+          "label": "Quarter walking distance for Max Particles",
+          "requirement": "December 5, midnight–5:00 p.m. local time; first collect available Max Particles in Nearby"
+        },
+        {
+          "type": "xp",
+          "action": "max-battle",
+          "multiplier": 2,
+          "paid": true,
+          "requirement": "US$4.99 event ticket; December 5, 2:00–5:00 p.m. local time"
+        }
+      ]
     },
     {
       "name": "December 2026 Raid Day",
@@ -8531,7 +8603,259 @@
         }
       ],
       "notes": "December 1 at 10:00 a.m.–December 7 at 8:00 p.m. local time. Rewards include Pyukumuku, event Pokémon encounters, a Lucky Egg, Rare Candy, and Slowbro Mega Energy. Deluxe costs US$4.99, or US$6.99 with six additional ranks, and offers extra encounters, Incense, Mega Energy, and Premium Battle Passes. Claim unlocked rewards by December 9 at 8:00 p.m. local time."
+    },
+    {
+      "name": "Pokémon Champions Celebration Event",
+      "identifier": "pokemon-champions-celebration-event-2026",
+      "type": "collaboration",
+      "start": "2026-12-08",
+      "end": "2026-12-14",
+      "availability": {
+        "type": "global"
+      },
+      "obtainable": [
+        {
+          "type": "pokemon",
+          "pokemon": "Bagon",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "requirement": "One-star raids; chance of a Special Background."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Litten",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "requirement": "One-star raids; chance of a Special Background."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Frigibax",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "requirement": "One-star raids; chance of a Special Background."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Raichu",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "requirement": "Three-star raids; chance of a Special Background."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Garchomp",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "requirement": "Three-star raids; chance of a Special Background."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Rillaboom",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "requirement": "Three-star raids; chance of a Special Background."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Latias",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-09",
+              "end": "2026-12-14",
+              "requirement": "Scheduled five-star raids from December 9; Special Backgrounds available only until December 14 at 8:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Latios",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-09",
+              "end": "2026-12-14",
+              "requirement": "Scheduled five-star raids from December 9; Special Backgrounds available only until December 14 at 8:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Heatran",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-09",
+              "end": "2026-12-14",
+              "requirement": "Scheduled five-star raids from December 9; Special Backgrounds available only until December 14 at 8:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Cobalion",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-09",
+              "end": "2026-12-14",
+              "requirement": "Scheduled five-star raids from December 9; Special Backgrounds available only until December 14 at 8:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Terrakion",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-09",
+              "end": "2026-12-14",
+              "requirement": "Scheduled five-star raids from December 9; Special Backgrounds available only until December 14 at 8:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Virizion",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-09",
+              "end": "2026-12-14",
+              "requirement": "Scheduled five-star raids from December 9; Special Backgrounds available only until December 14 at 8:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Regieleki",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-09",
+              "end": "2026-12-14",
+              "requirement": "Scheduled five-star raids from December 9; Special Backgrounds available only until December 14 at 8:00 p.m. local time."
+            }
+          ]
+        },
+        {
+          "type": "pokemon",
+          "pokemon": "Regidrago",
+          "methods": [
+            {
+              "method": "raid",
+              "shiny": true,
+              "background": true,
+              "start": "2026-12-09",
+              "end": "2026-12-14",
+              "requirement": "Scheduled five-star raids from December 9; Special Backgrounds available only until December 14 at 8:00 p.m. local time."
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        {
+          "type": "encounter-chance",
+          "label": "More frequent Kecleon encounters at PokéStops"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/pokemon-champions-celebration-event-2026"
+        }
+      ],
+      "notes": "December 8 at 10:00 a.m.–December 14 at 8:00 p.m. local time. Wild encounters include Charmander, Starly, Grookey, and rare Absol and Gible. Six one- and three-star raid Pokémon and eight Legendary raid Pokémon can be Shiny or have Special Backgrounds. Legendary raids rotate December 9–15; their event backgrounds end December 14 at 8:00 p.m. Field Research awards Rare Candy; event stickers come from PokéStops and Gifts."
+    },
+    {
+      "name": "GO Pass: Collaboration Celebration Event",
+      "identifier": "go-pass-collaboration-celebration-event-2026",
+      "type": "go-pass",
+      "start": "2026-12-08",
+      "end": "2026-12-14",
+      "availability": {
+        "type": "global"
+      },
+      "bonuses": [
+        {
+          "type": "go-transporter-energy",
+          "multiplier": 7,
+          "label": "7× hourly GO Transporter Energy recovery",
+          "requirement": "Rank 1 milestone"
+        },
+        {
+          "type": "candy",
+          "action": "catch",
+          "multiplier": 2,
+          "requirement": "Rank 10 milestone; does not stack with December Community Day bonuses"
+        },
+        {
+          "type": "xp",
+          "action": "raid",
+          "amount": 3000,
+          "label": "+3,000 XP per completed raid",
+          "requirement": "Rank 20 milestone"
+        },
+        {
+          "type": "raid-passes",
+          "amount": 2,
+          "paid": true,
+          "label": "Up to two free Raid Passes per day from Gym spins",
+          "requirement": "GO Pass Deluxe Rank 20 milestone"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pokemongo.com/news/pokemon-champions-celebration-event-2026"
+        }
+      ],
+      "notes": "December 8 at 10:00 a.m.–December 14 at 8:00 p.m. local time. Free rewards include themed encounters, Golden Razz and Silver Pinap Berries, and a Premium Battle Pass. Deluxe costs US$4.99 (US$6.99 with six extra ranks) and includes further encounters, Premium Battle Passes, an Elite Charged TM, and Rare Candy XL. Claim rewards by December 16 at 8:00 p.m. local time."
     }
   ],
-  "updated_at": "2026-11-25T20:11:39.821Z"
+  "updated_at": "2026-11-26T02:15:13.927Z"
 }
